@@ -1,0 +1,22 @@
+id: mpd
+source: 'Mouse Phenome Database (MPD)'
+status: incomplete
+description: 'The Mouse Phenome Database is a collaborative standardized collection of measured data on laboratory mouse strains, and includes: baseline phenotype data sets; studies of drug, diet, disease and aging effect; protocols, projects, and publications; and SNP, variation and gene expression studies. MPD collects data for classical inbred strains, other fixed-genotype strains, derived lines and populations that are openly acquirable (strain panel examples). Strains can be from JAX-Mice or from any other vendor that''s a recognized breeding source.'
+data-field: biology
+data-type: MOD
+data-categories:
+    - 'genotype (strain)-phenotype association'
+data-links: []
+license-type: undetermined
+license-link: 'http://phenome.jax.org/db/q?rtn=docs/termsofuse'
+license-downstream-positive: []
+license-downstream-negative:
+    - 'MPD data contributors waive copyright and related rights, making their data freely available whereby MPD users may freely build upon, enhance and reuse those data for any purpose without restriction. Scholarly citation norms must be followed for content reuse.'
+    - 'The Jackson Laboratory''s web site privacy policy applies to all use of this resource.'
+    - 'The Mouse Phenome Database (MPD) is an NIH-funded data sharing repository and adheres to the NIH Genomic Data Sharing Policy.'
+    - 'Any reproduction of JAX®Mice mouse images is prohibited without prior express written permission (see the JAX®Mice Terms of Use for details).'
+    - 'Data contributors and data users may not use MPD in any unlawful manner, or in any manner that would impair MPD''s services, security or functionality. Automated usage (webcrawlers and similar) must observe each page''s "meta robots" html tags and space requests by ≥ 2 seconds. We reserve the right to block violators and to take any other action as we deem necessary.'
+license-commentary: []
+contacts:
+    - phenome@jax.org
+grade: undetermined

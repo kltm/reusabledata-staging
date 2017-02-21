@@ -1,0 +1,20 @@
+id: omim
+source: 'Mendelian Inheritance in Man relationship to HPO construction and maintenance (OMIM)'
+status: incomplete
+description: 'OMIM is a comprehensive, authoritative compendium of human genes and genetic phenotypes with full-text, referenced overviews that contains information on all known mendelian disorders and over 12,000 genes. OMIM focuses on the relationship between phenotype and genotype.'
+data-field: biology
+data-type: human
+data-categories:
+    - 'disease-phenotype association'
+    - 'gene-disease association'
+    - 'variant-disease association'
+data-links: []
+license-type: undetermined
+license-link: 'http://www.omim.org/help/agreement'
+license-downstream-positive: []
+license-downstream-negative:
+    - 'Use of OMIM.org is provided free of charge to any individual for personal use, for educational or scholarly use, or for research purposes through the front end of the database.'
+license-commentary: []
+contacts:
+    - ahamosh@jhmi.edu
+grade: undetermined

@@ -1,0 +1,21 @@
+id: mgi
+source: 'Mouse Genome Informatics (MGI)'
+status: incomplete
+description: 'MGI is the international database resource for the laboratory mouse, providing integrated genetic, genomic, and biological data to facilitate the study of human health and disease.'
+data-field: biology
+data-type: MOD
+data-categories:
+    - 'genotype-phenotype association'
+    - 'disease-model association'
+    - 'gene expression'
+data-links: []
+license-type: undetermined
+license-link: 'http://www.informatics.jax.org/mgihome/other/copyright.shtml'
+license-downstream-positive: []
+license-downstream-negative:
+    - 'This software and data are provided to enhance knowledge and encourage progress in the scientific community and are to be used only for research and educational purposes.'
+    - 'Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the Jackson Laboratory.'
+license-commentary: []
+contacts:
+    - 'http://www.informatics.jax.org/mgihome/support/mgi_inbox.shtml'
+grade: undetermined

@@ -1,0 +1,19 @@
+id: wormbase
+source: 'WormBase database of nematode biology (WormBase)'
+status: incomplete
+description: 'WormBase is an international consortium dedicated to providing the research community with accurate, current, accessible information concerning the genetics, genomics and biology of C. elegans and related nematodes.'
+data-field: biology
+data-type: MOD
+data-categories:
+    - 'allele-phenotype association'
+data-links: []
+license-type: undetermined
+license-link: 'http://www.wormbase.org/about/policies#0--10'
+license-downstream-positive:
+    - 'In consideration of other users, we request that any script -- whether it be mining the web interface or directly interacting with the underlying databases -- send no more than one request every three seconds.'
+license-downstream-negative: []
+license-commentary:
+    - 'This has to do with hitting their servers to much and being too big a load; this may not apply.'
+contacts:
+    - help@wormbase.org
+grade: undetermined

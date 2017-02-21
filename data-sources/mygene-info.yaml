@@ -1,0 +1,19 @@
+id: mygene-info
+source: MyGene.info
+status: incomplete
+description: 'MyGene.info provides a simple-to-use REST web services to query/retrieve gene annotation data.'
+data-field: biology
+data-type: 'genomic resource'
+data-categories:
+    - 'gene definition'
+data-links: []
+license-type: undetermined
+license-link: 'TODO: http://docs.mygene.info/en/v3/terms.html vs. http://mygene.info/terms/'
+license-downstream-positive: []
+license-downstream-negative:
+    - 'You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.'
+    - 'Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights.'
+license-commentary: []
+contacts:
+    - help@mygene.info
+grade: undetermined

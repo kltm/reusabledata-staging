@@ -1,0 +1,18 @@
+id: ctd
+source: 'Comparative Toxicogenomics Database (CTD)'
+status: incomplete
+description: 'CTD promotes understanding about the effects of environmental chemicals on human health by integrating data from curated scientific literature to describe chemical interactions with genes and proteins, and associations between diseases and chemicals, and diseases and genes/proteins.'
+data-field: biology
+data-type: x-species
+data-categories:
+    - 'disease-gene association'
+data-links: []
+license-type: undetermined
+license-link: 'http://ctdbase.org/about/legal.jsp'
+license-downstream-positive: []
+license-downstream-negative:
+    - 'Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the MDI Biological Laboratory and NC State University.'
+license-commentary: []
+contacts:
+    - 'http://ctdbase.org/help/contact.go'
+grade: undetermined
