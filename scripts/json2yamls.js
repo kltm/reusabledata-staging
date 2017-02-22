@@ -4,7 +4,7 @@
 //// keyboard macros or something as well.
 ////
 //// Example usage (amigo/master):
-////  node ./scripts/json2yamls -i ./data-sources/compiled.json -o ./data-sources/
+////  node ./scripts/json2yamls.js -i ./data-sources/compiled.json -o ./data-sources/
 ////
 
 var us = require('underscore');
@@ -81,5 +81,5 @@ each(data_source_list, function(src){
 
     var outfstr = out_directory + '/' + id + '.yaml';
     _debug('outfile: ' + outfstr);
-    fs.writeFileSync( outfstr, ystr);
+    fs.writeFileSync(outfstr, ystr);
 });
