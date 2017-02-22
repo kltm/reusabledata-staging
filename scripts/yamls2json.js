@@ -71,6 +71,7 @@ if( ! out_file ){
 /// Main.
 ///
 
+// Read in the YAML files.
 var data_sources = [];
 var fnames = fs.readdirSync(in_directory);
 each(fnames, function(fname){
@@ -81,6 +82,23 @@ each(fnames, function(fname){
   }
 });
 
+// Sort for easier diffing.
+data_sources = data_sources.sort(
+  function(a, b){
+    var aid = a['id'].toUpperCase();
+    var bid = b['id'].toUpperCase();
+
+    var ret = 0;
+    if (aid < bid) {
+      return -1;
+    }else if (aid > bid) {
+      return 1;
+    }
+
+    return ret;
+  });
+
+// Output.
 var outstr = JSON.stringify(data_sources, null, 4);
 _debug("Output:");
 _debug(outstr);
