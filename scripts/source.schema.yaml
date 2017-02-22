@@ -1,0 +1,64 @@
+####
+#### Use kwalify and this schema to validate the config files.
+#### Examples:
+####    kwalify -f ./scripts/source.schema.yaml ./data-sources/bgee.yaml
+####
+type: map
+mapping:
+  "id":
+    type: str
+    required: yes
+  "source":
+    type: str
+    required: yes
+  "status":
+    type: str
+    required: yes
+  "description":
+    type: str
+    required: yes
+  "data-field":
+    type: str
+    required: yes
+  "data-type":
+    type: str
+    required: yes
+  "data-categories":
+    type: seq
+    sequence:
+      - type: str
+    required: no
+  "data-links":
+    type: seq
+    sequence:
+      - type: str
+    required: no
+  "license-type":
+    type: str
+    required: yes
+  "license-link":
+    type: str
+    required: no
+  "license-downstream-positive":
+    type: seq
+    sequence:
+      - type: str
+    required: no
+  "license-downstream-negative":
+    type: seq
+    sequence:
+      - type: str
+    required: no
+  "license-commentary":
+    type: seq
+    sequence:
+      - type: str
+    required: no
+  "contacts":
+    type: seq
+    sequence:
+      - type: str
+    required: no
+  "grade":
+    type: str
+    required: yes
