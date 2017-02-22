@@ -48,6 +48,7 @@
     },
     "scripts": {
 	"build": "./node_modules/.bin/browserify src/RUD.js -o docs/RUDBundle.js",
+	"check": "kwalify -E -f ./scripts/source.schema.yaml ./data-sources/*.yaml",
 	"yamls2json": "node ./scripts/yamls2json.js -i ./data-sources/ -o ./data-sources/compiled.json",
 	"json2yamls": "node ./scripts/json2yamls.js -i ./data-sources/compiled.json -o ./data-sources/",
 	"test": "echo \"Error: no test specified\" && exit 1"
