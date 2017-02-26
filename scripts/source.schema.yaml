@@ -54,6 +54,18 @@ mapping:
     sequence:
       - type: str
     required: no
+  "license-issues":
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          "criteria":
+            type: str
+            required: true
+          "comment":
+            type: str
+            required: false
+    required: no
   "contacts":
     type: seq
     sequence:
