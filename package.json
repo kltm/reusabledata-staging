@@ -19,6 +19,7 @@
     },
     "dependencies": {
 	"minimist": "1.2.0",
+	"mustache": "2.3.0",
 	"underscore": "1.8.3",
 	"vue": "2.1.10",
 	"yamljs": "0.2.8"
@@ -51,6 +52,7 @@
 	"check": "kwalify -E -f ./scripts/source.schema.yaml ./data-sources/*.yaml",
 	"yamls2json": "node ./scripts/yamls2json.js -i ./data-sources/ -o ./data-sources/compiled.json",
 	"json2yamls": "node ./scripts/json2yamls.js -i ./data-sources/compiled.json -o ./data-sources/",
+	"tmp-gen-static": "node ./scripts/tmp_static_output_gen.js -i ./data-sources/compiled.json -t ./scripts/tmp_static_output_gen.tmpl -o ./docs/index.html",
 	"test": "echo \"Error: no test specified\" && exit 1"
     }
 }
