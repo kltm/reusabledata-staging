@@ -63,7 +63,7 @@ mapping:
       - type: map
         mapping:
           "criteria":
-            type: str
+            type: number
             required: true
           "comment":
             type: str

@@ -13,7 +13,10 @@ license-link: 'https://github.com/BgeeDB/bgee/blob/master/LICENSE'
 license-downstream-positive: []
 license-downstream-negative: []
 license-commentary:
-    - 'GNU GPL v. 3.0, but probably software (thus reverting to ARR), not data; if not, unclear data and linking; otherwise, they do not seem to me looking at the licenses of their own data (http://bgee.org/?page=source)'
+    - 'It is unclear whether the data or the software is the listed GNU GPL v.3.0; if the former, it may be problematic, if the latter, all rights may be reserved. They do not seem to me looking at the licenses of their own data (http://bgee.org/?page=source).'
 contacts:
     - Bgee@isb-sib.ch
-grade: undetermined
+grade: red
+license-issues:
+  - criteria: 1
+    comment: "We are unsure whether the data is covered under the GPLv3 or has all rights reserved."
