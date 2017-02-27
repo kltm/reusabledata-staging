@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" crossorigin="anonymous">
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.0/vue.js"></script> -->
-    <script type="text/javascript">
-      var global_data = {{ data }};
-    </script>
     <!-- <script type="text/javascript" src="TBNeoBundle.js"></script> -->
   </head>
 
@@ -90,12 +87,12 @@
     </div>
     <!-- end jumbotron -->
     
-    <div id="sections" class="container">
+    <div id="what-is-this" class="container">
 
       <!-- start what-this-is row -->
       <div class="row">
 
-	<div id="what-this-is" class="col-lg-6">
+	<div class="col-lg-6">
 	  <div class="card">
 	    <div class="card-block">
 	      <h4 class="card-title">What this is</h4>
@@ -288,20 +285,23 @@
 	      <h4 class="card-title">Our sources data</h4>
 	      <p class="card-text">
 		
-		<table class="table table-striped">
+		<table id="sourcestable" class="table table-striped">
 		  <thead>
 		    <tr>
 		      <th>Name</th>
-		      <th>Amount</th>
 		    </tr>
 		  </thead>
-		  <tbody>
-		    <tr v-for="person in people">
-		      {{=<% %>=}}
-		      <td>{{ person.name }}</td>
-		      <td>{{ person.current }}</td>
-		      <%={{ }}=%>
+		  <tfoot>
+		    <tr>
+		      <th>Name</th>
 		    </tr>
+		  </tfoot>
+		  <tbody>
+		    {{#tabledata}}
+		    <tr>
+		      <td>{{ source }}</td>
+		    </tr>
+		    {{/tabledata}}
 		  </tbody>
 		</table>	
 		
@@ -339,6 +339,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
     <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var global_data = {{{ jsondata }}};
+      jQuery(document).ready(function(){
+         console.log('Ready...');
+         jQuery("#sourcestable").DataTable(
+                    {autoWidth: true}
+         );
+         console.log('...done.');
+                    //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
+      });
+    </script>
 
   </body>
   

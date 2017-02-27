@@ -86,7 +86,10 @@ _debug(data_sources);
 var template = fs.readFileSync(in_tmpl, 'utf-8');
 _debug('template', template);
 
-var outstr = mustache.render(template, {"data": data_sources});
+var outstr = mustache.render(template, {
+    "jsondata": JSON.stringify(data_sources),
+    "tabledata": data_sources
+});
 
 fs.writeFileSync(out_file, outstr);
 
