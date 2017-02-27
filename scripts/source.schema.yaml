@@ -11,6 +11,9 @@ mapping:
   "source":
     type: str
     required: yes
+  "source-link":
+    type: str
+    required: no
   "status":
     type: str
     required: yes

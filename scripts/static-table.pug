@@ -18,7 +18,8 @@ table(id='sourcestable' class='table table-striped')
   tbody
     each source, index in data_sources
       tr
-        td #{ source.source }
+        td 
+          a(href=source['source-link']) #{ source.source }
         td #{ source['data-field'] } #{ source['data-type'] } #{ source['data-categories'] }
         td #{ source.grade }
         td #{ source.description }

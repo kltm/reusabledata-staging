@@ -2,6 +2,7 @@
     {
         "id": "bgee",
         "source": "BGee",
+        "source-link": "http://bgee.org",
         "status": "incomplete",
         "description": "Bgee is a database to retrieve and compare gene expression patterns in multiple animal species, produced from multiple data types (RNA-Seq, Affymetrix, in situ hybridization, and EST data).",
         "data-field": "x-species",
