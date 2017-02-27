@@ -1,98 +1,286 @@
-    ---
-    What this is
+<!DOCTYPE html>
+<html lang="en">
 
-    Why this is important
+  <head>
 
-    Who we are
-    We are not lawyers, this is not legal advice: all institutions and groups
-    have their own perspectives and counsel.
-    We are a group of scientists,
-    engineers, and specialists that are concerned about the use and reuse
-    of increasingly interconnected, derived, and reprocessed data. 
-
-    What we want to provide a resource 
-    looking at some of the possible issues are the reuse of scientific data.
-
-    If you see an issue, please open a ticket on our github tracker here:
-    http://github.com/reusabledata/reusabledata
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-    We want to actively engage the community in conversation and make
-    sure that our information about scientific data is up-to-date and
-    correct. If you have any questions or see any problems, please open
-    a ticket on our tracker.
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" crossorigin="anonymous">
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.0/vue.js"></script> -->
+    <script type="text/javascript">
+      var global_data = [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object];
+    </script>
+    <!-- <script type="text/javascript" src="TBNeoBundle.js"></script> -->
+  </head>
 
-    Even more about us.
-    The initial driving concern of this project is the use and reuse
-    of biological and biomedical data 
-    However, this is a general problem in the scientific community and needs
-    to be addressed directly.
+  <body>
 
-    For each resource, we assign one of 
-    we attempt to assign these values objectively by meeting our criteria for
-    reusable data
-    green + gold star - the license unambiguously allows the /free/
-     reuse and redistribution of the data
-    green - the license unambiguously allows reuse and redistribution
-     of the data under some terms
-    yellow - the license is ambiguous or has terms that prevents the reuse and
-     redistribution of in some cases
-    red - the license could not be found (so assumed to be
-     under standard copyright) or the license unambiguously makes clear that
-     reuse and redistribution is not welcome for the general community 
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+	<span class="navbar-toggler-icon"></span>
+      </button>
 
-    If you see any problems with our determinations or would like to
-    make corrections or clarifications, please open a ticket for us on our 
-    issue tracker.
-
-    Criteria:
-    * Clearly stated
-      Have a clearly stated license for data use.  If
-      there is no license, then rights are unclear and one needs to
-      assume the default: all rights reserved
-      (e.g. https://www.copyright.gov/help/faq/faq-general.html).
-    * Allow use and reuse
-      Data that cannot be used in not data at all. In modern
-      data-driven science, the ability to synthesize data and make the
-      results available for others to do the same is paramount.
-    * Non-discriminatory
-      Ideally, data should be able to be used and reused by anybody for
-      any purpose, academic, commercial, and anything else.
-      A counterexample may be 
-    * Non-revocable
-      Of course somebody might choose to close there data off in the future,
-      but there should be no language that revokes usage rights retroactively
-      for the data before that horizon.
-    * Freely and openly available
-      (GOLD) The data should should be to all people for any
-      purpose. An example of this would be data explicitly released
-      under the Creative Commons 4.0 Attribution 4.0 International
-      license https://creativecommons.org/licenses/by/4.0/
+      <a class="navbar-brand" href="#">
+	<img src="logo.png" height="30" class="d-inline-block align-top" alt="">
+	Reusabledata.org
+      </a>
       
-    Inspired by the efforts of scientists around the world and the
-    game changing efforts of projects like the Creative Commons,
-    Wikimedia Foundation, and the Free Software movement (e.g. Debian
-    and the FSF),
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn more</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#home">Home</a>
+              <a class="dropdown-item" href="#what-this-is">What this is</a>
+              <a class="dropdown-item" href="#who-we-are">Who we are</a>
+              <a class="dropdown-item" href="#our-criteria">Our criteria</a>
+              <a class="dropdown-item" href="#our-sources-data">Our sources data</a>
+              <a class="dropdown-item" href="https://github.com/reusabledata/reusabledata">Contact</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" placeholder="Under construction... :(" type="text">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
     
-    We hope to engage the larger community in an open and fruitful
-    discussion on issues concerning the use and reuse of scientific
-    data, including the balance of openness and how to make ends meet
-    in an increasingly competitive environment.
+    <div class="jumbotron">
+      <div class="container">
+	<h1 class="display-3">The Reusable Data Project</h1>
+	<div>
+	  <div style="width:50%;">
+	    <p>
+	      Inspired by the efforts of scientists around the world and the
+	      game changing efforts of projects like the Creative Commons,
+	      Wikimedia Foundation, and the Free Software movement (e.g. Debian
+	      and the FSF),
+	    </p>
+	    <p>
+	      We hope to engage the larger community in an open and
+	      fruitful discussion on issues concerning the use and
+	      reuse of scientific data, including the balance of
+	      openness and how to make ends meet in an increasingly
+	      competitive environment.
+	    </p>
+	    <p>
+	      If you would like to join our efforts to highlight the
+	      use and reuse of data in the sciences, please feel free
+	      to contact us on our tracker TODO or create a pull
+	      request against our repository at TODO.
+	    </p>
 
-    If you would like to join our efforts to highlight the use and
-    reuse of data in the sciences, please feel free to contact us on
-    our tracker TODO or create a pull request against our repository
-    at TODO.
-
-    thoughts to organize.
-
-also, matrix:
-    https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences
-    https://www.debian.org/social_contract.html#guidelines
-    also, bring up dfsg vs. gnu
-    https://people.debian.org/~bap/dfsg-faq.html , point 8, 12, etc.
+	    <p>
+	      <a class="btn btn-primary btn-lg"
+		 href="#more" role="button">Learn more »</a>
+	      &nbsp;&nbsp;&nbsp;
+	      <a class="btn btn-success btn-lg"
+		 href="#lic-data" role="button">See our data »</a>
+	    </p>
+	    
+	  </div>
+	  <div class="float-right" style="width:50%;">
+	    <img class="img-fluid"
+		 style="height:200px; display: block" src="logo.png" />
+	  </div>
+	  <div class="clearfix"></div>
+	</div>
+	<div class="clearfix"></div>
+      </div>
+    </div>
     
-    The freedom to run the program, for any purpose (freedom 0).
-    The freedom to study how the program works, and adapt it to your needs (freedom 1).
-    The freedom to redistribute copies so you can help your neighbor (freedom 2).
-    The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3).
+    <div id="sections" class="container">
+
+      <div class="row">
+
+	<div class="col-md-6">
+	  <div class="card">
+	    <div class="col-md-6 card">
+	      <div class="card-header">
+		Who we are
+	      </div>
+	      <div class="card-block">
+		<h4 class="card-title"></h4>
+		<p>
+		  We are not lawyers, this is not legal advice: all
+		  institutions and groups have their own perspectives
+		  and counsel. We are a group of scientists,
+		  engineers, and specialists that are concerned about
+		  the use and reuse of increasingly interconnected,
+		  derived, and reprocessed data.
+		</p>
+		<p>
+		  What we want isto provide a resource looking at some
+		  of the possible issues are the reuse of scientific
+		  data.
+		</p>
+		<p>
+		  We want to actively engage the community in
+		  conversation and make sure that our information
+		  about scientific data is up-to-date and correct. If
+		  you have any questions or see any problems, please
+		  open a ticket on our tracker.  <br /> If you see an
+		  issue, please open a ticket on our github tracker
+		  here: http://github.com/reusabledata/reusabledata
+		</p>
+  	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="col-md-6 card">
+	</div>
+	
+      </div><!-- end row -->
+
+      <div class="row">
+	
+	<div class="col-md-6 card">
+	</div>
+	
+	<div class="col-md-6 card">
+	  <div class="card-header">
+	    What this is	  
+	  </div>
+	  <div class="card-block">
+	    <h4 class="card-title"></h4>
+	    <p>
+	      The initial driving concern of this project is the use and
+	      reuse of biological and biomedical data However, this is a
+	      general problem in the scientific community and needs to
+	      be addressed directly.
+	      
+	      For each resource, we assign one of 
+	      we attempt to assign these values objectively by meeting our criteria for
+	      reusable data
+	      green + gold star - the license unambiguously allows the /free/
+	      reuse and redistribution of the data
+	      green - the license unambiguously allows reuse and redistribution
+	      of the data under some terms
+	      yellow - the license is ambiguous or has terms that prevents the reuse and
+	      redistribution of in some cases
+	      red - the license could not be found (so assumed to be
+	      under standard copyright) or the license unambiguously makes clear that
+	      reuse and redistribution is not welcome for the general community 
+
+	      If you see any problems with our determinations or would
+	      like to make corrections or clarifications, please open a
+	      ticket for us on our issue tracker.
+	    </p>
+	  </div>
+	</div>
+        
+      </div><!-- end row -->
+      
+      <div class="row">
+	
+	<div class="col-md-8">
+	  <div class="card">
+	    <div class="card-block">
+	      <h4 class="card-title">Our criteria</h4>
+	      <p>
+		<ol>
+		  <li>
+		    <strong>Clearly stated</strong><br /> Have a
+		    clearly stated license for data use. In a lot of
+		    ways, this is the most important and time-saving
+		    point. If there is no license, then rights are
+		    unclear and one needs to assume the
+		    default:
+		    <a href="https://www.copyright.gov/help/faq/faq-general.html">all rights reserved</a>.
+		  </li>
+		  <li>
+		    <strong>Allow use and reuse</strong><br /> Data
+		    that cannot be used in not data at all. In modern
+		    data-driven science, the ability to synthesize
+		    data and make the results available for others to
+		    do the same is paramount.
+		  </li>
+		  <li>
+		    <strong>Non-discriminatory</strong><br /> Ideally,
+		    data should be able to be used and reused by
+		    anybody for any purpose, academic, commercial, and
+		    anything else.  A counterexample may be
+		  </li>
+		  <li>
+		    <strong>Non-revocable</strong><br /> Of course
+		    somebody might choose to close there data off in
+		    the future, but there should be no language that
+		    revokes usage rights retroactively for the data
+		    before that horizon.
+		  </li>
+		  <li>
+		    <strong>Freely and openly available</strong><br />
+		    (GOLD) The data should should be to all people for
+		    any purpose. An example of this would be data
+		    explicitly released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0
+		    Attribution 4.0 International license</a>
+		    
+		  </li>
+		</ol>
+	      </p>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="col-md-4">
+	</div>
+
+      </div> <!-- end row -->
+      
+      <div class="row">
+
+	<div class="col-md-12">
+	  <div class="card">
+	    <div class="card-block">
+	      <h4 class="card-title">Our sources data</h4>
+	      <p class="card-text">
+		
+		<table class="table table-striped">
+		  <thead>
+		    <tr>
+		      <th>Name</th>
+		      <th>Amount</th>
+		    </tr>
+		  </thead>
+		  <tbody>
+		    <tr v-for="person in people">
+		      <td>{{ person.name }}</td>
+		      <td>{{ person.current }}</td>
+		    </tr>
+		  </tbody>
+		</table>	
+		
+	      </p>
+	    </div>
+	  </div>
+	</div>
+	
+	<!--     thoughts to organize. -->
+
+	<!-- also, matrix: -->
+	<!--     https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences -->
+	<!--     https://www.debian.org/social_contract.html#guidelines -->
+	<!--     also, bring up dfsg vs. gnu -->
+	<!--     https://people.debian.org/~bap/dfsg-faq.html , point 8, 12, etc. -->
+	
+	<!--     The freedom to run the program, for any purpose (freedom 0). -->
+	<!--     The freedom to study how the program works, and adapt it to your needs (freedom 1). -->
+	<!--     The freedom to redistribute copies so you can help your neighbor (freedom 2). -->
+	<!--     The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). -->
+	
+      </div><!-- Done row. -->
+      
+    </div><!-- Done container. -->
     
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
+
+  </body>
+  
+</html>
