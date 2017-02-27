@@ -48,19 +48,18 @@
       </div>
     </nav>
     
-    <div class="jumbotron">
+    <!-- start jumbotron -->
+    <div id="home" class="jumbotron">
       <div class="container">
 	<h1 class="display-3">The Reusable Data Project</h1>
-	<div>
-	  <div style="width:50%;">
+	<div class="row">
+	  <div class="col-lg-9">
 	    <p>
-	      Inspired by the efforts of scientists around the world and the
-	      game changing efforts of projects like the Creative Commons,
-	      Wikimedia Foundation, and the Free Software movement (e.g. Debian
-	      and the FSF),
-	    </p>
-	    <p>
-	      We hope to engage the larger community in an open and
+	      Inspired by the efforts of scientists around the world
+	      and the game-changing efforts of projects like the
+	      Creative Commons, Wikimedia Foundation, and the Free
+	      Software movement<!-- (e.g. Debian and the FSF) -->, we
+	      hope to engage the larger community in an open and
 	      fruitful discussion on issues concerning the use and
 	      reuse of scientific data, including the balance of
 	      openness and how to make ends meet in an increasingly
@@ -69,115 +68,155 @@
 	    <p>
 	      If you would like to join our efforts to highlight the
 	      use and reuse of data in the sciences, please feel free
-	      to contact us on our tracker TODO or create a pull
-	      request against our repository at TODO.
+	      to contact us on
+	      our <a href="https://github.com/reusabledata/reusabledata">tracker<a/>
+	      or create a pull request against
+	      our <a href="https://github.com/reusabledata/reusabledata">repository</a>.
 	    </p>
-
-	    <p>
-	      <a class="btn btn-primary btn-lg"
-		 href="#more" role="button">Learn more »</a>
-	      &nbsp;&nbsp;&nbsp;
-	      <a class="btn btn-success btn-lg"
-		 href="#lic-data" role="button">See our data »</a>
-	    </p>
-	    
 	  </div>
-	  <div class="float-right" style="width:50%;">
-	    <img class="img-fluid"
-		 style="height:200px; display: block" src="logo.png" />
+	  <div class="col-lg-3">
+	    <img class="mx-auto d-block" style="height:200px;" src="logo.png" />
 	  </div>
-	  <div class="clearfix"></div>
 	</div>
-	<div class="clearfix"></div>
+	
+	<p>
+	  <a class="btn btn-primary btn-lg"
+	     href="#what-this-is" role="button">Learn more »</a>
+	  &nbsp;&nbsp;&nbsp;
+	  <a class="btn btn-success btn-lg"
+	     href="#our-sources-data" role="button">See our data »</a>
+	</p>	    
       </div>
     </div>
+    <!-- end jumbotron -->
     
     <div id="sections" class="container">
 
+      <!-- start what-this-is row -->
       <div class="row">
 
-	<div class="col-md-6">
+	<div id="what-this-is" class="col-lg-6">
 	  <div class="card">
-	    <div class="col-md-6 card">
-	      <div class="card-header">
-		Who we are
-	      </div>
-	      <div class="card-block">
-		<h4 class="card-title"></h4>
-		<p>
-		  We are not lawyers, this is not legal advice: all
-		  institutions and groups have their own perspectives
-		  and counsel. We are a group of scientists,
-		  engineers, and specialists that are concerned about
-		  the use and reuse of increasingly interconnected,
-		  derived, and reprocessed data.
-		</p>
-		<p>
-		  What we want isto provide a resource looking at some
-		  of the possible issues are the reuse of scientific
-		  data.
-		</p>
-		<p>
-		  We want to actively engage the community in
-		  conversation and make sure that our information
-		  about scientific data is up-to-date and correct. If
-		  you have any questions or see any problems, please
-		  open a ticket on our tracker.  <br /> If you see an
-		  issue, please open a ticket on our github tracker
-		  here: http://github.com/reusabledata/reusabledata
-		</p>
-  	      </div>
+	    <div class="card-block">
+	      <h4 class="card-title">What this is</h4>
+	      <p>
+		The initial driving concern of this project is the use and
+		reuse of biological and biomedical data However, this is a
+		general problem in the scientific community and needs to
+		be addressed directly.
+		<br />
+		For each resource, we assign one of we attempt to assign
+		these values objectively by meeting our criteria for
+		reusable data
+	      </p>
+	      <p>
+		<ul>
+		  <li>
+		    <strong>green + gold star</strong><br /> The license
+		    unambiguously allows the /free/ reuse and
+		    redistribution of the data.
+		  </li>
+		  <li>
+		    <strong>green</strong><br /> The license
+		    unambiguously allows reuse and redistribution of the
+		    data under some terms.
+		  </li>
+		  <li>
+		    <strong>yellow</strong><br /> The license is
+		    ambiguous or has terms that prevents the reuse and
+		    redistribution of in some cases.
+		  </li>
+		  <li>
+		    <strong>red</strong><br /> The license could not be
+		    found (so assumed to be under standard copyright) or
+		    the license unambiguously makes clear that reuse and
+		    redistribution is not welcome for the general
+		    community.
+		  </li>
+		</ul>
+	      </p>	      
+	      <p>
+		If you see any problems with our determinations or would
+		like to make corrections or clarifications, please open
+		a ticket for us on
+		our <a href="https://github.com/reusabledata/reusabledata">issue
+		  tracker</a>.
+	      </p>
+	      <p>
+		<a class="btn btn-secondary"
+		   href="#who-we-are"
+		   role="button">Who we are »</a>
+	      </p>
 	    </div>
 	  </div>
 	</div>
-	
-	<div class="col-md-6 card">
-	</div>
-	
-      </div><!-- end row -->
-
-      <div class="row">
-	
-	<div class="col-md-6 card">
-	</div>
-	
-	<div class="col-md-6 card">
-	  <div class="card-header">
-	    What this is	  
-	  </div>
-	  <div class="card-block">
-	    <h4 class="card-title"></h4>
-	    <p>
-	      The initial driving concern of this project is the use and
-	      reuse of biological and biomedical data However, this is a
-	      general problem in the scientific community and needs to
-	      be addressed directly.
-	      
-	      For each resource, we assign one of 
-	      we attempt to assign these values objectively by meeting our criteria for
-	      reusable data
-	      green + gold star - the license unambiguously allows the /free/
-	      reuse and redistribution of the data
-	      green - the license unambiguously allows reuse and redistribution
-	      of the data under some terms
-	      yellow - the license is ambiguous or has terms that prevents the reuse and
-	      redistribution of in some cases
-	      red - the license could not be found (so assumed to be
-	      under standard copyright) or the license unambiguously makes clear that
-	      reuse and redistribution is not welcome for the general community 
-
-	      If you see any problems with our determinations or would
-	      like to make corrections or clarifications, please open a
-	      ticket for us on our issue tracker.
-	    </p>
-	  </div>
-	</div>
         
-      </div><!-- end row -->
-      
+	<div class="col-lg-6" style="background-color:lightsteelblue;">
+	  <p>
+	    Inspirational "What this is"-related imagery.
+	  </p>
+	</div>
+	
+      </div>
+      <!-- end what-this-is row -->
+
+      <!-- spacer -->
+      <div style="height:32px;"></div>
+
+      <!-- start who we are row -->
       <div class="row">
 	
-	<div class="col-md-8">
+	<div class="col-lg-6" style="background-color:lightcoral;">
+	  <p>
+	    Inspirational "Who we are"-related imagery.
+	  </p>
+	</div>
+	
+	<div id="who-we-are" class="col-lg-6">
+	  <div class="card">
+	    <div class="card-block">
+	      <h4 class="card-title">Who we are</h4>
+	      <p>
+		We are not lawyers, this is not legal advice: all
+		institutions and groups have their own perspectives
+		and counsel. We are a group of scientists,
+		engineers, and specialists that are concerned about
+		the use and reuse of increasingly interconnected,
+		derived, and reprocessed data.
+	      </p>
+	      <p>
+		What we want isto provide a resource looking at some
+		of the possible issues are the reuse of scientific
+		data.
+	      </p>
+	      <p>
+		We want to actively engage the community in
+		conversation and make sure that our information about
+		scientific data is up-to-date and correct. If you have
+		any questions or see any problems, please open a
+		ticket on our tracker.  <br /> If you see an issue,
+		please open a ticket on
+		our<a href="https://github.com/reusabledata/reusabledata">GitHub
+		  tracker</a>.
+	      </p>
+	      <p>
+		<a class="btn btn-secondary"
+		   href="#our-criteria"
+		   role="button">Our criteria »</a>
+	      </p>
+  	    </div>
+	  </div>
+	</div>
+	
+      </div>
+      <!-- end who we are row -->
+      
+      <!-- spacer -->
+      <div style="height:32px;"></div>
+
+      <div class="row">
+	
+	<div id="our-criteria" class="col-lg-8">
 	  <div class="card">
 	    <div class="card-block">
 	      <h4 class="card-title">Our criteria</h4>
@@ -217,23 +256,33 @@
 		    (GOLD) The data should should be to all people for
 		    any purpose. An example of this would be data
 		    explicitly released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0
-		    Attribution 4.0 International license</a>
-		    
+		      Attribution 4.0 International license</a>.
 		  </li>
 		</ol>
+	      </p>
+	      <p>
+		<a class="btn btn-secondary"
+		   href="#our-sources-data"
+		   role="button">Our sources data »</a>
 	      </p>
 	    </div>
 	  </div>
 	</div>
 	
-	<div class="col-md-4">
+	<div class="col-lg-4" style="background-color:mediumorchid;">
+	  <p>
+	    Inspirational "Our criteria"-related imagery.
+	  </p>
 	</div>
-
+	
       </div> <!-- end row -->
       
+      <!-- spacer -->
+      <div style="height:32px;"></div>
+
       <div class="row">
 
-	<div class="col-md-12">
+	<div id="our-sources-data" class="col-lg-12">
 	  <div class="card">
 	    <div class="card-block">
 	      <h4 class="card-title">Our sources data</h4>
@@ -257,6 +306,11 @@
 		</table>	
 		
 	      </p>
+	      <p>
+		<a class="btn btn-secondary"
+		   href="https://github.com/reusabledata/reusabledata"
+		   role="button">Contact us</a>
+	      </p>
 	    </div>
 	  </div>
 	</div>
@@ -275,6 +329,9 @@
 	<!--     The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). -->
 	
       </div><!-- Done row. -->
+
+      <!-- spacer -->
+      <div style="height:32px;"></div>
       
     </div><!-- Done container. -->
     
