@@ -289,17 +289,40 @@
 		  <thead>
 		    <tr>
 		      <th>Name</th>
+		      <th>Categories</th>
+		      <th>Grade</th>
+		      <th>Description</th>
+		      <th>License Info</th>
+		      <th>License Issues</th>
 		    </tr>
 		  </thead>
 		  <tfoot>
 		    <tr>
 		      <th>Name</th>
+		      <th>Categories</th>
+		      <th>Grade</th>
+		      <th>Description</th>
+		      <th>License Info</th>
+		      <th>License Issues</th>
 		    </tr>
 		  </tfoot>
 		  <tbody>
 		    {{#tabledata}}
 		    <tr>
 		      <td>{{ source }}</td>
+		      <td>
+			{{ data-field }}
+			<br />
+			{{ data-type }}
+			<br />
+			{{ data-categories }}
+		      </td>
+		      <td>{{ grade }}</td>
+		      <td>{{ description }}</td>
+		      <td>
+			<a href="{{ license-link }}">{{ license-type }}</a>
+		      </td>
+		      <td>{{ license-downstream-negative }}</td>
 		    </tr>
 		    {{/tabledata}}
 		  </tbody>
@@ -315,24 +338,29 @@
 	  </div>
 	</div>
 	
-	<!--     thoughts to organize. -->
-
-	<!-- also, matrix: -->
-	<!--     https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences -->
-	<!--     https://www.debian.org/social_contract.html#guidelines -->
-	<!--     also, bring up dfsg vs. gnu -->
-	<!--     https://people.debian.org/~bap/dfsg-faq.html , point 8, 12, etc. -->
-	
-	<!--     The freedom to run the program, for any purpose (freedom 0). -->
-	<!--     The freedom to study how the program works, and adapt it to your needs (freedom 1). -->
-	<!--     The freedom to redistribute copies so you can help your neighbor (freedom 2). -->
-	<!--     The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). -->
-	
       </div><!-- Done row. -->
 
       <!-- spacer -->
       <div style="height:32px;"></div>
       
+      <div class="row">
+	
+	<div id="our-sources-data" class="col-lg-12">
+	  thoughts to organize.
+	  
+	  also, matrix:
+	    https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences
+	    https://www.debian.org/social_contract.html#guidelines
+	    also, bring up dfsg vs. gnu
+	    https://people.debian.org/~bap/dfsg-faq.html , point 8, 12, etc.
+	
+	    The freedom to run the program, for any purpose (freedom 0).
+	    The freedom to study how the program works, and adapt it to your needs (freedom 1).
+	    The freedom to redistribute copies so you can help your neighbor (freedom 2).
+	    The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3).
+	
+	</div>
+	
     </div><!-- Done container. -->
     
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
