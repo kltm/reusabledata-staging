@@ -83,7 +83,16 @@ if( ! out_file ){
 
 var data_sources = JSON.parse(fs.readFileSync(in_data, 'utf-8'));
 _debug('data', data_sources);
-_debug(data_sources);
+
+// Goose the data so we have a single html-displayable string for the
+// license commentary.
+us.each(data_sources, function(source){
+    var cache = [];
+    us.each(source['license-commentary'], function(comment){
+	cache.push(comment);
+    });
+    source['license-commentary-embeddable'] = cache.join('<br />');
+});
 
 // Pug/Jade for table.
 var html_table_str = pug.renderFile('./scripts/static-table.pug',

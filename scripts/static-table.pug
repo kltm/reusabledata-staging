@@ -21,8 +21,29 @@ table(id='sourcestable' class='table table-striped')
         td 
           a(href=source['source-link']) #{ source.source }
         td #{ source['data-field'] } #{ source['data-type'] } #{ source['data-categories'] }
-        td #{ source.grade }
+        case source.grade
+          when 'gold'
+            td(style='background-color:white;color:#ffd700;font-size:3em;') &#x2605;
+          when 'green'
+            td(class='bg-success text-white') &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;
+          when 'yellow'
+            td(class='bg-warning text-white') &#x2605;&nbsp;&#x2605;
+          when 'red'
+            td(class='bg-danger text-white') &#x2605;
+          default
+            td(class='bg-inverse text-white') ?
         td #{ source.description }
         td
           a(href=source['license-link']) #{ source['license-type'] }
-        td #{ source['license-downstream-negative'] }
+        td
+          if source['license-issues'] && source['license-issues'].length !== 0
+            dl
+              each issue, index in source['license-issues']
+                dt
+                  a(href='#criteria-' + issue.criteria) Criteria&nbsp;#{issue.criteria}
+                dd
+                  small(class="text-muted") #{ issue.comment }
+          if source['license-commentary'] && source['license-commentary'].length !== 0
+            button(class="btn btn-secondary btn-sm" role="button" data-toggle="popover" title="License commentary" data-placement="left" data-content=source['license-commentary-embeddable']) Commentary
+          else
+            span
