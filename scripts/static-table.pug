@@ -1,0 +1,27 @@
+table(id='sourcestable' class='table table-striped')
+  thead
+    tr
+      th Name
+      th Categories
+      th Grade
+      th Description
+      th License Info
+      th License Issues
+  tfoot
+    tr
+      th Name
+      th Categories
+      th Grade
+      th Description
+      th License Info
+      th License Issues
+  tbody
+    each source, index in data_sources
+      tr
+        td #{ source.source }
+        td #{ source['data-field'] } #{ source['data-type'] } #{ source['data-categories'] }
+        td #{ source.grade }
+        td #{ source.description }
+        td
+          a(href=source['license-link']) #{ source['license-type'] }
+        td #{ source['license-downstream-negative'] }

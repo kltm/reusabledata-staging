@@ -10,6 +10,7 @@ var us = require('underscore');
 var fs = require("fs");
 var yaml = require('yamljs');
 var mustache = require('mustache');
+var pug = require('pug');
 
 ///
 /// Helpers.
@@ -83,11 +84,21 @@ if( ! out_file ){
 var data_sources = JSON.parse(fs.readFileSync(in_data, 'utf-8'));
 _debug('data', data_sources);
 _debug(data_sources);
+
+// Pug/Jade for table.
+var html_table_str = pug.renderFile('./scripts/static-table.pug',
+				    {"data_sources": data_sources});
+console.log('===');
+console.log(html_table_str);
+console.log('===');
+
+// Mustache for final.
 var template = fs.readFileSync(in_tmpl, 'utf-8');
 _debug('template', template);
 
 var outstr = mustache.render(template, {
     "jsondata": JSON.stringify(data_sources),
+    "htmltablestr": html_table_str,
     "tabledata": data_sources
 });
 

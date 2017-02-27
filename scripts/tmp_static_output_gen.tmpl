@@ -285,48 +285,50 @@
 	      <h4 class="card-title">Our sources data</h4>
 	      <p class="card-text">
 		
-		<table id="sourcestable" class="table table-striped">
-		  <thead>
-		    <tr>
-		      <th>Name</th>
-		      <th>Categories</th>
-		      <th>Grade</th>
-		      <th>Description</th>
-		      <th>License Info</th>
-		      <th>License Issues</th>
-		    </tr>
-		  </thead>
-		  <tfoot>
-		    <tr>
-		      <th>Name</th>
-		      <th>Categories</th>
-		      <th>Grade</th>
-		      <th>Description</th>
-		      <th>License Info</th>
-		      <th>License Issues</th>
-		    </tr>
-		  </tfoot>
-		  <tbody>
-		    {{#tabledata}}
-		    <tr>
-		      <td>{{ source }}</td>
-		      <td>
-			{{ data-field }}
-			<br />
-			{{ data-type }}
-			<br />
-			{{ data-categories }}
-		      </td>
-		      <td>{{ grade }}</td>
-		      <td>{{ description }}</td>
-		      <td>
-			<a href="{{ license-link }}">{{ license-type }}</a>
-		      </td>
-		      <td>{{ license-downstream-negative }}</td>
-		    </tr>
-		    {{/tabledata}}
-		  </tbody>
-		</table>	
+		{{{ htmltablestr }}}
+	
+		<!-- <table id="sourcestable" class="table table-striped"> -->
+		<!--   <thead> -->
+		<!--     <tr> -->
+		<!--       <th>Name</th> -->
+		<!--       <th>Categories</th> -->
+		<!--       <th>Grade</th> -->
+		<!--       <th>Description</th> -->
+		<!--       <th>License Info</th> -->
+		<!--       <th>License Issues</th> -->
+		<!--     </tr> -->
+		<!--   </thead> -->
+		<!--   <tfoot> -->
+		<!--     <tr> -->
+		<!--       <th>Name</th> -->
+		<!--       <th>Categories</th> -->
+		<!--       <th>Grade</th> -->
+		<!--       <th>Description</th> -->
+		<!--       <th>License Info</th> -->
+		<!--       <th>License Issues</th> -->
+		<!--     </tr> -->
+		<!--   </tfoot> -->
+		<!--   <tbody> -->
+		<!--     {{#tabledata}} -->
+		<!--     <tr> -->
+		<!--       <td>{{ source }}</td> -->
+		<!--       <td> -->
+		<!-- 	{{ data-field }} -->
+		<!-- 	<br /> -->
+		<!-- 	{{ data-type }} -->
+		<!-- 	<br /> -->
+		<!-- 	{{ data-categories }} -->
+		<!--       </td> -->
+		<!--       <td>{{ grade }}</td> -->
+		<!--       <td>{{ description }}</td> -->
+		<!--       <td> -->
+		<!-- 	<a href="{{ license-link }}">{{ license-type }}</a> -->
+		<!--       </td> -->
+		<!--       <td>{{ license-downstream-negative }}</td> -->
+		<!--     </tr> -->
+		<!--     {{/tabledata}} -->
+		<!--   </tbody> -->
+		<!-- </table>	 -->
 		
 	      </p>
 	      <p>
@@ -360,7 +362,7 @@
 	    The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3).
 	
 	</div>
-	
+
     </div><!-- Done container. -->
     
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
