@@ -8,15 +8,16 @@ data-type: mouse
 data-categories:
     - 'expression data'
 data-links: []
-license-type: copyleft
-license-link: 'https://github.com/BgeeDB/bgee/blob/master/LICENSE'
-license-downstream-positive: []
-license-downstream-negative: []
+license-type: unknown
+license: unknown
+#license-link: 
 license-commentary:
     - 'It is unclear whether the data or the software is the listed GNU GPL v.3.0; if the former, it may be problematic, if the latter, all rights may be reserved. They do not seem to me looking at the licenses of their own data (http://bgee.org/?page=source).'
 contacts:
     - Bgee@isb-sib.ch
-grade: red
+grade: 1
 license-issues:
-  - criteria: 1
-    comment: "We are unsure whether the data is covered under the GPLv3 or has all rights reserved."
+  - criteria: A3
+    comment: "We are unsure whether all the data is covered under the GPLv3 or has all rights reserved."
+  - criteria: B2
+    comment: "After some searching, we were unable to make a clear determination of the ontology data licenses applied to other aspects, or if they had separate terms."
