@@ -36,22 +36,28 @@ mapping:
     sequence:
       - type: str
     required: no
+  ## Should try and use SPDX where we can: https://spdx.org/licenses/
+  ## or "unknown" or "undefined"?
+  "license":
+    type: str
+    required: yes
+  ## E.g. "unknown", "copyleft", "permissive" etc.?
   "license-type":
     type: str
     required: yes
   "license-link":
     type: str
     required: no
-  "license-downstream-positive":
-    type: seq
-    sequence:
-      - type: str
-    required: no
-  "license-downstream-negative":
-    type: seq
-    sequence:
-      - type: str
-    required: no
+  # "license-downstream-positive":
+  #   type: seq
+  #   sequence:
+  #     - type: str
+  #   required: no
+  # "license-downstream-negative":
+  #   type: seq
+  #   sequence:
+  #     - type: str
+  #   required: no
   "license-commentary":
     type: seq
     sequence:
@@ -63,7 +69,7 @@ mapping:
       - type: map
         mapping:
           "criteria":
-            type: number
+            type: str
             required: true
           "comment":
             type: str
@@ -75,5 +81,5 @@ mapping:
       - type: str
     required: no
   "grade":
-    type: str
+    type: number
     required: yes
