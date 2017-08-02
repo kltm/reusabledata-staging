@@ -5,81 +5,91 @@
 ####
 type: map
 mapping:
+  ## Unique ID of the resource.
   "id":
     type: str
     required: yes
+  ## Short label for the resource.
   "source":
     type: str
     required: yes
+  ## (Optional) URL for the resource.
   "source-link":
     type: str
     required: no
+  ## Whether or not annotation is complete on this resource.
   "status":
     type: str
     required: yes
+  ## Full description of the resource.
   "description":
     type: str
     required: yes
+  ## Are of research for the resource.
   "data-field":
     type: str
     required: yes
+  ## Type of data the resource contains.
   "data-type":
     type: str
     required: yes
+  ## (Optional) tags to describe the resource and its data.
   "data-categories":
     type: seq
     sequence:
       - type: str
     required: no
+  ## (Optional) links to resource data.
   "data-links":
     type: seq
     sequence:
       - type: str
     required: no
+  ## The license that is used.
   ## Should try and use SPDX where we can: https://spdx.org/licenses/
-  ## or "unknown" or "undefined"?
+  ## or "unknown" or "custom".
   "license":
     type: str
     required: yes
+  ## The type of license that is being used.
+  ## If you do not know, enter "TODO".
   ## E.g. "unknown", "copyleft", "permissive" etc.?
   "license-type":
     type: str
     required: yes
+  ## (Optional) link to the resource license.
   "license-link":
     type: str
     required: no
-  # "license-downstream-positive":
-  #   type: seq
-  #   sequence:
-  #     - type: str
-  #   required: no
-  # "license-downstream-negative":
-  #   type: seq
-  #   sequence:
-  #     - type: str
-  #   required: no
+  ## (Optional) Further commentary on the license, possibly including things
+  ## like locations of additional licenses.
   "license-commentary":
     type: seq
     sequence:
       - type: str
     required: no
+  ## (Optional) structured issues with the license.
   "license-issues":
     type: seq
     sequence:
       - type: map
         mapping:
+          ## The criteria violated. E.g. "A2", "D".
           "criteria":
             type: str
             required: true
+          ## How the criteria was violated.
           "comment":
             type: str
             required: false
     required: no
+  ## (Optional) resource contact information.
   "contacts":
     type: seq
     sequence:
       - type: str
     required: no
+  ## The final grade for the resource, as justified by the violations.
   "grade":
     type: number
     required: yes
