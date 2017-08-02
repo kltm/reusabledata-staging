@@ -5,7 +5,8 @@
 ####
 type: map
 mapping:
-  ## Unique ID of the resource.
+  ## Unique ID of the resource, biodbcore or NAR preferred.
+  ## But any unique internal ID is usable.
   "id":
     type: str
     required: yes
