@@ -41,10 +41,28 @@ mapping:
       - type: str
     required: no
   ## (Optional) links to resource data.
-  "data-links":
+  "data-access":
     type: seq
     sequence:
-      - type: str
+      - type: map
+        mapping:
+          ## (Optional) How the data access point should be differentiated
+          ## from others at a resource. E.g. "expression data" or
+          ## "HPO ontology". Very very optional as this can be a rat's nest.
+          "label":
+            type: str
+            required: no
+          ## The type of data access. Likely: "download", "downloads",
+          ## "API", or "APIs".
+          "type":
+            type: str
+            required: yes
+          ## The location of the data access. Do /NOT/ worry about getting the
+          ## perfect and "real" location here; a top-level or informational
+          ## location is fine.
+          "location":
+            type: str
+            required: yes
     required: no
   ## The license that is used.
   ## Should try and use SPDX where we can: https://spdx.org/licenses/
@@ -78,11 +96,11 @@ mapping:
           ## The criteria violated. E.g. "A2", "D".
           "criteria":
             type: str
-            required: true
+            required: yes
           ## How the criteria was violated.
           "comment":
             type: str
-            required: false
+            required: no
     required: no
   ## (Optional) resource contact information.
   "contacts":
