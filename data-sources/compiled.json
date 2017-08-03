@@ -1,31 +1,66 @@
 [
     {
-        "id": "bgee",
-        "source": "BGee",
+        "id": "bgee-data",
+        "source": "BGee (data)",
         "source-link": "http://bgee.org",
-        "status": "incomplete",
+        "status": "complete",
         "description": "Bgee is a database to retrieve and compare gene expression patterns in multiple animal species, produced from multiple data types (RNA-Seq, Affymetrix, in situ hybridization, and EST data).",
         "data-field": "x-species",
         "data-type": "mouse",
         "data-categories": [
             "expression data"
         ],
-        "data-links": [],
-        "license-type": "copyleft",
-        "license-link": "https://github.com/BgeeDB/bgee/blob/master/LICENSE",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [],
+        "data-links": [
+            "http://bgee.org/?page=doc&action=access"
+        ],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-commentary": [
-            "It is unclear whether the data or the software is the listed GNU GPL v.3.0; if the former, it may be problematic, if the latter, all rights may be reserved. They do not seem to me looking at the licenses of their own data (http://bgee.org/?page=source)."
+            "As of two years ago, they seem to want to migrate over to CC BY, but after some searching, it could not be cited on their main data portal: https://think-lab.github.io/d/82/#15",
+            "They do not seem to me looking at the remix affects of licenses of their own data (http://bgee.org/?page=source).",
+            "Assuming they have defaulted to ARR."
         ],
         "contacts": [
             "Bgee@isb-sib.ch"
         ],
-        "grade": "red",
+        "grade": 0,
         "license-issues": [
             {
-                "criteria": 1,
-                "comment": "We are unsure whether the data is covered under the GPLv3 or has all rights reserved."
+                "criteria": "A",
+                "comment": "We were unable to determine the license of the non-ontology portions of the BGee data after some search. No explicit license statements were apparent, causing a cascade of criteria violations."
+            }
+        ]
+    },
+    {
+        "id": "bgee-ontology",
+        "source": "BGee (ontology)",
+        "source-link": "http://bgee.org",
+        "status": "complete",
+        "description": "Bgee is a database to retrieve and compare gene expression patterns in multiple animal species, produced from multiple data types (RNA-Seq, Affymetrix, in situ hybridization, and EST data).",
+        "data-field": "x-species",
+        "data-type": "mouse",
+        "data-categories": [
+            "ontology"
+        ],
+        "data-links": [
+            "https://github.com/BgeeDB/confidence-information-ontology",
+            "https://github.com/BgeeDB/homology-ontology",
+            "https://github.com/BgeeDB/anatomical-similarity-annotations"
+        ],
+        "license-type": "copyleft",
+        "license": "GPL-3.0",
+        "license-link": "https://github.com/BgeeDB/",
+        "license-commentary": [
+            "It is somewhat unclear, but apparently all ontology data is under the listed GNU GPL v.3.0; this may be problematic for some types of reuse."
+        ],
+        "contacts": [
+            "Bgee@isb-sib.ch"
+        ],
+        "grade": 4,
+        "license-issues": [
+            {
+                "criteria": "D",
+                "comment": "By using the GPLv3, there may be issues in mixing and redistributing this data with licenses that have incompatible terms."
             }
         ]
     },
@@ -157,7 +192,8 @@
     {
         "id": "fantom5",
         "source": "Fantom5",
-        "status": "incomplete",
+        "source-link": "http://fantom.gsc.riken.jp/5/",
+        "status": "complete",
         "description": "We are complex multicellular organisms composed of ~400 distinct cell types. This diversity of cell types allow us to see, think, hear, fight infections etc. yet all of this is encoded in the same genome. The difference between all these cells is what parts of the genome they use – for instance, neurons use different genes than muscle cells, and therefore they work very differently. In FANTOM5, we have systematically investigated exactly what are the sets of genes used in virtually all cell types across the human body, and the genomic regions which determine where the genes are read from. We aim to use this information to build transcriptional regulatory models for every primary cell type that makes up a human.",
         "data-field": "biology",
         "data-type": "human",
@@ -165,15 +201,14 @@
             "gene expression"
         ],
         "data-links": [],
-        "license-type": "CC4",
+        "license": "CC-BY-4.0",
+        "license-type": "permissive",
         "license-link": "http://fantom.gsc.riken.jp/5/",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [],
         "license-commentary": [],
         "contacts": [
             "fantom-help.gsc@riken.jp"
         ],
-        "grade": "gold"
+        "grade": 5
     },
     {
         "id": "flybase",

@@ -27,15 +27,23 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn more</a>
+            <a class="nav-link dropdown-toggle" href="index.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn more</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#home">Home</a>
-              <a class="dropdown-item" href="#what-this-is">What this is</a>
-              <a class="dropdown-item" href="#who-we-are">Who we are</a>
-              <a class="dropdown-item" href="#our-criteria">Our criteria</a>
-              <a class="dropdown-item" href="#our-sources-data">Our sources data</a>
-              <a class="dropdown-item" href="https://github.com/reusabledata/reusabledata">Contact</a>
+              <a class="dropdown-item" href="index.html#home">Home</a>
+              <a class="dropdown-item" href="index.html#what-this-is">What this is</a>
+              <a class="dropdown-item" href="index.html#who-we-are">Who we are</a>
+              <a class="dropdown-item" href="index.html#our-criteria">Our criteria</a>
+              <a class="dropdown-item" href="index.html#our-sources-data">Our sources data</a>
             </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="criteria.html" id="nav01" aria-haspopup="true" aria-expanded="false">Criteria</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html" id="nav02" aria-haspopup="true" aria-expanded="false">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/reusabledata/reusabledata" id="nav03" aria-haspopup="true" aria-expanded="false">Contact</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -54,7 +62,7 @@
 	    <p>
 	      Inspired by the efforts of scientists around the world
 	      and the game-changing efforts of projects like the
-	      Creative Commons, Wikimedia Foundation, and the Free
+	      Creative Commons, the Wikipedia Foundation, and the Free
 	      Software movement<!-- (e.g. Debian and the FSF) -->, we
 	      hope to engage the larger community in an open and
 	      fruitful discussion on issues concerning the use and
@@ -99,39 +107,44 @@
 	    <div class="card-block">
 	      <h4 class="card-title">What this is</h4>
 	      <p>
-		The initial driving concern of this project is the use and
-		reuse of biological and biomedical data However, this is a
-		general problem in the scientific community and needs to
-		be addressed directly.
-		<br />
-		For each resource, we assign one of we attempt to assign
-		these values objectively by meeting our criteria for
-		reusable data:
+		The initial driving concern of this project is the use
+		and reuse of biological and biomedical data. However,
+		this is a general problem in the scientific community
+		and needs to be addressed directly. <br /> For each
+		resource, using
+		our <a href="criteria.html">criteria</a>, we attempt
+		to objectively assign zero to five stars for how well
+		we believe a resource's data may build upon, edited,
+		modified, and redistributed. <br /> Grossly speaking:
+		
 	      </p>
 	      <p>
 		<ul>
 		  <li>
-		    <strong>gold
-		    star</strong>&nbsp;<span style="color:#ffd700;font-size:1.5em">&#x2605&nbsp;&#x2605&nbsp;&#x2605&nbsp;&#x2605&nbsp;</span><br />
-		    The license unambiguously allows the /free/ reuse
+		    <strong>5 stars</strong>&nbsp;<span style="color:#ffd700;font-size:1.0em">&#x2605&nbsp;&#x2605&nbsp;&#x2605&nbsp;&#x2605&nbsp;&#x2605</span><br />
+		    The license unambiguously allows the unfettered (re)use
 		    and redistribution of the data.
 		  </li>
 		  <li>
-		    <strong>green</strong>&nbsp;<span style="color:green;">&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;</span><br /> The license
-		    unambiguously allows reuse and redistribution of the
-		    data under some terms.
+		    <strong>4 stars</strong>&nbsp;<span style="color:green;">&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;</span><br />
+
+		    The license unambiguously allows (re)use and
+		    redistribution of the data under some terms.
 		  </li>
 		  <li>
-		    <strong>yellow</strong>&nbsp;<span style="color:orange;">&#x2605;&nbsp;&#x2605;</span><br /> The license is
-		    ambiguous or has terms that prevents the reuse and
-		    redistribution of in some cases.
-		  </li>
+		    <strong>3 stars</strong>&nbsp;<span style="color:orange;">&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;</span><br />
+
+		    The license is clearly stated, unambiguous, and of
+		    a standard type, but has terms that may greatly
+		    impact the (re)use and redistribution of the data.
+
 		  <li>
-		    <strong>red</strong>&nbsp;<span style="color:red;">&#x2605;</span><br /> The license could not be
-		    found (so assumed to be under standard copyright) or
-		    the license unambiguously makes clear that reuse and
-		    redistribution is not welcome for the general
-		    community.
+		    <strong>less than 3 stars</strong>&nbsp;<span style="color:red;">&#x2605;&nbsp;&#x2605;</span>&nbsp;&#x00bd;&nbsp;-&nbsp;&#x2205;<br />
+
+		    There are likely issues in definitively finding
+		    the license, ambiguities in the license that
+		    hamper further analysis, or terms that require
+		    legal advice.
 		  </li>
 		</ul>
 	      </p>	      
@@ -177,25 +190,28 @@
 	    <div class="card-block">
 	      <h4 class="card-title">Who we are</h4>
 	      <p>
-		We are not lawyers, this is not legal advice: all
+		We are not lawyers and this is not legal advice: all
 		institutions and groups have their own perspectives
-		and counsel. We are a group of scientists,
-		engineers, and specialists that are concerned about
-		the use and reuse of increasingly interconnected,
-		derived, and reprocessed data.
+		and counsel. We are a group of scientists, engineers,
+		and specialists that are concerned about the use and
+		reuse of increasingly interconnected, derived, and
+		reprocessed data. We want to make sure that
+		data-driven scientific endeavors can work with one
+		another in meaningful ways without undue legal
+		concerns.
 	      </p>
 	      <p>
-		What we want isto provide a resource looking at some
-		of the possible issues are the reuse of scientific
-		data.
+		What we want is to do with the Reusable Data Project
+		is provide a resource looking at some of the possible
+		issues around the reuse of scientific data and open a
+		conversation about how to deal with them.
 	      </p>
 	      <p>
-		We want to actively engage the community in
-		conversation and make sure that our information about
-		scientific data is up-to-date and correct. If you have
-		any questions or see any problems, please open a
-		ticket on our tracker.  <br /> If you see an issue,
-		please open a ticket on
+		We also want to actively work with the community in
+		considering our criteria and in making sure that our
+		information about scientific data resources is
+		up-to-date and correct. If you have any questions,
+		concerns, or see any problems, please open a ticket on
 		our <a href="https://github.com/reusabledata/reusabledata">GitHub
 		tracker</a>.
 	      </p>
@@ -221,42 +237,68 @@
 	    <div class="card-block">
 	      <h4 class="card-title">Our criteria</h4>
 	      <p>
+		TODO: Quick gross summary of criteria selection.
+		Balancing conflicting needs...
+	      </p>
+	      <p>
 		<ol>
-		  <li id="criteria-1">
-		    <strong>Clearly stated</strong><br /> Have a
-		    clearly stated license for data use. In a lot of
-		    ways, this is the most important and time-saving
-		    point. If there is no license, then rights are
-		    unclear and one needs to assume the
-		    default:
-		    <a href="https://www.copyright.gov/help/faq/faq-general.html">all rights reserved</a>.
+		  <li id="criteria-a">
+		    <strong>Clearly stated</strong><br />
+
+		    A clearly stated unambiguous license for data use
+		    is necessary for any (re)use of data: if there is
+		    no license to be found, then rights are unclear
+		    and one needs to assume the default: all rights reserved.
+		    <!-- <a href="https://www.copyright.gov/help/faq/faq-general.html">all rights reserved</a>. -->
+		    <a href="criteria.html#A">[Learn&nbsp;more...]</a>
 		  </li>
-		  <li id="criteria-2">
-		    <strong>Allow use and reuse</strong><br /> Data
-		    that cannot be used in not data at all. In modern
-		    data-driven science, the ability to synthesize
-		    data and make the results available for others to
-		    do the same is paramount.
+		  <li id="criteria-b">
+		    <strong>Comprehensive and non-negotiated</strong><br />
+
+		    Data that is mixed under different licenses, only
+		    partially available, or must be in some way
+		    negotiated creates barriers to the (re)use of
+		    data. <a href="criteria.html#B">[Learn&nbsp;more...]</a>
+		    
+		    <!-- cannot be used in not data at all. In -->
+		    <!-- modern data-driven science, the ability to -->
+		    <!-- synthesize data and make the results available for -->
+		    <!-- others to do the same is paramount. -->
 		  </li>
-		  <li id="criteria-3">
-		    <strong>Non-discriminatory</strong><br /> Ideally,
-		    data should be able to be used and reused by
-		    anybody for any purpose, academic, commercial, and
-		    anything else.  A counterexample may be
+		  <li id="criteria-c">
+		    <strong>Standardized</strong><br />
+
+		    Standardized and well-understood licenses are
+		    important to make the reuse and redistribution of
+		    scientific data as easy as possible when
+		    possible. <a href="criteria.html#C">[Learn&nbsp;more...]</a>
+		    
+		    <!-- Ideally, data should be able to be used and reused -->
+		    <!-- by anybody for any purpose, academic, commercial, -->
+		    <!-- and anything else.  A counterexample may be -->
 		  </li>
-		  <li id="criteria-4">
-		    <strong>Non-revocable</strong><br /> Of course
-		    somebody might choose to close there data off in
-		    the future, but there should be no language that
-		    revokes usage rights retroactively for the data
-		    before that horizon.
+		  <li id="criteria-d">
+		    <strong>Avoid restrictions on kinds of (re)use</strong><br />
+
+		    Data should be able to be copied, built upon,
+		    edited, and modified as freely as possible. <a href="criteria.html#D">[Learn&nbsp;more...]</a>
+
+		    <!-- Of course somebody might choose to close their -->
+		    <!-- data off in the future, but there should be no -->
+		    <!-- language that revokes usage rights retroactively -->
+		    <!-- for the data before that horizon. -->
 		  </li>
-		  <li id="criteria-5">
-		    <strong>Freely and openly available</strong><br />
-		    (Gold stars) The data should should be to all people for
-		    any purpose. An example of this would be data
-		    explicitly released under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0
-		      Attribution 4.0 International license</a>.
+		  <li id="criteria-e">
+		    <strong>Avoid restrictions who may (re)use</strong><br />
+		    
+		    Data should should be available to as many people
+		    as possible for their (re)use. <a href="criteria.html#E">[Learn&nbsp;more...]</a>
+
+		    <!-- An example of this would -->
+		    <!-- be data explicitly released under -->
+		    <!-- the <a href="https://creativecommons.org/licenses/by/4.0/">Creative -->
+		    <!-- Commons 4.0 Attribution 4.0 International -->
+		    <!-- license</a>. -->
 		  </li>
 		</ol>
 	      </p>
@@ -353,18 +395,21 @@
 	<div id="our-sources-data" class="col-xl-12">
 
 	  <p>
-	  thoughts to organize.
+	    TODO: sensible footer that follow our own rules<br />
+	    
+
+	  <!--  thoughts to organize. -->
 	  
-	  also, matrix:
-	    https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences
-	    https://www.debian.org/social_contract.html#guidelines
-	    also, bring up dfsg vs. gnu
-	    https://people.debian.org/~bap/dfsg-faq.html , point 8, 12, etc.
+	  <!-- also, matrix: -->
+	  <!--   https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences -->
+	  <!--   https://www.debian.org/social_contract.html#guidelines -->
+	  <!--   also, bring up dfsg vs. gnu -->
+	  <!--   https://people.debian.org/~bap/dfsg-faq.html , point 8, 12, etc. -->
 	
-	    The freedom to run the program, for any purpose (freedom 0).
-	    The freedom to study how the program works, and adapt it to your needs (freedom 1).
-	    The freedom to redistribute copies so you can help your neighbor (freedom 2).
-	    The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3).
+	  <!--   The freedom to run the program, for any purpose (freedom 0). -->
+	  <!--   The freedom to study how the program works, and adapt it to your needs (freedom 1). -->
+	  <!--   The freedom to redistribute copies so you can help your neighbor (freedom 2). -->
+	  <!--   The freedom to improve the program, and release your improvements to the public, so that the whole community benefits (freedom 3). -->
 	  </p>
 	</div>
 

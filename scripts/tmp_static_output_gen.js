@@ -3,7 +3,7 @@
 //// one-page app.
 ////
 //// Example usage:
-////  node ./scripts/tmp_static_output_gen.js -i ./data-sources/compiled.json -t ./scripts/tmp_static_output_gen.js -o ./docs/index.html
+////  node ./scripts/tmp_static_output_gen.js -i ./data-sources/compiled.json -t ./scripts/tmp_static_output_gen.tmpl -o ./docs/index.html
 ////
 
 var us = require('underscore');
@@ -91,7 +91,7 @@ us.each(data_sources, function(source){
     us.each(source['license-commentary'], function(comment){
 	cache.push(comment);
     });
-    source['license-commentary-embeddable'] = cache.join('<br />');
+    source['license-commentary-embeddable'] = cache.join('\n\\n<hr />');
 });
 
 // Pug/Jade for table.
