@@ -1,0 +1,24 @@
+id: bgee-ontology
+source: BGee (ontology)
+source-link: http://bgee.org
+status: incomplete
+description: 'Bgee is a database to retrieve and compare gene expression patterns in multiple animal species, produced from multiple data types (RNA-Seq, Affymetrix, in situ hybridization, and EST data).'
+data-field: x-species
+data-type: mouse
+data-categories:
+    - 'ontology'
+data-links:
+  - 'https://github.com/BgeeDB/confidence-information-ontology'
+  - 'https://github.com/BgeeDB/homology-ontology'
+  - 'https://github.com/BgeeDB/anatomical-similarity-annotations'
+license-type: copyleft
+license:  GPL-3.0
+license-link: https://github.com/BgeeDB/
+license-commentary:
+    - 'It is somewhat unclear, but apparently all ontology data is under the listed GNU GPL v.3.0; this may be problematic for some types of reuse.'
+contacts:
+    - Bgee@isb-sib.ch
+grade: 4.5
+license-issues:
+  - criteria: D
+    comment: "By using the GPLv3, there may be issues in mixing and redistributing this data with licenses that have incompatible terms."
