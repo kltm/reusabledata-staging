@@ -7,8 +7,9 @@ data-field: x-species
 data-type: mouse
 data-categories:
     - 'expression data'
-data-links:
-  - 'http://bgee.org/?page=doc&action=access'
+data-access:
+  - type: download
+    location: 'http://bgee.org/?page=doc&action=access'
 license: unknown
 license-type: unknown
 #license-link: 

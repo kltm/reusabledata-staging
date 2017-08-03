@@ -7,10 +7,16 @@ data-field: x-species
 data-type: mouse
 data-categories:
     - 'ontology'
-data-links:
-  - 'https://github.com/BgeeDB/confidence-information-ontology'
-  - 'https://github.com/BgeeDB/homology-ontology'
-  - 'https://github.com/BgeeDB/anatomical-similarity-annotations'
+data-access:
+  - label: CIO
+    type: download
+    location: 'https://github.com/BgeeDB/confidence-information-ontology'
+  - label: HO
+    type: download
+    location: 'https://github.com/BgeeDB/homology-ontology'
+  - label: ASA
+    type: download
+    location: 'https://github.com/BgeeDB/anatomical-similarity-annotations'
 license-type: copyleft
 license:  GPL-3.0
 license-link: https://github.com/BgeeDB/

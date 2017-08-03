@@ -7,7 +7,7 @@ data-field: biology
 data-type: human
 data-categories:
     - 'gene expression'
-data-links: []
+data-access: []
 license: CC-BY-4.0
 license-type: permissive
 license-link: 'http://fantom.gsc.riken.jp/5/'
