@@ -108,6 +108,21 @@ mapping:
     sequence:
       - type: str
     required: no
+  ## (Optional) semi-structured list of supporting grants
+  "grants":
+    type: seq
+    sequence:
+      - type: map
+        mapping:
+          ## A string representation of the grant.
+          "label":
+            type: str
+            required: yes
+          ## The URL for grant information.
+          "url":
+            type: str
+            required: no
+    required: no
   ## The final grade for the resource, as justified by the violations.
   "grade":
     type: number
