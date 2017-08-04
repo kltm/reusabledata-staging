@@ -53,8 +53,7 @@ mapping:
           "label":
             type: str
             required: no
-          ## The type of data access. Likely: "download", "downloads",
-          ## "API", or "APIs".
+          ## The type of data access. Likely: "download" or "API".
           "type":
             type: str
             required: yes
