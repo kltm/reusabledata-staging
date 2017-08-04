@@ -103,7 +103,8 @@ mapping:
             type: str
             required: no
     required: no
-  ## (Optional) resource contact information.
+  ## (Optional) resource contact information, link or email
+  ## or whatever is public.
   "contacts":
     type: seq
     sequence:
