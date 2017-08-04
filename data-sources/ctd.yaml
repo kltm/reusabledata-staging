@@ -1,17 +1,30 @@
 id: ctd
 source: 'Comparative Toxicogenomics Database (CTD)'
-status: incomplete
+status: complete
 description: 'CTD promotes understanding about the effects of environmental chemicals on human health by integrating data from curated scientific literature to describe chemical interactions with genes and proteins, and associations between diseases and chemicals, and diseases and genes/proteins.'
 data-field: biology
 data-type: x-species
 data-categories:
     - 'disease-gene association'
-data-access: []
-license: unknown
-license-type: unknown
+data-access:
+    - type: api
+      url: http://ctdbase.org/tools/batchQuery.go
+    - type: download
+      url: http://ctdbase.org/downloads/
+license: custom
+license-type: restrictive
 license-link: 'http://ctdbase.org/about/legal.jsp'
+license-issues:
+    - criteria: A.2
+      commentary: Custom license with interesting use restrictions.
+    - criteria: B.1
+      commentary: For quality control purposes, you must provide CTD with periodic access to your publication of our data.
+    - criteria: D.1
+      commentary: Given the four statements in the Additional Terms of Data Use, notably number 4, it looks like any downstream user would have to renegotiate with CTD.
+    - criteria: E.1.1
+      commentary: Without negotiation: "It is to be used only for research and educational purposes."
 license-commentary:
-    - 'Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the MDI Biological Laboratory and NC State University.'
+    - "There are statements made in the Additional Terms of Data Use that would make it very difficult to re-use the data provided without a air amount o coordination with the resource and changes to information handling."
 contacts:
     - 'http://ctdbase.org/help/contact.go'
-grade: -1
+grade: 2.5
