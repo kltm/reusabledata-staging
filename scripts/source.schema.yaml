@@ -1,6 +1,7 @@
 ####
 #### Use kwalify and this schema to validate the config files.
-#### Examples:
+#### Example usage:
+####    kwalify -E -m ./scripts/source.schema.yaml
 ####    kwalify -f ./scripts/source.schema.yaml ./data-sources/bgee.yaml
 ####
 type: map
