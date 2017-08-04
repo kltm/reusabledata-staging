@@ -10,8 +10,11 @@
         "data-categories": [
             "expression data"
         ],
-        "data-links": [
-            "http://bgee.org/?page=doc&action=access"
+        "data-access": [
+            {
+                "type": "download",
+                "location": "http://bgee.org/?page=doc&action=access"
+            }
         ],
         "license": "unknown",
         "license-type": "unknown",
@@ -23,11 +26,11 @@
         "contacts": [
             "Bgee@isb-sib.ch"
         ],
-        "grade": 0,
+        "grade": 1,
         "license-issues": [
             {
                 "criteria": "A",
-                "comment": "We were unable to determine the license of the non-ontology portions of the BGee data after some search. No explicit license statements were apparent, causing a cascade of criteria violations."
+                "comment": "We were unable to determine the license of the non-ontology portions of the BGee data after some search. No explicit license statements were apparent, causing a cascade of criteria violations. In spite of this, access itself is clear."
             }
         ]
     },
@@ -42,13 +45,25 @@
         "data-categories": [
             "ontology"
         ],
-        "data-links": [
-            "https://github.com/BgeeDB/confidence-information-ontology",
-            "https://github.com/BgeeDB/homology-ontology",
-            "https://github.com/BgeeDB/anatomical-similarity-annotations"
+        "data-access": [
+            {
+                "label": "CIO",
+                "type": "download",
+                "location": "https://github.com/BgeeDB/confidence-information-ontology"
+            },
+            {
+                "label": "HO",
+                "type": "download",
+                "location": "https://github.com/BgeeDB/homology-ontology"
+            },
+            {
+                "label": "ASA",
+                "type": "download",
+                "location": "https://github.com/BgeeDB/anatomical-similarity-annotations"
+            }
         ],
-        "license-type": "copyleft",
         "license": "GPL-3.0",
+        "license-type": "copyleft",
         "license-link": "https://github.com/BgeeDB/",
         "license-commentary": [
             "It is somewhat unclear, but apparently all ontology data is under the listed GNU GPL v.3.0; this may be problematic for some types of reuse."
@@ -74,21 +89,20 @@
         "data-categories": [
             "protein-protein interaction"
         ],
-        "data-links": [],
-        "license-type": "source specific",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://wiki.thebiogrid.org/doku.php/terms_and_conditions",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
+        "license-commentary": [
             "All information, data, text, software, music, sound, photographs, graphics, video, messages, or any other materials whatsoever (collectively, “Content”), whether publicly posted or privately transmitted, is the sole responsibility of the person from whom such Content originated. This means that the user, and not BioGRID, is entirely responsible for all Content that he or she uploads, posts, emails or otherwise transmits via the BioGRID Sites.",
             "Use, reproduction, modification, and other intellectual property rights to data stored on the BioGRID Sites will be subject to licensing arrangements that may be approved by BioGRID as applicable to such Content.",
             "You agree not to sell, resell, or offer for any commercial purposes, any portion of the BioGRID Sites, use of the BioGRID Sites, or access to the BioGRID Sites.",
             "Our designated agent to receive notification of claimed infringement is:  Mr. Terry Donaghue Director Technology Transfer and Industrial Liason 600 University Avenue Toronto, ON, Canada donaghue@mshri.on.ca TEL: 416-586-8225 FAX: 416-586-3110"
         ],
-        "license-commentary": [],
         "contacts": [
             "biogridadmin@gmail.com"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "clinvar",
@@ -102,22 +116,19 @@
             "variant-disease association",
             "variant definitions"
         ],
-        "data-links": [],
+        "data-access": [],
+        "license": "unknown",
         "license-type": "public domain",
         "license-link": "http://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/",
-        "license-downstream-positive": [
-            "Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment."
-        ],
-        "license-downstream-negative": [
-            "NOTE: This site contains resources which incorporate material contributed or licensed by individuals, companies, or organizations that may be protected by U.S. and foreign copyright laws. These include, but are not limited to PubMed Health (see PubMed Health Copyright and Restrictions Notice), PubMed Central (PMC) (see PMC Copyright Notice), Bookshelf (see Bookshelf Copyright Notice), OMIM (see OMIM Copyright Status), and PubChem. All persons reproducing, redistributing, or making commercial use of this information are expected to adhere to the terms and conditions asserted by the copyright holder. Transmission or reproduction of protected items beyond that allowed by fair use (PDF) as defined in the copyright laws requires the written permission of the copyright owners."
-        ],
         "license-commentary": [
-            "TODO: Need to square the reuse on non-PD information."
+            "TODO: Need to square the reuse on non-PD information.",
+            "Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment.",
+            "NOTE: This site contains resources which incorporate material contributed or licensed by individuals, companies, or organizations that may be protected by U.S. and foreign copyright laws. These include, but are not limited to PubMed Health (see PubMed Health Copyright and Restrictions Notice), PubMed Central (PMC) (see PMC Copyright Notice), Bookshelf (see Bookshelf Copyright Notice), OMIM (see OMIM Copyright Status), and PubChem. All persons reproducing, redistributing, or making commercial use of this information are expected to adhere to the terms and conditions asserted by the copyright holder. Transmission or reproduction of protected items beyond that allowed by fair use (PDF) as defined in the copyright laws requires the written permission of the copyright owners."
         ],
         "contacts": [
             "info@ncbi.nlm.nih.gov"
         ],
-        "grade": "gold"
+        "grade": -1
     },
     {
         "id": "coriell-institute",
@@ -129,18 +140,17 @@
         "data-categories": [
             "disease-model association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "https://www.coriell.org/legal-notice",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
+        "license-commentary": [
             "Material on the Coriell Institute website is protected by copyright law. Unless otherwise stated, users may print or download information from this site for personal, non-commercial use only, provided they identify the source of the material (Coriell Institute for Medical Research) and include a statement that the materials are protected by copyright law. Permission to reprint or otherwise reproduce any document in whole or in part is prohibited, unless prior written consent is obtained from the copyright owner (email request to: communications(at)coriell.org)."
         ],
-        "license-commentary": [],
         "contacts": [
             "communications@coriell.org"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "ctd",
@@ -152,18 +162,17 @@
         "data-categories": [
             "disease-gene association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://ctdbase.org/about/legal.jsp",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
+        "license-commentary": [
             "Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the MDI Biological Laboratory and NC State University."
         ],
-        "license-commentary": [],
         "contacts": [
             "http://ctdbase.org/help/contact.go"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "encode",
@@ -175,11 +184,10 @@
         "data-categories": [
             "genomic elements"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "https://www.genome.gov/10005107/#al-5",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [],
         "license-commentary": [
             "After 2014 policy: OK.",
             "2008-2014 policy: \"To facilitate this compromise between unrestricted use of the data and unavailability of the data until publication, NHGRI will promote observation of a 9-month period during which resource users may freely use the ENCODE/modENCODE data to design and carry out their own research programs, but not to submit publications or make public presentations that use unpublished ENCODE/modENCODE data without prior consent. The publication and presentation moratorium is expected to extend to all forms of public disclosure, including meeting abstracts, oral presentations, and formal electronic submissions to publicly accessible sites (e.g., public websites, web blogs). (NHGRI recognizes that there may be some exceptions to this blanket request; examples are discussed more fully below.)\""
@@ -187,7 +195,7 @@
         "contacts": [
             "https://www.genome.gov/10005049/questions-and-feedback/"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "fantom5",
@@ -200,7 +208,7 @@
         "data-categories": [
             "gene expression"
         ],
-        "data-links": [],
+        "data-access": [],
         "license": "CC-BY-4.0",
         "license-type": "permissive",
         "license-link": "http://fantom.gsc.riken.jp/5/",
@@ -220,18 +228,17 @@
         "data-categories": [
             "genotype-phenotype association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://flybase.org/wiki/FlyBase:About#FlyBase_Copyright",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
+        "license-commentary": [
             "This publication may be copied for non-commercial, scientific uses by individuals or organizations (including for-profit organizations). FlyBase is freely distributed to the scientific community on the understanding that it will not be used for commercial gain by any organization. Any commercial use of this publication, or any parts thereof, is expressly prohibited without permission in writing from the FlyBase consortium."
         ],
-        "license-commentary": [],
         "contacts": [
             "http://flybase.org/cgi-bin/mailto-fbhelp.html"
         ],
-        "grade": "ugly"
+        "grade": -1
     },
     {
         "id": "gtex",
@@ -243,25 +250,22 @@
         "data-categories": [
             "gene expression"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.gtexportal.org/home/documentationPage#staticTextPublicationPolicy",
-        "license-downstream-positive": [
-            "Pilot data set (phs000424.v3.p1) - acceptance of the “Ft. Lauderdale” principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.",
-            "May 8, 2015 - No restrictions - main manuscript published.",
-            "phs000424.v4.p1 - the dataset is subject to 9 months publication restriction starting from the date of the release; no restrictions after Jan 4, 2015."
-        ],
-        "license-downstream-negative": [
-            "All datasets from phs00424.v5.p1 forward will follow the NIH GDS policy. This means that once released through dbGaP, there are no restrictions on use or publication. This document and an accompanying table of dataset releases can be found at http://www.gtexportal.org/home/documentationPage.",
-            "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html"
-        ],
         "license-commentary": [
-            "Apparently, the data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html), which appears to be a well-thought out, but restrictive regime. The NIH GDS section V part B terms are quite restrictive."
+            "Apparently, the data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html), which appears to be a well-thought out, but restrictive regime. The NIH GDS section V part B terms are quite restrictive.",
+            "+Pilot data set (phs000424.v3.p1) - acceptance of the “Ft. Lauderdale” principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.",
+            "+May 8, 2015 - No restrictions - main manuscript published.",
+            "+phs000424.v4.p1 - the dataset is subject to 9 months publication restriction starting from the date of the release; no restrictions after Jan 4, 2015.",
+            "-All datasets from phs00424.v5.p1 forward will follow the NIH GDS policy. This means that once released through dbGaP, there are no restrictions on use or publication. This document and an accompanying table of dataset releases can be found at http://www.gtexportal.org/home/documentationPage.",
+            "-https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html"
         ],
         "contacts": [
             "http://www.gtexportal.org/home/contact"
         ],
-        "grade": "red"
+        "grade": -1
     },
     {
         "id": "hpo",
@@ -273,22 +277,20 @@
         "data-categories": [
             "disease-phenotype association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://human-phenotype-ontology.github.io/license.html",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "That the Human Phenotype Ontology Consortium is acknowledged and cited properly.",
-            "That neither the content of the HPO file(s) nor the logical relationships embedded within the HPO file(s) be altered in any way."
-        ],
         "license-commentary": [
             "immutability",
-            "unclear derivatives"
+            "unclear derivatives",
+            "+That the Human Phenotype Ontology Consortium is acknowledged and cited properly.",
+            "-That neither the content of the HPO file(s) nor the logical relationships embedded within the HPO file(s) be altered in any way."
         ],
         "contacts": [
             "http://human-phenotype-ontology.github.io/contact.html"
         ],
-        "grade": "yellow"
+        "grade": -1
     },
     {
         "id": "impc",
@@ -300,18 +302,17 @@
         "data-categories": [
             "genotype-phenotype association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.mousephenotype.org/about-impc/additional-information/data-use-agreement",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "When the first major Project paper on these analyses is published, then researchers inside and outside the Project are free to present and publish using the Project data for these and other analyses."
+        "license-commentary": [
+            "-When the first major Project paper on these analyses is published, then researchers inside and outside the Project are free to present and publish using the Project data for these and other analyses."
         ],
-        "license-commentary": [],
         "contacts": [
             "http://www.mousephenotype.org/contact-us"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "kegg",
@@ -325,20 +326,18 @@
             "disease-gene association",
             "orthology"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.kegg.jp/kegg/legal.html",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "Non-academic users and Academic users intending to use KEGG for commercial purposes are requested to obtain a license agreement through KEGG's exclusive licensing agent, Pathway Solutions, for installation of KEGG at their sites, for distribution or reselling of KEGG data, for software development or any other commercial activities that make use of KEGG, or as end users of any third-party application that requires downloading of KEGG data or access to KEGG data via the KEGG API."
-        ],
         "license-commentary": [
-            "Pathway Solutions here: http://www.pathway.jp/"
+            "Pathway Solutions here: http://www.pathway.jp/",
+            "-Non-academic users and Academic users intending to use KEGG for commercial purposes are requested to obtain a license agreement through KEGG\\'s exclusive licensing agent, Pathway Solutions, for installation of KEGG at their sites, for distribution or reselling of KEGG data, for software development or any other commercial activities that make use of KEGG, or as end users of any third-party application that requires downloading of KEGG data or access to KEGG data via the KEGG API."
         ],
         "contacts": [
             "http://www.genome.jp/feedback/"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "mgi",
@@ -352,46 +351,44 @@
             "disease-model association",
             "gene expression"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.informatics.jax.org/mgihome/other/copyright.shtml",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "This software and data are provided to enhance knowledge and encourage progress in the scientific community and are to be used only for research and educational purposes.",
-            "Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the Jackson Laboratory."
+        "license-commentary": [
+            "-This software and data are provided to enhance knowledge and encourage progress in the scientific community and are to be used only for research and educational purposes.",
+            "-Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the Jackson Laboratory."
         ],
-        "license-commentary": [],
         "contacts": [
             "http://www.informatics.jax.org/mgihome/support/mgi_inbox.shtml"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "mpd",
         "source": "Mouse Phenome Database (MPD)",
         "status": "incomplete",
-        "description": "The Mouse Phenome Database is a collaborative standardized collection of measured data on laboratory mouse strains, and includes: baseline phenotype data sets; studies of drug, diet, disease and aging effect; protocols, projects, and publications; and SNP, variation and gene expression studies. MPD collects data for classical inbred strains, other fixed-genotype strains, derived lines and populations that are openly acquirable (strain panel examples). Strains can be from JAX-Mice or from any other vendor that's a recognized breeding source.",
+        "description": "The Mouse Phenome Database is a collaborative standardized collection of measured data on laboratory mouse strains, and includes: baseline phenotype data sets; studies of drug, diet, disease and aging effect; protocols, projects, and publications; and SNP, variation and gene expression studies. MPD collects data for classical inbred strains, other fixed-genotype strains, derived lines and populations that are openly acquirable (strain panel examples). Strains can be from JAX-Mice or from any other vendor that\\'s a recognized breeding source.",
         "data-field": "biology",
         "data-type": "MOD",
         "data-categories": [
             "genotype (strain)-phenotype association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://phenome.jax.org/db/q?rtn=docs/termsofuse",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "MPD data contributors waive copyright and related rights, making their data freely available whereby MPD users may freely build upon, enhance and reuse those data for any purpose without restriction. Scholarly citation norms must be followed for content reuse.",
-            "The Jackson Laboratory's web site privacy policy applies to all use of this resource.",
-            "The Mouse Phenome Database (MPD) is an NIH-funded data sharing repository and adheres to the NIH Genomic Data Sharing Policy.",
-            "Any reproduction of JAX(R) Mice mouse images is prohibited without prior express written permission (see the JAX(R) Mice Terms of Use for details).",
-            "Data contributors and data users may not use MPD in any unlawful manner, or in any manner that would impair MPD's services, security or functionality. Automated usage (webcrawlers and similar) must observe each page's \"meta robots\" html tags and space requests by ≥ 2 seconds. We reserve the right to block violators and to take any other action as we deem necessary."
+        "license-commentary": [
+            "-MPD data contributors waive copyright and related rights, making their data freely available whereby MPD users may freely build upon, enhance and reuse those data for any purpose without restriction. Scholarly citation norms must be followed for content reuse.",
+            "-The Jackson Laboratory\\'s web site privacy policy applies to all use of this resource.",
+            "-The Mouse Phenome Database (MPD) is an NIH-funded data sharing repository and adheres to the NIH Genomic Data Sharing Policy.",
+            "-Any reproduction of JAX(R) Mice mouse images is prohibited without prior express written permission (see the JAX(R) Mice Terms of Use for details).",
+            "-Data contributors and data users may not use MPD in any unlawful manner, or in any manner that would impair MPD\\'s services, security or functionality. Automated usage (webcrawlers and similar) must observe each page\\'s \"meta robots\" html tags and space requests by ≥ 2 seconds. We reserve the right to block violators and to take any other action as we deem necessary."
         ],
-        "license-commentary": [],
         "contacts": [
             "phenome@jax.org"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "mygene-info",
@@ -403,19 +400,18 @@
         "data-categories": [
             "gene definition"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "TODO: http://docs.mygene.info/en/v3/terms.html vs. http://mygene.info/terms/",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.",
-            "Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights."
+        "license-commentary": [
+            "-You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.",
+            "-Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights."
         ],
-        "license-commentary": [],
         "contacts": [
             "help@mygene.info"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "ncbi-gene",
@@ -429,22 +425,19 @@
             "taxon definition",
             "gene-publication association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.ncbi.nlm.nih.gov/home/about/policies.shtml",
-        "license-downstream-positive": [
-            "Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment."
-        ],
-        "license-downstream-negative": [
-            "NOTE: This site contains resources which incorporate material contributed or licensed by individuals, companies, or organizations that may be protected by U.S. and foreign copyright laws. These include, but are not limited to PubMed Health (see PubMed Health Copyright and Restrictions Notice), PubMed Central (PMC) (see PMC Copyright Notice), Bookshelf (see Bookshelf Copyright Notice), OMIM (see OMIM Copyright Status), and PubChem. All persons reproducing, redistributing, or making commercial use of this information are expected to adhere to the terms and conditions asserted by the copyright holder. Transmission or reproduction of protected items beyond that allowed by fair use (PDF) as defined in the copyright laws requires the written permission of the copyright owners."
-        ],
         "license-commentary": [
-            "TODO: Need to square the reuse on non-PD information."
+            "TODO: Need to square the reuse on non-PD information.",
+            "+Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment.",
+            "-NOTE: This site contains resources which incorporate material contributed or licensed by individuals, companies, or organizations that may be protected by U.S. and foreign copyright laws. These include, but are not limited to PubMed Health (see PubMed Health Copyright and Restrictions Notice), PubMed Central (PMC) (see PMC Copyright Notice), Bookshelf (see Bookshelf Copyright Notice), OMIM (see OMIM Copyright Status), and PubChem. All persons reproducing, redistributing, or making commercial use of this information are expected to adhere to the terms and conditions asserted by the copyright holder. Transmission or reproduction of protected items beyond that allowed by fair use (PDF) as defined in the copyright laws requires the written permission of the copyright owners."
         ],
         "contacts": [
             "info@ncbi.nlm.nih.gov"
         ],
-        "grade": "gold"
+        "grade": -1
     },
     {
         "id": "omia",
@@ -456,19 +449,16 @@
         "data-categories": [
             "gene-disease association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://sydney.edu.au/disclaimer.html",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "Individuals may copy a reasonable portion of the material on this site under the fair dealing provisions of the Copyright Act 1968 provided it is used for research or study or for criticism or review. Educational institutions may reproduce limited amounts of material from this site under Part VB of the Copyright Act",
-            "Apart from these specified uses material from this site may not be reproduced for commercial purposes without prior written permission of the University of Sydney."
+        "license-commentary": [
+            "-Individuals may copy a reasonable portion of the material on this site under the fair dealing provisions of the Copyright Act 1968 provided it is used for research or study or for criticism or review. Educational institutions may reproduce limited amounts of material from this site under Part VB of the Copyright Act",
+            "-Apart from these specified uses material from this site may not be reproduced for commercial purposes without prior written permission of the University of Sydney."
         ],
-        "license-commentary": [],
-        "contacts": [
-            ""
-        ],
-        "grade": "undetermined"
+        "contacts": [],
+        "grade": -1
     },
     {
         "id": "omim",
@@ -482,18 +472,17 @@
             "gene-disease association",
             "variant-disease association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.omim.org/help/agreement",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "Use of OMIM.org is provided free of charge to any individual for personal use, for educational or scholarly use, or for research purposes through the front end of the database."
+        "license-commentary": [
+            "-Use of OMIM.org is provided free of charge to any individual for personal use, for educational or scholarly use, or for research purposes through the front end of the database."
         ],
-        "license-commentary": [],
         "contacts": [
             "ahamosh@jhmi.edu"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "orphanet",
@@ -507,19 +496,18 @@
             "disease-phenotype association",
             "ontology"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=EN&stapage=CGU",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.",
-            "Non-profit organisations are authorised to copy and distribute information from the site, as long as this information is neither modified nor sold. In addition to this, the terms of the intellectual property rights and the source of the information must be provided."
+        "license-commentary": [
+            "-No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.",
+            "-Non-profit organisations are authorised to copy and distribute information from the site, as long as this information is neither modified nor sold. In addition to this, the terms of the intellectual property rights and the source of the information must be provided."
         ],
-        "license-commentary": [],
         "contacts": [
             "contact.orphanet@inserm.fr"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "panther",
@@ -531,11 +519,10 @@
         "data-categories": [
             "orthology"
         ],
-        "data-links": [],
+        "data-access": [],
+        "license": "unknown",
         "license-type": "ARR",
         "license-link": "http://pantherdb.org/terms/disclaimer.jsp ?",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [],
         "license-commentary": [
             "TODO: Reach out to Paul--according to the site he is the sole copyright holder. Considering the disclaimer, I believe the intention is something BSD-ish, but the literal read is all right reserved."
         ],
@@ -543,7 +530,7 @@
             "feedback@pantherdb.org",
             "pdthomas@usc.edu"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "reactome",
@@ -555,20 +542,22 @@
         "data-categories": [
             "pathway data"
         ],
-        "data-links": [
-            "http://www.reactome.org/pages/download-data/"
+        "data-access": [
+            {
+                "type": "download",
+                "location": "http://www.reactome.org/pages/download-data/"
+            }
         ],
-        "license-type": "CC4",
+        "license": "CC-BY-4.0",
+        "license-type": "permissive",
         "license-link": "http://www.reactome.org/pages/about/license-agreement/",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [],
         "license-commentary": [
             "There is a comment in there about KEGG data in Reactome. Thus Reactome FI Network data is not available."
         ],
         "contacts": [
             "help@reactome.org"
         ],
-        "grade": "gold"
+        "grade": -1
     },
     {
         "id": "wormbase",
@@ -580,20 +569,18 @@
         "data-categories": [
             "allele-phenotype association"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://www.wormbase.org/about/policies#0--10",
-        "license-downstream-positive": [
-            "In consideration of other users, we request that any script -- whether it be mining the web interface or directly interacting with the underlying databases -- send no more than one request every three seconds."
-        ],
-        "license-downstream-negative": [],
         "license-commentary": [
-            "This has to do with hitting their servers to much and being too big a load; this may not apply."
+            "This has to do with hitting their servers to much and being too big a load; this may not apply.",
+            "+In consideration of other users, we request that any script -- whether it be mining the web interface or directly interacting with the underlying databases -- send no more than one request every three seconds."
         ],
         "contacts": [
             "help@wormbase.org"
         ],
-        "grade": "undetermined"
+        "grade": -1
     },
     {
         "id": "zfin",
@@ -606,17 +593,16 @@
             "genotype-phenotype association",
             "experimental reagents (morpholinos)"
         ],
-        "data-links": [],
-        "license-type": "undetermined",
+        "data-access": [],
+        "license": "unknown",
+        "license-type": "unknown",
         "license-link": "http://zfin.org/warranty.html",
-        "license-downstream-positive": [],
-        "license-downstream-negative": [
-            "ZFIN Software and Data are provided to enhance knowledge and encourage progress in the scientific community, and are to be used only for research and educational purposes. ZFIN reserves all rights not expressly granted. Further, ZFIN retains all rights, title, and interest in and to the Software and Data. Any reproduction or use for a commercial purpose is prohibited without the prior express written permission of ZFIN. Distribution of the Software or Data to any third party, without a separate written agreement with ZFIN, is prohibited."
+        "license-commentary": [
+            "-ZFIN Software and Data are provided to enhance knowledge and encourage progress in the scientific community, and are to be used only for research and educational purposes. ZFIN reserves all rights not expressly granted. Further, ZFIN retains all rights, title, and interest in and to the Software and Data. Any reproduction or use for a commercial purpose is prohibited without the prior express written permission of ZFIN. Distribution of the Software or Data to any third party, without a separate written agreement with ZFIN, is prohibited."
         ],
-        "license-commentary": [],
         "contacts": [
             "jknight@zfin.org"
         ],
-        "grade": "undetermined"
+        "grade": -1
     }
 ]
