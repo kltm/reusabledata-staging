@@ -72,7 +72,7 @@ mapping:
     required: yes
   ## The type of license that is being used.
   ## If you do not know, enter "TODO".
-  ## E.g. "unknown", "copyleft", "permissive", "copyright", etc.?
+  ## E.g. "unknown", "copyleft", "permissive", "copyright", "restrictive", etc.?
   "license-type":
     type: str
     required: yes
