@@ -20,4 +20,4 @@ contacts:
     - Bgee@isb-sib.ch
 grade: 4
 license-issues:
-    - {criteria: D, comment: 'By using the GPLv3, there may be issues in mixing and redistributing this data with licenses that have incompatible terms.'}
+    - {criteria: D.1.2, comment: 'By using the GPLv3, there may be issues in mixing and redistributing this data with licenses that have incompatible terms.'}
