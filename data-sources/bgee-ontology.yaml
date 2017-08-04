@@ -3,8 +3,8 @@ source: 'BGee (ontology)'
 source-link: 'http://bgee.org'
 status: complete
 description: 'Bgee is a database to retrieve and compare gene expression patterns in multiple animal species, produced from multiple data types (RNA-Seq, Affymetrix, in situ hybridization, and EST data).'
-data-field: x-species
-data-type: mouse
+data-field: 'biomedical'
+data-type: 'expression data'
 data-categories:
     - ontology
 data-access:
