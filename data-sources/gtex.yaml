@@ -6,18 +6,17 @@ data-field: biology
 data-type: human
 data-categories:
     - 'gene expression'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://www.gtexportal.org/home/documentationPage#staticTextPublicationPolicy'
-license-downstream-positive:
-    - 'Pilot data set (phs000424.v3.p1) - acceptance of the “Ft. Lauderdale” principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.'
-    - 'May 8, 2015 - No restrictions - main manuscript published.'
-    - 'phs000424.v4.p1 - the dataset is subject to 9 months publication restriction starting from the date of the release; no restrictions after Jan 4, 2015.'
-license-downstream-negative:
-    - 'All datasets from phs00424.v5.p1 forward will follow the NIH GDS policy. This means that once released through dbGaP, there are no restrictions on use or publication. This document and an accompanying table of dataset releases can be found at http://www.gtexportal.org/home/documentationPage.'
-    - 'https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html'
 license-commentary:
     - 'Apparently, the data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html), which appears to be a well-thought out, but restrictive regime. The NIH GDS section V part B terms are quite restrictive.'
+    - '+Pilot data set (phs000424.v3.p1) - acceptance of the “Ft. Lauderdale” principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.'
+    - '+May 8, 2015 - No restrictions - main manuscript published.'
+    - '+phs000424.v4.p1 - the dataset is subject to 9 months publication restriction starting from the date of the release; no restrictions after Jan 4, 2015.'
+    - '-All datasets from phs00424.v5.p1 forward will follow the NIH GDS policy. This means that once released through dbGaP, there are no restrictions on use or publication. This document and an accompanying table of dataset releases can be found at http://www.gtexportal.org/home/documentationPage.'
+    - '-https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html'
 contacts:
     - 'http://www.gtexportal.org/home/contact'
-grade: red
+grade: -1

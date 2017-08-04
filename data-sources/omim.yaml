@@ -8,13 +8,12 @@ data-categories:
     - 'disease-phenotype association'
     - 'gene-disease association'
     - 'variant-disease association'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://www.omim.org/help/agreement'
-license-downstream-positive: []
-license-downstream-negative:
-    - 'Use of OMIM.org is provided free of charge to any individual for personal use, for educational or scholarly use, or for research purposes through the front end of the database.'
-license-commentary: []
+license-commentary:
+    - '-Use of OMIM.org is provided free of charge to any individual for personal use, for educational or scholarly use, or for research purposes through the front end of the database.'
 contacts:
     - ahamosh@jhmi.edu
-grade: undetermined
+grade: -1

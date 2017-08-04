@@ -8,14 +8,13 @@ data-categories:
     - 'disease-gene association'
     - 'disease-phenotype association'
     - ontology
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=EN&stapage=CGU'
-license-downstream-positive: []
-license-downstream-negative:
-    - 'No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.'
-    - 'Non-profit organisations are authorised to copy and distribute information from the site, as long as this information is neither modified nor sold. In addition to this, the terms of the intellectual property rights and the source of the information must be provided.'
-license-commentary: []
+license-commentary:
+    - '-No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.'
+    - '-Non-profit organisations are authorised to copy and distribute information from the site, as long as this information is neither modified nor sold. In addition to this, the terms of the intellectual property rights and the source of the information must be provided.'
 contacts:
     - contact.orphanet@inserm.fr
-grade: undetermined
+grade: -1

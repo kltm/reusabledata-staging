@@ -6,14 +6,12 @@ data-field: biology
 data-type: 'veterinary x-species'
 data-categories:
     - 'gene-disease association'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://sydney.edu.au/disclaimer.html'
-license-downstream-positive: []
-license-downstream-negative:
-    - 'Individuals may copy a reasonable portion of the material on this site under the fair dealing provisions of the Copyright Act 1968 provided it is used for research or study or for criticism or review. Educational institutions may reproduce limited amounts of material from this site under Part VB of the Copyright Act'
-    - 'Apart from these specified uses material from this site may not be reproduced for commercial purposes without prior written permission of the University of Sydney.'
-license-commentary: []
-contacts:
-    - ""
-grade: undetermined
+license-commentary:
+    - '-Individuals may copy a reasonable portion of the material on this site under the fair dealing provisions of the Copyright Act 1968 provided it is used for research or study or for criticism or review. Educational institutions may reproduce limited amounts of material from this site under Part VB of the Copyright Act'
+    - '-Apart from these specified uses material from this site may not be reproduced for commercial purposes without prior written permission of the University of Sydney.'
+contacts: []
+grade: -1

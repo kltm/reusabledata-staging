@@ -8,14 +8,13 @@ data-categories:
     - 'genotype-phenotype association'
     - 'disease-model association'
     - 'gene expression'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://www.informatics.jax.org/mgihome/other/copyright.shtml'
-license-downstream-positive: []
-license-downstream-negative:
-    - 'This software and data are provided to enhance knowledge and encourage progress in the scientific community and are to be used only for research and educational purposes.'
-    - 'Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the Jackson Laboratory.'
-license-commentary: []
+license-commentary:
+    - '-This software and data are provided to enhance knowledge and encourage progress in the scientific community and are to be used only for research and educational purposes.'
+    - '-Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the Jackson Laboratory.'
 contacts:
     - 'http://www.informatics.jax.org/mgihome/support/mgi_inbox.shtml'
-grade: undetermined
+grade: -1

@@ -1,30 +1,23 @@
 id: bgee-ontology
-source: BGee (ontology)
-source-link: http://bgee.org
+source: 'BGee (ontology)'
+source-link: 'http://bgee.org'
 status: complete
 description: 'Bgee is a database to retrieve and compare gene expression patterns in multiple animal species, produced from multiple data types (RNA-Seq, Affymetrix, in situ hybridization, and EST data).'
 data-field: x-species
 data-type: mouse
 data-categories:
-    - 'ontology'
+    - ontology
 data-access:
-  - label: CIO
-    type: download
-    location: 'https://github.com/BgeeDB/confidence-information-ontology'
-  - label: HO
-    type: download
-    location: 'https://github.com/BgeeDB/homology-ontology'
-  - label: ASA
-    type: download
-    location: 'https://github.com/BgeeDB/anatomical-similarity-annotations'
+    - {label: CIO, type: download, location: 'https://github.com/BgeeDB/confidence-information-ontology'}
+    - {label: HO, type: download, location: 'https://github.com/BgeeDB/homology-ontology'}
+    - {label: ASA, type: download, location: 'https://github.com/BgeeDB/anatomical-similarity-annotations'}
+license: GPL-3.0
 license-type: copyleft
-license:  GPL-3.0
-license-link: https://github.com/BgeeDB/
+license-link: 'https://github.com/BgeeDB/'
 license-commentary:
     - 'It is somewhat unclear, but apparently all ontology data is under the listed GNU GPL v.3.0; this may be problematic for some types of reuse.'
 contacts:
     - Bgee@isb-sib.ch
-grade: 4.0
+grade: 4
 license-issues:
-  - criteria: D
-    comment: "By using the GPLv3, there may be issues in mixing and redistributing this data with licenses that have incompatible terms."
+    - {criteria: D, comment: 'By using the GPLv3, there may be issues in mixing and redistributing this data with licenses that have incompatible terms.'}

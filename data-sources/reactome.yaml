@@ -6,14 +6,14 @@ data-field: biology
 data-type: 'pathway x-species'
 data-categories:
     - 'pathway data'
-data-links:
-    - 'http://www.reactome.org/pages/download-data/'
-license-type: CC4
+data-access:
+    - type: download
+      location: 'http://www.reactome.org/pages/download-data/'
+license: CC-BY-4.0
+license-type: permissive
 license-link: 'http://www.reactome.org/pages/about/license-agreement/'
-license-downstream-positive: []
-license-downstream-negative: []
 license-commentary:
     - 'There is a comment in there about KEGG data in Reactome. Thus Reactome FI Network data is not available.'
 contacts:
     - help@reactome.org
-grade: gold
+grade: -1

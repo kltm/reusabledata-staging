@@ -6,16 +6,15 @@ data-field: biology
 data-type: human
 data-categories:
     - 'disease-phenotype association'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://human-phenotype-ontology.github.io/license.html'
-license-downstream-positive: []
-license-downstream-negative:
-    - 'That the Human Phenotype Ontology Consortium is acknowledged and cited properly.'
-    - 'That neither the content of the HPO file(s) nor the logical relationships embedded within the HPO file(s) be altered in any way.'
 license-commentary:
     - immutability
     - 'unclear derivatives'
+    - '+That the Human Phenotype Ontology Consortium is acknowledged and cited properly.'
+    - '-That neither the content of the HPO file(s) nor the logical relationships embedded within the HPO file(s) be altered in any way.'
 contacts:
     - 'http://human-phenotype-ontology.github.io/contact.html'
-grade: yellow
+grade: -1

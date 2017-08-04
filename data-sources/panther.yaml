@@ -6,14 +6,13 @@ data-field: biology
 data-type: 'genomic resource'
 data-categories:
     - orthology
-data-links: []
+data-access: []
+license: unknown
 license-type: ARR
 license-link: 'http://pantherdb.org/terms/disclaimer.jsp ?'
-license-downstream-positive: []
-license-downstream-negative: []
 license-commentary:
     - 'TODO: Reach out to Paul--according to the site he is the sole copyright holder. Considering the disclaimer, I believe the intention is something BSD-ish, but the literal read is all right reserved.'
 contacts:
     - feedback@pantherdb.org
     - pdthomas@usc.edu
-grade: undetermined
+grade: -1

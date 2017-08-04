@@ -6,14 +6,13 @@ data-field: biology
 data-type: 'genomic resource'
 data-categories:
     - 'genomic elements'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'https://www.genome.gov/10005107/#al-5'
-license-downstream-positive: []
-license-downstream-negative: []
 license-commentary:
     - 'After 2014 policy: OK.'
     - '2008-2014 policy: "To facilitate this compromise between unrestricted use of the data and unavailability of the data until publication, NHGRI will promote observation of a 9-month period during which resource users may freely use the ENCODE/modENCODE data to design and carry out their own research programs, but not to submit publications or make public presentations that use unpublished ENCODE/modENCODE data without prior consent. The publication and presentation moratorium is expected to extend to all forms of public disclosure, including meeting abstracts, oral presentations, and formal electronic submissions to publicly accessible sites (e.g., public websites, web blogs). (NHGRI recognizes that there may be some exceptions to this blanket request; examples are discussed more fully below.)"'
 contacts:
     - 'https://www.genome.gov/10005049/questions-and-feedback/'
-grade: undetermined
+grade: -1

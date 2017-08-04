@@ -6,13 +6,12 @@ data-field: biology
 data-type: mouse
 data-categories:
     - 'genotype-phenotype association'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'http://www.mousephenotype.org/about-impc/additional-information/data-use-agreement'
-license-downstream-positive: []
-license-downstream-negative:
-    - 'When the first major Project paper on these analyses is published, then researchers inside and outside the Project are free to present and publish using the Project data for these and other analyses.'
-license-commentary: []
+license-commentary:
+    - '-When the first major Project paper on these analyses is published, then researchers inside and outside the Project are free to present and publish using the Project data for these and other analyses.'
 contacts:
     - 'http://www.mousephenotype.org/contact-us'
-grade: undetermined
+grade: -1

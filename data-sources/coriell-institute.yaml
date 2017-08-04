@@ -6,13 +6,12 @@ data-field: biology
 data-type: human
 data-categories:
     - 'disease-model association'
-data-links: []
-license-type: undetermined
+data-access: []
+license: unknown
+license-type: unknown
 license-link: 'https://www.coriell.org/legal-notice'
-license-downstream-positive: []
-license-downstream-negative:
+license-commentary:
     - 'Material on the Coriell Institute website is protected by copyright law. Unless otherwise stated, users may print or download information from this site for personal, non-commercial use only, provided they identify the source of the material (Coriell Institute for Medical Research) and include a statement that the materials are protected by copyright law. Permission to reprint or otherwise reproduce any document in whole or in part is prohibited, unless prior written consent is obtained from the copyright owner (email request to: communications(at)coriell.org).'
-license-commentary: []
 contacts:
     - communications@coriell.org
-grade: undetermined
+grade: -1
