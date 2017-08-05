@@ -8,7 +8,9 @@ data-categories:
     - 'disease-gene association'
     - 'variant-disease association'
     - 'variant definitions'
-data-access: [https://www.ncbi.nlm.nih.gov/clinvar/docs/ftp_primer/]
+data-access: 
+    - type: download
+      url: https://www.ncbi.nlm.nih.gov/clinvar/docs/ftp_primer/
 license: unknown
 license-type: 'public domain'
 license-link: 'http://www.ncbi.nlm.nih.gov/clinvar/docs/maintenance_use/'
