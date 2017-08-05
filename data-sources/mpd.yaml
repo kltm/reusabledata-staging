@@ -8,13 +8,13 @@ data-categories:
     - 'genotype (strain)-phenotype association'
 data-access:
     - type: downloads
-      url: http://phenome.jax.org/downloads
+      location: http://phenome.jax.org/downloads
 license: custom
 license-type: permissive
 license-link: 'http://phenome.jax.org/about/termsofuse'
 license-issues:
     - criteria: A.2
-      commentary: Custom license, yet consistent.
+      comment: Custom license, yet consistent.
 license-commentary:
     - '-MPD data contributors waive copyright and related rights, making their data freely available whereby MPD users may freely build upon, enhance and reuse those data for any purpose without restriction. Scholarly citation norms must be followed for content reuse.'
     - "-The Jackson Laboratory\'s web site privacy policy applies to all use of this resource."
