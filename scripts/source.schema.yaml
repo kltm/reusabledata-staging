@@ -93,7 +93,7 @@ mapping:
     sequence:
       - type: map
         mapping:
-          ## The criteria violated. E.g. "A2", "D".
+          ## The criteria violated. E.g. "A.1.1", "D.2".
           "criteria":
             type: str
             required: yes
