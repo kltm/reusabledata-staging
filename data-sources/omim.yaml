@@ -12,19 +12,27 @@ data-access:
     - {type: api, location: 'https://omim.org/api'}
     - {type: download, location: 'https://omim.org/downloads/'}
 license: unknown
-license-type: unknown
-license-link: 'http://www.omim.org/help/agreement'
+license-type: restrictive
+license-link: 'http://www.omim.org/help/agreement, https://omim.org/downloads/'
+license-issues:
+    - criteria: A.1 
+      commentary: There are different licenses for different portions of the data, and for different types of users.
+    - criteria: A.2
+      commentary: Custom license with use restrictions.
+    - criteria: B.1
+      commentary: Research and educational use of OMIM is encouraged, and single-user academic, non-profit, and governmental agencies can register below for access without a license. For-profit companies or anyone planning to redisplay or incorporate OMIM data into software MUST secure a license to obtain access to these files.
+    - criteria: B.2
+      commentary: Yes, the license appears to apply to all the data and the data is singly licensed, half star
+    - criteria: C.1
+      commentary: Yes the data is available at an API, half star
+    - criteria: D.1
+      commentary: 
+    - criteria: E.1.1
+      commentary: Without negotiation: "It is to be used only for research and educational purposes."
+      
 license-commentary:
-    - 'From https://omim.org/downloads/: Research and educational use of OMIM is encouraged, and single-user academic, non-profit, and governmental agencies can register below for access without a license. For-profit companies or anyone planning to redisplay or incorporate OMIM data into software MUST secure a license to obtain access to these files.'
     - 'From https://omim.org/help/agreement: This Use Agreement applies to any individual, institution, or organization that uses OMIM.org through its front end, including its mirror sites, the OMIM.org API, or downloads of OMIM data from the site. By accessing and using OMIM you agree to be bound by all the terms and conditions set forth in this USE AGREEMENT. This USE AGREEMENT shall constitute a legally binding agreement between the user and Johns Hopkins University (hereinafter “JHU”).'
     - 'From https://omim.org/help/copyright: The OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.'
-    - 'evaluation comments:'
-    - 'A.1) Does the resource have a single license? No, there are different licenses for different portions of the data, and for different types of users.'
-    - 'A.2) Does the resource use a standard license? No. B.1) Is the license free of any language that explicitly requires negotiation? No.'
-    - 'B.2) Is the scoping of the license complete? Yes, half star. C.1) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single action, at an API endpoint or URL? Yes, half star'
-    - 'C.2) Does the resource provide a “reasonable and transparent” method of obtaining access to all APIs or URLs outlined above? Yes, half star.'
-    - 'D.1) Are different types of downstream reuse distinguished as allowable or as forbidden? No.'
-    - 'E.1) Are different types of person groups or “agents” distinguished? Yes.
   
 contacts:
     - JHTT-Communications@jhmi.edu
