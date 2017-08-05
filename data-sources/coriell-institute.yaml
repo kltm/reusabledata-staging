@@ -1,6 +1,7 @@
 id: coriell-institute
 source: 'Coriell Institute for Medical Research'
-status: incomplete
+source-link: https://coriell.org/
+status: complete
 description: 'The Coriell Cell Repositories provide essential research reagents to the scientific community by establishing, verifying, maintaining, and distributing cell cultures and DNA derived from cell cultures. These collections, supported by funds from the National Institutes of Health (NIH) and several foundations, are extensively utilized by research scientists around the world. NINDS and NIGMS cell line catalog. NIGMS samples represent a variety of disease states, chromosomal abnormalities, apparently healthy individuals and many distinct human populations. NINDS samples are drawn from subjects with cerebrovascular disease, epilepsy, motor neuron disease, Parkinsonism and Tourette Syndrome, as well as controls.'
 data-field: biology
 data-type: human
@@ -10,8 +11,17 @@ data-access: []
 license: unknown
 license-type: unknown
 license-link: 'https://www.coriell.org/legal-notice'
+license-issues:
+    - criteria: A.1.2
+      comment: See license commentary.
+    - criteria: C.1
+      comment: No on-site data.
+    - criteria: C.2
+      comment: No on-site data.
 license-commentary:
-    - 'Material on the Coriell Institute website is protected by copyright law. Unless otherwise stated, users may print or download information from this site for personal, non-commercial use only, provided they identify the source of the material (Coriell Institute for Medical Research) and include a statement that the materials are protected by copyright law. Permission to reprint or otherwise reproduce any document in whole or in part is prohibited, unless prior written consent is obtained from the copyright owner (email request to: communications(at)coriell.org).'
+    - 'After searching, https://coriell.org, https://catalog.coriell.org, and (for example) https://catalog.coriell.org/1/NHGRI, we could find no information on a publicly available data resource beyond Excel spreadsheets.'
+    - 'For example, from https://catalog.coriell.org/1/NHGRI/FAQs : The NHGRI Repository at Coriell is the sample repository for the International HapMap Project and the 1000 Genomes Project. We provide cell lines and DNA, but do not house the data for these projects. Data associated with these samples can be found at the following project websites...'
+    - 'This resource has no stars due to no data, possibly due to Coriell not actually being a proper upstream data resource; this doesn not reflect the main work or Coriell.'
 contacts:
     - communications@coriell.org
-grade: -1
+grade: 0
