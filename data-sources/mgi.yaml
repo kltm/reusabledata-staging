@@ -10,15 +10,15 @@ data-categories:
     - 'gene expression'
 data-access:
     - type: download
-      url: 'http://www.informatics.jax.org/downloads/reports/index.html'
+      location: 'http://www.informatics.jax.org/downloads/reports/index.html'
 license: custom
 license-type: custom
 license-link: 'http://www.informatics.jax.org/mgihome/other/copyright.shtml'
 license-issues:
     - criteria: A.2
-      commentary: Custom license.
+      comment: Custom license.
     - criteria: E.1.1
-      commentary: distinguishes groups, allowing for research/academic. Commercial groups can negotiate.
+      comment: distinguishes groups, allowing for research/academic. Commercial groups can negotiate.
 license-commentary:
     - '-This software and data are provided to enhance knowledge and encourage progress in the scientific community and are to be used only for research and educational purposes.'
     - '-Any reproduction or use for commercial purpose is prohibited without the prior express written permission of the Jackson Laboratory.'
