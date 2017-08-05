@@ -30,7 +30,7 @@ license-issues:
 license-comment:
     - 'See also: https://omim.org/downloads/"
     - "From https://omim.org/help/agreement: This Use Agreement applies to any individual, institution, or organization that uses OMIM.org through its front end, including its mirror sites, the OMIM.org API, or downloads of OMIM data from the site. By accessing and using OMIM you agree to be bound by all the terms and conditions set forth in this USE AGREEMENT. This USE AGREEMENT shall constitute a legally binding agreement between the user and Johns Hopkins University (hereinafter \"JHU\")."
-    - 'From https://omim.org/help/copyright: The OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.'
+    - "From https://omim.org/help/copyright: The OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto."
 contacts:
     - JHTT-Communications@jhmi.edu
 grade: 1
