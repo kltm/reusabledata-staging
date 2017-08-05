@@ -37,7 +37,7 @@ function _die(m1, m2){
 	console.error('ERROR:', m1);
     }
     process.exit(-1);
-}
+} 
 
 ///
 /// Opts.
