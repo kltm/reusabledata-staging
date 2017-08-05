@@ -7,19 +7,25 @@ data-type: 'genomic resource'
 data-categories:
     - 'gene-pathway association'
     - 'disease-gene association'
-    - orthology
-data-access: []
-license: copyright, academic license, commercial license
-license-type: custom
+    - 'orthology'
+data-access:
+    - type: FTP
+      location: http://www.kegg.jp/kegg/download/
+license: custom
+license-type: restrictive
 license-link: 'http://www.kegg.jp/kegg/legal.html'
+license-issues:
+    - criteria: A.1
+      comment: Has multiple licenses (which are kind of hard to find).
+    - criteria: B.1
+      comment: Needs negotiation.
+    - criteria: D
+      comment: Does not explicitly allow re-use, just use.
+    - criteria: E.1.1
+      comment: Certain groups are forbidden, but academic can use data
 license-commentary:
     - 'Pathway Solutions here: http://www.pathway.jp/'
     - "-Non-academic users and Academic users intending to use KEGG for commercial purposes are requested to obtain a license agreement through KEGG\'s exclusive licensing agent, Pathway Solutions, for installation of KEGG at their sites, for distribution or reselling of KEGG data, for software development or any other commercial activities that make use of KEGG, or as end users of any third-party application that requires downloading of KEGG data or access to KEGG data via the KEGG API."
-    - Fails A.1 b/c has multiple licenses (which are kind of hard to find). Passes(?) A.2: Maybe has a “Standard license”? Has a “copyright”
-    - Fails B.1 - needs negotiation. Passes B.2
-    - Pass C.1, maybe pass C.2?  The access process is documented, but seems very complicated & you have to $$ for it (which doesn’t seem “reasonable” to me)
-    - Passes D.1.1 - certain use is forbidden, but academic can (re)use data
-    - Passes E.1.1 - certain groups are forbidden, but academic can (re)use data
 contacts:
     - 'http://www.genome.jp/feedback/'
 grade: 2.5
