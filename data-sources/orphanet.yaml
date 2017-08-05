@@ -2,15 +2,19 @@ id: orphanet
 source: ORPHANET
 status: incomplete
 description: 'Orphanet provides reference information on rare diseases and orphan drugs to help improve the diagnosis, care and treatment of patients with rare diseases.'
-data-field: biology
+data-field: biomedical
 data-type: human
 data-categories:
     - 'disease-gene association'
     - 'disease-phenotype association'
-    - ontology
-data-access: []
-license: unknown
-license-type: unknown
+    - 'disease classification'
+    - 'ontology'
+data-access: 
+    - {type: download. location: 'http://www.orphadata.org/cgi-bin/index.php/'}
+    - {type: SPARQL endpoint, location: 'http://www.orpha.net/sparql'}
+    
+license: https://creativecommons.org/licenses/by-nd/3.0/
+license-type: restrictive
 license-link: 'http://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=EN&stapage=CGU'
 license-commentary:
     - '-No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.'
