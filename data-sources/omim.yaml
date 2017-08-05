@@ -16,23 +16,21 @@ license-type: restrictive
 license-link: 'http://www.omim.org/help/agreement'
 license-issues:
     - criteria: A.1 
-      commentary: There are different licenses for different portions of the data, and for different types of users.
+      comment: There are different licenses for different portions of the data, and for different types of users.
     - criteria: A.2
-      commentary: Custom license with use restrictions.
+      comment: Custom license with use restrictions.
     - criteria: B.1
-      commentary: Research and educational use of OMIM is encouraged, and single-user academic, non-profit, and governmental agencies can register below for access without a license. For-profit companies or anyone planning to redisplay or incorporate OMIM data into software MUST secure a license to obtain access to these files.
+      comment: Research and educational use of OMIM is encouraged, and single-user academic, non-profit, and governmental agencies can register below for access without a license. For-profit companies or anyone planning to redisplay or incorporate OMIM data into software MUST secure a license to obtain access to these files.
     - criteria: C.1
-      commentary: The data is only available after registering
+      comment: The data is only available after registering
     - criteria: D.1
-      commentary: Research and educational use of OMIM is encouraged, and single-user academic, non-profit, and governmental agencies can register below for access to the following files without a license.
+      comment: Research and educational use of OMIM is encouraged, and single-user academic, non-profit, and governmental agencies can register below for access to the following files without a license.
     - criteria: E.1.1
-      commentary: For-profit companies or anyone planning to redisplay or incorporate OMIM data into software MUST secure a license to obtain access to these files.
-      
+      comment: For-profit companies or anyone planning to redisplay or incorporate OMIM data into software MUST secure a license to obtain access to these files.      
 license-comment:
     - 'See also: https://omim.org/downloads/"
     - 'From https://omim.org/help/agreement: This Use Agreement applies to any individual, institution, or organization that uses OMIM.org through its front end, including its mirror sites, the OMIM.org API, or downloads of OMIM data from the site. By accessing and using OMIM you agree to be bound by all the terms and conditions set forth in this USE AGREEMENT. This USE AGREEMENT shall constitute a legally binding agreement between the user and Johns Hopkins University (hereinafter “JHU”).'
     - 'From https://omim.org/help/copyright: The OMIM® database including the collective data contained therein is the property of the Johns Hopkins University, which holds the copyright thereto.'
-  
 contacts:
     - JHTT-Communications@jhmi.edu
 grade: 1
