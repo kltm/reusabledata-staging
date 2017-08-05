@@ -10,7 +10,7 @@ data-categories:
     - 'gene expression'
 data-access:
     - type: download
-      location: 'http://www.informatics.jax.org/downloads/reports/index.html'
+      location: http://www.informatics.jax.org/downloads/reports/index.html
 license: custom
 license-type: custom
 license-link: 'http://www.informatics.jax.org/mgihome/other/copyright.shtml'
