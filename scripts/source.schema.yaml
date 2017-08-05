@@ -70,9 +70,11 @@ mapping:
   "license":
     type: str
     required: yes
-  ## The type of license that is being used.
+  ## The type of license that is being used. This will be to define
+  ## compatible data pools in the future, only the grossest terms now.
   ## If you do not know, enter "TODO".
-  ## E.g. "unknown", "copyleft", "permissive", "copyright", "restrictive", etc.?
+  ## E.g. "unknown", "copyleft", "permissive", "public domain",
+  ## "copyright", "restrictive", etc.?
   "license-type":
     type: str
     required: yes
