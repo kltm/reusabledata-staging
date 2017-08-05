@@ -6,7 +6,7 @@ data-field: biology
 data-type: x-species
 data-categories:
     - 'protein-protein interaction'
-data-access: []
+data-access: [https://thebiogrid.org/download.php]
 license: unknown
 license-type: unknown
 license-link: 'http://wiki.thebiogrid.org/doku.php/terms_and_conditions'
@@ -17,4 +17,8 @@ license-commentary:
     - 'Our designated agent to receive notification of claimed infringement is:  Mr. Terry Donaghue Director Technology Transfer and Industrial Liason 600 University Avenue Toronto, ON, Canada donaghue@mshri.on.ca TEL: 416-586-8225 FAX: 416-586-3110'
 contacts:
     - biogridadmin@gmail.com
-grade: -1
+grade: 2
+    - {criteria: A.2, comment: 'neither "All rights reserved", nor "copyright" are mentioned, ergo custom'}
+    - {criteria: B.2.1, comment: 'Rights stay with original submitter.'}
+    - {criteria: D.1.1}
+    - {criteria: E.1.1}
