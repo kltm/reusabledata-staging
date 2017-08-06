@@ -100,7 +100,7 @@ In the case that a resource holds multiple kinds of content (software, ontologie
     - No, all types of person groups or “agents” are allowed without negotiation, allowing for “reasonable” attribution and redistribution restrictions (e.g. CC BY 4.0): → **ONE STAR** → **DONE**
     - Would a non-legal professional reasonably interpret the license to mean that individuals either in “research” or “non-commercial” contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
         - <span id="criteria-E-1">**E.1.1**</span>) Yes: → **HALF STAR** → **DONE**
-        - <span id="criteria-E-1">**E.1.2**</span>) No (e.g. ARR): → **NO STARS ** → **DONE**
+        - <span id="criteria-E-1">**E.1.2**</span>) No (e.g. ARR): → **NO STARS** → **DONE**
 - Example restrictions on who can (re)use data (aka discrimination classes):
     - **Academic**/non-academic: ½
     - Commercial/**non-commercial**: ½
