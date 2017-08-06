@@ -92,15 +92,15 @@ In the case that a resource holds multiple kinds of content (software, ontologie
   - May be under an embargo until some date or event.
   - Note that while "personal use only" arguably prohibits many of the above, this is considered separately in **E** as a function of user, rather than use.
 
-<span id="criteria-E"></span>E) License has little or no restrictions on who can (re)use the data:
+## <span id="criteria-E">E) License has little or no restrictions on who can (re)use the data</span>
 
 **Rationale:** When research groups build on and modify data resources, they should be able to make these new products available for redistribution to other researchers in some unencumbered way, giving them the same opportunities to do the same. Ideally, they should be able to pass on their work freely and redistribute it to any party without restriction. Forbidding certain kinds of people or institutions (or explicitly allowing only a narrow definition of such) leaves open questions about what this means; this determination may require legal consultation. For example, if a license allows non-commercial use, it may prohibit use by not-for-profit companies. If a license allows “for personal use only” it is not clear whether it permits sharing/remixing within a research group for academic purposes. Because we nevertheless want to recognize any attempt at openness, we award half stars in this category as long as there are redistribution provisions that amount to more than "personal use".
 
-- <span id="criteria-E-1"></span>E.1) Are different types of person groups or “agents” distinguished?
+- <span id="criteria-E-1">**E.1**</span>) Are different types of person groups or “agents” distinguished?
     - No, all types of person groups or “agents” are allowed without negotiation, allowing for “reasonable” attribution and redistribution restrictions (e.g. CC BY 4.0): → **ONE STAR** → **DONE**
     - Would a non-legal professional reasonably interpret the license to mean that individuals either in “research” or “non-commercial” contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
-        - **E.1.1**) Yes: → **HALF STAR** → **DONE**
-        - **E.1.2**) No (e.g. ARR): → **NO STARS ** → **DONE**
+        - <span id="criteria-E-1">**E.1.1**</span>) Yes: → **HALF STAR** → **DONE**
+        - <span id="criteria-E-1">**E.1.2**</span>) No (e.g. ARR): → **NO STARS ** → **DONE**
 - Example restrictions on who can (re)use data (aka discrimination classes):
     - **Academic**/non-academic: ½
     - Commercial/**non-commercial**: ½
