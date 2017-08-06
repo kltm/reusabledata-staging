@@ -36,7 +36,7 @@ use in an easy-to-find and non-ambiguous manner.
 - <span id="criteria-B-1">**B.1**</span>) Is the license free of any language that explicitly requires negotiation?
     - Yes: → **HALF STAR** → <a href="#criteria-B-2">**B.2**</a>
     - No: → **NO STARS** → <a href="#criteria-B-2">**B.2**</a>
-- <span id="criteria-B-2"></span>**B.2**) Is the scoping of the license complete? To determine this, both of these criteria must be met:
+- <span id="criteria-B-2">**B.2**</span>) Is the scoping of the license complete? To determine this, both of these criteria must be met:
     - <span="criteria-B-2-1">**B.2.1**</span>) It is comprehensive: does the license apply to all of the data?
         - Example failures include: “Except where noted…” or “Except where prohibited by the original sources” (e.g. ClinVar, EBI, Monarch).
     - <span id="criteria-B-2-2">**B.2.2**</span>) It is differentiated: if multiple licenses apply, is it possible to obtain a singly-licensed slice?
