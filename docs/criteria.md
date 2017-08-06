@@ -79,8 +79,8 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 - <span id="criteria-D-1">**D.1**</span>) Are different types of downstream reuse distinguished as allowable or as forbidden?
     - No, all types of reuse are allowed without negotiation, allowing for “reasonable” attribution and redistribution restrictions (e.g. CC BY 4.0): **→ ONE STAR** → <a href="#criteria-E">**E**</a>
     - Would a non-legal professional reasonably interpret the license to mean that individuals either in “research” or “non-commercial” contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
-        - <span = id="criteria-D-1-1">**D.1.1**</span>) Yes: → **HALF STAR** → <a href="#criteria-E">**E**</a>
-        - <span id="criteria-D-1-2">**D.1.2**</span>) No (e.g. ARR): → **NO STARS ** → <a href="#criteria-E">**E**</a>
+        - <span id="criteria-D-1-1">**D.1.1**</span>) Yes: → **HALF STAR** → <a href="#criteria-E">**E**</a>
+        - <span id="criteria-D-1-2">**D.1.2**</span>) No (e.g. ARR): → **NO STARS** → <a href="#criteria-E">**E**</a>
 - Example restrictions in use and downstream reuse:
   - May not be copied.
   - May not be edited (e.g. invariant text clause).
