@@ -46,7 +46,7 @@ In the case that a resource holds multiple kinds of content (software, ontologie
     - No (fulfills none or just one of the two B2 criteria): → **NO STARS** → <a href="#criteria-C">**C**</a>
 - Examples for **B.1**:
     - License is clearly stated, but requires you to get in touch with the resource’s tech transfer office for a questionnaire → No
-    - Language such as: “contact our tech transfer office at xyz@example.com” → No
+    - Language such as: “contact our tech transfer office at `xyz@example.com`” → No
     - Note: requiring registration may be okay, see **C**.
 - Examples for **B.2**:
     - License applies to partial content, (e.g. onus on user to make determination of the records to which restrictive licensing applies (e.g. ClinVar, EBI, Monarch) → No
