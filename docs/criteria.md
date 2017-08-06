@@ -20,8 +20,8 @@ use in an easy-to-find and non-ambiguous manner.
         - **A.1.2**) No, I could not find license information in a reasonable location (i.e. license is missing); note that while technically the contents are now covered by default copyright protections in the US, the ambiguity here will short circuit further evaluation of the license: → **NO STARS** → <a href="#criteria-C">**C**</a> *and only C*, no other stars can be awarded in this case.
 *Note: If you do NOT find a license or terms using above methods, and happen to find a license using other methods (e.g. via GitHub, Google, etc.), DO make a note of where it was found--we may expand the likely locations in the future. At this point, reasonable discoverability is key for the star, but a found license can still be used when looking at other star criteria. Also note, if you find a single license but it is internally inconsistent, this internal inconsistency is evaluated in **B**, not **A**.*
 - <span id="criteria-A-2"></span>**A.2**) Does the resource use a standard license?
-    - Yes, it is as standard license: **→ add HALF STAR to score from A.1** → <a href="#criteria-B">**B**</a>
-    - No, it is a custom or non-standard license, including public domain declarations: **→ NO STARS** → <a href="#criteria-B">**B**</a>
+    - Yes, it is as standard license: → **add HALF STAR to score from A.1** → <a href="#criteria-B">**B**</a>
+    - No, it is a custom or non-standard license, including public domain declarations: → **NO STARS** → <a href="#criteria-B">**B**</a>
 - Example list of standard licenses:
     - Public domain declaration (while maybe technically “standard”, there is ambiguity as to it being globally applicable ([https://wiki.creativecommons.org/wiki/Public\_domain](https://wiki.creativecommons.org/wiki/Public_domain))) → No
     - Any Creative Commons licence (https://creativecommons.org/licenses/) → Yes
@@ -31,7 +31,7 @@ use in an easy-to-find and non-ambiguous manner.
 
 ## <span id="criteria-B">B) License requires no further negotiation and its scope is both unambiguous and covers all of the data</span>
 
-**Rationale: ** No further legal consultation should be necessary and no further action should be needed for the non-negotiated use of a data resource.
+**Rationale:** No further legal consultation should be necessary and no further action should be needed for the non-negotiated use of a data resource.
 
 - <span id="criteria-B-1">**B.1**</span>) Is the license free of any language that explicitly requires negotiation?
     - Yes: → **HALF STAR** → <a href="#criteria-B-2">**B.2**</a>
@@ -74,23 +74,23 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 
 ## <span id="criteria-D">D) License has little or no restrictions on kinds of (re)use</span>
 
-**Rationale:** Research groups should have the ability to legally access the data to use in their research, build upon and modify it, and publish their results. Ideally, they should be able to do so freely and without encumbrances (except possibly attribution). Forbidding certain kinds of reuse (or explicitly allowing only a narrow kind of reuse) leaves open questions about what prohibited reuse actually constitutes in practice; this determination may require legal consultation. For example, if the provider forbids ‘editing’ the data, is it a prohibition of the license to use just a fraction of the data? Change the format? Build a tool on top of it? Translate it? Because we nevertheless want to recognize any attempt at openness, we award half stars in this category as long as there are redistribution provisions (not just copy/download).
+**Rationale:** Research groups should have the ability to legally access the data to use in their research, build upon and modify it, and publish their results. Ideally, they should be able to do so freely and without encumbrances (except possibly attribution). Forbidding certain kinds of reuse (or explicitly allowing only a narrow kind of reuse) leaves open questions about what prohibited reuse actually constitutes in practice; this determination may require legal consultation. For example, if the provider forbids "editing" the data, is it a prohibition of the license to use just a fraction of the data? Change the format? Build a tool on top of it? Translate it? Because we nevertheless want to recognize any attempt at openness, we award half stars in this category as long as there are redistribution provisions (not just copy/download).
 
 - <span id="criteria-D-1">**D.1**</span>) Are different types of downstream reuse distinguished as allowable or as forbidden?
-    - No, all types of reuse are allowed without negotiation, allowing for “reasonable” attribution and redistribution restrictions (e.g. CC BY 4.0): **→ ONE STAR** → <a href="#criteria-E">**E**</a>
-    - Would a non-legal professional reasonably interpret the license to mean that individuals either in “research” or “non-commercial” contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
+    - No, all types of reuse are allowed without negotiation, allowing for "reasonable" attribution and redistribution restrictions (e.g. CC BY 4.0): → **ONE STAR** → <a href="#criteria-E">**E**</a>
+    - Would a non-legal professional reasonably interpret the license to mean that individuals either in "research” or “non-commercial" contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
         - <span id="criteria-D-1-1">**D.1.1**</span>) Yes: → **HALF STAR** → <a href="#criteria-E">**E**</a>
         - <span id="criteria-D-1-2">**D.1.2**</span>) No (e.g. ARR): → **NO STARS** → <a href="#criteria-E">**E**</a>
 - Example restrictions in use and downstream reuse:
   - May not be copied.
   - May not be edited (e.g. invariant text clause).
-  - May not be built upon (e.g. “This license forbids derivative works”).
+  - May not be built upon (e.g. "This license forbids derivative works").
   - May not be remixed (i.e. license limitations on how it can be combined with other data sets, such as in the case of the GPL).
   - May not be redistributed under same terms.
   - May be encumbered by patents.
   - May be revocable in some circumstance.
   - May be under an embargo until some date or event.
-  - Note that while “personal use only” arguably prohibits many of the above, this is considered separately in **E** as a function of user, rather than use.
+  - Note that while "personal use only" arguably prohibits many of the above, this is considered separately in **E** as a function of user, rather than use.
 
 <span id="criteria-E"></span>E) License has little or no restrictions on who can (re)use the data:
 
