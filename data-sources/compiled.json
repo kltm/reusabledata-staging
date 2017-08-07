@@ -173,7 +173,8 @@
     {
         "id": "coriell-institute",
         "source": "Coriell Institute for Medical Research",
-        "status": "incomplete",
+        "source-link": "https://coriell.org/",
+        "status": "complete",
         "description": "The Coriell Cell Repositories provide essential research reagents to the scientific community by establishing, verifying, maintaining, and distributing cell cultures and DNA derived from cell cultures. These collections, supported by funds from the National Institutes of Health (NIH) and several foundations, are extensively utilized by research scientists around the world. NINDS and NIGMS cell line catalog. NIGMS samples represent a variety of disease states, chromosomal abnormalities, apparently healthy individuals and many distinct human populations. NINDS samples are drawn from subjects with cerebrovascular disease, epilepsy, motor neuron disease, Parkinsonism and Tourette Syndrome, as well as controls.",
         "data-field": "biology",
         "data-type": "human",
@@ -184,13 +185,29 @@
         "license": "unknown",
         "license-type": "unknown",
         "license-link": "https://www.coriell.org/legal-notice",
+        "license-issues": [
+            {
+                "criteria": "A.1.2",
+                "comment": "See license commentary."
+            },
+            {
+                "criteria": "C.1",
+                "comment": "No on-site data."
+            },
+            {
+                "criteria": "C.2",
+                "comment": "No on-site data."
+            }
+        ],
         "license-commentary": [
-            "Material on the Coriell Institute website is protected by copyright law. Unless otherwise stated, users may print or download information from this site for personal, non-commercial use only, provided they identify the source of the material (Coriell Institute for Medical Research) and include a statement that the materials are protected by copyright law. Permission to reprint or otherwise reproduce any document in whole or in part is prohibited, unless prior written consent is obtained from the copyright owner (email request to: communications(at)coriell.org)."
+            "After searching, https://coriell.org, https://catalog.coriell.org, and (for example) https://catalog.coriell.org/1/NHGRI, we could find no information on a publicly available data resource beyond Excel spreadsheets.",
+            "For example, from https://catalog.coriell.org/1/NHGRI/FAQs : The NHGRI Repository at Coriell is the sample repository for the International HapMap Project and the 1000 Genomes Project. We provide cell lines and DNA, but do not house the data for these projects. Data associated with these samples can be found at the following project websites...",
+            "This resource has no stars due to no data, possibly due to Coriell not actually being a proper upstream data resource; this doesn not reflect the main work or Coriell."
         ],
         "contacts": [
             "communications@coriell.org"
         ],
-        "grade": -1
+        "grade": 0
     },
     {
         "id": "ctd",
@@ -244,25 +261,44 @@
     {
         "id": "encode",
         "source": "ENCODE",
-        "status": "incomplete",
+        "source-link": "https://www.genome.gov/10005107/",
+        "status": "complete",
         "description": "The Encyclopedia of DNA Elements (ENCODE) Consortium is an international collaboration of research groups funded by the National Human Genome Research Institute (NHGRI). The goal of ENCODE is to build a comprehensive parts list of functional elements in the human genome, including elements that act at the protein and RNA levels, and regulatory elements that control cells and circumstances in which a gene is active.",
         "data-field": "biology",
         "data-type": "genomic resource",
         "data-categories": [
             "genomic elements"
         ],
-        "data-access": [],
-        "license": "unknown",
-        "license-type": "unknown",
-        "license-link": "https://www.genome.gov/10005107/#al-5",
+        "data-access": [
+            {
+                "type": "api",
+                "location": "https://www.encodeproject.org/help/rest-api/"
+            },
+            {
+                "type": "download",
+                "location": "https://www.ncbi.nlm.nih.gov/geo/info/download.html"
+            },
+            {
+                "type": "download",
+                "location": "ftp://ftp.ebi.ac.uk/pub/databases/arrayexpress/data/"
+            }
+        ],
+        "license": "custom",
+        "license-type": "permissive",
+        "license-link": "https://www.genome.gov/27528022/encode-consortium-data-release-policy/",
+        "license-issues": [
+            {
+                "criteria": "A.2",
+                "comment": "Easy and perfectly (re)usable, yet custom."
+            }
+        ],
         "license-commentary": [
-            "After 2014 policy: OK.",
-            "2008-2014 policy: \"To facilitate this compromise between unrestricted use of the data and unavailability of the data until publication, NHGRI will promote observation of a 9-month period during which resource users may freely use the ENCODE/modENCODE data to design and carry out their own research programs, but not to submit publications or make public presentations that use unpublished ENCODE/modENCODE data without prior consent. The publication and presentation moratorium is expected to extend to all forms of public disclosure, including meeting abstracts, oral presentations, and formal electronic submissions to publicly accessible sites (e.g., public websites, web blogs). (NHGRI recognizes that there may be some exceptions to this blanket request; examples are discussed more fully below.)\""
+            "External data users may freely download, analyze and publish results based on any ENCODE data without restrictions as soon as they are released."
         ],
         "contacts": [
             "https://www.genome.gov/10005049/questions-and-feedback/"
         ],
-        "grade": -1
+        "grade": 4.5
     },
     {
         "id": "fantom5",
