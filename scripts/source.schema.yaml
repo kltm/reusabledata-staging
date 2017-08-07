@@ -20,6 +20,7 @@ mapping:
     type: str
     required: no
   ## Whether or not annotation is complete on this resource.
+  ## Current allowable entries are: "complete", "incomplete", and "nonpublic".
   "status":
     type: str
     required: yes
