@@ -29,7 +29,7 @@ A "restrictive" license is one that may offer more freedoms than the standard US
 
 ## <span id="copyright">copyright</span>
 
-This is the standard restrictive default copyright in the US. Withing our documentation, we may also refer to this as "ARR" or "all rights reserved".
+This is the standard restrictive default copyright in the US. Within our documentation, we may also refer to this as "ARR" or "all rights reserved".
 
 ## <span id="unknown">unknown</span>
 
