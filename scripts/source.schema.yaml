@@ -75,7 +75,7 @@ mapping:
   ## compatible data pools in the future, only the grossest terms now.
   ## If you do not know, enter "TODO".
   ## I.e. "unknown", "copyleft", "permissive", "public domain",
-  ## "copyright", "restrictive", or "closedpool".
+  ## "copyright", "restrictive", or "closed pool".
   "license-type":
     type: str
     required: yes
