@@ -131,6 +131,7 @@ mapping:
           "url":
             type: str
             required: no
+            pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
     required: no
   ## The final grade for the resource, as justified by the violations.
   "grade":
