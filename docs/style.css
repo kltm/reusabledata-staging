@@ -1,0 +1,20 @@
+body { 
+    padding-top: 65px; 
+}
+
+.one-star {
+    background-color: lightgreen;
+}
+
+.half-star {
+    background-color: aqua;
+}
+
+.no-star {
+    background-color: red;
+}
+
+.done {
+    color: white;
+    background-color: blue;
+}
