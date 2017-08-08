@@ -410,15 +410,18 @@
       var global_data = {{{ jsondata }}};
       jQuery(document).ready(function(){
          console.log('Ready...');
-         jQuery("#sourcestable").DataTable(
-                    {autoWidth: true}
-         );
-         console.log('...done.');
-         //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
-         // For license commentary popups.
-         jQuery(function () {
-            jQuery('[data-toggle="popover"]').popover()
-         });
+         if( jQuery('#sourcetable') && jQuery('#sourcetable').length ){
+            console.log('Running #sourcetable...');
+            jQuery("#sourcestable").DataTable({
+               autoWidth: true
+            });
+            console.log('...done.');
+            //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
+            // For license commentary popups.
+            jQuery(function () {
+               jQuery('[data-toggle="popover"]').popover();
+            });
+         }
       });
     </script>
 
