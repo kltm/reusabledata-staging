@@ -64,9 +64,16 @@ table(id='sourcestable' class='table table-striped')
                strong ?
          td #{ source.description }
          td
-           a(href=source['license-link']) #{ source['license-type'] }
+           case source['license-type']
+             when 'public domain'
+               a(href='license-types.html#publicdomain') #{ source['license-type'] }
+             when 'closedpool'
+               a(href='license-types.html#closedpool') #{ source['license-type'] }
+             default
+               a(href='license-types.html#' + source['license-type']) #{ source['license-type'] }
            span() &nbsp;
-           a(href=source['license-link']) &#x1f517;
+           if source['license-link'] && source['license-link'] !== 'unknown'
+             a(href=source['license-link']) &#x1f517;
          td
            if source['license-issues'] && source['license-issues'].length !== 0
              dl
