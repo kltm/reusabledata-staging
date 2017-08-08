@@ -174,7 +174,7 @@
         "id": "coriell-institute",
         "source": "Coriell Institute for Medical Research",
         "source-link": "https://coriell.org/",
-        "status": "complete",
+        "status": "nonpublic",
         "description": "The Coriell Cell Repositories provide essential research reagents to the scientific community by establishing, verifying, maintaining, and distributing cell cultures and DNA derived from cell cultures. These collections, supported by funds from the National Institutes of Health (NIH) and several foundations, are extensively utilized by research scientists around the world. NINDS and NIGMS cell line catalog. NIGMS samples represent a variety of disease states, chromosomal abnormalities, apparently healthy individuals and many distinct human populations. NINDS samples are drawn from subjects with cerebrovascular disease, epilepsy, motor neuron disease, Parkinsonism and Tourette Syndrome, as well as controls.",
         "data-field": "biology",
         "data-type": "human",
