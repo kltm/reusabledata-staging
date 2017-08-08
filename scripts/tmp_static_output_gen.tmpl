@@ -6,22 +6,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+     <title>(Re)usable Data Project</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" crossorigin="anonymous">
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.0/vue.js"></script> -->
     <!-- <script type="text/javascript" src="TBNeoBundle.js"></script> -->
+
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
+    <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top"> -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
       </button>
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html#home">
 	<img src="logo.png" height="30" class="d-inline-block align-top" alt="">
-	Reusabledata.org
+	(Re)usable Data Project
       </a>
       
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -29,16 +34,21 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="index.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn more</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="index.html#home">Home</a>
+              <!-- <a class="dropdown-item" href="index.html#home">Home</a> -->
               <a class="dropdown-item" href="index.html#what-this-is">What this is</a>
               <a class="dropdown-item" href="index.html#who-we-are">Who we are</a>
               <a class="dropdown-item" href="index.html#our-criteria">Our criteria</a>
               <a class="dropdown-item" href="index.html#our-sources-data">Our sources data</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="criteria.html" id="nav01" aria-haspopup="true" aria-expanded="false">Criteria</a>
-          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Evaluation</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown02">
+              <a class="nav-link" href="criteria.html" id="nav-crit" aria-haspopup="true" aria-expanded="false">Criteria details</a>
+              <a class="nav-link" href="license-types.html" id="nav-lc" aria-haspopup="true" aria-expanded="false">License categories</a>
+              <a class="nav-link" href="reading.html" id="nav-rl" aria-haspopup="true" aria-expanded="false">Reading list</a>
+            </div>
+	  </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html" id="nav02" aria-haspopup="true" aria-expanded="false">About</a>
           </li>
@@ -52,7 +62,7 @@
         </form>
       </div>
     </nav>
-    
+
     <!-- start jumbotron -->
     <div id="home" class="jumbotron">
       <div class="container">
