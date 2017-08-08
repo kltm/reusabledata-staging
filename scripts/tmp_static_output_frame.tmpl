@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-     <title>(Re)usable Data Project</title>
+     <title>{{{ title }}}</title>
     
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" crossorigin="anonymous">
@@ -60,7 +60,7 @@
       </div>
     </nav>
 
-    
+    {{{ jumbotron }}}
     
     <!-- <\!-- spacer -\-> -->
     <!-- <div style="height:32px;"></div> -->
@@ -72,9 +72,7 @@
 	  <div class="card">
 	    <div class="card-block">
 	      <h4 class="card-title">What this is</h4>
-	      <h1>TODO</h1>
-
-<p>TODO</p>
+	      {{{ body }}}
 	    </div>
 	  </div>
 	</div>
@@ -101,7 +99,7 @@
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
       <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js" crossorigin="anonymous"></script>
       <script type="text/javascript">
-	var global_data = ;
+	var global_data = {{{ jsondata }}};
 	jQuery(document).ready(function(){
           console.log('Ready...');
           if( jQuery('#sourcetable') && jQuery('#sourcetable').length ){

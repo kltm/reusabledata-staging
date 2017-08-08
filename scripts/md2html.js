@@ -73,4 +73,10 @@ if( ! out_file ){
 
 var md_raw = fs.readFileSync(in_data).toString();
 var html = md.markdown.toHTML(md_raw);
-fs.writeFileSync(out_file, html);
+
+// Convert the escaped HTML back.
+var rehtml = html.replace(/\&gt\;/g, '>');
+rehtml = rehtml.replace(/\&lt\;/g, '<');
+rehtml = rehtml.replace(/\&quot\;/g, '"');
+
+fs.writeFileSync(out_file, rehtml);
