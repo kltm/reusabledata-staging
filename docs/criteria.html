@@ -56,9 +56,17 @@
             <a class="nav-link" href="https://github.com/reusabledata/reusabledata" id="nav03" aria-haspopup="true" aria-expanded="false">Contact</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" placeholder="Under construction... :(" type="text">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="form-inline my-2 my-lg-0"
+	      action="https://google.com/search"
+	      method="GET">
+          <input class="form-control mr-sm-2"
+		 placeholder="Site search"
+		 type="text"
+		 name="q">
+          <input type="hidden"
+		 name="sitesearch"
+		 value="reusabledata.org">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">&#x1f50d;</button>
         </form>
       </div>
     </nav>
