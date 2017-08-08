@@ -1,5 +1,6 @@
 id: gtex
 source: GTEx
+source-link: 'http://www.gtexportal.org'
 status: incomplete
 description: 'The Genotype-Tissue Expression (GTEx) project aims to provide to the scientific community a resource with which to study human gene expression and regulation and its relationship to genetic variation. This project will collect and analyze multiple human tissues from donors who are also densely genotyped, to assess genetic variation within their genomes. By analyzing global RNA expression within individual tissues and treating the expression levels of genes as quantitative traits, variations in gene expression that are highly correlated with genetic variation can be identified as expression quantitative trait loci, or eQTLs.'
 data-field: biology
@@ -10,6 +11,7 @@ data-access: []
 license: unknown
 license-type: unknown
 license-link: 'http://www.gtexportal.org/home/documentationPage#staticTextPublicationPolicy'
+license-issues: []
 license-commentary:
     - 'Apparently, the data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html), which appears to be a well-thought out, but restrictive regime. The NIH GDS section V part B terms are quite restrictive.'
     - '+Pilot data set (phs000424.v3.p1) - acceptance of the “Ft. Lauderdale” principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.'
