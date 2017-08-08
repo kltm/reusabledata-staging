@@ -79,7 +79,7 @@ table(id='sourcestable' class='table table-striped')
              dl
                each issue, index in source['license-issues']
                  dt
-                   a(href='criteria.html#' + issue.criteria) Criteria&nbsp;#{issue.criteria}
+                   a(href='criteria.html#criteria-' + issue.criteria) Criteria&nbsp;#{issue.criteria}
                    //a(href='#our-criteria') Criteria&nbsp;#{issue.criteria}
                  dd
                    small(class="text-muted") #{ issue.comment }
