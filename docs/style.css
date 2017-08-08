@@ -2,6 +2,11 @@ body {
     padding-top: 65px; 
 }
 
+.rud-compact-table {
+    line-height: 1.25em;
+    font-size: 0.9em;
+}
+
 .one-star {
     background-color: lightgreen;
 }
