@@ -3,7 +3,7 @@
 //// file; still want the one-page app.
 ////
 //// Example usage:
-////  node ./scripts/markdown2html.js -i ./docs/criteria.md -o ./docs/criteria.html.seed
+////  node ./scripts/md2html.js -i ./docs/criteria.md -o ./docs/criteria.html.seed
 ////
 
 var us = require('underscore');
