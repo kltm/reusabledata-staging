@@ -1,5 +1,6 @@
 id: ncbi-gene
 source: 'National Center for Biotechnology Information Gene (NCBI-Gene)'
+source-link: 'TODO'
 status: incomplete
 description: 'NCBI Gene integrates information from a wide range of species, and includes nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide. Taxon lists the taxinomic organization of organisms. Pub2Gene serves links between genes and pubmed identifiers where they are mentioned.'
 data-field: biology

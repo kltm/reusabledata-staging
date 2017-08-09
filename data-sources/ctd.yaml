@@ -1,5 +1,6 @@
 id: ctd
 source: 'Comparative Toxicogenomics Database (CTD)'
+source-link: http://ctdbase.org
 status: complete
 description: 'CTD promotes understanding about the effects of environmental chemicals on human health by integrating data from curated scientific literature to describe chemical interactions with genes and proteins, and associations between diseases and chemicals, and diseases and genes/proteins.'
 data-field: biology

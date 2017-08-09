@@ -1,5 +1,6 @@
 id: mgi
 source: 'Mouse Genome Informatics (MGI)'
+source-link: http://www.informatics.jax.org/
 status: complete
 description: 'MGI is the international database resource for the laboratory mouse, providing integrated genetic, genomic, and biological data to facilitate the study of human health and disease.'
 data-field: biology

@@ -11,19 +11,22 @@ mapping:
   "id":
     type: str
     required: yes
+    unique: true
   ## Short label for the resource.
   "source":
     type: str
     required: yes
-  ## (Optional) URL for the resource.
+  ## URL for the resource.
   "source-link":
     type: str
-    required: no
+    required: yes
+    pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
   ## Whether or not annotation is complete on this resource.
   ## Current allowable entries are: "complete", "incomplete", and "nonpublic".
   "status":
     type: str
     required: yes
+    enum: ["complete", "incomplete", "nonpublic"]
   ## Full description of the resource.
   "description":
     type: str
@@ -67,7 +70,7 @@ mapping:
     required: no
   ## The license that is used.
   ## Should try and use SPDX where we can: https://spdx.org/licenses/
-  ## or: "unknown", "public domain", "all right reserved", or "custom".
+  ## or: "unknown", "public domain", "all rights reserved", or "custom".
   "license":
     type: str
     required: yes
@@ -79,10 +82,12 @@ mapping:
   "license-type":
     type: str
     required: yes
+    enum: ["unknown", "copyleft", "permissive", "public domain", "copyright", "restrictive", "closed pool"]
   ## (Optional) link to the resource license.
   "license-link":
     type: str
     required: no
+    pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
   ## (Optional) Further commentary on the license, possibly including things
   ## like locations of additional licenses.
   "license-commentary":
@@ -91,6 +96,12 @@ mapping:
       - type: str
     required: no
   ## (Optional) structured issues with the license.
+  ## For every issue discovered with a resource, there should be a
+  ## corresponding item in the license-issues field, along with any
+  ## comments. This field can be used by resources as the first step to
+  ## improvement, as well as clarify any surrounding circumstances.
+  ## Any issues or thoughts about a resource that do not slot into one
+  ## of the criteria violations can go into the license-commentary field.
   "license-issues":
     type: seq
     sequence:
@@ -126,6 +137,7 @@ mapping:
           "url":
             type: str
             required: no
+            pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
     required: no
   ## The final grade for the resource, as justified by the violations.
   "grade":

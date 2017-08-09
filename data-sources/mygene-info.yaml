@@ -1,5 +1,6 @@
 id: mygene-info
 source: MyGene.info
+source-link: 'http://mygene.info'
 status: incomplete
 description: 'MyGene.info provides a simple-to-use REST web services to query/retrieve gene annotation data.'
 data-field: biology
@@ -11,7 +12,7 @@ data-access:
       location: http://mygene.info/v3/api
 license: custom
 license-type: restrictive
-license-link: 'TODO: http://docs.mygene.info/en/v3/terms.html vs. http://mygene.info/terms/'
+license-link: 'TODO'
 license-issues:
     - criteria: A.2
       comment: Custom license, but consistent.
@@ -22,9 +23,10 @@ license-issues:
     - criteria: E
       comment: No re-use allowed, just use.
 license-commentary:
-    - '-You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.'
-    - '-TSRI shall have no responsibility whatsoever for such information [from 3rd party websites].'
-    - '-Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights.'
+  - 'TODO: http://docs.mygene.info/en/v3/terms.html vs. http://mygene.info/terms/'
+  - '-You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.'
+  - '-TSRI shall have no responsibility whatsoever for such information [from 3rd party websites].'
+  - '-Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights.'
 contacts:
     - help@mygene.info
 grade: 2

@@ -1,3 +1,6 @@
+##
+*.seed
+
 ## Do not save instance startup.yaml.
 startup.yaml
 !deployment/confs/startup.yaml

@@ -1,5 +1,6 @@
 id: flybase
 source: FlyBase
+source-link: 'TODO'
 status: incomplete
 description: 'FlyBase is the model organism database providing integrated genetic, genomic, phenomic, and biological data for Drosophila melanogaster.'
 data-field: biology
@@ -10,6 +11,7 @@ data-access: []
 license: unknown
 license-type: unknown
 license-link: 'http://flybase.org/wiki/FlyBase:About#FlyBase_Copyright'
+license-issues: []
 license-commentary:
     - 'This publication may be copied for non-commercial, scientific uses by individuals or organizations (including for-profit organizations). FlyBase is freely distributed to the scientific community on the understanding that it will not be used for commercial gain by any organization. Any commercial use of this publication, or any parts thereof, is expressly prohibited without permission in writing from the FlyBase consortium.'
 contacts:

@@ -1,5 +1,6 @@
 id: reactome
 source: Reactome
+source-link: http://www.reactome.org
 status: incomplete
 description: 'Reactome is a free, open-source, curated and peer reviewed pathway database. Our goal is to provide intuitive bioinformatics tools for the visualization, interpretation and analysis of pathway knowledge to support basic research, genome analysis, modeling, systems biology and education.'
 data-field: biology
@@ -12,6 +13,7 @@ data-access:
 license: CC-BY-4.0
 license-type: permissive
 license-link: 'http://www.reactome.org/pages/about/license-agreement/'
+license-issues: []
 license-commentary:
     - 'There is a comment in there about KEGG data in Reactome. Thus Reactome FI Network data is not available.'
 contacts:

@@ -6,22 +6,27 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
+     <title>(Re)usable Data Project</title>
+    
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css" crossorigin="anonymous">
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.0/vue.js"></script> -->
-    <!-- <script type="text/javascript" src="TBNeoBundle.js"></script> -->
+    <!-- <script type="text/javascript" src="RUD.bundle.js"></script> -->
+
+    <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
 
+    <!-- <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top"> -->
     <nav class="navbar navbar-toggleable-md navbar-light bg-faded fixed-top">
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
       </button>
 
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.html#home">
 	<img src="logo.png" height="30" class="d-inline-block align-top" alt="">
-	Reusabledata.org
+	(Re)usable Data Project
       </a>
       
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -29,16 +34,21 @@
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="index.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Learn more</a>
             <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="index.html#home">Home</a>
+              <!-- <a class="dropdown-item" href="index.html#home">Home</a> -->
               <a class="dropdown-item" href="index.html#what-this-is">What this is</a>
               <a class="dropdown-item" href="index.html#who-we-are">Who we are</a>
-              <a class="dropdown-item" href="index.html#our-criteria">Our criteria</a>
+              <a class="dropdown-item" href="index.html#our-criteria">Criteria overview</a>
               <a class="dropdown-item" href="index.html#our-sources-data">Our sources data</a>
             </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="criteria.html" id="nav01" aria-haspopup="true" aria-expanded="false">Criteria</a>
-          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="index.html" id="dropdown02" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Evaluation</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown02">
+              <a class="nav-link" href="criteria.html" id="nav-crit" aria-haspopup="true" aria-expanded="false">Criteria details</a>
+              <a class="nav-link" href="license-types.html" id="nav-lc" aria-haspopup="true" aria-expanded="false">License categories</a>
+              <a class="nav-link" href="reading.html" id="nav-rl" aria-haspopup="true" aria-expanded="false">Reading list</a>
+            </div>
+	  </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html" id="nav02" aria-haspopup="true" aria-expanded="false">About</a>
           </li>
@@ -46,13 +56,21 @@
             <a class="nav-link" href="https://github.com/reusabledata/reusabledata" id="nav03" aria-haspopup="true" aria-expanded="false">Contact</a>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" placeholder="Under construction... :(" type="text">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        <form class="form-inline my-2 my-lg-0"
+	      action="https://google.com/search"
+	      method="GET">
+          <input class="form-control mr-sm-2"
+		 placeholder="Site search"
+		 type="text"
+		 name="q">
+          <input type="hidden"
+		 name="sitesearch"
+		 value="reusabledata.org">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">&#x1f50d;</button>
         </form>
       </div>
     </nav>
-    
+
     <!-- start jumbotron -->
     <div id="home" class="jumbotron">
       <div class="container">
@@ -119,7 +137,7 @@
 		
 	      </p>
 	      <p>
-		<ul>
+		<ul class="nicer-ul">
 		  <li>
 		    <strong>5 stars</strong>&nbsp;<span style="color:#ffd700;font-size:1.0em">&#x2605&nbsp;&#x2605&nbsp;&#x2605&nbsp;&#x2605&nbsp;&#x2605</span><br />
 		    The license unambiguously allows the unfettered (re)use
@@ -135,16 +153,17 @@
 		    <strong>3 stars</strong>&nbsp;<span style="color:orange;">&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;</span><br />
 
 		    The license is clearly stated, unambiguous, and of
-		    a standard type, but has terms that may greatly
-		    impact the (re)use and redistribution of the data.
+		    a standard type, and has clear access, but has
+		    terms that may greatly impact the (re)use and
+		    redistribution of the data.
 
 		  <li>
-		    <strong>less than 3 stars</strong>&nbsp;<span style="color:red;">&#x2605;&nbsp;&#x2605;</span>&nbsp;&#x00bd;&nbsp;-&nbsp;&#x2205;<br />
+		    <strong>2.5 or less stars</strong>&nbsp;<span style="color:red;">&#x2605;&nbsp;&#x2605;</span>&nbsp;&#x00bd;&nbsp;-&nbsp;&#x2205;<br />
 
 		    There are likely issues in definitively finding
 		    the license, ambiguities in the license that
-		    hamper further analysis, or terms that require
-		    legal advice.
+		    hamper further analysis, issues with clean data
+		    access, or terms that require legal advice.
 		  </li>
 		</ul>
 	      </p>	      
@@ -152,7 +171,7 @@
 		If you see any problems with our determinations or would
 		like to make corrections or clarifications, please open
 		a ticket for us on
-		our <a href="https://github.com/reusabledata/reusabledata">issue
+		our <a href="https://github.com/reusabledata/reusabledata/issues">issue
 		  tracker</a>.
 	      </p>
 	      <p>
@@ -212,13 +231,13 @@
 		information about scientific data resources is
 		up-to-date and correct. If you have any questions,
 		concerns, or see any problems, please open a ticket on
-		our <a href="https://github.com/reusabledata/reusabledata">GitHub
+		our <a href="https://github.com/reusabledata/reusabledata/issues">GitHub
 		tracker</a>.
 	      </p>
 	      <p>
 		<a class="btn btn-secondary"
 		   href="#our-criteria"
-		   role="button">Our criteria »</a>
+		   role="button">Criteria overview »</a>
 	      </p>
   	    </div>
 	  </div>
@@ -241,16 +260,19 @@
 		Balancing conflicting needs...
 	      </p>
 	      <p>
-		<ol>
+		<ul class="nicer-ul">
 		  <li id="criteria-a">
 		    <strong>Clearly stated</strong><br />
 
-		    A clearly stated unambiguous license for data use
-		    is necessary for any (re)use of data: if there is
-		    no license to be found, then rights are unclear
-		    and one needs to assume the default: all rights reserved.
+		    A clearly stated, unambiguous, and hopefully
+		    standard, license for data use is critical for any
+		    (re)use of data: if there is no license to be
+		    found, then rights are unclear and one needs to
+		    assume the default: all rights reserved.
 		    <!-- <a href="https://www.copyright.gov/help/faq/faq-general.html">all rights reserved</a>. -->
-		    <a href="criteria.html#A">[Learn&nbsp;more...]</a>
+		    <a class="btn btn-secondary btn-sm"
+		       role="button"
+		       href="criteria.html#criteria-A">more »</a>
 		  </li>
 		  <li id="criteria-b">
 		    <strong>Comprehensive and non-negotiated</strong><br />
@@ -258,20 +280,22 @@
 		    Data that is mixed under different licenses, only
 		    partially available, or must be in some way
 		    negotiated creates barriers to the (re)use of
-		    data. <a href="criteria.html#B">[Learn&nbsp;more...]</a>
-		    
+		    data. <a class="btn btn-secondary btn-sm"
+			     role="button"
+			     href="criteria.html#criteria-B">more »</a>
 		    <!-- cannot be used in not data at all. In -->
 		    <!-- modern data-driven science, the ability to -->
 		    <!-- synthesize data and make the results available for -->
 		    <!-- others to do the same is paramount. -->
 		  </li>
 		  <li id="criteria-c">
-		    <strong>Standardized</strong><br />
+		    <strong>Accessible</strong><br />
 
-		    Standardized and well-understood licenses are
-		    important to make the reuse and redistribution of
-		    scientific data as easy as possible when
-		    possible. <a href="criteria.html#C">[Learn&nbsp;more...]</a>
+		    Data must be accessible in a reasonable and manner
+		    to be useful to the broader
+		    community. <a class="btn btn-secondary btn-sm"
+				  role="button"
+				  href="criteria.html#criteria-C">more »</a>
 		    
 		    <!-- Ideally, data should be able to be used and reused -->
 		    <!-- by anybody for any purpose, academic, commercial, -->
@@ -281,7 +305,11 @@
 		    <strong>Avoid restrictions on kinds of (re)use</strong><br />
 
 		    Data should be able to be copied, built upon,
-		    edited, and modified as freely as possible. <a href="criteria.html#D">[Learn&nbsp;more...]</a>
+		    edited, and modified as freely as
+		    possible. <a class="btn btn-secondary btn-sm"
+				 role="button"
+				 href="criteria.html#criteria-D">more
+		    »</a>
 
 		    <!-- Of course somebody might choose to close their -->
 		    <!-- data off in the future, but there should be no -->
@@ -292,7 +320,11 @@
 		    <strong>Avoid restrictions who may (re)use</strong><br />
 		    
 		    Data should should be available to as many people
-		    as possible for their (re)use. <a href="criteria.html#E">[Learn&nbsp;more...]</a>
+		    as possible for their
+		    (re)use. <a class="btn btn-secondary btn-sm"
+				role="button"
+				href="criteria.html#criteria-E">more
+		    »</a>
 
 		    <!-- An example of this would -->
 		    <!-- be data explicitly released under -->
@@ -300,7 +332,7 @@
 		    <!-- Commons 4.0 Attribution 4.0 International -->
 		    <!-- license</a>. -->
 		  </li>
-		</ol>
+		</ul>
 	      </p>
 	      <p>
 		<a class="btn btn-secondary"
@@ -332,49 +364,6 @@
 		
 		{{{ htmltablestr }}}
 	
-		<!-- <table id="sourcestable" class="table table-striped"> -->
-		<!--   <thead> -->
-		<!--     <tr> -->
-		<!--       <th>Name</th> -->
-		<!--       <th>Categories</th> -->
-		<!--       <th>Grade</th> -->
-		<!--       <th>Description</th> -->
-		<!--       <th>License Info</th> -->
-		<!--       <th>License Issues</th> -->
-		<!--     </tr> -->
-		<!--   </thead> -->
-		<!--   <tfoot> -->
-		<!--     <tr> -->
-		<!--       <th>Name</th> -->
-		<!--       <th>Categories</th> -->
-		<!--       <th>Grade</th> -->
-		<!--       <th>Description</th> -->
-		<!--       <th>License Info</th> -->
-		<!--       <th>License Issues</th> -->
-		<!--     </tr> -->
-		<!--   </tfoot> -->
-		<!--   <tbody> -->
-		<!--     {{#tabledata}} -->
-		<!--     <tr> -->
-		<!--       <td>{{ source }}</td> -->
-		<!--       <td> -->
-		<!-- 	{{ data-field }} -->
-		<!-- 	<br /> -->
-		<!-- 	{{ data-type }} -->
-		<!-- 	<br /> -->
-		<!-- 	{{ data-categories }} -->
-		<!--       </td> -->
-		<!--       <td>{{ grade }}</td> -->
-		<!--       <td>{{ description }}</td> -->
-		<!--       <td> -->
-		<!-- 	<a href="{{ license-link }}">{{ license-type }}</a> -->
-		<!--       </td> -->
-		<!--       <td>{{ license-downstream-negative }}</td> -->
-		<!--     </tr> -->
-		<!--     {{/tabledata}} -->
-		<!--   </tbody> -->
-		<!-- </table>	 -->
-		
 	      </p>
 	      <p>
 		<a class="btn btn-secondary"
@@ -410,15 +399,18 @@
       var global_data = {{{ jsondata }}};
       jQuery(document).ready(function(){
          console.log('Ready...');
-         jQuery("#sourcestable").DataTable(
-                    {autoWidth: true}
-         );
-         console.log('...done.');
-         //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
-         // For license commentary popups.
-         jQuery(function () {
-            jQuery('[data-toggle="popover"]').popover()
-         });
+         if( jQuery("#sourcestable") && jQuery("#sourcestable").length ){
+            console.log('Running #sourcetable...');
+            jQuery("#sourcestable").DataTable({
+               autoWidth: true
+            });
+            console.log('...done.');
+            //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
+            // For license commentary popups.
+            jQuery(function () {
+               jQuery('[data-toggle="popover"]').popover();
+            });
+         }
       });
     </script>
 

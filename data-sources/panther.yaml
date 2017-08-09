@@ -19,6 +19,12 @@ license-issues:
       comment: Given the all rights reserved copyright statement, any downstream reuse would require negotiation.
     - criteria: E.1.1
       comment: Given the all rights reserved copyright statement, all user/agent types would need to negotiate downstream reuse.
+data-access: []
+license: unknown
+license-type: copyright
+license-link: 'TODO'
+license-issues: []
+license-commentary: []
 contacts:
     - feedback@pantherdb.org
     - pdthomas@usc.edu

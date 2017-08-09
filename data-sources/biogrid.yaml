@@ -1,5 +1,6 @@
 id: biogrid
 source: BioGRID
+source-link: 'https://thebiogrid.org'
 status: incomplete
 description: interaction
 data-field: biology
