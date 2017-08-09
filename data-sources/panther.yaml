@@ -9,7 +9,7 @@ data-categories:
     - 'orthology'
 data-access:
     - type: download
-    - location: http://pantherdb.org/downloads/index.jsp
+      location: http://pantherdb.org/downloads/index.jsp
 license: 'all rights reserved'
 license-type: 'copyright'
 license-issues:
