@@ -327,7 +327,7 @@
     {
         "id": "flybase",
         "source": "FlyBase",
-        "source-link": "flybase.org",
+        "source-link": "http://flybase.org",
         "status": "complete",
         "description": "FlyBase is the model organism database providing integrated genetic, genomic, phenomic, and biological data for Drosophila melanogaster.",
         "data-field": "biology",
