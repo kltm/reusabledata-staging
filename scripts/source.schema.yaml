@@ -57,10 +57,11 @@ mapping:
           "label":
             type: str
             required: no
-          ## The type of data access. Likely: "download" or "API".
+          ## The type of data access. Likely: "download" or "api".
           "type":
             type: str
             required: yes
+            enum: ["download", "api"]
           ## The location of the data access. Do /NOT/ worry about getting the
           ## perfect and "real" location here; a top-level or informational
           ## location is fine.
