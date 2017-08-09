@@ -13,8 +13,6 @@ data-access:
 license: 'all rights reserved'
 license-type: 'copyright'
 license-issues:
-    - criteria: B.1
-      comment: An all rights reserved copyright statement appears on each page of source site.
     - criteria: D.1
       comment: Given the all rights reserved copyright statement, any downstream reuse would require negotiation.
     - criteria: E.1.1
@@ -25,4 +23,4 @@ license-commentary:
 contacts:
     - feedback@pantherdb.org
     - pdthomas@usc.edu
-grade: 2.5
+grade: 3
