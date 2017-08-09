@@ -68,6 +68,7 @@ mapping:
           "location":
             type: str
             required: yes
+            pattern: /^(ht|f)tp(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+$/
     required: no
   ## The license that is used.
   ## Should try and use SPDX where we can: https://spdx.org/licenses/
