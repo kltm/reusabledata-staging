@@ -8,44 +8,79 @@ type: map
 mapping:
   ## Unique ID of the resource, biodbcore or NAR preferred.
   ## But any unique internal ID is usable.
+  ##
+  ## Example usage:
+  ##   "id": foobar
   "id":
     type: str
     required: yes
     unique: true
   ## Short label for the resource.
+  ##
+  ## Example usage:
+  ##   "source": FooBar
   "source":
     type: str
     required: yes
   ## URL for the resource.
+  ##
+  ## Example usage:
+  ##   "source-line": http://foo.bar 
   "source-link":
     type: str
     required: yes
     pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
   ## Whether or not annotation is complete on this resource.
   ## Current allowable entries are: "complete", "incomplete", and "nonpublic".
+  ##
+  ## Example usage:
+  ##   "status": incomplete 
   "status":
     type: str
     required: yes
     enum: ["complete", "incomplete", "nonpublic"]
   ## Full description of the resource.
+  ##
+  ## Example usage:
+  ##   "description": this awesome resource does cool things with beans 
   "description":
     type: str
     required: yes
   ## Are of research for the resource.
+  ##
+  ## Example usage:
+  ##   "data-field": biomedical
   "data-field":
     type: str
     required: yes
   ## Type of data the resource contains.
+  ##
+  ## Example usage:
+  ##   "data-type": human phenotype gene associations
   "data-type":
     type: str
     required: yes
   ## (Optional) tags to describe the resource and its data.
+  ##
+  ## Example usage:
+  ##   "data-categories":
+  ##      - 'food terminology'
+  ##      - 'food ontology' 
+  ##      - 'food associations'
   "data-categories":
     type: seq
     sequence:
       - type: str
     required: no
   ## (Optional) links to resource data.
+  ##
+  ## Example usage:
+  ##   "data-access":
+  ##      - type: api
+  ##        location: http://foo.bar/api-v2
+  ##      - type: api
+  ##        location: http://foo.bar/api-v1
+  ##        label: old api
   "data-access":
     type: seq
     sequence:
@@ -73,6 +108,9 @@ mapping:
   ## The license that is used.
   ## Should try and use SPDX where we can: https://spdx.org/licenses/
   ## or: "unknown", "public domain", "all rights reserved", or "custom".
+  ##
+  ## Example usage:
+  ##   "license": all rights reserved
   "license":
     type: str
     required: yes
@@ -81,17 +119,28 @@ mapping:
   ## If you do not know, enter "TODO".
   ## I.e. "unknown", "copyleft", "permissive", "public domain",
   ## "copyright", "restrictive", or "closed pool".
+  ##
+  ## Example usage:
+  ##   "license-type": public domain
   "license-type":
     type: str
     required: yes
     enum: ["unknown", "copyleft", "permissive", "public domain", "copyright", "restrictive", "closed pool"]
   ## (Optional) link to the resource license.
+  ##
+  ## Example usage:
+  ##   "license-link": http://foo.bar/license
   "license-link":
     type: str
     required: no
     pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
   ## (Optional) Further commentary on the license, possibly including things
   ## like locations of additional licenses.
+  ##
+  ## Example usage:
+  ##   "license-commentary":
+  ##      - "one thought"
+  ##      - "another thought"
   "license-commentary":
     type: seq
     sequence:
@@ -104,6 +153,11 @@ mapping:
   ## improvement, as well as clarify any surrounding circumstances.
   ## Any issues or thoughts about a resource that do not slot into one
   ## of the criteria violations can go into the license-commentary field.
+  ##
+  ## Example usage:
+  ##   "license-issues":
+  ##      - criteria: A.1.1
+  ##        comment: me no find
   "license-issues":
     type: seq
     sequence:
@@ -120,12 +174,20 @@ mapping:
     required: no
   ## (Optional) resource contact information, link or email
   ## or whatever is public.
+  ##
+  ## Example usage:
+  ##   "contacts":
+  ##     - foo@bar.bib
+  ##     - http://foo.bar/contact
   "contacts":
     type: seq
     sequence:
       - type: str
     required: no
   ## (Optional) semi-structured list of supporting grants
+  ##   "grants":
+  ##     - label: NIH Grant for Science 123 
+  ##       url: http://foo.bar 
   "grants":
     type: seq
     sequence:
@@ -142,6 +204,9 @@ mapping:
             pattern: /^(TODO|http(s?)\:\/\/\w[\/\.\-\:\=\?\&\_\+\u0023\w]+)$/
     required: no
   ## The final grade for the resource, as justified by the violations.
+  ##
+  ## Example usage:
+  ##   "grade": 4.0 
   "grade":
     type: number
     required: yes
