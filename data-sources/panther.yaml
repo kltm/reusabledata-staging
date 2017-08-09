@@ -19,7 +19,8 @@ license-issues:
       comment: Given the all rights reserved copyright statement, any downstream reuse would require negotiation.
     - criteria: E.1.1
       comment: Given the all rights reserved copyright statement, all user/agent types would need to negotiate downstream reuse.
-license-commentary: []
+license-commentary:
+  - There is an alternate curation for this resource that bases itself off of 'http://www.pantherdb.org/tou.jsp', which was found using a narrow Google search. Given this, downloads are under a permissive minimal license that states '...as long as the following copyright statement is placed at the top of each file: Copyright © 2005 SRI International', which besides being likely out of data, is custom and does not cover APIs, remixing, and the like. It is hard to interpret the consequences of this license.
 contacts:
     - feedback@pantherdb.org
     - pdthomas@usc.edu
