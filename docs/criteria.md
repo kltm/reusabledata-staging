@@ -66,6 +66,7 @@ In the case that a resource holds multiple kinds of content (software, ontologie
     - URL access over HTTP of entire data set → Yes
     - Dumpable access over API endpoint (e.g. SPARQL dump) → Yes
     - Set of HTML-only linked pages with data embedded → No
+	- One could easily write a script to scrape the data files in a structured way without cooperation → Yes
 - Examples of “reasonable and transparent” access methods:
     - Unprotected HTTP/S access → Yes
     - Access by API key for analytics → Yes
