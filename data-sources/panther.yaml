@@ -1,20 +1,26 @@
 id: panther
 source: 'Protein ANalysis THrough Evolutionary Relationships Classification System (PANTHER)'
-source-link: 'http://pantherdb.org'
-status: incomplete
+source-link: 'http://pantherdb.org/'
+status: complete
 description: 'The PANTHER (Protein ANalysis THrough Evolutionary Relationships) Classification System was designed to classify proteins (and their genes) according to evolutionary family/subfamily, molecular function, biological process, and pathway. The PANTHER Classifications are the result of human curation as well as sophisticated bioinformatics algorithms.'
 data-field: biology
 data-type: 'genomic resource'
 data-categories:
-    - orthology
-data-access: []
-license: unknown
-license-type: copyright
-license-link: 'TODO'
-license-issues: []
-license-commentary:
-  - 'http://pantherdb.org/terms/disclaimer.jsp ?'
+    - 'orthology'
+data-access:
+    - type: download
+      location: http://pantherdb.org/downloads/index.jsp
+license: 'all rights reserved'
+license-type: 'copyright'
+license-issues:
+    - criteria: B.1
+      comment: An all rights reserved copyright statement appears on each page of source site.
+    - criteria: D.1
+      comment: Given the all rights reserved copyright statement, any downstream reuse would require negotiation.
+    - criteria: E.1.1
+      comment: Given the all rights reserved copyright statement, all user/agent types would need to negotiate downstream reuse.
+license-commentary: []
 contacts:
     - feedback@pantherdb.org
     - pdthomas@usc.edu
-grade: -1
+grade: 2.5
