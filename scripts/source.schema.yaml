@@ -96,6 +96,12 @@ mapping:
       - type: str
     required: no
   ## (Optional) structured issues with the license.
+  ## For every issue discovered with a resource, there should be a
+  ## corresponding item in the license-issues field, along with any
+  ## comments. This field can be used by resources as the first step to
+  ## improvement, as well as clarify any surrounding circumstances.
+  ## Any issues or thoughts about a resource that do not slot into one
+  ## of the criteria violations can go into the license-commentary field.
   "license-issues":
     type: seq
     sequence:
