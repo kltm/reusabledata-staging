@@ -92,6 +92,18 @@ us.each(data_sources, function(source){
 	cache.push(comment);
     });
     source['license-commentary-embeddable'] = cache.join('\n\\n<hr />');
+
+    var tags_cache = [];
+    if( source['data-field'] ){
+	tags_cache.push(source['data-field']);
+    }
+    if( source['data-type'] ){
+	tags_cache.push(source['data-type']);
+    }
+    us.each(source['data-categories'], function(comment){
+	tags_cache.push(comment);
+    });
+    source['data-tags'] = tags_cache.join(', ');
 });
 
 // Pug/Jade for table.

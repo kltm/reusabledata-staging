@@ -2,7 +2,7 @@ table(id='sourcestable' class='table table-sm table-striped rud-compact-table')
   thead
     tr
       th Name
-      th Categories
+      th Tags
       th Grade
       th Description
       th License Info
@@ -10,7 +10,7 @@ table(id='sourcestable' class='table table-sm table-striped rud-compact-table')
   tfoot
     tr
       th Name
-      th Categories
+      th Tags
       th Grade
       th Description
       th License Info
@@ -21,7 +21,7 @@ table(id='sourcestable' class='table table-sm table-striped rud-compact-table')
        tr
          td 
            a(href=source['source-link']) #{ source.source }
-         td #{ source['data-field'] } #{ source['data-type'] } #{ source['data-categories'] }
+         td #{ source['data-tags'] }
          case source.grade
            when 5
              td(style='color:#ffd700;font-size:1.0em;') &#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;&nbsp;&#x2605;
