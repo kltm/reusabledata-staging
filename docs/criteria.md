@@ -31,9 +31,9 @@ use in an easy-to-find and non-ambiguous manner.
 
 ## <span id="criteria-B">B) License requires no further negotiation and its scope is both unambiguous and covers all of the data</span>
 
-**Rationale:** No further legal consultation should be necessary and no further action should be needed for the non-negotiated use of a data resource.
+**Rationale:** No further legal consultation should be necessary and no further action or human interaction should be needed for continuing non-negotiated use of a data resource, except to initially obtain access keys if necessary.
 
-- <span id="criteria-B.1">**B.1**</span>) Is the license free of any language that explicitly requires negotiation?
+- <span id="criteria-B.1">**B.1**</span>) Is the license free of any language that *explicitly* requires initial or ongoing negotiation? This would not be triggered by all restrictive licenses, but rather by a license that requires engaged negotiation where the results are not known ahead of time.
     - Yes: → <span class="half-star">**HALF STAR**</span> → <a href="#criteria-B/2">**B.2**</a>
     - No: → <span class="no-star">**NO STARS**</span> → <a href="#criteria-B.2">**B.2**</a>
 - <span id="criteria-B.2">**B.2**</span>) Is the scoping of the license complete? To determine this, both of these criteria must be met:
@@ -45,9 +45,10 @@ In the case that a resource holds multiple kinds of content (software, ontologie
     - Yes (both **B.2.1** and **B.2.2** criteria are met): → <span class="half-star">**add HALF STAR to score from B.1**</span> → <a href="#criteria-C">**C**</a>
     - No (fulfills none or just one of the two B2 criteria): → <span class="no-star">**NO STARS**</span> → <a href="#criteria-C">**C**</a>
 - Examples for **B.1**:
-    - License is clearly stated, but requires you to get in touch with the resource’s tech transfer office for a questionnaire → No
-    - Language such as: “contact our tech transfer office at `xyz@example.com`” → No
     - Note: requiring registration may be okay, see **C**.
+    - License is clearly stated, but requires you to get in touch with the resource’s tech transfer office for a questionnaire → No
+    - Language such as: “contact our tech transfer office at `xyz@example.com` for details” → No
+	- Language that requires you to make your data available to the resource into the future outside of licensing → No
 - Examples for **B.2**:
     - License applies to partial content, (e.g. onus on user to make determination of the records to which restrictive licensing applies (e.g. ClinVar, EBI, Monarch) → No
     - License provides allowances to a vague subest of the data (e.g. a “reasonable portion” may be redistributed) → No
