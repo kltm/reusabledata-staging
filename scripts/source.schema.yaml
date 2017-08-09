@@ -70,7 +70,7 @@ mapping:
     required: no
   ## The license that is used.
   ## Should try and use SPDX where we can: https://spdx.org/licenses/
-  ## or: "unknown", "public domain", "all right reserved", or "custom".
+  ## or: "unknown", "public domain", "all rights reserved", or "custom".
   "license":
     type: str
     required: yes
