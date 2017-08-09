@@ -31,9 +31,9 @@ use in an easy-to-find and non-ambiguous manner.
 
 ## <span id="criteria-B">B) License requires no further negotiation and its scope is both unambiguous and covers all of the data</span>
 
-**Rationale:** No further legal consultation should be necessary and no further action or human interaction should be needed for continuing non-negotiated use of a data resource, except to initially obtain access keys if necessary.
+**Rationale:** The licensing terms should be clear for all users without negotiation. If the license allows for non-negotiated reuse, no further legal or human actions should be needed for continuing non-negotiated use of a data resource, except to initially obtain access keys if necessary.
 
-- <span id="criteria-B.1">**B.1**</span>) Is the license free of any language that *explicitly* requires initial or ongoing negotiation? This would not be triggered by all restrictive licenses, but rather by a license that requires engaged negotiation where the results are not known ahead of time.
+- <span id="criteria-B.1">**B.1**</span>) Does the license clearly define the terms of continuing reuse free of any language that would require human or legal action or negotiation?
     - Yes: → <span class="half-star">**HALF STAR**</span> → <a href="#criteria-B/2">**B.2**</a>
     - No: → <span class="no-star">**NO STARS**</span> → <a href="#criteria-B.2">**B.2**</a>
 - <span id="criteria-B.2">**B.2**</span>) Is the scoping of the license complete? To determine this, both of these criteria must be met:
