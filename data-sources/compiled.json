@@ -756,9 +756,8 @@
             }
         ],
         "license-commentary": [
-            {
-                "There is an alternate curation for this resource that bases itself off of 'http://www.pantherdb.org/tou.jsp', which was found using a narrow Google search. Given this, downloads are under a permissive minimal license that states '...as long as the following copyright statement is placed at the top of each file": "Copyright © 2005 SRI International', which besides being likely out of data, is custom and does not cover APIs, remixing, and the like. It is hard to interpret the consequences of this license."
-            }
+            "There is an alternate curation for this resource that bases itself off of 'http://www.pantherdb.org/tou.jsp', which was found using a narrow Google search and not given consideration due to the difficulties in finding it--we have found no access to this document yet except for the Google search.",
+            "Considering the alternate license, downloads are under a permissive minimal license that states '...as long as the following copyright statement is placed at the top of each file: Copyright © 2005 SRI International', which besides being likely out of data, is custom and does not cover APIs, remixing, and the like. It is hard to interpret the consequences of this license."
         ],
         "contacts": [
             "feedback@pantherdb.org",
