@@ -91,7 +91,7 @@ us.each(data_sources, function(source){
     us.each(source['license-commentary'], function(comment){
 	cache.push(comment);
     });
-    source['license-commentary-embeddable'] = cache.join('\n\\n<hr />');
+    source['license-commentary-embeddable'] = cache.join('<hr />');
 
     var tags_cache = [];
     if( source['data-field'] ){
