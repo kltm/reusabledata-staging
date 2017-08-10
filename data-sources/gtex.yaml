@@ -21,7 +21,7 @@ license-issues:
     - criteria: C.2
       comment: No API or URL and therefore no reasonable and transparent access.
 license-commentary:
-    - Protected Data and Raw Data in the portal has not included in evaluation of this resource. See the dbGaP.yaml for score.
+    - Protected Data and Raw Data in the portal has not included in evaluation of this resource. See the dbGaP file for score.
     - The data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html).
     - Pilot data set (phs000424.v3.p1) - acceptance of the 'Ft. Lauderdale' principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.
     - May 8, 2015 - No restrictions - main manuscript published.
@@ -30,4 +30,4 @@ license-commentary:
     - 'https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html'
 contacts:
     - 'http://www.gtexportal.org/home/contact'
-grade: 2.0
+grade: 2.5
