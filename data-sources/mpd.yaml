@@ -1,5 +1,6 @@
 id: mpd
 source: 'Mouse Phenome Database (MPD)'
+source-link: https://phenome.jax.org/
 status: complete
 description: "The Mouse Phenome Database is a collaborative standardized collection of measured data on laboratory mouse strains, and includes: baseline phenotype data sets; studies of drug, diet, disease and aging effect; protocols, projects, and publications; and SNP, variation and gene expression studies. MPD collects data for classical inbred strains, other fixed-genotype strains, derived lines and populations that are openly acquirable (strain panel examples). Strains can be from JAX-Mice or from any other vendor that\'s a recognized breeding source."
 data-field: biology

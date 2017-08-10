@@ -3,7 +3,7 @@
 //// one-page app.
 ////
 //// Example usage:
-////  node ./scripts/tmp_static_output_gen.js -i ./data-sources/compiled.json -t ./scripts/tmp_static_output_gen.tmpl -o ./docs/index.html
+////  node ./scripts/mustache-inject.js --template ./scripts/tmp_static_output_frame.tmpl --body ./docs/criteria.html.seed -o ./docs/criteria.html
 ////
 
 var us = require('underscore');
@@ -53,15 +53,7 @@ if( debug ){
 }else{
 }
 
-//
-var in_data = argv['i'] || argv['in'];
-if( ! in_data ){
-    _die('Option (i|in) is required.');
-}else{
-    _debug('Will use input JSON file: ' + in_data);
-}
-
-//
+// Templte to apply against.
 var in_tmpl = argv['t'] || argv['template'];
 if( ! in_tmpl ){
     _die('Option (t|template) is required.');
@@ -69,7 +61,27 @@ if( ! in_tmpl ){
     _debug('Will use input JSON file: ' + in_tmpl);
 }
 
-//
+// jumbotron as html file.
+var in_jumbotron = '';
+var in_jumbotron_fname = argv['j'] || argv['jumbotron'];
+if( in_jumbotron_fname ){
+  in_jumbotron = fs.readFileSync(in_jumbotron_fname).toString();
+}
+
+// body as html file.
+var in_body = '';
+var in_body_fname = argv['b'] || argv['body'];
+if( in_body_fname ){
+  in_body = fs.readFileSync(in_body_fname).toString();
+}
+
+// title as string
+var title_str = argv['a'] || argv['title'];
+if( ! title_str ){
+    title_str = '(Re)usable Data Project';
+}
+
+// outfile
 var out_file = argv['o'] || argv['out'];
 if( ! out_file ){
     _die('Option (o|out) is required.');
@@ -81,48 +93,14 @@ if( ! out_file ){
 /// Main.
 ///
 
-var data_sources = JSON.parse(fs.readFileSync(in_data, 'utf-8'));
-_debug('data', data_sources);
-
-// Goose the data so we have a single html-displayable string for the
-// license commentary.
-us.each(data_sources, function(source){
-    var cache = [];
-    us.each(source['license-commentary'], function(comment){
-	cache.push(comment);
-    });
-    source['license-commentary-embeddable'] = cache.join('<hr />');
-
-    var tags_cache = [];
-    if( source['data-field'] ){
-	tags_cache.push(source['data-field']);
-    }
-    if( source['data-type'] ){
-	tags_cache.push(source['data-type']);
-    }
-    us.each(source['data-categories'], function(comment){
-	tags_cache.push(comment);
-    });
-    source['data-tags'] = tags_cache.join(', ');
-});
-
-// Pug/Jade for table.
-var html_table_str = pug.renderFile('./scripts/static-table.pug',
-				    {"data_sources": data_sources});
-console.log('===');
-console.log(html_table_str);
-console.log('===');
-
 // Mustache for final.
 var template = fs.readFileSync(in_tmpl, 'utf-8');
 _debug('template', template);
 
 var outstr = mustache.render(template, {
-    "jsondata": JSON.stringify(data_sources),
-    "htmltablestr": html_table_str,
-    "tabledata": data_sources
+  "title": title_str, 
+  "jumbotron": in_jumbotron,
+  "body": in_body
 });
 
 fs.writeFileSync(out_file, outstr);
-
-
