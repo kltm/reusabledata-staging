@@ -57,7 +57,7 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 
 **Rationale:** License without access is almost meaningless. The data provided by a resource needs to be available to research groups in a transparent and reasonable manner. Any particular content grouping at a resource should be available in its entirety with a single action once reasonable accommodations have been made with the data provider.
 
-- <span id="criteria-C.1">**C.1**</span>) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single action, at an API endpoint or URL?
+- <span id="criteria-C.1">**C.1**</span>) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single set of actions, at an API endpoint or URL?
     - Yes: → <span class="half-star">**HALF STAR**</span> → <a href="#criteria-C.2">**C.2**</a>
     - No: → <span class="no-star">**NO STARS**</span> → <a href="#criteria-C.2">**C.2**</a>
 - <span id="criteria-C.2">**C.2**</span>) Does the resource provide a “reasonable and transparent” method of obtaining access to all APIs or URLs outlined above?
@@ -66,13 +66,15 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 - Examples “reasonable good-faith location” for data access:
     - URL access over HTTP of entire data set → Yes
     - Dumpable access over API endpoint (e.g. SPARQL dump) → Yes
+    - A page with a *small* set of download links for data that will not change in the future → Yes
+    - A site where one could easily write a script to scrape the data files in a structured way without cooperation → Yes
     - Set of HTML-only linked pages with data embedded → No
-	- One could easily write a script to scrape the data files in a structured way without cooperation → Yes
 - Examples of “reasonable and transparent” access methods:
-    - Unprotected HTTP/S access → Yes
+    - Unprotected HTTP/S access for an API or downloads → Yes
     - Access by API key for analytics → Yes
     - Access by API key for access control → No
-    - Access by API key for access control, but with downloads available → Yes
+    - Access by API key for access control, but with downloads available allowing timely complete data injest → Yes
+    - Time/size limited access to data that functionally prevents timely complete data ingest → No
 
 ## <span id="criteria-D">D) License has little or no restrictions on kinds of (re)use</span>
 
