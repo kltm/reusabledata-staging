@@ -262,6 +262,33 @@
         "grade": 2.5
     },
     {
+        "id": "dbgap",
+        "source": "dbGaP (public)",
+        "source-link": "https://www.ncbi.nlm.nih.gov/gap",
+        "status": "incomplete",
+        "description": "The database of Genotypes and Phenotypes (dbGaP) was developed to archive and distribute the data and results from studies that have investigated the interaction of genotype and phenotype in Humans.",
+        "data-field": "biology",
+        "data-type": "human",
+        "data-categories": [
+            "genotype-phenotype"
+        ],
+        "data-access": [
+            {
+                "type": "download",
+                "location": "ftp://ftp.ncbi.nlm.nih.gov/dbgap/"
+            }
+        ],
+        "license": "unknown",
+        "license-type": "unknown",
+        "license-link": "https://www.ncbi.nlm.nih.gov/books/NBK99227/#DArequest.where_can_i_find_data_use_rest",
+        "license-issues": [],
+        "license-commentary": [
+            "The data seems to include a large amount of identifiable and is controlled as such."
+        ],
+        "contacts": [],
+        "grade": -1
+    },
+    {
         "id": "encode",
         "source": "ENCODE",
         "source-link": "https://www.genome.gov/10005107/",
@@ -354,10 +381,6 @@
                 "comment": "Copyright statement includes 'Certain portions of FlyBase are copyrighted separately.'"
             },
             {
-                "criteria": "C.1",
-                "comment": "No API or URL."
-            },
-            {
                 "criteria": "D.1.1",
                 "comment": "As stated copyright may be interpreted by non-legal professional that the contents may be reused/remixed in a non-commercial context."
             }
@@ -368,36 +391,57 @@
         "contacts": [
             "http://flybase.org/cgi-bin/mailto-fbhelp.html"
         ],
-        "grade": 1.5
+        "grade": 2.5
     },
     {
         "id": "gtex",
         "source": "GTEx",
         "source-link": "http://www.gtexportal.org",
-        "status": "incomplete",
+        "status": "complete",
         "description": "The Genotype-Tissue Expression (GTEx) project aims to provide to the scientific community a resource with which to study human gene expression and regulation and its relationship to genetic variation. This project will collect and analyze multiple human tissues from donors who are also densely genotyped, to assess genetic variation within their genomes. By analyzing global RNA expression within individual tissues and treating the expression levels of genes as quantitative traits, variations in gene expression that are highly correlated with genetic variation can be identified as expression quantitative trait loci, or eQTLs.",
         "data-field": "biology",
         "data-type": "human",
         "data-categories": [
             "gene expression"
         ],
-        "data-access": [],
-        "license": "unknown",
-        "license-type": "unknown",
-        "license-link": "http://www.gtexportal.org/home/documentationPage#staticTextPublicationPolicy",
-        "license-issues": [],
+        "data-access": [
+            {
+                "type": "download",
+                "location": "https://www.gtexportal.org/home/datasets"
+            }
+        ],
+        "license": "custom",
+        "license-type": "permissive",
+        "license-link": "https://www.gtexportal.org/home/documentationPage",
+        "license-issues": [
+            {
+                "criteria": "A.2",
+                "comment": "Custom license based on the various datasets and NIH Genomic Data Sharing Policy."
+            },
+            {
+                "criteria": "C.1",
+                "comment": "No API or URL to access all data groupings with single action."
+            },
+            {
+                "criteria": "C.2",
+                "comment": "No API or URL and therefore no reasonable and transparent access."
+            }
+        ],
         "license-commentary": [
-            "Apparently, the data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html), which appears to be a well-thought out, but restrictive regime. The NIH GDS section V part B terms are quite restrictive.",
-            "+Pilot data set (phs000424.v3.p1) - acceptance of the “Ft. Lauderdale” principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects: A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis.",
-            "+May 8, 2015 - No restrictions - main manuscript published.",
-            "+phs000424.v4.p1 - the dataset is subject to 9 months publication restriction starting from the date of the release; no restrictions after Jan 4, 2015.",
-            "-All datasets from phs00424.v5.p1 forward will follow the NIH GDS policy. This means that once released through dbGaP, there are no restrictions on use or publication. This document and an accompanying table of dataset releases can be found at http://www.gtexportal.org/home/documentationPage.",
-            "-https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html"
+            "Protected Data and Raw Data in the portal has not included in evaluation of this resource. See the dbGaP file for score.",
+            "The data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html).",
+            {
+                "Pilot data set (phs000424.v3.p1) - acceptance of the 'Ft. Lauderdale' principles of rapid, pre-publication data release (see Sharing Data from Large-Scale Biological Research Projects": "A System of Tripartite Responsibility, 2003). The continued success of rapid pre-publication data release relies on the scientific community to respect the data producer’s interest to publish a full analysis of their data first. Secondary users are asked to refrain from submitting manuscripts describing comprehensive analyses until the Consortium has published their analysis."
+            },
+            "May 8, 2015 - No restrictions - main manuscript published.",
+            "phs000424.v4.p1 - the dataset is subject to 9 months publication restriction starting from the date of the release; no restrictions after Jan 4, 2015.",
+            "All datasets from phs00424.v5.p1 forward will follow the NIH GDS policy. This means that once released through dbGaP, there are no restrictions on use or publication. This document and an accompanying table of dataset releases can be found at http://www.gtexportal.org/home/documentationPage.",
+            "https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html"
         ],
         "contacts": [
             "http://www.gtexportal.org/home/contact"
         ],
-        "grade": -1
+        "grade": 2.5
     },
     {
         "id": "hpo",
