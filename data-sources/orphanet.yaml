@@ -25,7 +25,6 @@ license-issues:
       comment: The license itself does not require legal intervention, but some data is not available without permission for access.
     - criteria: D.1
       comment: The CC-BY-ND license prevents derivation.
-      
 license-commentary:
     - '..you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.'
     - 'However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first.'
