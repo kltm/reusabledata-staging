@@ -19,7 +19,7 @@ license-issues:
     - criteria: B.2
       comment: KEGG gene and pathway annotations used to construct Reactome Functional Interaction (FI) Network are not licenced CC-BY-4.0.  There is a comment that "he recipient may not distribute this data to other users without a license from Pathway Solutions, Inc."
 license-commentary:
-    - The issue with criteria B.2 could be rectificed if Reactome provided a clean copy of the data that can be redistributed without negotiation.
+    - The issue with criteria B.2 could be rectified if Reactome provided a clean copy of the data that can be redistributed without negotiation.
 contacts:
     - help@reactome.org
 grade: 4.5
