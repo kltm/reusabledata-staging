@@ -1,0 +1,20 @@
+id: dbgap
+source: dbGaP (public)
+source-link: 'https://www.ncbi.nlm.nih.gov/gap'
+status: incomplete
+description: The database of Genotypes and Phenotypes (dbGaP) was developed to archive and distribute the data and results from studies that have investigated the interaction of genotype and phenotype in Humans.
+data-field: biology
+data-type: human
+data-categories:
+    - 'genotype-phenotype'
+data-access:
+  - type: download
+    location: ftp://ftp.ncbi.nlm.nih.gov/dbgap/
+license: unknown
+license-type: unknown
+license-link: 'https://www.ncbi.nlm.nih.gov/books/NBK99227/#DArequest.where_can_i_find_data_use_rest'
+license-issues: []
+license-commentary:
+  - 'The data seems to include a large amount of identifiable and is controlled as such.'
+contacts: []
+grade: -1
