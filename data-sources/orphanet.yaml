@@ -1,5 +1,5 @@
 id: orphanet
-source: ORPHANET
+source: 'Orphanet portal for rare diseases and orphan drugs'
 status: incomplete
 description: 'Orphanet provides reference information on rare diseases and orphan drugs to help improve the diagnosis, care and treatment of patients with rare diseases.'
 data-field: biomedical
@@ -9,16 +9,22 @@ data-categories:
     - 'disease-phenotype association'
     - 'disease classification'
     - 'ontology'
-data-access: 
-    - {type: download. location: 'http://www.orphadata.org/cgi-bin/index.php/'}
-    - {type: SPARQL endpoint, location: 'http://www.orpha.net/sparql'}
+data-access:
+    - type: download
+      location: http://www.orphadata.org/cgi-bin/index.php/
+    - type: SPARQL
+      location: http://www.orpha.net/sparql
     
 license: https://creativecommons.org/licenses/by-nd/3.0/
 license-type: restrictive
 license-link: 'http://www.orphadata.org/cgi-bin/inc/legal.inc.php'
+license-issues:
+    - criteria: A.1
+      comment: Some datasets are available for free on signature of a Data Transfer Agreement for Academia or a fee for Industry. This is odd given the CC-BY-ND license applied to the whole site'
+      
 license-commentary:
-    - '-No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.'
-    - '-Non-profit organisations are authorised to copy and distribute information from the site, as long as this information is neither modified nor sold. In addition to this, the terms of the intellectual property rights and the source of the information must be provided.'
-contacts:
-    - contact.orphanet@inserm.fr
-grade: -1
+    - 'We have chosen to apply the Creative Commons Attribution-NoDerivs Licence to all copyrightable parts of our databases.' 
+    - 'This means that you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.'
+    - 'However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first.'
+    - 'http://www.orphadata.org/cgi-bin/contact.php'
+grade: 
