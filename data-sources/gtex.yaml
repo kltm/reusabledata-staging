@@ -9,7 +9,7 @@ data-categories:
     - 'gene expression'
 data-access:
  - type: download
-      location: https://www.gtexportal.org/home/datasets
+   location: https://www.gtexportal.org/home/datasets
 license: custom
 license-type: permissive
 license-link: 'https://www.gtexportal.org/home/documentationPage'
