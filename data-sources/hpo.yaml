@@ -18,6 +18,8 @@ license-issues:
       comment: HPO is copyrighted to protect ontologies and all changes must be made by hpo developers.
     - criteria: D.1.2
       comment: Restricted downstream use. May not be edited.
+    - criteria: E.1.2
+      comment: Restricted downstream use translates to agents as well.
 license-commentary:
     - immutability
     - unclear derivatives
@@ -25,4 +27,4 @@ license-commentary:
     - 'That neither the content of the HPO file(s) nor the logical relationships embedded within the HPO file(s) be altered in any way.'
 contacts:
     - 'http://human-phenotype-ontology.github.io/contact.html'
-grade: 3.5
+grade: 2.5
