@@ -651,10 +651,10 @@
     },
     {
         "id": "ncbi-gene",
-        "source": "National Center for Biotechnology Information Gene (NCBI-Gene)",
-        "source-link": "TODO",
-        "status": "incomplete",
-        "description": "NCBI Gene integrates information from a wide range of species, and includes nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide. Taxon lists the taxinomic organization of organisms. Pub2Gene serves links between genes and pubmed identifiers where they are mentioned.",
+        "source": "National Center for Biotechnology Information (Gene)",
+        "source-link": "https://www.ncbi.nlm.nih.gov/gene/",
+        "status": "complete",
+        "description": "Gene integrates information from a wide range of species. A record may include nomenclature, Reference Sequences (RefSeqs), maps, pathways, variations, phenotypes, and links to genome-, phenotype-, and locus-specific resources worldwide.",
         "data-field": "biology",
         "data-type": "genomic resource",
         "data-categories": [
@@ -662,42 +662,91 @@
             "taxon definition",
             "gene-publication association"
         ],
-        "data-access": [],
-        "license": "unknown",
+        "data-access": [
+            {
+                "type": "download",
+                "location": "ftp://ftp.ncbi.nih.gov/gene/"
+            }
+        ],
+        "license": "custom",
         "license-type": "unknown",
         "license-link": "http://www.ncbi.nlm.nih.gov/home/about/policies.shtml",
+        "license-issues": [
+            {
+                "criteria": "A.2",
+                "comment": "The license apparently uses language to declare something similar to \"public domain\", but with the caveat that it may contain data that is otherwise."
+            },
+            {
+                "criteria": "B.1",
+                "comment": "This is judged to be a violation as any (re)use would depend on negotiating with all upstream copyright holders, which are not presented."
+            },
+            {
+                "criteria": "B.2.1",
+                "comment": "It is implied that their license does not cover all data."
+            },
+            {
+                "criteria": "B.2.2",
+                "comment": "Could not find an explicit \"clean\" version of the data in the downloads."
+            },
+            {
+                "criteria": "D.1.2",
+                "comment": "There is no apparent way to guarantee usage without possibly violating copyright."
+            },
+            {
+                "criteria": "E.1.2",
+                "comment": "There is no apparent way to guarantee usage without possibly violating copyright."
+            }
+        ],
         "license-commentary": [
-            "TODO: Need to square the reuse on non-PD information.",
-            "+Information that is created by or for the US government on this site is within the public domain. Public domain information on the National Library of Medicine (NLM) Web pages may be freely distributed and copied. However, it is requested that in any subsequent use of this work, NLM be given appropriate acknowledgment.",
-            "-NOTE: This site contains resources which incorporate material contributed or licensed by individuals, companies, or organizations that may be protected by U.S. and foreign copyright laws. These include, but are not limited to PubMed Health (see PubMed Health Copyright and Restrictions Notice), PubMed Central (PMC) (see PMC Copyright Notice), Bookshelf (see Bookshelf Copyright Notice), OMIM (see OMIM Copyright Status), and PubChem. All persons reproducing, redistributing, or making commercial use of this information are expected to adhere to the terms and conditions asserted by the copyright holder. Transmission or reproduction of protected items beyond that allowed by fair use (PDF) as defined in the copyright laws requires the written permission of the copyright owners."
+            "We specifically avoided the more general operation of the EUtils suite, focusing on the provided downloads.",
+            "The following statements from the license page seem to support a custom \"hands off\" approach. To was difficult to decide if this was \"restrictive\" or \"unknown.",
+            "...NCBI itself places no restrictions on the use or distribution of the data contained therein. Nor do we accept data when the submitter has requested restrictions on reuse or redistribution...",
+            "...some submitters of the original data...may claim patent, copyright, or other intellectual property rights in all or a portion of the data (that has been submitted)...",
+            "...NCBI cannot provide comment or unrestricted permission concerning the use, copying, or distribution of the information contained in the molecular databases..."
         ],
         "contacts": [
             "info@ncbi.nlm.nih.gov"
         ],
-        "grade": -1
+        "grade": 1.5
     },
     {
         "id": "omia",
         "source": "Online Mendelian Inheritance in Animals (OMIA)",
-        "source-link": "TODO",
-        "status": "incomplete",
+        "source-link": "http://omia.angis.org.au",
+        "status": "complete",
         "description": "Online Mendelian Inheritance in Animals (OMIA) is a catalogue/compendium of inherited disorders, other (single-locus) traits, and genes in 215 (non-model) animal species.",
         "data-field": "biology",
         "data-type": "veterinary x-species",
         "data-categories": [
             "gene-disease association"
         ],
-        "data-access": [],
-        "license": "unknown",
-        "license-type": "unknown",
-        "license-link": "http://sydney.edu.au/disclaimer.html",
-        "license-issues": [],
-        "license-commentary": [
-            "-Individuals may copy a reasonable portion of the material on this site under the fair dealing provisions of the Copyright Act 1968 provided it is used for research or study or for criticism or review. Educational institutions may reproduce limited amounts of material from this site under Part VB of the Copyright Act",
-            "-Apart from these specified uses material from this site may not be reproduced for commercial purposes without prior written permission of the University of Sydney."
+        "data-access": [
+            {
+                "type": "download",
+                "location": "http://omia.angis.org.au/download/"
+            }
         ],
-        "contacts": [],
-        "grade": -1
+        "license": "standard",
+        "license-type": "copyright",
+        "license-link": "http://sydney.edu.au/disclaimer.html",
+        "license-issues": [
+            {
+                "criteria": "D.1.2",
+                "comment": "The license seems to be a standard ARR, with no exception for any kind of bulk (re)use."
+            },
+            {
+                "criteria": "E.1.2",
+                "comment": "The license seems to be a standard ARR, with no exception for any kind of bulk (re)use."
+            }
+        ],
+        "license-commentary": [
+            "Appears to be the equivalent of Australian ARR with one exception, which looks fairly standard as well. The exception, however, adds little for our use case over ARR.",
+            "The order of the copyright statments is: this is under copyright, a couple of groups may use a portion, but besides those no \\\"material from this site may not be reproduced for commercial purposes without prior written permission of the University of Sydney.\\\" We are reading this to mean that those specified limited categories may the data for commercial purposes, but all others must contact OMIA."
+        ],
+        "contacts": [
+            "http://omia.angis.org.au/contact/"
+        ],
+        "grade": 3
     },
     {
         "id": "omim",
@@ -763,30 +812,103 @@
     },
     {
         "id": "orphanet",
-        "source": "ORPHANET",
+        "source": "Orphanet portal for rare diseases and orphan drugs",
         "source-link": "http://www.orpha.net",
         "status": "incomplete",
         "description": "Orphanet provides reference information on rare diseases and orphan drugs to help improve the diagnosis, care and treatment of patients with rare diseases.",
-        "data-field": "biology",
+        "data-field": "biomedical",
         "data-type": "human",
         "data-categories": [
             "disease-gene association",
             "disease-phenotype association",
+            "disease classification",
             "ontology"
         ],
-        "data-access": [],
+        "data-access": [
+            {
+                "type": "download",
+                "location": "http://www.orphadata.org/cgi-bin/index.php/"
+            },
+            {
+                "type": "api",
+                "location": "http://www.orpha.net/sparql"
+            }
+        ],
         "license": "unknown",
         "license-type": "unknown",
-        "license-link": "http://www.orpha.net/consor/cgi-bin/Education_AboutOrphanet.php?lng=EN&stapage=CGU",
-        "license-issues": [],
+        "license-link": "http://www.orphadata.org/cgi-bin/inc/legal.inc.php",
+        "license-issues": [
+            {
+                "criteria": "A.1",
+                "comment": "Some datasets are freely available on signature of a Data Transfer Agreement for Academia or with a fee for Industry. This is odd given the CC-BY-ND license applied to the whole site'"
+            },
+            {
+                "criteria": "B.1",
+                "comment": "The license itself does not require legal intervention, but some data is not available without permission for access."
+            },
+            {
+                "criteria": "D.1",
+                "comment": "The CC-BY-ND license prevents derivation."
+            }
+        ],
         "license-commentary": [
-            "-No element or part of the site (including, but not limited to, the database and the information contained within) can be copied, translated, reproduced, exploited, published, electronically stocked or redistributed for commercial use without prior written consent.",
-            "-Non-profit organisations are authorised to copy and distribute information from the site, as long as this information is neither modified nor sold. In addition to this, the terms of the intellectual property rights and the source of the information must be provided."
+            "..you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.",
+            "However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first."
         ],
         "contacts": [
-            "contact.orphanet@inserm.fr"
+            "http://www.orphadata.org/cgi-bin/contact.php"
         ],
-        "grade": -1
+        "grade": 4
+    },
+    {
+        "id": "orphanet-open",
+        "source": "Orphanet portal for rare diseases and orphan drugs (open access subset)",
+        "source-link": "http://www.orpha.net",
+        "status": "incomplete",
+        "description": "Orphanet provides reference information on rare diseases and orphan drugs to help improve the diagnosis, care and treatment of patients with rare diseases.",
+        "data-field": "biomedical",
+        "data-type": "human",
+        "data-categories": [
+            "disease-gene association",
+            "disease-phenotype association",
+            "disease classification",
+            "ontology"
+        ],
+        "data-access": [
+            {
+                "type": "download",
+                "location": "http://www.orphadata.org/cgi-bin/index.php/"
+            },
+            {
+                "type": "api",
+                "location": "http://www.orpha.net/sparql"
+            }
+        ],
+        "license": "https://creativecommons.org/licenses/by-nd/3.0/",
+        "license-type": "restrictive",
+        "license-link": "http://www.orphadata.org/cgi-bin/inc/legal.inc.php",
+        "license-issues": [
+            {
+                "criteria": "A.1",
+                "comment": "Some datasets are freely available on signature of a Data Transfer Agreement for Academia or with a fee for Industry. This is odd given the CC-BY-ND license applied to the whole site'"
+            },
+            {
+                "criteria": "B.1",
+                "comment": "The license itself does not require legal intervention, but some data is not available without permission for access."
+            },
+            {
+                "criteria": "D.1",
+                "comment": "The CC-BY-ND license prevents derivation."
+            }
+        ],
+        "license-commentary": [
+            "..you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.",
+            "However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first."
+        ],
+        "contacts": [
+            "http://www.orphadata.org/cgi-bin/contact.php"
+        ],
+        "grade": 4
     },
     {
         "id": "panther",
