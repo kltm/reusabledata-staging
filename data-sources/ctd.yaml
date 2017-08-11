@@ -20,7 +20,7 @@ license-issues:
       comment: Custom license with interesting use restrictions.
     - criteria: B.1
       comment: For quality control purposes, you must provide CTD with periodic access to your publication of our data.
-    - criteria: D.1
+    - criteria: D.1.2
       comment: Given the four statements in the Additional Terms of Data Use, notably number 4, it looks like any downstream user would have to renegotiate with CTD.
     - criteria: E.1.1
       comment: "Without negotiation: \"It is to be used only for research and educational purposes.\""
