@@ -12,11 +12,11 @@ data-access:
       location: ftp://ftp.ebi.ac.uk/pub/databases/impc/latest/
     - type: api
       location: http://www.mousephenotype.org/data/documentation/data-access
-license: all rights reserved
-license-type: copyright
+license: 'all rights reserved'
+license-type: 'copyright'
 license-link: 
 license-issues:
-- criteria: A.1.2
+    - criteria: A.1.2
       comment: Could not find licensing information in a reasonable location. Determined ARR by default.
     - criteria: D.1.2
       comment: Restricted downstream use per ARR.
