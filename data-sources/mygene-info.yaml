@@ -16,11 +16,11 @@ license-link: 'TODO'
 license-issues:
     - criteria: A.2
       comment: Custom license, but consistent.
-    - criteria: B.2
+    - criteria: B.2.1
       comment: Scope is incomplete - they claim no responsibility for data from other sources on their site.
-    - criteria: D
+    - criteria: D.1.2
       comment: No re-use allowed, just use.
-    - criteria: E
+    - criteria: E.1.2
       comment: No re-use allowed, just use.
 license-commentary:
   - 'TODO: http://docs.mygene.info/en/v3/terms.html vs. http://mygene.info/terms/'

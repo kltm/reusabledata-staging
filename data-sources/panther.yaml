@@ -13,9 +13,9 @@ data-access:
 license: 'all rights reserved'
 license-type: 'copyright'
 license-issues:
-    - criteria: D.1
+    - criteria: D.1.2
       comment: Given the all rights reserved copyright statement, any downstream reuse would require negotiation.
-    - criteria: E.1.1
+    - criteria: E.1.2
       comment: Given the all rights reserved copyright statement, all user/agent types would need to negotiate downstream reuse.
 license-commentary:
     - "There is an alternate curation for this resource that bases itself off of 'http://www.pantherdb.org/tou.jsp', which was found using a narrow Google search and not given consideration due to the difficulties in finding it--we have found no access to this document yet except for the Google search."
