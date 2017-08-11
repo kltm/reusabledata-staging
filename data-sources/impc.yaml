@@ -23,7 +23,7 @@ license-issues:
     - criteria: E.1.2
       comment: All downstream agents restricted per ARR.
 license-commentary:
-    - Had to google to find the data use agreement page. Could not locate from browsing the website. ''http://www.mousephenotype.org/about-impc/additional-information/data-use-agreement'
+    - Had to google to find the data use agreement page. Could not locate from browsing the website. 'http://www.mousephenotype.org/about-impc/additional-information/data-use-agreement'
     - 'When the first major Project paper on these analyses is published, then researchers inside and outside the Project are free to present and publish using the Project data for these and other analyses.'
     - Perhaps the license page was removed because of publications and lifting of embargo as described above. Which defaults to ARR since no other license was found.
 contacts:
