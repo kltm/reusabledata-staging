@@ -148,9 +148,10 @@ mapping:
     required: no
   ## (Optional) structured issues with the license.
   ## For every issue discovered with a resource, there should be a
-  ## corresponding item in the license-issues field, along with any
-  ## comments. This field can be used by resources as the first step to
-  ## improvement, as well as clarify any surrounding circumstances.
+  ## corresponding item in the license-issues field that marks the /exact/
+  ## violation, along with any comments. This field can be used by
+  ## resources as the first step to improvement, as well as clarify any
+  ## surrounding circumstances.
   ## Any issues or thoughts about a resource that do not slot into one
   ## of the criteria violations can go into the license-commentary field.
   ##
@@ -163,10 +164,11 @@ mapping:
     sequence:
       - type: map
         mapping:
-          ## The criteria violated. E.g. "A.1.1", "D.2".
+          ## The criteria violated. E.g. "A.1.1", "C.2".
           "criteria":
             type: str
             required: yes
+            enum: ['A.1.1', 'A.1.2', 'A.2', 'B.1', 'B.2.1', 'B.2.2', 'C.1', 'C.2', 'D.1.1', 'D.1.2', 'E.1.1', 'E.1.2']
           ## How the criteria was violated.
           "comment":
             type: str
