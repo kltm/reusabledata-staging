@@ -86,6 +86,7 @@ _debug('data', data_sources);
 
 // Goose the data so we have a single html-displayable string for the
 // license commentary.
+console.log('===');
 us.each(data_sources, function(source){
     var cache = [];
     us.each(source['license-commentary'], function(comment){
@@ -104,13 +105,92 @@ us.each(data_sources, function(source){
 	tags_cache.push(comment);
     });
     source['data-tags'] = tags_cache.join(', ');
+
+    ///
+    /// Logic for automatic scoring.
+    ///
+
+    // Unroll the actual criteria violations into a lookup.
+    var s = {};
+    if( source['license-issues'] ){
+	us.each(source['license-issues'], function(li){
+	    s[li['criteria']] = true;
+	});
+    }
+
+    // Start with a possible 5 points.
+    var grade = 5.0;
+
+    // C and only C.
+    function evaluate_C(){
+	if( s['C.1'] ){
+	    grade -= 0.5;
+	}
+	if( s['C.2'] ){
+	    grade -= 0.5;
+	}
+    }
+
+    // Deal with license location short-circuits first.
+    if( s['A.1.1'] ){
+	grade -= 4.0;
+	evaluate_C();
+    }else if( s['A.1.2'] ){
+	grade -= 4.0;
+	evaluate_C();
+    }else{
+
+	if( s['A.2'] ){
+	    grade -= 0.5;
+	}
+	if( s['B.1'] ){
+	    grade -= 0.5;
+	}
+	if( s['B.2.1'] || s['B.2.2'] ){
+	    grade -= 0.5;
+	}
+	evaluate_C();
+	if( s['D.1.1'] ){
+	    grade -= 0.5;
+	}
+	if( s['D.1.2'] ){
+	    grade -= 1.0;
+	}
+	if( s['E.1.1'] ){
+	    grade -= 0.5;
+	}
+	if( s['E.1.2'] ){
+	    grade -= 1.0;
+	}
+    }
+
+    // Do not override "given" grade at this point.
+    source['grade-automatic'] = grade;
+
+    if( source['status'] === 'complete' ){
+
+	// It should not be possible for any type of restrictive
+	// license to get above 3.0.
+	var restrictive_check = '';
+	if( source['license-type'] === 'restrictive' ||
+	    source['license-type'] === 'all rights reserved'){
+	    if( grade > 3.0 ){
+		restrictive_check = '?';
+	    }
+	}
+
+	console.log('Curated/generated grade ('+
+		    source['id'] +'): ' +
+		    source['grade'] + '/' +
+		    grade + ' ' +
+		    restrictive_check);
+      }
 });
 
 // Pug/Jade for table.
 var html_table_str = pug.renderFile('./scripts/static-table.pug',
 				    {"data_sources": data_sources});
-console.log('===');
-console.log(html_table_str);
+//console.log(html_table_str);
 console.log('===');
 
 // Mustache for final.
