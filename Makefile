@@ -10,7 +10,7 @@ all: index.html criteria.html license-types.html reading.html about.html
 .PHONY: check
 check:
 	kwalify -E -m ./scripts/source.schema.yaml
-	kwalify -f ./scripts/source.schema.yaml ./data-sources/*.yaml
+	kwalify -E -f ./scripts/source.schema.yaml ./data-sources/*.yaml
 
 ###
 ### index.html, with the table, has extra compilation steps to take it

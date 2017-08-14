@@ -1,5 +1,5 @@
-id: orphanet
-source: 'Orphanet portal for rare diseases and orphan drugs'
+id: orphanet-open
+source: 'Orphanet portal for rare diseases and orphan drugs (open access subset)'
 source-link: 'http://www.orpha.net'
 status: incomplete
 description: 'Orphanet provides reference information on rare diseases and orphan drugs to help improve the diagnosis, care and treatment of patients with rare diseases.'
@@ -15,8 +15,8 @@ data-access:
       location: http://www.orphadata.org/cgi-bin/index.php/
     - type: api
       location: http://www.orpha.net/sparql
-license: unknown
-license-type: unknown
+license: https://creativecommons.org/licenses/by-nd/3.0/
+license-type: restrictive
 license-link: 'http://www.orphadata.org/cgi-bin/inc/legal.inc.php'
 license-issues:
     - criteria: A.1.1

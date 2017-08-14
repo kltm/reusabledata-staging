@@ -57,7 +57,7 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 
 **Rationale:** License without access is almost meaningless. The data provided by a resource needs to be available to research groups in a transparent and reasonable manner. Any particular content grouping at a resource should be available in its entirety with a single action once reasonable accommodations have been made with the data provider.
 
-- <span id="criteria-C.1">**C.1**</span>) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single action, at an API endpoint or URL?
+- <span id="criteria-C.1">**C.1**</span>) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single "action" (see below for examples of what may constitute azn "action"), at an API endpoint or URL?
     - Yes: → <span class="half-star">**HALF STAR**</span> → <a href="#criteria-C.2">**C.2**</a>
     - No: → <span class="no-star">**NO STARS**</span> → <a href="#criteria-C.2">**C.2**</a>
 - <span id="criteria-C.2">**C.2**</span>) Does the resource provide a “reasonable and transparent” method of obtaining access to all APIs or URLs outlined above?
@@ -66,23 +66,25 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 - Examples “reasonable good-faith location” for data access:
     - URL access over HTTP of entire data set → Yes
     - Dumpable access over API endpoint (e.g. SPARQL dump) → Yes
+    - A page with a *small* set of download links for data that will not change in the future → Yes
+    - A site where one could easily write a script to scrape the data files in a structured way without cooperation → Yes
     - Set of HTML-only linked pages with data embedded → No
-	- One could easily write a script to scrape the data files in a structured way without cooperation → Yes
 - Examples of “reasonable and transparent” access methods:
-    - Unprotected HTTP/S access → Yes
+    - Unprotected HTTP/S access for an API or downloads → Yes
     - Access by API key for analytics → Yes
     - Access by API key for access control → No
-    - Access by API key for access control, but with downloads available → Yes
+    - Access by API key for access control, but with downloads available allowing timely complete data injest → Yes
+    - Time/size limited access to data that functionally prevents timely complete data ingest → No
 
 ## <span id="criteria-D">D) License has little or no restrictions on kinds of (re)use</span>
 
 **Rationale:** Research groups should have the ability to legally access the data to use in their research, build upon and modify it, and publish their results. Ideally, they should be able to do so freely and without encumbrances (except possibly attribution). Forbidding certain kinds of reuse (or explicitly allowing only a narrow kind of reuse) leaves open questions about what prohibited reuse actually constitutes in practice; this determination may require legal consultation. For example, if the provider forbids "editing" the data, is it a prohibition of the license to use just a fraction of the data? Change the format? Build a tool on top of it? Translate it? Because we nevertheless want to recognize any attempt at openness, we award half stars in this category as long as there are redistribution provisions (not just copy/download).
 
 - <span id="criteria-D.1">**D.1**</span>) Are different types of downstream reuse distinguished as allowable or as forbidden?
-    - No, all types of reuse are allowed without negotiation, allowing for "reasonable" attribution and redistribution restrictions (e.g. CC BY 4.0): → <span class="one-star">**ONE STAR**</span> → <a href="#criteria-E">**E**</a>
+    - No, all types of reuse are allowed without negotiation, allowing for "reasonable" attribution and redistribution restrictions (e.g. CC BY 4.0 or a similarly permissive license, see <a href="license-types.html">license types</a>): → <span class="one-star">**ONE STAR**</span> → <a href="#criteria-E">**E**</a>
     - Would a non-legal professional reasonably interpret the license to mean that individuals either in "research” or “non-commercial" contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
         - <span id="criteria-D.1.1">**D.1.1**</span>) Yes: → <span class="half-star">**HALF STAR**</span> → <a href="#criteria-E">**E**</a>
-        - <span id="criteria-D.1.2">**D.1.2**</span>) No (e.g. ARR): → <span class="no-star">**NO STARS**</span> → <a href="#criteria-E">**E**</a>
+        - <span id="criteria-D.1.2">**D.1.2**</span>) No (e.g. restrictive licenses or all rights reserved, see <a href="license-types.html">license types</a>): → <span class="no-star">**NO STARS**</span> → <a href="#criteria-E">**E**</a>
 - Example restrictions in use and downstream reuse:
   - May not be copied.
   - May not be edited (e.g. invariant text clause).
@@ -99,10 +101,10 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 **Rationale:** When research groups build on and modify data resources, they should be able to make these new products available for redistribution to other researchers in some unencumbered way, giving them the same opportunities to do the same. Ideally, they should be able to pass on their work freely and redistribute it to any party without restriction. Forbidding certain kinds of people or institutions (or explicitly allowing only a narrow definition of such) leaves open questions about what this means; this determination may require legal consultation. For example, if a license forbids commercial use, it may also prohibit remixing, redistribution, or cost recovery by not-for-profit companies. Because we nevertheless want to recognize any attempt at openness, we award half stars in this category as long as there are redistribution provisions that amount to more than "personal use", which is not clear as to whether it permits sharing/remixing within a research group for academic purposes.
 
 - <span id="criteria-E.1">**E.1**</span>) Are different types of person groups or “agents” distinguished?
-    - No, all types of person groups or “agents” are allowed without negotiation, allowing for “reasonable” attribution and redistribution restrictions (e.g. CC BY 4.0): → <span class="one-star">**ONE STAR**</span> → <span class="done">**DONE**</span>
+    - No, all types of person groups or “agents” are allowed without negotiation, allowing for “reasonable” attribution and redistribution restrictions (e.g. CC BY 4.0 or a similarly permissive license, see <a href="license-types.html">license types</a>): → <span class="one-star">**ONE STAR**</span> → <span class="done">**DONE**</span>
     - Would a non-legal professional reasonably interpret the license to mean that individuals either in “research” or “non-commercial” contexts could work with the data (add to, modify, build on) and redistribute the results without negotiation *and without requiring the remixed data to have a specific license*?
         - <span id="criteria-E.1.1">**E.1.1**</span>) Yes: → <span class="half-star">**HALF STAR**</span> → <span class="done">**DONE**</span>
-        - <span id="criteria-E.1.2">**E.1.2**</span>) No (e.g. ARR): → <span class="no-star">**NO STARS**</span> → <span class="done">**DONE**</span>
+        - <span id="criteria-E.1.2">**E.1.2**</span>) No (e.g. restrictive licenses or all rights reserved, see <a href="license-types.html">license types</a>): → <span class="no-star">**NO STARS**</span> → <span class="done">**DONE**</span>
 - Example restrictions on who can (re)use data (a.k.a. discrimination classes); bolded classes are given a half-star exception:
     - **Academic**/non-academic: ½
     - Commercial/**non-commercial**: ½
