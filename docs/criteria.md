@@ -21,12 +21,12 @@ use in an easy-to-find and non-ambiguous manner.
 - <span id="criteria-A.2">**A.2**</span>) Does the resource use a standard license?
     - Yes, it is as standard license: → <span class="half-star">**add HALF STAR to score from A.1**</span> → <a href="#criteria-B">**B**</a>
     - No, it is a custom or non-standard license, including public domain declarations: → <span class="no-star">**NO STARS**</span> → <a href="#criteria-B">**B**</a>
-- Example list of standard licenses:
-    - Public domain declaration (while maybe technically “standard”, there is ambiguity as to it being globally applicable ([https://wiki.creativecommons.org/wiki/Public\_domain](https://wiki.creativecommons.org/wiki/Public_domain))) → No
-    - Any Creative Commons license (https://creativecommons.org/licenses/) → Yes
-    - Any GNU software or documentation license (https://www.gnu.org/licenses/licenses.html) → Yes, note software license
+- Example list of standard licenses; also see <a href="license-types.html">license type</a> discussion:
+    - Public domain declaration → No, see [discussion](license-types.html#publicdomain)
+    - Any [Creative Commons license](https://creativecommons.org/licenses/) → Yes
+    - Any [GNU software or documentation license](https://www.gnu.org/licenses/licenses.html) → Yes, note software license
     - Any BSD or MIT type licenses → Yes, note software license
-    - Open Database license ([http://opendatacommons.org/licenses/odbl/1.0](http://opendatacommons.org/licenses/odbl/1.0)) → Yes
+    - [Open Database license](http://opendatacommons.org/licenses/odbl/1.0) → Yes
 
 ## <span id="criteria-B">B) License requires no further negotiation and its scope is both unambiguous and covers all of the data</span>
 

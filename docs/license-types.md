@@ -9,7 +9,7 @@ Naturally, the license landscape is much more complicated than can be sketched w
 
 ## <span id="publicdomain">public domain</span>
 
-While a public domain declaration may work well in some jurisdictions, international portability makes it problematic for our purposes. This does not include CC0.
+While a public domain declaration may work well in some jurisdictions, has very good intent, and could be considered "standard", some ambiguities and international portability makes it problematic for our purposes. Please see the Creative Commons discussion for [more detail](https://wiki.creativecommons.org/wiki/Public\_domain). This does not include CC0.
 
 ## <span id="permissive">permissive</span>
 
