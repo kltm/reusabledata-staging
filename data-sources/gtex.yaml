@@ -20,6 +20,10 @@ license-issues:
     comment: No API or URL to access all data groupings with single action.
   - criteria: C.2
     comment: No API or URL and therefore no reasonable and transparent access.
+  - criteria: D.1.1
+    comment: As stated copyright may be interpreted by non-legal professional that the contents may be reused/remixed for research/scientific purposes.
+  - criteria: E.1.1
+    comment: As stated copyright may be interpreted by non-legal professional that the contents may be reused/remixed research/scientific purposes.
 license-commentary:
   - Protected Data and Raw Data in the portal has not included in evaluation of this resource. See the dbGaP file for score.
   - The data not under the exceptions listed are under the NIH GDS (https://grants.nih.gov/grants/guide/notice-files/NOT-OD-14-124.html).
