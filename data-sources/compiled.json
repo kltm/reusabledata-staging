@@ -26,7 +26,6 @@
         "contacts": [
             "Bgee@isb-sib.ch"
         ],
-        "grade": 1,
         "license-issues": [
             {
                 "criteria": "A.1.2",
@@ -76,8 +75,7 @@
         ],
         "contacts": [
             "Bgee@isb-sib.ch"
-        ],
-        "grade": 4
+        ]
     },
     {
         "id": "biogrid",
@@ -123,8 +121,7 @@
         ],
         "contacts": [
             "biogridadmin@gmail.com"
-        ],
-        "grade": 2
+        ]
     },
     {
         "id": "clinvar",
@@ -169,8 +166,7 @@
         ],
         "contacts": [
             "info@ncbi.nlm.nih.gov"
-        ],
-        "grade": 3.5
+        ]
     },
     {
         "id": "coriell-institute",
@@ -208,8 +204,7 @@
         ],
         "contacts": [
             "communications@coriell.org"
-        ],
-        "grade": 0
+        ]
     },
     {
         "id": "ctd",
@@ -258,8 +253,7 @@
         ],
         "contacts": [
             "http://ctdbase.org/help/contact.go"
-        ],
-        "grade": 2.5
+        ]
     },
     {
         "id": "dbgap",
@@ -285,8 +279,7 @@
         "license-commentary": [
             "The data seems to include a large amount of identifiable and is controlled as such."
         ],
-        "contacts": [],
-        "grade": -1
+        "contacts": []
     },
     {
         "id": "encode",
@@ -327,8 +320,7 @@
         ],
         "contacts": [
             "https://www.genome.gov/10005049/questions-and-feedback/"
-        ],
-        "grade": 4.5
+        ]
     },
     {
         "id": "fantom5",
@@ -348,8 +340,7 @@
         "license-commentary": [],
         "contacts": [
             "fantom-help.gsc@riken.jp"
-        ],
-        "grade": 5
+        ]
     },
     {
         "id": "flybase",
@@ -398,8 +389,7 @@
         ],
         "contacts": [
             "http://flybase.org/cgi-bin/mailto-fbhelp.html"
-        ],
-        "grade": 2.5
+        ]
     },
     {
         "id": "gtex",
@@ -454,8 +444,7 @@
         ],
         "contacts": [
             "http://www.gtexportal.org/home/contact"
-        ],
-        "grade": 2.5
+        ]
     },
     {
         "id": "hpo",
@@ -499,8 +488,7 @@
         ],
         "contacts": [
             "http://human-phenotype-ontology.github.io/contact.html"
-        ],
-        "grade": 2.5
+        ]
     },
     {
         "id": "impc",
@@ -547,8 +535,7 @@
         ],
         "contacts": [
             "http://www.mousephenotype.org/contact-us"
-        ],
-        "grade": 1
+        ]
     },
     {
         "id": "kegg",
@@ -574,8 +561,7 @@
         ],
         "contacts": [
             "http://www.genome.jp/feedback/"
-        ],
-        "grade": -1
+        ]
     },
     {
         "id": "mgi",
@@ -615,8 +601,7 @@
         ],
         "contacts": [
             "http://www.informatics.jax.org/mgihome/support/mgi_inbox.shtml"
-        ],
-        "grade": 4
+        ]
     },
     {
         "id": "mpd",
@@ -653,8 +638,7 @@
         ],
         "contacts": [
             "phenome@jax.org"
-        ],
-        "grade": 4.5
+        ]
     },
     {
         "id": "mygene-info",
@@ -702,8 +686,7 @@
         ],
         "contacts": [
             "help@mygene.info"
-        ],
-        "grade": 2
+        ]
     },
     {
         "id": "ncbi-gene",
@@ -762,8 +745,7 @@
         ],
         "contacts": [
             "info@ncbi.nlm.nih.gov"
-        ],
-        "grade": 1.5
+        ]
     },
     {
         "id": "omia",
@@ -801,8 +783,7 @@
         ],
         "contacts": [
             "http://omia.angis.org.au/contact/"
-        ],
-        "grade": 3
+        ]
     },
     {
         "id": "omim",
@@ -863,8 +844,7 @@
         ],
         "contacts": [
             "JHTT-Communications@jhmi.edu"
-        ],
-        "grade": 1
+        ]
     },
     {
         "id": "orphanet",
@@ -913,8 +893,7 @@
         ],
         "contacts": [
             "http://www.orphadata.org/cgi-bin/contact.php"
-        ],
-        "grade": 4
+        ]
     },
     {
         "id": "orphanet-open",
@@ -963,8 +942,7 @@
         ],
         "contacts": [
             "http://www.orphadata.org/cgi-bin/contact.php"
-        ],
-        "grade": 4
+        ]
     },
     {
         "id": "panther",
@@ -1002,8 +980,7 @@
         "contacts": [
             "feedback@pantherdb.org",
             "pdthomas@usc.edu"
-        ],
-        "grade": 3
+        ]
     },
     {
         "id": "reactome",
@@ -1040,8 +1017,7 @@
         ],
         "contacts": [
             "help@reactome.org"
-        ],
-        "grade": 4.5
+        ]
     },
     {
         "id": "wormbase",
@@ -1075,8 +1051,7 @@
         ],
         "contacts": [
             "help@wormbase.org"
-        ],
-        "grade": 1
+        ]
     },
     {
         "id": "zfin",
@@ -1100,7 +1075,6 @@
         ],
         "contacts": [
             "jknight@zfin.org"
-        ],
-        "grade": -1
+        ]
     }
 ]
