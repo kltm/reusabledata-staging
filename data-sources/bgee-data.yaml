@@ -17,6 +17,5 @@ license-commentary:
     - 'Assuming they have defaulted to ARR.'
 contacts:
     - Bgee@isb-sib.ch
-grade: 1
 license-issues:
     - {criteria: A.1.2, comment: 'After some search we were unable to determine the license of the non-ontology portions of the BGee data. No explicit license statements were apparent, causing a cascade of criteria violations. In spite of this, access itself is clear, so one star is awarded accordingly for C.'}
