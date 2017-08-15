@@ -149,15 +149,24 @@
           console.log('Ready...');
           if( jQuery("#sourcestable") && jQuery("#sourcestable").length ){
             console.log('Running #sourcetable...');
-            jQuery("#sourcestable").DataTable({
+            var tbl = jQuery("#sourcestable").DataTable({
+              //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
               autoWidth: true
             });
-            console.log('...done.');
-            //{autoWidth: true, "order": [[3, "desc"], [0, "asc"]]}
-            // For license commentary popups.
-            jQuery(function () {
+
+            console.log('...table init...');
+
+            // Initialize for license commentary popups.
+            jQuery(function(){
               jQuery('[data-toggle="popover"]').popover();
             });
+	    // And on paging redraw (they are separate).
+	    tbl.on("draw", function(){
+              //console.log('DataTable draw event');
+              jQuery('[data-toggle="popover"]').popover();
+            });
+
+            console.log('...done.');
           }
 	});
       </script>
