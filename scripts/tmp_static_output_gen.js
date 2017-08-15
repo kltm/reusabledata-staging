@@ -181,7 +181,6 @@ us.each(data_sources, function(source){
 
 	console.log('Curated/generated grade ('+
 		    source['id'] +'): ' +
-		    source['grade'] + '/' +
 		    grade + ' ' +
 		    restrictive_check);
       }
