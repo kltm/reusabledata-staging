@@ -20,9 +20,9 @@ license-issues:
       comment: Copyright statement includes 'Certain portions of FlyBase are copyrighted separately.'
     - criteria: B.2.1
       comment: Copyright statement includes 'Certain portions of FlyBase are copyrighted separately.'
-    - criteria: D.1
+    - criteria: D.1.1
       comment: As stated copyright may be interpreted by non-legal professional that the contents may be reused/remixed in a non-commercial context.
-    - criteria: E.1
+    - criteria: E.1.1
       comment: As stated copyright may be interpreted by non-legal professional that the contents may be reused/remixed in a non-commercial context.
 license-commentary:
     - "Copyright statement is not co-located with the data source."
