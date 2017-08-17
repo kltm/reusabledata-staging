@@ -29,10 +29,10 @@ license-commentary:
   - Example GTex project submitted policy 'https://dbgap.ncbi.nlm.nih.gov/aa/wga.cgi?view_pdf&stacc=phs000424.v1.p1'
   - NIH GDS states 'NIH expects investigators and their institutions to provide basic plans for following this Policy' however we assume the burden stays with data re-reuser to contact source with questions and issues should they arise effecting criteria B.
   - Regarding institutional affiliation 'https://www.ncbi.nlm.nih.gov/books/NBK45308/'
-  - A.2: unknown license type due to 'The terms and conditions of using dbGaP data vary by study'.
-  - B.1: Negotation needed for controlled- access data and license type or terms and conditions unknown. .
-  - B.2.2: Scoping is incomplete as license type or terms and conditions unknown.
-  - D.1.2: Because the terms and conditions vary by study, cannot comment on downstream reuse/remix.
-  - E.1.1: Language in the NIH GDS policy may be interpreted by non-legal professional that the contents may be reused by researchers (at NIH or with Institutional affiliation).
+  - "A.2: unknown license type due to 'The terms and conditions of using dbGaP data vary by study'."
+  - "B.1: Negotation needed for controlled- access data and license type or terms and conditions unknown."
+  - "B.2.2: Scoping is incomplete as license type or terms and conditions unknown."
+  - "D.1.2: Because the terms and conditions vary by study, cannot comment on downstream reuse/remix."
+  - "E.1.1: Language in the NIH GDS policy may be interpreted by non-legal professional that the contents may be reused by researchers (at NIH or with Institutional affiliation)."
 contacts:
   - 'https://www.ncbi.nlm.nih.gov/books/NBK5296/'
