@@ -19,8 +19,8 @@ license-issues:
   - criteria: A.2 
     comment: unknown license type due to 'The terms and conditions of using dbGaP data vary by study'.
   - criteria: B.1
-    comment: Negotation needed for controlled- access data and license type or terms and conditions unknown.
-  - criteria: B.2
+    comment: Negotation needed for controlled- access data and license type or terms and conditions unknown. .
+  - criteria: B.2.2
     comment: Scoping is incomplete as license type or terms and conditions unknown.
   - criteria: C.1
     comment: Cannot access all the data.
