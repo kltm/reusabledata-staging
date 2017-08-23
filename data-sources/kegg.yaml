@@ -1,5 +1,6 @@
 id: kegg
 source: 'Kyoto Encyclopedia of Genes and Genomes (KEGG)'
+source-link: http://www.genome.jp/kegg/
 status: complete
 description: 'KEGG is an integrated database resource consisting of the seventeen main databases including systems, genomic, chemical, and health information.'
 data-field: biology
@@ -9,17 +10,17 @@ data-categories:
     - 'disease-gene association'
     - 'orthology'
 data-access:
-    - type: FTP
+    - type: download
       location: http://www.kegg.jp/kegg/download/
 license: custom
 license-type: restrictive
 license-link: 'http://www.kegg.jp/kegg/legal.html'
 license-issues:
-    - criteria: A.1
+    - criteria: A.1.1
       comment: Has multiple licenses (which are kind of hard to find).
     - criteria: B.1
       comment: Needs negotiation.
-    - criteria: D
+    - criteria: D.1.2
       comment: Does not explicitly allow re-use, just use.
     - criteria: E.1.1
       comment: Certain groups are forbidden, but academic can use data
