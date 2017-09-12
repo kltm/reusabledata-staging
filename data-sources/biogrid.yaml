@@ -24,7 +24,7 @@ license-issues:
     - criteria: A.2
       comment: "neither \"All rights reserved\", nor \"copyright\" are mentioned, ergo custom"
     - criteria: B.1
-      comment: 'Unclear if one would need to negotiate: "subject to licensing arrangements that may be approved by BioGRID"
+      comment: 'Unclear if one would need to negotiate: "subject to licensing arrangements that may be approved by BioGRID"'
     - criteria: B.2.1
       comment: 'Rights stay with original submitter.'
     - criteria: D.1.1
