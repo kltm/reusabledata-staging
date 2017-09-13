@@ -1,0 +1,4693 @@
+[{
+    "dup_sha1": "054fc426ef39d8acaf24309e24daaa8a05810145",
+    "issue": "9",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1371/journal.pcbi.1002706",
+        "https://www.ncbi.nlm.nih.gov/pubmed/23028298",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459841",
+        "http://dx.plos.org/10.1371/journal.pcbi.1002706",
+        "http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002706&type=printable",
+        "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002706"
+    ],
+    "updated": 1505264991.9221,
+    "doi": "10.1371/journal.pcbi.1002706",
+    "autocompleted": 1,
+    "published": {
+        "month": "9",
+        "day": "27",
+        "year": "2012"
+    },
+    "issn_alt": "1553-7358",
+    "id_list": [
+        "sha1:6bcccc9e50ce399d5fe556e9a756d633af11d298",
+        "dup_sha1:054fc426ef39d8acaf24309e24daaa8a05810145",
+        "doi:10.1371/journal.pcbi.1002706",
+        "pmc:PMC3459841",
+        "pmid:23028298",
+        "url:http://dx.doi.org/10.1371/journal.pcbi.1002706",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/23028298",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3459841",
+        "url:http://dx.plos.org/10.1371/journal.pcbi.1002706",
+        "url:http://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1002706&type=printable",
+        "url:http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002706",
+        "url:http://journals.plos.org/plosone/doi?id=10.1371/journal.pcbi.1002706"
+    ],
+    "affiliation": "Royal Society of Chemistry, Wake Forest, North Carolina, USA. tony27587@gmail.com",
+    "abstract": "When we look at the rapid growth of scientific databases on the Internet in the past decade, we tend to take the accessibility and provenance of the data for granted. As we see a future of increased database integration, the licensing of the data may be a hurdle that hampers progress and usability. We have formulated four rules for licensing data for open drug discovery, which we propose as a starting point for consideration by databases and for their ultimate adoption. This work could also be extended to the computational models derived from such data. We suggest that scientists in the future will need to consider data licensing before they embark upon re-using such content in databases they construct themselves.",
+    "title": "Why open drug discovery needs four simple rules for licensing data and models",
+    "pages": "e1002706",
+    "folders": [],
+    "journalfull": "PLoS computational biology",
+    "sha1": "6bcccc9e50ce399d5fe556e9a756d633af11d298",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264991.92062
+    },
+    "issn": "1553-734X",
+    "author": [
+        {
+            "initials": "AJ",
+            "first": "Antony J",
+            "formatted": "Williams AJ",
+            "_id": "a464a1da-53bb-086f-9103-039a6b5ade1e",
+            "last": "Williams"
+        },
+        {
+            "initials": "J",
+            "first": "John",
+            "formatted": "Wilbanks J",
+            "_id": "fe04c175-461f-029d-b968-d8007410cd03",
+            "last": "Wilbanks"
+        },
+        {
+            "initials": "S",
+            "first": "Sean",
+            "formatted": "Ekins S",
+            "_id": "25025800-e00c-0cfe-8f2e-dbf5b551493f",
+            "last": "Ekins"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1371/journal.pcbi.1002706",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC3459841",
+    "crawl_urls": [
+        "http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1002706",
+        "http://dx.doi.org/10.1371/journal.pcbi.1002706",
+        "http://dx.plos.org/10.1371/journal.pcbi.1002706",
+        "http://journals.plos.org/plosone/doi?id=10.1371/journal.pcbi.1002706"
+    ],
+    "labels": [],
+    "citekey": "Williams2012-qw",
+    "journal": "PLoS Comput. Biol.",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "f0d39a0b-3a8a-026b-b9b9-9e0cb7bbd3fb",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "50c7b1ff-167a-03d0-96e2-1fbace95c592",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505264987.92907,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxSGpSNG1IcEZqUVk",
+            "filesize": 133200,
+            "created": 1505264987.92906,
+            "filename": "Williams et al. 2012 - Why open drug discovery needs four simple rules for licensing data and models.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/W"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "a61607ff67636df496707a27d30e19fa"
+        }
+    ],
+    "volume": "8",
+    "language": "en",
+    "pii": "PCOMPBIOL-D-12-00677",
+    "journal_checked": 1,
+    "created": 1505264986.48574,
+    "subfolders": [
+        "All Papers/W"
+    ],
+    "pmid": "23028298",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "37984a225bf479beaddc7d4a9eb295199da5993a",
+    "issue": "4",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1038/nbt.3516",
+        "https://www.ncbi.nlm.nih.gov/pubmed/26939011",
+        "http://www.nature.com/nbt/journal/v34/n4/full/nbt.3516.html"
+    ],
+    "updated": 1505264935.65193,
+    "doi": "10.1038/nbt.3516",
+    "xref": [
+        {
+            "type": "CommentOn",
+            "pmid": "27168443"
+        }
+    ],
+    "autocompleted": 1,
+    "published": {
+        "month": "4",
+        "year": "2016"
+    },
+    "issn_alt": "1546-1696",
+    "id_list": [
+        "sha1:00b9c76992834a85d56bfa5405ad7250d7f39055",
+        "dup_sha1:37984a225bf479beaddc7d4a9eb295199da5993a",
+        "doi:10.1038/nbt.3516",
+        "pmid:26939011",
+        "url:http://dx.doi.org/10.1038/nbt.3516",
+        "url:http://www.nature.com/nbt/journal/v34/n4/full/nbt.3516.html",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/26939011",
+        "url:http://www.nature.com/doifinder/10.1038/nbt.3516",
+        "url:http://www.nature.com/articles/doi:10.1038/nbt.3516"
+    ],
+    "affiliation": "Sage Bionetworks, Seattle, Washington, USA.",
+    "title": "First, design for data sharing",
+    "pages": "377-379",
+    "folders": [],
+    "journalfull": "Nature biotechnology",
+    "sha1": "00b9c76992834a85d56bfa5405ad7250d7f39055",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264935.65051
+    },
+    "issn": "1087-0156",
+    "author": [
+        {
+            "initials": "J",
+            "first": "John",
+            "formatted": "Wilbanks J",
+            "_id": "982bf08f-a165-0383-89ed-90ab52539a41",
+            "last": "Wilbanks"
+        },
+        {
+            "initials": "SH",
+            "first": "Stephen H",
+            "formatted": "Friend SH",
+            "_id": "68e04177-cf02-0162-92fd-233c712219d7",
+            "last": "Friend"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/nbt.3516",
+    "kind": "Commentary",
+    "pubtype": "PP_ARTICLE",
+    "crawl_urls": [
+        "http://www.nature.com/nbt/journal/v34/n4/full/nbt.3516.html",
+        "http://dx.doi.org/10.1038/nbt.3516",
+        "http://www.nature.com/doifinder/10.1038/nbt.3516",
+        "http://www.nature.com/articles/doi:10.1038/nbt.3516"
+    ],
+    "labels": [],
+    "citekey": "Wilbanks2016-vm",
+    "journal": "Nat. Biotechnol.",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "4fe5720f-ad28-0dba-ba69-af8d5a99c9e2",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "669de3e6-8fda-0ee4-94ff-885910863f61",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505264935.70618,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxY2E1Tm56cVBYWjg",
+            "filesize": 306779,
+            "created": 1505264935.70618,
+            "filename": "Wilbanks and Friend 2016 - First, design for data sharing.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/W"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "8748df8ed7b319bb0b884570c2815296"
+        }
+    ],
+    "volume": "34",
+    "language": "en",
+    "pii": "nbt.3516",
+    "journal_checked": 1,
+    "created": 1505264930.41758,
+    "subfolders": [
+        "All Papers/W"
+    ],
+    "pmid": "26939011",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "7da2f979780761f4af4994c5f0278f6aac870581",
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://medium.com/@McDapper/the-open-data-market-92f9557fd63d"
+    ],
+    "updated": 1505264727.59126,
+    "publisher": "Medium",
+    "published": {
+        "month": "2",
+        "day": "1",
+        "year": "2016"
+    },
+    "id_list": [
+        "sha1:4e1dc50a90b5dd1eb7ff574c7c8b13c9269546e6",
+        "dup_sha1:7da2f979780761f4af4994c5f0278f6aac870581",
+        "url:https://medium.com/@McDapper/the-open-data-market-92f9557fd63d",
+        "webimport_sha1:7da2f979780761f4af4994c5f0278f6aac870581"
+    ],
+    "booktitle": "Medium",
+    "abstract": "The open licensing movement (open data, open source software, etc.) predicates its value on increasing accessibility and transparency by removing legal restrictions on use. The groups that advocate…",
+    "title": "The Open (Data) Market – Sean McDonald – Medium",
+    "sha1": "4e1dc50a90b5dd1eb7ff574c7c8b13c9269546e6",
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264727.58982
+    },
+    "author": [
+        {
+            "initials": "S",
+            "first": "Sean",
+            "level": "1.0 familyLast",
+            "bak": "Sean McDonald",
+            "formatted": "McDonald S",
+            "_id": "c30c93d7-2839-0e16-9eda-94a7bf123164",
+            "last": "McDonald"
+        }
+    ],
+    "webimport_sha1s": [
+        "7da2f979780761f4af4994c5f0278f6aac870581"
+    ],
+    "pubtype": "PP_WEBSITE",
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "labels": [],
+    "citekey": "McDonald2016-mz",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "created": 1505264720.93571,
+    "subfolders": [
+        "All Papers/M"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264568.29559
+    },
+    "incomplete": 0,
+    "pubtype": "PP_WEBSITE",
+    "duplicates": [],
+    "url": [
+        "https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences"
+    ],
+    "updated": 1505264568.29734,
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "https://joinup.ec.europa.eu/software/page/eupl/eupl-compatible-open-source-licences"
+    ],
+    "labels": [],
+    "citekey": "noauthor_undated-cq",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "autocompleted": 1,
+    "journal_checked": 0,
+    "id_list": [],
+    "created": 1505264563.88942,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "title": "EUPL compatible open source licences | Joinup",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264328.81384
+    },
+    "incomplete": 1,
+    "pubtype": "PP_ARTICLE",
+    "duplicates": [],
+    "url": [
+        "https://www.gnu.org/licenses/license-compatibility.html"
+    ],
+    "updated": 1505264328.81429,
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "https://www.gnu.org/licenses/license-compatibility.html"
+    ],
+    "labels": [],
+    "citekey": "noauthor_undated-gq",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "autocompleted": 1,
+    "journal_checked": 1,
+    "id_list": [],
+    "created": 1505264320.18116,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "title": "gnu.org",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "737c1285831ffa745e37decbcb62f0acba025ac2",
+    "incomplete": 1,
+    "duplicates": [],
+    "url": [
+        "https://www.gnu.org/licenses/license-list.html"
+    ],
+    "updated": 1505265324.32082,
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:b47371daf781c48e1e5756199e075e274718a62d",
+        "dup_sha1:737c1285831ffa745e37decbcb62f0acba025ac2"
+    ],
+    "title": "Various Licenses and Comments about Them",
+    "folders": [],
+    "sha1": "b47371daf781c48e1e5756199e075e274718a62d",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264294.38737
+    },
+    "author": [
+        {
+            "initials": "Sby",
+            "first": "Sponsored by The Free Software Foundation",
+            "level": "0.0",
+            "bak": "GNU Operating System, Sponsored by the Free Software Foundation",
+            "formatted": "GNU Operating System Sby",
+            "_id": "fba5576a-657d-0ee9-8d29-32e9e24e4b56",
+            "last": "GNU Operating System"
+        }
+    ],
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "crawl_urls": [
+        "https://www.gnu.org/licenses/license-list.html"
+    ],
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "imported": 1,
+    "citekey": "GNU_Operating_System_undated-gi",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "journal_checked": 1,
+    "created": 1505264289.81343,
+    "subfolders": [
+        "All Papers/G"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505264261.83644
+    },
+    "incomplete": 0,
+    "pubtype": "PP_WEBSITE",
+    "duplicates": [],
+    "url": [
+        "https://wiki.creativecommons.org/wiki/Public_domain"
+    ],
+    "updated": 1505264261.83763,
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "https://wiki.creativecommons.org/wiki/Public_domain"
+    ],
+    "labels": [],
+    "citekey": "noauthor_undated-rq",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "autocompleted": 1,
+    "journal_checked": 0,
+    "id_list": [],
+    "created": 1505264256.74951,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "title": "Public domain - Creative Commons",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505262230.77147
+    },
+    "incomplete": 0,
+    "pubtype": "PP_WEBSITE",
+    "duplicates": [],
+    "url": [
+        "https://people.debian.org/~bap/dfsg-faq.html"
+    ],
+    "updated": 1505264055.30156,
+    "labels": [],
+    "crawl_urls": [
+        "https://people.debian.org/~bap/dfsg-faq.html"
+    ],
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "imported": 1,
+    "citekey": "noauthor_undated-du",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "autocompleted": 1,
+    "journal_checked": 0,
+    "created": 1505262224.03386,
+    "id_list": [],
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "title": "Debian Free Software Guidelines (DFSG) and Software License FAQ",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505262178.47886
+    },
+    "incomplete": 0,
+    "pubtype": "PP_WEBSITE",
+    "duplicates": [],
+    "url": [
+        "https://www.debian.org/social_contract.html"
+    ],
+    "updated": 1505262178.4793,
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "https://www.debian.org/social_contract.html"
+    ],
+    "labels": [],
+    "citekey": "noauthor_undated-qz",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "autocompleted": 1,
+    "journal_checked": 0,
+    "id_list": [],
+    "created": 1505262172.91616,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "title": "Debian Social Contract",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "c4877f5a4a0e3da7b007e4a46cbc808495eaa3cb",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://www.nature.com/news/biologists-debate-how-to-license-preprints-1.22161",
+        "http://dx.doi.org/10.1038/nature.2017.22161"
+    ],
+    "updated": 1505262094.09437,
+    "doi": "10.1038/nature.2017.22161",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:8736f0b31446847a46b99c2640c975ca18381a84",
+        "dup_sha1:c4877f5a4a0e3da7b007e4a46cbc808495eaa3cb",
+        "doi:10.1038/nature.2017.22161",
+        "url:http://dx.doi.org/10.1038/nature.2017.22161",
+        "url:http://www.nature.com/news/biologists-debate-how-to-license-preprints-1.22161",
+        "url:http://www.nature.com/doifinder/10.1038/nature.2017.22161",
+        "url:http://www.nature.com/articles/doi:10.1038/nature.2017.22161"
+    ],
+    "published": {
+        "month": "6",
+        "day": "16",
+        "year": "2017"
+    },
+    "title": "Biologists debate how to license preprints",
+    "abstract": "Flood of online manuscripts generates confusion about terms for distribution and reuse.",
+    "folders": [],
+    "journalfull": "Nature News",
+    "sha1": "8736f0b31446847a46b99c2640c975ca18381a84",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505262091.4425
+    },
+    "author": [
+        {
+            "initials": "L",
+            "level": "0.0",
+            "first": "Lindsay",
+            "formatted": "McKenzie L",
+            "bak": "McKenzie, Lindsay",
+            "_id": "cc42d8a6-f6a9-0c93-aa2c-4ae1af4ddb5e",
+            "last": "McKenzie"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/nature.2017.22161",
+    "kind": "News",
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "http://www.nature.com/news/biologists-debate-how-to-license-preprints-1.22161",
+        "http://dx.doi.org/10.1038/nature.2017.22161",
+        "http://www.nature.com/doifinder/10.1038/nature.2017.22161",
+        "http://www.nature.com/articles/doi:10.1038/nature.2017.22161"
+    ],
+    "citekey": "McKenzie2017-hi",
+    "imported": 1,
+    "journal": "Nature News",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "journal_checked": 1,
+    "created": 1505262085.22835,
+    "subfolders": [
+        "All Papers/M"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "69b3f69baf89df1b6d834dd525b0c164c3aadd39",
+    "issue": "3",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://link.springer.com/article/10.1007/s10664-016-9438-4",
+        "https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9438-4.pdf",
+        "http://dx.doi.org/10.1007/s10664-016-9438-4"
+    ],
+    "updated": 1505262034.74055,
+    "publisher": "Springer US",
+    "doi": "10.1007/s10664-016-9438-4",
+    "autocompleted": 1,
+    "issn_alt": "1573-7616",
+    "published": {
+        "month": "6",
+        "day": "1",
+        "year": "2017"
+    },
+    "id_list": [
+        "sha1:81975cfff3e9cc74819b9ff8fa4ed51f2571e1c2",
+        "dup_sha1:69b3f69baf89df1b6d834dd525b0c164c3aadd39",
+        "doi:10.1007/s10664-016-9438-4",
+        "url:http://dx.doi.org/10.1007/s10664-016-9438-4",
+        "url:https://link.springer.com/article/10.1007/s10664-016-9438-4",
+        "url:https://link.springer.com/content/pdf/10.1007%2Fs10664-016-9438-4.pdf",
+        "url:http://link.springer.com/10.1007/s10664-016-9438-4"
+    ],
+    "abstract": "Open source software licenses determine, from a legal point of view, under which conditions software can be integrated and redistributed. The reason why developers of a project adopt (or change) a license may depend on various factors, e.g., the need for ensuring compatibility with certain third-party components, the perspective towards redistribution or commercialization of the software, or the need for protecting against somebody else’s commercial usage of the software. This paper reports a large empirical study aimed at quantitatively and qualitatively investigating when and why developers adopt or change software licenses. Specifically, we first identify license changes in 1,731,828 commits, representing the entire history of 16,221 Java projects hosted on GitHub. Then, to understand the rationale of license changes, we perform a qualitative analysis on 1,160 projects written in seven different programming languages, namely C, C++, C#, Java, Javascript, Python, and Ruby—following an open coding approach inspired by grounded theory—on commit messages and issue tracker discussions concerning licensing topics, and whenever possible, try to build traceability links between discussions and changes. On one hand, our results highlight how, in different contexts, license adoption or changes can be triggered by various reasons. On the other hand, the results also highlight a lack of traceability of when and why licensing changes are made. This can be a major concern, because a change in the license of a system can negatively impact those that reuse it. In conclusion, results of the study trigger the need for better tool support in guiding developers in choosing/changing licenses and in keeping track of the rationale of license changes.",
+    "title": "License usage and changes: a large-scale study on gitHub",
+    "pages": "1537-1577",
+    "folders": [],
+    "journalfull": "Empirical Software Engineer",
+    "sha1": "81975cfff3e9cc74819b9ff8fa4ed51f2571e1c2",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505262031.64319
+    },
+    "author": [
+        {
+            "initials": "C",
+            "level": "1.0 familyLast",
+            "first": "Christopher",
+            "formatted": "Vendome C",
+            "bak": "Christopher Vendome",
+            "_id": "e32b84e2-a961-0354-b7fd-b632610102d2",
+            "last": "Vendome"
+        },
+        {
+            "initials": "G",
+            "level": "1.0 familyLast",
+            "first": "Gabriele",
+            "formatted": "Bavota G",
+            "bak": "Gabriele Bavota",
+            "_id": "dbf2c0dc-b894-009d-bdfb-f08684112ef0",
+            "last": "Bavota"
+        },
+        {
+            "initials": "M",
+            "level": "1.2",
+            "first": "Massimiliano",
+            "formatted": "Di Penta M",
+            "bak": "Massimiliano Di Penta",
+            "_id": "7fbdbaf0-08e3-0a63-9274-b94db0a19ee3",
+            "last": "Di Penta"
+        },
+        {
+            "initials": "M",
+            "level": "1.0 familyLast",
+            "first": "Mario",
+            "formatted": "Linares-Vásquez M",
+            "bak": "Mario Linares-Vásquez",
+            "_id": "1102a926-af37-0410-963d-13dd65272124",
+            "last": "Linares-Vásquez"
+        },
+        {
+            "initials": "D",
+            "level": "1.0 familyLast",
+            "first": "Daniel",
+            "formatted": "German D",
+            "bak": "Daniel German",
+            "_id": "30e063f0-f59e-0ce7-bde9-5f3d36d986fd",
+            "last": "German"
+        },
+        {
+            "initials": "D",
+            "level": "1.0 familyLast",
+            "first": "Denys",
+            "formatted": "Poshyvanyk D",
+            "bak": "Denys Poshyvanyk",
+            "_id": "c5c94700-c0c3-0fbe-a5f7-c55b7e7bf227",
+            "last": "Poshyvanyk"
+        }
+    ],
+    "issn": "1382-3256",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1007/s10664-016-9438-4",
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "http://dx.doi.org/10.1007/s10664-016-9438-4",
+        "http://link.springer.com/10.1007/s10664-016-9438-4"
+    ],
+    "journal": "Empir. Softw. Eng.",
+    "citekey": "Vendome2017-hb",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "d5bd84e4-bb7d-0c24-9d2f-85993750a3e7",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "54c71797-2d5f-0a1b-8f29-b5253bf82479",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505262034.90648,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxNjJYRGxCUXR6X1U",
+            "filesize": 1440372,
+            "created": 1505262034.90648,
+            "filename": "Vendome et al. 2017 - License usage and changes - a large-scale study on gitHub.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/V"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "a8cfb3c3b7c7c9b740545b41b22a4185"
+        }
+    ],
+    "volume": "22",
+    "language": "en",
+    "journal_checked": 1,
+    "created": 1505262026.36243,
+    "subfolders": [
+        "All Papers/V"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "925dbd446d2f1606af7627f1ad3444fff80ab5a3",
+    "issue": "2",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://www.questia.com/library/journal/1P3-4207764691/open-standards-and-license-choice-in-open-source-software",
+        "https://www.questia.com/read/1P3-4207764691/open-standards-and-license-choice-in-open-source-software"
+    ],
+    "updated": 1505262011.4529,
+    "publisher": "The DreamCatchers Group, LLC",
+    "id_list": [
+        "sha1:bc5511cca6475d384390a6fca89fb985407c7193",
+        "dup_sha1:925dbd446d2f1606af7627f1ad3444fff80ab5a3",
+        "url:https://www.questia.com/library/journal/1P3-4207764691/open-standards-and-license-choice-in-open-source-software",
+        "url:https://www.questia.com/read/1P3-4207764691/open-standards-and-license-choice-in-open-source-software",
+        "webimport_sha1:925dbd446d2f1606af7627f1ad3444fff80ab5a3"
+    ],
+    "published": {
+        "month": "5",
+        "day": "1",
+        "year": "2016"
+    },
+    "title": "Open Standards and License Choice in Open Source Software",
+    "abstract": "(ProQuest: ... denotes formulae omitted.) (1)INTRODUCTIONTechnological standards are technical...",
+    "pages": "97",
+    "folders": [],
+    "journalfull": "Journal of Economics and Economic Education Research",
+    "sha1": "bc5511cca6475d384390a6fca89fb985407c7193",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505262011.45128
+    },
+    "author": [
+        {
+            "initials": "S",
+            "first": "Shuo",
+            "level": "0.0",
+            "bak": "Chen, Shuo",
+            "formatted": "Chen S",
+            "_id": "86a23685-990c-05a1-9b48-0e5447bbf6a5",
+            "last": "Chen"
+        }
+    ],
+    "issn": "1533-3604",
+    "webimport_sha1s": [
+        "925dbd446d2f1606af7627f1ad3444fff80ab5a3"
+    ],
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "citekey": "Chen2016-hc",
+    "journal": "Journal of Economics and Economic Education Research",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "language": "en",
+    "volume": "17",
+    "journal_checked": 1,
+    "created": 1505262004.39002,
+    "subfolders": [
+        "All Papers/C"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "8313febcdb5e846e0d58876c3967ffe7a639049f",
+    "pdf_restricted": 0,
+    "incomplete": 1,
+    "duplicates": [],
+    "url": [
+        "http://digitalcommons.unl.edu/scholcom/6/"
+    ],
+    "updated": 1505261839.7695,
+    "autocompleted": 1,
+    "published": {
+        "year": "2016"
+    },
+    "id_list": [
+        "sha1:c953f3fc1f502511429b93e79b646a65eeb8ffca",
+        "dup_sha1:8313febcdb5e846e0d58876c3967ffe7a639049f",
+        "url:http://digitalcommons.unl.edu/scholcom/6/"
+    ],
+    "abstract": "Without software, modern research would not be possible. Understandably, people tend to marvel at results rather than the tools used in their discovery, which means the fundamental role of software in research has been largely overlooked. But whether it is widely recognised or not, research is inexorably connected to the software that is used to generate results, and if we continue to overlook software we put at risk the reliability and reproducibility of the research itself. The adoption of software is accompanied by new risks - many of which are unknown to the majority of the research community. The practices of software sustainability minimise these risks and help to increase trust in research results, increase the rate of discovery, increase return on investment and ensure that research data remains readable and usable for longer. Funders are well aligned with the goals of software sustainability: both seek to support reliable, trusted research. This means that funders are well placed to play a pivotal role in advocating software sustainability. Funders can help raise awareness, and can make some simple, low-cost changes, such as encouraging the adoption of software management plans, that could lead to significant improvements in the software used in research. Improving software sustainability requires a number of changes: some technical and others societal, some small and others significant. We must start by raising awareness of researchers’ reliance on software. This goal will become easier if we recognise the valuable contribution that software makes to research - and reward those people who invest their time into developing reliable and reproducible software. We must educate the research community on the issues raised by software adoption, and provide training in the software engineering skills that are needed to overcome them. We cannot rely on researchers to adopt all of the skills needed for software sustainability, we must also allow research groups to recruit software experts, and we must create organisations that develop and disseminate expertise in software sustainability. The adoption of software has led to significant advances in research. But if we do not change our research practices, the continued rise in software use will be accompanied by a rise in retractions. Ultimately, anyone who is concerned about the reliability and reproducibility of research should be concerned about software sustainability. This argument alone may rely too much on the stick and not enough on the carrot. To that end, we must also show",
+    "title": "Research Software Sustainability: Report on a Knowledge Exchange Workshop",
+    "sha1": "c953f3fc1f502511429b93e79b646a65eeb8ffca",
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261839.7659
+    },
+    "author": [
+        {
+            "initials": "",
+            "first": "",
+            "level": "9.0",
+            "bak": "Simon Hettrick, The Software Sustainability Institute",
+            "formatted": "Simon Hettrick, The Software Sustainability Institute",
+            "_id": "bd78d112-0d38-0265-92a3-514c0c9a49c2",
+            "collective": "Simon Hettrick, The Software Sustainability Institute"
+        },
+        {
+            "initials": "",
+            "first": "",
+            "bak": "Authors",
+            "formatted": "Authors",
+            "_id": "7ada0d21-7107-0323-8a88-21e41a409edc",
+            "collective": "Authors"
+        }
+    ],
+    "series": "Copyright, Fair Use, Scholarly Communication, etc.",
+    "pubtype": "PP_ARTICLE",
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "http://digitalcommons.unl.edu/scholcom/6/"
+    ],
+    "labels": [],
+    "citekey": "Simon_Hettrick_The_Software_Sustainability_Institute2016-aa",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "7d5ebe69-3a18-0626-9f63-5855a4c7242a",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "8889d5c5-093f-03fb-8c40-4ba4adcfa7eb",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505261833.1655,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxSWFvU3pfOEVWbkk",
+            "filesize": 1164742,
+            "created": 1505261833.1655,
+            "filename": "Simon Hettrick, The Software Sustaina... - Research Software Sustainability - Report on a Knowledge Exchange Workshop.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/S"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "763a38ff3f1a8492f3ec5643010fe996"
+        }
+    ],
+    "journal_checked": 1,
+    "created": 1505261830.59022,
+    "subfolders": [
+        "All Papers/S"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "96f5fb2b37681b5d85ceda5a0193e65bd549454f",
+    "issue": "7325",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1038/468755a",
+        "https://www.ncbi.nlm.nih.gov/pubmed/21150971",
+        "http://www.nature.com/nature/journal/v468/n7325/full/468755a.html?foxtrotcallback=true"
+    ],
+    "updated": 1505261800.12986,
+    "doi": "10.1038/468755a",
+    "xref": [
+        {
+            "type": "CommentIn",
+            "pmid": "21228860"
+        },
+        {
+            "type": "CommentIn",
+            "pmid": "21248826"
+        }
+    ],
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:97c001eafb152f9b885d940d4331f96f9527102c",
+        "dup_sha1:96f5fb2b37681b5d85ceda5a0193e65bd549454f",
+        "doi:10.1038/468755a",
+        "pmid:21150971",
+        "url:http://dx.doi.org/10.1038/468755a",
+        "url:http://www.nature.com/nature/journal/v468/n7325/full/468755a.html?foxtrotcallback=true",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/21150971",
+        "url:http://www.nature.com/doifinder/10.1038/468755a",
+        "url:http://www.nature.com/articles/doi:10.1038/468755a"
+    ],
+    "published": {
+        "month": "12",
+        "day": "9",
+        "year": "2010"
+    },
+    "issn_alt": "1476-4687",
+    "affiliation": "Department of Health Policy and Management at Columbia University's Mailman School of Public Health, New York, New York 10032, USA. bns3@columbia.edu",
+    "title": "Lessons from Bayh-Dole",
+    "pages": "755-756",
+    "folders": [],
+    "journalfull": "Nature",
+    "sha1": "97c001eafb152f9b885d940d4331f96f9527102c",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261770.39499
+    },
+    "issn": "0028-0836",
+    "author": [
+        {
+            "initials": "BN",
+            "first": "Bhaven N",
+            "formatted": "Sampat BN",
+            "_id": "5f609ee9-b13d-0ffc-a025-33ab79c2c2f6",
+            "last": "Sampat"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/468755a",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "crawl_urls": [
+        "http://dx.doi.org/10.1038/468755a",
+        "http://www.nature.com/doifinder/10.1038/468755a",
+        "http://www.nature.com/articles/doi:10.1038/468755a"
+    ],
+    "labels": [],
+    "citekey": "Sampat2010-aa",
+    "journal": "Nature",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "91c48470-974c-0326-be3f-036e4415cca3",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "412f7c14-e3c8-087d-8e0c-eefcaa20af89",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505261528.20847,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxTF82Z25iNmp3RVU",
+            "filesize": 446394,
+            "created": 1505261528.20847,
+            "filename": "Sampat 2010 - Lessons from Bayh-Dole.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/S"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "61d6b33f93fcd25712524c50f61f0f7d"
+        }
+    ],
+    "volume": "468",
+    "language": "en",
+    "pii": "468755a",
+    "journal_checked": 1,
+    "created": 1505261508.55399,
+    "subfolders": [
+        "All Papers/S"
+    ],
+    "pmid": "21150971",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "1b950053e16367f86010f1f45e3d2e09e09d1416",
+    "issue": "6078",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1126/science.1218263",
+        "https://www.ncbi.nlm.nih.gov/pubmed/22499926",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4203337",
+        "http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=22499926",
+        "http://science.sciencemag.org/content/336/6078/159.full"
+    ],
+    "updated": 1505261800.13247,
+    "doi": "10.1126/science.1218263",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:65e45c055d69124a019997e69331d2b7b64cd0cd",
+        "dup_sha1:1b950053e16367f86010f1f45e3d2e09e09d1416",
+        "doi:10.1126/science.1218263",
+        "pmc:PMC4203337",
+        "pmid:22499926",
+        "url:http://dx.doi.org/10.1126/science.1218263",
+        "url:http://science.sciencemag.org/content/336/6078/159.full",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/22499926",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4203337",
+        "url:http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=22499926",
+        "url:http://www.sciencemag.org/cgi/doi/10.1126/science.1218263",
+        "url:http://science.sciencemag.org/cgi/doi/10.1126/science.1218263",
+        "url:http://science.sciencemag.org/lookup/doi/10.1126/science.1218263",
+        "url:http://science.sciencemag.org/content/336/6078/159"
+    ],
+    "published": {
+        "month": "4",
+        "day": "13",
+        "year": "2012"
+    },
+    "issn_alt": "1095-9203",
+    "affiliation": "Harvard Medical School, Boston, MA 02115, USA.",
+    "title": "Research priorities. Shining light into black boxes",
+    "pages": "159-160",
+    "folders": [],
+    "journalfull": "Science",
+    "sha1": "65e45c055d69124a019997e69331d2b7b64cd0cd",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261774.3629
+    },
+    "issn": "0036-8075",
+    "author": [
+        {
+            "initials": "A",
+            "first": "A",
+            "formatted": "Morin A",
+            "_id": "f668a0c8-1baf-08bd-93e4-ecc572ada084",
+            "last": "Morin"
+        },
+        {
+            "initials": "J",
+            "first": "J",
+            "formatted": "Urban J",
+            "_id": "114d12c2-7354-06e5-b213-bca54d4cc2e1",
+            "last": "Urban"
+        },
+        {
+            "initials": "PD",
+            "first": "P D",
+            "formatted": "Adams PD",
+            "_id": "cae5942c-9012-007b-894f-1c9b6aaad157",
+            "last": "Adams"
+        },
+        {
+            "initials": "I",
+            "first": "I",
+            "formatted": "Foster I",
+            "_id": "16e3308d-5a15-0650-99c4-738d05845151",
+            "last": "Foster"
+        },
+        {
+            "initials": "A",
+            "first": "A",
+            "formatted": "Sali A",
+            "_id": "e4229825-06ec-0623-9f8b-21e42bcfede6",
+            "last": "Sali"
+        },
+        {
+            "initials": "D",
+            "first": "D",
+            "formatted": "Baker D",
+            "_id": "a49d63c2-5475-0034-a8cb-a007dc0911c5",
+            "last": "Baker"
+        },
+        {
+            "initials": "P",
+            "first": "P",
+            "formatted": "Sliz P",
+            "_id": "be8f0bf6-963c-0a84-b941-b9e3efce6e15",
+            "last": "Sliz"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1126/science.1218263",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC4203337",
+    "crawl_urls": [
+        "http://dx.doi.org/10.1126/science.1218263",
+        "http://www.sciencemag.org/cgi/doi/10.1126/science.1218263",
+        "http://science.sciencemag.org/cgi/doi/10.1126/science.1218263",
+        "http://science.sciencemag.org/lookup/doi/10.1126/science.1218263",
+        "http://science.sciencemag.org/content/336/6078/159"
+    ],
+    "labels": [],
+    "citekey": "Morin2012-ux",
+    "journal": "Science",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "f967fbc6-b28e-0b3c-b4d9-bec65c20f526",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "abab8504-dd70-01c2-8657-112be2eb1255",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505261493.15499,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxQzI2dmhWUjhwbHc",
+            "filesize": 171769,
+            "created": 1505261493.15498,
+            "filename": "Morin et al. 2012 - Research priorities. Shining light into black boxes.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/M"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "1db8fa6e8bd432975af807b5e1eb6cd9"
+        }
+    ],
+    "volume": "336",
+    "language": "en",
+    "pii": "336/6078/159",
+    "journal_checked": 1,
+    "created": 1505261481.30234,
+    "subfolders": [
+        "All Papers/M"
+    ],
+    "pmid": "22499926",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "21e17e37d08c6445056638d5e9a92bb2a345f2d6",
+    "issue": "6134",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1126/science.1231535",
+        "https://www.ncbi.nlm.nih.gov/pubmed/23687031",
+        "http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=23687031",
+        "http://science.sciencemag.org/content/340/6134/814"
+    ],
+    "updated": 1505261800.13595,
+    "doi": "10.1126/science.1231535",
+    "xref": [
+        {
+            "type": "CommentIn",
+            "pmid": "23869002"
+        },
+        {
+            "type": "CommentIn",
+            "pmid": "23869003"
+        }
+    ],
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:f6157b8fe708718b939277f8ce3e9726029416e4",
+        "dup_sha1:21e17e37d08c6445056638d5e9a92bb2a345f2d6",
+        "doi:10.1126/science.1231535",
+        "pmid:23687031",
+        "url:http://dx.doi.org/10.1126/science.1231535",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/23687031",
+        "url:http://www.sciencemag.org/cgi/pmidlookup?view=long&pmid=23687031",
+        "url:http://science.sciencemag.org/content/340/6134/814",
+        "url:http://www.sciencemag.org/cgi/doi/10.1126/science.1231535",
+        "url:http://science.sciencemag.org/cgi/doi/10.1126/science.1231535",
+        "url:http://science.sciencemag.org/lookup/doi/10.1126/science.1231535"
+    ],
+    "published": {
+        "month": "5",
+        "day": "17",
+        "year": "2013"
+    },
+    "issn_alt": "1095-9203",
+    "affiliation": "Microsoft Research, Cambridge CB1 2FB, UK. lujoppa@microsoft.com",
+    "title": "Computational science. Troubling trends in scientific software use",
+    "pages": "814-815",
+    "folders": [],
+    "journalfull": "Science",
+    "sha1": "f6157b8fe708718b939277f8ce3e9726029416e4",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261776.83003
+    },
+    "issn": "0036-8075",
+    "author": [
+        {
+            "initials": "LN",
+            "first": "Lucas N",
+            "formatted": "Joppa LN",
+            "_id": "9b24ce46-2b7b-00fc-8e58-6da7b72357ae",
+            "last": "Joppa"
+        },
+        {
+            "initials": "G",
+            "first": "Greg",
+            "formatted": "McInerny G",
+            "_id": "29712a2f-62ed-09b3-aa25-fba8c4465830",
+            "last": "McInerny"
+        },
+        {
+            "initials": "R",
+            "first": "Richard",
+            "formatted": "Harper R",
+            "_id": "fcfd5206-a95a-07cd-9b8f-981288f0be67",
+            "last": "Harper"
+        },
+        {
+            "initials": "L",
+            "first": "Lara",
+            "formatted": "Salido L",
+            "_id": "f835780e-66f4-0dd2-8b2c-7ac26c0e5971",
+            "last": "Salido"
+        },
+        {
+            "initials": "K",
+            "first": "Kenji",
+            "formatted": "Takeda K",
+            "_id": "7729c72b-a269-035c-96df-084efec804f9",
+            "last": "Takeda"
+        },
+        {
+            "initials": "K",
+            "first": "Kenton",
+            "formatted": "O'Hara K",
+            "_id": "61fafd61-f80a-0c0d-9b14-4eaf1d3e07ab",
+            "last": "O'Hara"
+        },
+        {
+            "initials": "D",
+            "first": "David",
+            "formatted": "Gavaghan D",
+            "_id": "d0c8b54d-d244-0bf0-ae97-987930deb0b3",
+            "last": "Gavaghan"
+        },
+        {
+            "initials": "S",
+            "first": "Stephen",
+            "formatted": "Emmott S",
+            "_id": "1129227f-a866-0066-acf7-da7601ecd61e",
+            "last": "Emmott"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1126/science.1231535",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "crawl_urls": [
+        "http://science.sciencemag.org/content/340/6134/814",
+        "http://dx.doi.org/10.1126/science.1231535",
+        "http://www.sciencemag.org/cgi/doi/10.1126/science.1231535",
+        "http://science.sciencemag.org/cgi/doi/10.1126/science.1231535",
+        "http://science.sciencemag.org/lookup/doi/10.1126/science.1231535"
+    ],
+    "labels": [],
+    "citekey": "Joppa2013-hg",
+    "journal": "Science",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "aa967b7e-5c58-09a9-85c2-d7a6746de055",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "ecdc0415-b1ef-0c69-8e91-a736c2e7be6f",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505261436.43977,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxdFVyM2c1dWFQb3M",
+            "filesize": 182464,
+            "created": 1505261436.43977,
+            "filename": "Joppa et al. 2013 - Computational science. Troubling trends in scientific software use.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/J"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "6ee83a79637d06962f2109530ce02635"
+        }
+    ],
+    "volume": "340",
+    "language": "en",
+    "pii": "340/6134/814",
+    "journal_checked": 1,
+    "created": 1505261429.36025,
+    "subfolders": [
+        "All Papers/J"
+    ],
+    "pmid": "23687031",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "3ba3c98d21588df8f5368c3975cc18f5bdc18cb1",
+    "issue": "12",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1056/NEJMsb1702054",
+        "https://www.ncbi.nlm.nih.gov/pubmed/28328337",
+        "http://www.nejm.org/doi/abs/10.1056/NEJMsb1702054?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov",
+        "http://www.nejm.org/doi/abs/10.1056/NEJMsb1702054?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed",
+        "http://www.nejm.org/doi/full/10.1056/NEJMsb1702054?query=TOC"
+    ],
+    "updated": 1505261800.13734,
+    "doi": "10.1056/NEJMsb1702054",
+    "xref": [
+        {
+            "type": "CommentIn",
+            "pmid": "28594153"
+        },
+        {
+            "type": "CommentIn",
+            "pmid": "28594152"
+        }
+    ],
+    "autocompleted": 1,
+    "issn_alt": "1533-4406",
+    "id_list": [
+        "sha1:6c3c3c1ea8b38574261a4420374079c3246fcf13",
+        "dup_sha1:3ba3c98d21588df8f5368c3975cc18f5bdc18cb1",
+        "doi:10.1056/NEJMsb1702054",
+        "pmid:28328337",
+        "url:http://dx.doi.org/10.1056/NEJMsb1702054",
+        "url:http://www.nejm.org/doi/full/10.1056/NEJMsb1702054?query=TOC",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/28328337",
+        "url:http://www.nejm.org/doi/abs/10.1056/NEJMsb1702054?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dwww.ncbi.nlm.nih.gov",
+        "url:http://www.nejm.org/doi/abs/10.1056/NEJMsb1702054?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%3dpubmed",
+        "url:http://www.nejm.org/doi/10.1056/NEJMsb1702054"
+    ],
+    "published": {
+        "month": "3",
+        "day": "23",
+        "year": "2017"
+    },
+    "affiliation": "From the Dana-Farber Cancer Institute, Brigham and Women's Hospital (M.M.B.), and Massachusetts General Hospital Cancer Center (B.A.C.), Boston; Tulane Medical School, New Orleans (O.S.); Pfizer (M.L.R.) and Carmine Research (C.H.-J.), New York; Food and Drug Administration, Silver Spring, MD (S.K.); Amgen, Thousand Oaks, CA (D.M.R.); and Project Data Sphere, Cary, NC (M.J.M.).",
+    "title": "Advantages of a Truly Open-Access Data-Sharing Model",
+    "pages": "1178-1181",
+    "folders": [],
+    "journalfull": "The New England journal of medicine",
+    "sha1": "6c3c3c1ea8b38574261a4420374079c3246fcf13",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261779.48484
+    },
+    "issn": "0028-4793",
+    "author": [
+        {
+            "initials": "MM",
+            "first": "Monica M",
+            "formatted": "Bertagnolli MM",
+            "_id": "d151f6ef-1008-03eb-b50e-eae693d2e32e",
+            "last": "Bertagnolli"
+        },
+        {
+            "initials": "O",
+            "first": "Oliver",
+            "formatted": "Sartor O",
+            "_id": "3cc853b8-627d-0f32-88a8-555976d89ac5",
+            "last": "Sartor"
+        },
+        {
+            "initials": "BA",
+            "first": "Bruce A",
+            "formatted": "Chabner BA",
+            "_id": "ff1f56fc-f4a8-0f35-abf9-cdf64629d8f6",
+            "last": "Chabner"
+        },
+        {
+            "initials": "ML",
+            "first": "Mace L",
+            "formatted": "Rothenberg ML",
+            "_id": "40953782-be8d-0bb4-b0fd-9c0d189a170d",
+            "last": "Rothenberg"
+        },
+        {
+            "initials": "S",
+            "first": "Sean",
+            "formatted": "Khozin S",
+            "_id": "3226a310-409c-0260-9d44-27725f7d4cb1",
+            "last": "Khozin"
+        },
+        {
+            "initials": "C",
+            "first": "Charles",
+            "formatted": "Hugh-Jones C",
+            "_id": "d56eb945-50d2-0043-b4b0-6441f28070d9",
+            "last": "Hugh-Jones"
+        },
+        {
+            "initials": "DM",
+            "first": "David M",
+            "formatted": "Reese DM",
+            "_id": "37f5f146-a914-05f6-910a-baf3600fe9b8",
+            "last": "Reese"
+        },
+        {
+            "initials": "MJ",
+            "first": "Martin J",
+            "formatted": "Murphy MJ",
+            "_id": "76d1353f-69c4-02c8-89f5-28e551ee2118",
+            "last": "Murphy"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1056/NEJMsb1702054",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "crawl_urls": [
+        "http://dx.doi.org/10.1056/NEJMsb1702054",
+        "http://www.nejm.org/doi/10.1056/NEJMsb1702054"
+    ],
+    "labels": [],
+    "imported": 1,
+    "citekey": "Bertagnolli2017-jd",
+    "journal": "N. Engl. J. Med.",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "69387d50-1c26-0ee4-bd98-b35c838ce76c",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "ee65781d-0ff1-0d16-87e9-c914ca8485c1",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505261363.02767,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxalhfTDF5ZUlQM00",
+            "filesize": 67370,
+            "created": 1505261363.02767,
+            "filename": "Bertagnolli et al. 2017 - Advantages of a Truly Open-Access Data-Sharing Model.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/B"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "897de2a159b7dcf4d8c99c4bc8e38dc5"
+        }
+    ],
+    "volume": "376",
+    "language": "en",
+    "journal_checked": 1,
+    "created": 1505261362.00995,
+    "subfolders": [
+        "All Papers/B"
+    ],
+    "pmid": "28328337",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "f8b4c7ae370ad366c81f48a09d88f33fa28f61d2",
+    "issue": "7614",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1038/536016a",
+        "https://www.ncbi.nlm.nih.gov/pubmed/27488781",
+        "http://www.nature.com/news/legal-confusion-threatens-to-slow-data-science-1.20359",
+        "http://www.nature.com/news/legal-confusion-threatens-to-slow-data-science-1.20359?WT.mc_id=TWT_NatureNews"
+    ],
+    "updated": 1505261800.13462,
+    "doi": "10.1038/536016a",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:7996650e7b673cf77e4de683439362915e3920d1",
+        "dup_sha1:f8b4c7ae370ad366c81f48a09d88f33fa28f61d2",
+        "doi:10.1038/536016a",
+        "pmid:27488781",
+        "url:http://dx.doi.org/10.1038/536016a",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/27488781",
+        "url:http://www.nature.com/news/legal-confusion-threatens-to-slow-data-science-1.20359",
+        "url:http://www.nature.com/news/legal-confusion-threatens-to-slow-data-science-1.20359?WT.mc_id=TWT_NatureNews",
+        "url:http://www.nature.com/doifinder/10.1038/536016a",
+        "url:http://www.nature.com/articles/doi:10.1038/536016a"
+    ],
+    "published": {
+        "month": "8",
+        "day": "4",
+        "year": "2016"
+    },
+    "issn_alt": "1476-4687",
+    "title": "Legal confusion threatens to slow data science",
+    "pages": "16-17",
+    "folders": [],
+    "journalfull": "Nature",
+    "sha1": "7996650e7b673cf77e4de683439362915e3920d1",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261782.02366
+    },
+    "issn": "0028-0836",
+    "author": [
+        {
+            "initials": "S",
+            "first": "Simon",
+            "formatted": "Oxenham S",
+            "_id": "028278a0-c8c9-005a-a910-b403fe0558cd",
+            "last": "Oxenham"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/536016a",
+    "kind": "News",
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "crawl_urls": [
+        "http://www.nature.com/news/legal-confusion-threatens-to-slow-data-science-1.20359?WT.mc_id=TWT_NatureNews",
+        "http://dx.doi.org/10.1038/536016a",
+        "http://www.nature.com/doifinder/10.1038/536016a",
+        "http://www.nature.com/articles/doi:10.1038/536016a"
+    ],
+    "imported": 1,
+    "citekey": "Oxenham2016-db",
+    "journal": "Nature",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "2627b895-40da-0cfe-b12e-0634938b27c8",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "c17e4f82-19ca-0d16-86c5-20de22457525",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1505261251.20404,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxdUxfdVJCd3cxRnM",
+            "filesize": 397874,
+            "created": 1505261251.20404,
+            "filename": "Oxenham 2016 - Legal confusion threatens to slow data science.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/O"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "84212102e49f97ae99dc1ce7af1f3204"
+        }
+    ],
+    "volume": "536",
+    "language": "en",
+    "pii": "536016a",
+    "journal_checked": 1,
+    "created": 1505261244.71725,
+    "subfolders": [
+        "All Papers/O"
+    ],
+    "pmid": "27488781",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "9fd57f401fc1827ae3a2610186fac650a4fcca9a",
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://osc.universityofcalifornia.edu/2016/09/who-owns-your-data/"
+    ],
+    "updated": 1505261800.13122,
+    "published": {
+        "month": "9",
+        "day": "8",
+        "year": "2016"
+    },
+    "id_list": [
+        "sha1:9f64a3f7f92dc1ec1a7320efc1ae007ff7a5b6c1",
+        "dup_sha1:9fd57f401fc1827ae3a2610186fac650a4fcca9a",
+        "url:http://osc.universityofcalifornia.edu/2016/09/who-owns-your-data/",
+        "webimport_sha1:9fd57f401fc1827ae3a2610186fac650a4fcca9a"
+    ],
+    "booktitle": "Office of Scholarly Communication",
+    "abstract": "Which of these is true? “The PI owns the data.” “The university owns the data.” “Nobody can own it; data isn’t copyrightable.” You’ve probably heard somebody say at least one of these things — confidently. Maybe you’ve heard all of them. Maybe about the same dataset (but in that case, ho",
+    "title": "Who “owns” your data?",
+    "sha1": "9f64a3f7f92dc1ec1a7320efc1ae007ff7a5b6c1",
+    "folders": [],
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261785.09714
+    },
+    "author": [
+        {
+            "initials": "K",
+            "first": "Katie",
+            "level": "1.0 familyLast",
+            "bak": "Katie Fortney",
+            "formatted": "Fortney K",
+            "_id": "e5e3c55a-fc88-06ad-a9ba-3dbdc58fd78e",
+            "last": "Fortney"
+        }
+    ],
+    "webimport_sha1s": [
+        "9fd57f401fc1827ae3a2610186fac650a4fcca9a"
+    ],
+    "pubtype": "PP_WEBSITE",
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "labels": [],
+    "citekey": "Fortney2016-td",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "created": 1505261212.62501,
+    "subfolders": [
+        "All Papers/F"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "53b74e8095391ef0415e822f0c1bfa5b94676c5b",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://www.nature.com/news/legal-tussle-delays-launch-of-huge-toxicity-database-1.19365",
+        "http://dx.doi.org/10.1038/nature.2016.19365"
+    ],
+    "updated": 1505261800.13357,
+    "doi": "10.1038/nature.2016.19365",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:1e68fd99ae1852a07036d7a98ba66d7ec48ebfa6",
+        "dup_sha1:53b74e8095391ef0415e822f0c1bfa5b94676c5b",
+        "doi:10.1038/nature.2016.19365",
+        "url:http://dx.doi.org/10.1038/nature.2016.19365",
+        "url:http://www.nature.com/news/legal-tussle-delays-launch-of-huge-toxicity-database-1.19365",
+        "url:http://www.nature.com/doifinder/10.1038/nature.2016.19365",
+        "url:http://www.nature.com/articles/doi:10.1038/nature.2016.19365"
+    ],
+    "published": {
+        "month": "2",
+        "day": "11",
+        "year": "2016"
+    },
+    "abstract": "Health risks of nearly 10,000 chemicals charted to help predict toxicity of untested substances.",
+    "title": "Legal tussle delays launch of huge toxicity database",
+    "folders": [],
+    "journalfull": "Nature News",
+    "sha1": "1e68fd99ae1852a07036d7a98ba66d7ec48ebfa6",
+    "collection_timestamps": {
+        "e5a1e789-a2e2-0812-a0e8-7a4cd5ddfe0a": 1505261787.73853
+    },
+    "author": [
+        {
+            "initials": "N",
+            "first": "Natasha",
+            "level": "0.0",
+            "bak": "Gilbert, Natasha",
+            "formatted": "Gilbert N",
+            "_id": "e698f868-b51b-04e7-afbe-6bd571ca933e",
+            "last": "Gilbert"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/nature.2016.19365",
+    "kind": "News",
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "accessed": {
+        "month": "9",
+        "day": "12",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "http://www.nature.com/news/legal-tussle-delays-launch-of-huge-toxicity-database-1.19365",
+        "http://dx.doi.org/10.1038/nature.2016.19365",
+        "http://www.nature.com/doifinder/10.1038/nature.2016.19365",
+        "http://www.nature.com/articles/doi:10.1038/nature.2016.19365"
+    ],
+    "journal": "Nature News",
+    "imported": 1,
+    "citekey": "Gilbert2016-rp",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "journal_checked": 1,
+    "created": 1505261146.47832,
+    "subfolders": [
+        "All Papers/G"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "9462e4c9ac8c3e05af0a0231812d5fe203aa4da9",
+    "issue": "7485",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/24482835",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058759",
+        "http://www.nature.com/news/policy-nih-plans-to-enhance-reproducibility-1.14586",
+        "http://dx.doi.org/10.1038/505612a"
+    ],
+    "updated": 1504587323.64987,
+    "doi": "10.1038/505612a",
+    "xref": [
+        {
+            "type": "CommentIn",
+            "pmid": "24646984"
+        }
+    ],
+    "autocompleted": 1,
+    "issn_alt": "1476-4687",
+    "id_list": [
+        "sha1:4afab74e2d8afa15b090dd351b4be20169ba759f",
+        "dup_sha1:9462e4c9ac8c3e05af0a0231812d5fe203aa4da9",
+        "doi:10.1038/505612a",
+        "pmc:PMC4058759",
+        "pmid:24482835",
+        "url:http://dx.doi.org/10.1038/505612a",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/24482835",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4058759",
+        "url:http://www.nature.com/news/policy-nih-plans-to-enhance-reproducibility-1.14586",
+        "url:http://www.nature.com/doifinder/10.1038/505612a"
+    ],
+    "published": {
+        "month": "1",
+        "day": "30",
+        "year": "2014"
+    },
+    "title": "Policy: NIH plans to enhance reproducibility",
+    "pages": "612-613",
+    "folders": [],
+    "journalfull": "Nature",
+    "sha1": "4afab74e2d8afa15b090dd351b4be20169ba759f",
+    "issn": "0028-0836",
+    "author": [
+        {
+            "initials": "FS",
+            "first": "Francis S",
+            "formatted": "Collins FS",
+            "_id": "8e3f5663-2564-05d3-9ed2-13d771c20c30",
+            "last": "Collins"
+        },
+        {
+            "initials": "LA",
+            "first": "Lawrence A",
+            "formatted": "Tabak LA",
+            "_id": "002d812e-da0e-023f-a3d8-5f84c6d7143e",
+            "last": "Tabak"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/505612a",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC4058759",
+    "labels": [],
+    "crawl_urls": [
+        "http://www.nature.com/news/policy-nih-plans-to-enhance-reproducibility-1.14586",
+        "http://dx.doi.org/10.1038/505612a",
+        "http://www.nature.com/doifinder/10.1038/505612a"
+    ],
+    "imported": 1,
+    "journal": "Nature",
+    "citekey": "Collins2014-rz",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "9df9d7d2-0b38-0025-80c5-cc1a25d72544",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "0127021f-3813-0f27-bd45-68a49749a785",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1504587323.82469,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxSjNBM0w4eXBsVFk",
+            "filesize": 1377424,
+            "created": 1504587323.82468,
+            "filename": "Collins and Tabak 2014 - Policy - NIH plans to enhance reproducibility.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/C"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "ce67a1ca0636189615bba2107e84431f"
+        }
+    ],
+    "language": "en",
+    "volume": "505",
+    "journal_checked": 1,
+    "created": 1504587315.63856,
+    "subfolders": [
+        "All Papers/C"
+    ],
+    "pmid": "24482835",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "2eb0d80a33b906a9a4033bc195bdc54e5a7f8d8e",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://www.economist.com/news/briefing/21588057-scientists-think-science-self-correcting-alarming-degree-it-not-trouble"
+    ],
+    "updated": 1504587188.23798,
+    "publisher": "The Economist",
+    "value": "bd5ab862-439c-0a32-9c63-3ca8cf7f57b00.13206416232280915",
+    "id_list": [
+        "sha1:29c78819e577fa05448b5c4151233cc852ad9a00",
+        "dup_sha1:2eb0d80a33b906a9a4033bc195bdc54e5a7f8d8e",
+        "url:https://www.economist.com/news/briefing/21588057-scientists-think-science-self-correcting-alarming-degree-it-not-trouble"
+    ],
+    "published": {
+        "year": "2013"
+    },
+    "booktitle": "The Economist",
+    "abstract": "“I SEE a train wreck looming,” warned Daniel Kahneman, an eminent psychologist, in an open letter last year. The premonition concerned research on a phenomenon known as “priming”. Priming studies suggest that decisions can be influenced by apparently irrelevant actions or events that took place just before the cusp of choice.",
+    "title": "Trouble at the lab",
+    "label": "bd5ab862-439c-0a32-9c63-3ca8cf7f57b00.23503465615745478",
+    "folders": [],
+    "sha1": "29c78819e577fa05448b5c4151233cc852ad9a00",
+    "author": [
+        {
+            "initials": "T",
+            "first": "The",
+            "level": "1.0 familyLast",
+            "bak": "The Economist",
+            "formatted": "Economist T",
+            "_id": "3bc65ab3-0b78-0147-aace-e95c44677a1d",
+            "last": "Economist"
+        }
+    ],
+    "pubtype": "PP_WEBSITE",
+    "accessed": {
+        "month": "9",
+        "day": "4",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "https://www.economist.com/news/briefing/21588057-scientists-think-science-self-correcting-alarming-degree-it-not-trouble"
+    ],
+    "labels": [],
+    "citekey": "Economist2013-dv",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "created": 1504587181.38268,
+    "subfolders": [
+        "All Papers/E"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "8b34821c539203899bb6b3b087c8f495989fae43",
+    "issue": "215",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1126/scitranslmed.3007362",
+        "https://www.ncbi.nlm.nih.gov/pubmed/24337477",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4185188",
+        "http://stm.sciencemag.org/cgi/pmidlookup?view=short&pmid=24337477"
+    ],
+    "updated": 1501047812.80479,
+    "doi": "10.1126/scitranslmed.3007362",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:8e636ca81d68ca71ef376b54fc41a154b2b12bf5",
+        "dup_sha1:8b34821c539203899bb6b3b087c8f495989fae43",
+        "doi:10.1126/scitranslmed.3007362",
+        "pmc:PMC4185188",
+        "pmid:24337477",
+        "url:http://dx.doi.org/10.1126/scitranslmed.3007362",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/24337477",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4185188",
+        "url:http://stm.sciencemag.org/cgi/pmidlookup?view=short&pmid=24337477",
+        "url:http://stm.sciencemag.org/cgi/doi/10.1126/scitranslmed.3007362",
+        "url:http://stm.sciencemag.org/lookup/doi/10.1126/scitranslmed.3007362",
+        "url:http://stm.sciencemag.org/content/5/215/215cm7"
+    ],
+    "published": {
+        "month": "12",
+        "day": "11",
+        "year": "2013"
+    },
+    "issn_alt": "1946-6242",
+    "affiliation": "Department of Social Medicine, School of Medicine, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599, USA.",
+    "abstract": "Biobanks require new governance models that address their ethical and regulatory challenges. One model relies on stewardship of specimens throughout their life course. Here, we discuss findings from our survey of 456 U.S. biobank managers that addressed whether and how biobanks steward their specimens. The findings reveal that most biobanks do not create ongoing relationships with contributors but do practice stewardship over storing and sharing of specimens. Biobanks now need guidance to fully articulate stewardship practices that ensure respect for contributors while facilitating research.",
+    "title": "Stewardship practices of U.S. biobanks",
+    "pages": "215cm7",
+    "folders": [],
+    "journalfull": "Science translational medicine",
+    "sha1": "8e636ca81d68ca71ef376b54fc41a154b2b12bf5",
+    "issn": "1946-6234",
+    "author": [
+        {
+            "initials": "GE",
+            "first": "Gail E",
+            "formatted": "Henderson GE",
+            "_id": "215e2ea9-218d-0f22-b770-7a8000fcbb9c",
+            "last": "Henderson"
+        },
+        {
+            "initials": "TP",
+            "first": "Teresa P",
+            "formatted": "Edwards TP",
+            "_id": "4422b6e7-a42c-00a9-94ea-cdb4f6642c22",
+            "last": "Edwards"
+        },
+        {
+            "initials": "RJ",
+            "first": "R Jean",
+            "formatted": "Cadigan RJ",
+            "_id": "b4d9630b-b78f-0a12-96ec-45b811d28180",
+            "last": "Cadigan"
+        },
+        {
+            "initials": "AM",
+            "first": "Arlene M",
+            "formatted": "Davis AM",
+            "_id": "81539344-3ed4-0c92-b921-161fb0da3fdb",
+            "last": "Davis"
+        },
+        {
+            "initials": "C",
+            "first": "Catherine",
+            "formatted": "Zimmer C",
+            "_id": "ae06923e-a7fe-03dc-8822-11fc82427523",
+            "last": "Zimmer"
+        },
+        {
+            "initials": "I",
+            "first": "Ian",
+            "formatted": "Conlon I",
+            "_id": "27fa2afc-8b36-0b7e-a393-28658385af56",
+            "last": "Conlon"
+        },
+        {
+            "initials": "BJ",
+            "first": "Bryan J",
+            "formatted": "Weiner BJ",
+            "_id": "0c5f2e53-5aaa-0784-993f-2d9f4a738b2c",
+            "last": "Weiner"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1126/scitranslmed.3007362",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC4185188",
+    "crawl_urls": [
+        "http://dx.doi.org/10.1126/scitranslmed.3007362",
+        "http://stm.sciencemag.org/cgi/doi/10.1126/scitranslmed.3007362",
+        "http://stm.sciencemag.org/lookup/doi/10.1126/scitranslmed.3007362",
+        "http://stm.sciencemag.org/content/5/215/215cm7"
+    ],
+    "labels": [],
+    "citekey": "Henderson2013-be",
+    "journal": "Sci. Transl. Med.",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "adbb4f54-8d42-0654-be07-4a3b0df674f6",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "3fbefa6b-6395-098a-b00b-7bc60adbe582",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1501047812.92941,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxZU9IU1NkYnd5YjQ",
+            "filesize": 480528,
+            "created": 1501047812.92941,
+            "filename": "Henderson et al. 2013 - Stewardship practices of U.S. biobanks.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/H"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "75c808a9df2c871366139a1a4440e1f8"
+        }
+    ],
+    "volume": "5",
+    "language": "en",
+    "pii": "5/215/215cm7",
+    "journal_checked": 1,
+    "created": 1501047803.01704,
+    "subfolders": [
+        "All Papers/H"
+    ],
+    "pmid": "24337477",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "incomplete": 0,
+    "pdf_restricted": 0,
+    "pubtype": "PP_WEBSITE",
+    "duplicates": [],
+    "url": [
+        "http://www.tedmed.com/speakers/show?id=309670"
+    ],
+    "updated": 1501045547.10797,
+    "labels": [],
+    "crawl_urls": [
+        "http://www.tedmed.com/speakers/show?id=309670"
+    ],
+    "accessed": {
+        "month": "7",
+        "day": "25",
+        "year": "2017"
+    },
+    "imported": 1,
+    "citekey": "noauthor_undated-fg",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "value": "5c9ab920-7768-0e7a-9ae7-b9b333aa09890.8046278993828926",
+    "id_list": [
+        "url:http://www.tedmed.com/speakers/show?id=309670"
+    ],
+    "created": 1501045542.93938,
+    "booktitle": "TEDMED",
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "label": "5c9ab920-7768-0e7a-9ae7-b9b333aa09890.7097155905149317",
+    "abstract": "Genomic Bioethicist",
+    "title": "Amy McGuire",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "pubtype": "PP_WEBSITE",
+    "duplicates": [],
+    "url": [
+        "http://fairmetrics.org"
+    ],
+    "updated": 1501022313.80288,
+    "accessed": {
+        "month": "7",
+        "day": "25",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "http://fairmetrics.org"
+    ],
+    "labels": [],
+    "citekey": "noauthor_undated-ys",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "value": "0eb36c8c-c08d-04b0-a6e4-20b156d09d0a0.7426783973964861",
+    "id_list": [],
+    "created": 1501022305.9924,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "label": "0eb36c8c-c08d-04b0-a6e4-20b156d09d0a0.88163692193866",
+    "title": "FAIR Metrics",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "3f17ea9dc7438406df00659ad5fc219fa3cf4006",
+    "keywords": "Data management; Data sharing; Open data; Reproducibility; Scholarly communication; Scientific communication",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.7717/peerj.3208",
+        "https://www.ncbi.nlm.nih.gov/pubmed/28462024",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5407277",
+        "https://dx.doi.org/10.7717/peerj.3208"
+    ],
+    "updated": 1500965275.95434,
+    "doi": "10.7717/peerj.3208",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:0697b6a396afea096ef6d51e0b84a9939b1031cb",
+        "dup_sha1:3f17ea9dc7438406df00659ad5fc219fa3cf4006",
+        "doi:10.7717/peerj.3208",
+        "pmc:PMC5407277",
+        "pmid:28462024",
+        "url:http://dx.doi.org/10.7717/peerj.3208",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/28462024",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5407277",
+        "url:https://dx.doi.org/10.7717/peerj.3208",
+        "url:https://peerj.com/articles/3208"
+    ],
+    "published": {
+        "month": "4",
+        "day": "25",
+        "year": "2017"
+    },
+    "affiliation": "OHSU Library, Oregon Health & Science University, Portland, OR, United States. Department of Medical Informatics and Clinical Epidemiology, Oregon Health & Science University, Portland, OR, United States. OHSU-PSU School of Public Health, Oregon Health & Science University, Portland, OR, United States.",
+    "abstract": "BACKGROUND: There is wide agreement in the biomedical research community that research data sharing is a primary ingredient for ensuring that science is more transparent and reproducible. Publishers could play an important role in facilitating and enforcing data sharing; however, many journals have not yet implemented data sharing policies and the requirements vary widely across journals. This study set out to analyze the pervasiveness and quality of data sharing policies in the biomedical literature. METHODS: The online author's instructions and editorial policies for 318 biomedical journals were manually reviewed to analyze the journal's data sharing requirements and characteristics. The data sharing policies were ranked using a rubric to determine if data sharing was required, recommended, required only for omics data, or not addressed at all. The data sharing method and licensing recommendations were examined, as well any mention of reproducibility or similar concepts. The data was analyzed for patterns relating to publishing volume, Journal Impact Factor, and the publishing model (open access or subscription) of each journal. RESULTS: A total of 11.9% of journals analyzed explicitly stated that data sharing was required as a condition of publication. A total of 9.1% of journals required data sharing, but did not state that it would affect publication decisions. 23.3% of journals had a statement encouraging authors to share their data but did not require it. A total of 9.1% of journals mentioned data sharing indirectly, and only 14.8% addressed protein, proteomic, and/or genomic data sharing. There was no mention of data sharing in 31.8% of journals. Impact factors were significantly higher for journals with the strongest data sharing policies compared to all other data sharing criteria. Open access journals were not more likely to require data sharing than subscription journals. DISCUSSION: Our study confirmed earlier investigations which observed that only a minority of biomedical journals require data sharing, and a significant association between higher Impact Factors and journals with a data sharing requirement. Moreover, while 65.7% of the journals in our study that required data sharing addressed the concept of reproducibility, as with earlier investigations, we found that most data sharing policies did not provide specific guidance on the practices that ensure data is maximally available and reusable.",
+    "title": "Reproducible and reusable research: are journal data sharing policies meeting the mark?",
+    "pages": "e3208",
+    "folders": [],
+    "journalfull": "PeerJ",
+    "sha1": "0697b6a396afea096ef6d51e0b84a9939b1031cb",
+    "issn": "2167-8359",
+    "author": [
+        {
+            "initials": "NA",
+            "first": "Nicole A",
+            "formatted": "Vasilevsky NA",
+            "_id": "d5ece682-3c06-0324-981a-d15d3b64ccd1",
+            "last": "Vasilevsky"
+        },
+        {
+            "initials": "J",
+            "first": "Jessica",
+            "formatted": "Minnier J",
+            "_id": "6d740ec5-776f-0ba6-b8e8-8a75be9344b8",
+            "last": "Minnier"
+        },
+        {
+            "initials": "MA",
+            "first": "Melissa A",
+            "formatted": "Haendel MA",
+            "_id": "e1350dc0-5d8a-0064-ac3a-8e398cb7d7a3",
+            "last": "Haendel"
+        },
+        {
+            "initials": "RE",
+            "first": "Robin E",
+            "formatted": "Champieux RE",
+            "_id": "52c1aebf-3ce0-0dc7-8bb5-3d5a0558a643",
+            "last": "Champieux"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.7717/peerj.3208",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC5407277",
+    "crawl_urls": [
+        "http://dx.doi.org/10.7717/peerj.3208",
+        "https://peerj.com/articles/3208"
+    ],
+    "labels": [],
+    "citekey": "Vasilevsky2017-xk",
+    "journal": "PeerJ",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "d156a34b-763d-0268-8cd7-52c7e3b0c2ce",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "b1638bf3-ea2a-00fd-b7e7-6ffca85e65e2",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1500965276.07195,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxNVhfYXQ1VnotWGs",
+            "filesize": 1043036,
+            "created": 1500965276.07194,
+            "filename": "Vasilevsky et al. 2017 - Reproducible and reusable research - are journal data sharing policies meeting the mark.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/V"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "87930a0b7f875fbc73c54aaff6f34c6c"
+        }
+    ],
+    "volume": "5",
+    "language": "en",
+    "pii": "3208",
+    "journal_checked": 1,
+    "created": 1500965270.868,
+    "subfolders": [
+        "All Papers/V"
+    ],
+    "pmid": "28462024",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "19b4fab4e1531156f3278c3066ec620f434a83cf",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://semver.org/spec/v2.0.0.html"
+    ],
+    "updated": 1500854924.8362,
+    "autocompleted": 1,
+    "published": {
+        "year": "2015"
+    },
+    "id_list": [
+        "sha1:3d64021ff230f2be02c8c995fbc2930cd984d13e",
+        "dup_sha1:19b4fab4e1531156f3278c3066ec620f434a83cf",
+        "url:http://semver.org/spec/v2.0.0.html"
+    ],
+    "title": "Semantic versioning, 2015",
+    "pages": "12-14",
+    "sha1": "3d64021ff230f2be02c8c995fbc2930cd984d13e",
+    "folders": [],
+    "author": [
+        {
+            "initials": "T",
+            "first": "Tom",
+            "formatted": "Preston-Werner T",
+            "_id": "b6ab7644-d5cc-09a2-a9de-3c696330049c",
+            "last": "Preston-Werner"
+        }
+    ],
+    "pubtype": "PP_ARTICLE",
+    "original_citekey": "preston2015semantic",
+    "crawl_urls": [
+        "http://semver.org/spec/v2.0.0.html"
+    ],
+    "labels": [],
+    "journal": "URL http://semver. org/. Visited on",
+    "citekey": "Preston-Werner2015-ds",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "journal_checked": 1,
+    "created": 1500854914.43269,
+    "subfolders": [
+        "All Papers/P"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "ba99e6d013d76e568767bd7e77865b0f55f9b415",
+    "issue": "6",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1371/journal.pbio.2001414",
+        "https://www.ncbi.nlm.nih.gov/pubmed/28662064",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878",
+        "http://dx.plos.org/10.1371/journal.pbio.2001414"
+    ],
+    "updated": 1500744978.05038,
+    "doi": "10.1371/journal.pbio.2001414",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:4c090c1a8eea5a40a652d796914ecb736a5e7cb6",
+        "dup_sha1:ba99e6d013d76e568767bd7e77865b0f55f9b415",
+        "doi:10.1371/journal.pbio.2001414",
+        "pmc:PMC5490878",
+        "pmid:28662064",
+        "url:http://dx.doi.org/10.1371/journal.pbio.2001414",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/28662064",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5490878",
+        "url:http://dx.plos.org/10.1371/journal.pbio.2001414",
+        "url:http://journals.plos.org/plosone/doi?id=10.1371/journal.pbio.2001414"
+    ],
+    "published": {
+        "month": "6",
+        "year": "2017"
+    },
+    "issn_alt": "1545-7885",
+    "affiliation": "Department of Medical Informatics and Epidemiology and OHSU Library, Oregon Health & Science University, Portland, Oregon, United States of America. European Bioinformatics Institute, European Molecular Biology Laboratory, Wellcome Genome Campus, Hinxton, Cambridge, United Kingdom. ELIXIR Hub, Wellcome Genome Campus, Hinxton, Cambridge, United Kingdom. Berkeley Natural History Museums, University of California at Berkeley, Berkely, California, United States of America. Institute of Data Science, Maastricht University, Maastricht, the Netherlands. School of Computer Science, The University of Manchester, Manchester, United Kingdom. Oxford e-Research Centre, University of Oxford, Oxford, United Kingdom. Institute of Experimental Genetics, Helmholtz Centre Munich, German Research Center for Environmental Health, Neuherberg, Germany. Center for Research in Biological Systems, University of California San Diego, La Jolla, California, United States of America. Babraham Institute, Cambridge, United Kingdom. European Molecular Biology Laboratory, Heidelberg, Germany. Center for Biological Sequence Analysis, Department of Systems Biology, Technical University of Denmark, Lyngby, Denmark. California Digital Library, Oakland, California, United States of America. Science and Technology Facilities Council, Daresbury Laboratory, Warrington, United Kingdom. Genomics Coordination Center, Department of Genetics, University Medical Center Groningen and Groningen Bioinformatics Center, University of Groningen, Groningen, the Netherlands. Scientific Databases and Visualization at Heidelberg Institute for Theoretical Studies, Heidelberg, Germany. Institute for Medical Informatics, Bern University of Applied Sciences, Engineering and Information Technology, Bern, Switzerland. Manchester Institute of Biology, University of Manchester, Manchester, United Kingdom. Department of Biochemistry, Stellenbosch University, Stellenbosch, South Africa. Manchester Centre for Synthetic Biology of Fine and Speciality Chemicals, University of Manchester, Manchester, United Kingdom. Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America. Leiden Institute of Advanced Computer Science, Leiden University, Leiden, the Netherlands.",
+    "abstract": "In many disciplines, data are highly decentralized across thousands of online databases (repositories, registries, and knowledgebases). Wringing value from such databases depends on the discipline of data science and on the humble bricks and mortar that make integration possible; identifiers are a core component of this integration infrastructure. Drawing on our experience and on work by other groups, we outline 10 lessons we have learned about the identifier qualities and best practices that facilitate large-scale data integration. Specifically, we propose actions that identifier practitioners (database providers) should take in the design, provision and reuse of identifiers. We also outline the important considerations for those referencing identifiers in various circumstances, including by authors and data generators. While the importance and relevance of each lesson will vary by context, there is a need for increased awareness about how to avoid and manage common identifier problems, especially those related to persistence and web-accessibility/resolvability. We focus strongly on web-based identifiers in the life sciences; however, the principles are broadly relevant to other disciplines.",
+    "title": "Identifiers for the 21st century: How to design, provision, and reuse persistent identifiers to maximize utility and impact of life science data",
+    "pages": "e2001414",
+    "folders": [],
+    "journalfull": "PLoS biology",
+    "sha1": "4c090c1a8eea5a40a652d796914ecb736a5e7cb6",
+    "issn": "1544-9173",
+    "author": [
+        {
+            "initials": "JA",
+            "first": "Julie A",
+            "orcid": "0000-0002-9353-5498",
+            "formatted": "McMurry JA",
+            "_id": "2272ad81-1b72-0289-92bc-4c2e6524a6f0",
+            "last": "McMurry"
+        },
+        {
+            "initials": "N",
+            "first": "Nick",
+            "formatted": "Juty N",
+            "_id": "c77fcd56-75ee-0084-a0f2-f0c8bf503bed",
+            "last": "Juty"
+        },
+        {
+            "initials": "N",
+            "first": "Niklas",
+            "formatted": "Blomberg N",
+            "_id": "37b74a65-9c4a-0fa0-9a67-513dd4d9d8f7",
+            "last": "Blomberg"
+        },
+        {
+            "initials": "T",
+            "first": "Tony",
+            "formatted": "Burdett T",
+            "_id": "6ee7ee89-9c7b-00d9-9558-419c0bc2469c",
+            "last": "Burdett"
+        },
+        {
+            "initials": "T",
+            "first": "Tom",
+            "formatted": "Conlin T",
+            "_id": "6cd6c591-6e20-04a9-8076-1ca2e5779422",
+            "last": "Conlin"
+        },
+        {
+            "initials": "N",
+            "first": "Nathalie",
+            "formatted": "Conte N",
+            "_id": "4469af09-3dc5-0183-ab0f-ffb72f987c1e",
+            "last": "Conte"
+        },
+        {
+            "initials": "M",
+            "first": "Mélanie",
+            "formatted": "Courtot M",
+            "_id": "0c0b39dc-db27-0e06-984d-62ce2e93afba",
+            "last": "Courtot"
+        },
+        {
+            "initials": "J",
+            "first": "John",
+            "formatted": "Deck J",
+            "_id": "6a4c90cc-c934-012d-bc76-5ca16be4c4dd",
+            "last": "Deck"
+        },
+        {
+            "initials": "M",
+            "first": "Michel",
+            "formatted": "Dumontier M",
+            "_id": "18d7fa77-fb9b-0757-aed5-9dbad1b3bcd4",
+            "last": "Dumontier"
+        },
+        {
+            "initials": "DK",
+            "first": "Donal K",
+            "formatted": "Fellows DK",
+            "_id": "f7b0b15d-1819-0026-a941-42999bc0a8ba",
+            "last": "Fellows"
+        },
+        {
+            "initials": "A",
+            "first": "Alejandra",
+            "formatted": "Gonzalez-Beltran A",
+            "_id": "dc2cabc9-bd6c-0582-bd59-ebd1fb039be9",
+            "last": "Gonzalez-Beltran"
+        },
+        {
+            "initials": "P",
+            "first": "Philipp",
+            "formatted": "Gormanns P",
+            "_id": "08d35b02-f6db-0fa4-bfd6-2fc7a85269f9",
+            "last": "Gormanns"
+        },
+        {
+            "initials": "J",
+            "first": "Jeffrey",
+            "formatted": "Grethe J",
+            "_id": "f16f4356-7379-0ab8-9085-0ef58b90b084",
+            "last": "Grethe"
+        },
+        {
+            "initials": "J",
+            "first": "Janna",
+            "formatted": "Hastings J",
+            "_id": "455bc854-0cc5-036c-aa4a-e48fbcd66e74",
+            "last": "Hastings"
+        },
+        {
+            "initials": "JK",
+            "first": "Jean-Karim",
+            "formatted": "Hériché JK",
+            "_id": "5fb2c46a-89f5-08d6-a9af-6366f76d8174",
+            "last": "Hériché"
+        },
+        {
+            "initials": "H",
+            "first": "Henning",
+            "formatted": "Hermjakob H",
+            "_id": "4d1e11fb-2cf4-0c07-9102-2d95de022ec7",
+            "last": "Hermjakob"
+        },
+        {
+            "initials": "JC",
+            "first": "Jon C",
+            "formatted": "Ison JC",
+            "_id": "a47ed7c3-5c5c-07d1-8a0b-053179b7ca1d",
+            "last": "Ison"
+        },
+        {
+            "initials": "RC",
+            "first": "Rafael C",
+            "formatted": "Jimenez RC",
+            "_id": "10ac1e19-1f0c-029f-83e9-7f065ad1da39",
+            "last": "Jimenez"
+        },
+        {
+            "initials": "S",
+            "first": "Simon",
+            "formatted": "Jupp S",
+            "_id": "6ac0cda2-8f11-002c-91e1-b5615cfbec7b",
+            "last": "Jupp"
+        },
+        {
+            "initials": "J",
+            "first": "John",
+            "formatted": "Kunze J",
+            "_id": "e6b76ae4-bd6f-095c-a24f-bcac601134d1",
+            "last": "Kunze"
+        },
+        {
+            "initials": "C",
+            "first": "Camille",
+            "formatted": "Laibe C",
+            "_id": "27839017-97af-0448-8e7e-560cd9b7e46c",
+            "last": "Laibe"
+        },
+        {
+            "initials": "N",
+            "first": "Nicolas",
+            "formatted": "Le Novère N",
+            "_id": "925da778-d35b-0a05-97e3-1225c540972b",
+            "last": "Le Novère"
+        },
+        {
+            "initials": "J",
+            "first": "James",
+            "formatted": "Malone J",
+            "_id": "948212a1-860c-001a-8d16-07df23835d25",
+            "last": "Malone"
+        },
+        {
+            "initials": "MJ",
+            "first": "Maria Jesus",
+            "formatted": "Martin MJ",
+            "_id": "6ffd1a7d-3839-0647-8bb5-608c2fea3bfe",
+            "last": "Martin"
+        },
+        {
+            "initials": "JR",
+            "first": "Johanna R",
+            "formatted": "McEntyre JR",
+            "_id": "e3602ecf-d41e-0c24-9a84-2bf1d1d8a28b",
+            "last": "McEntyre"
+        },
+        {
+            "initials": "C",
+            "first": "Chris",
+            "formatted": "Morris C",
+            "_id": "862b78a5-cea8-0966-84a5-aea57a9e8260",
+            "last": "Morris"
+        },
+        {
+            "initials": "J",
+            "first": "Juha",
+            "formatted": "Muilu J",
+            "_id": "66ed69e7-980f-0559-9091-8ade98fed426",
+            "last": "Muilu"
+        },
+        {
+            "initials": "W",
+            "first": "Wolfgang",
+            "formatted": "Müller W",
+            "_id": "1b33f723-478a-0239-9912-a77cfbad22a6",
+            "last": "Müller"
+        },
+        {
+            "initials": "P",
+            "first": "Philippe",
+            "formatted": "Rocca-Serra P",
+            "_id": "91fd424e-296a-0b5a-960c-682ca05e3f24",
+            "last": "Rocca-Serra"
+        },
+        {
+            "initials": "SA",
+            "first": "Susanna-Assunta",
+            "formatted": "Sansone SA",
+            "_id": "0e4781c0-f501-0b57-bc6f-72b4c9b8df2a",
+            "last": "Sansone"
+        },
+        {
+            "initials": "M",
+            "first": "Murat",
+            "formatted": "Sariyar M",
+            "_id": "089c7710-cfb8-0f85-b40f-1b2d37f88bc4",
+            "last": "Sariyar"
+        },
+        {
+            "initials": "JL",
+            "first": "Jacky L",
+            "formatted": "Snoep JL",
+            "_id": "cb24817a-2d38-014c-a50a-71bb62ad6452",
+            "last": "Snoep"
+        },
+        {
+            "initials": "S",
+            "first": "Stian",
+            "formatted": "Soiland-Reyes S",
+            "_id": "dc41210f-17be-0987-9288-14e4c0fe6406",
+            "last": "Soiland-Reyes"
+        },
+        {
+            "initials": "NJ",
+            "first": "Natalie J",
+            "formatted": "Stanford NJ",
+            "_id": "b1230c6f-c1f6-0163-953b-85259c3ff3bd",
+            "last": "Stanford"
+        },
+        {
+            "initials": "N",
+            "first": "Neil",
+            "formatted": "Swainston N",
+            "_id": "05f7a280-4231-0566-ae6e-24d0645db786",
+            "last": "Swainston"
+        },
+        {
+            "initials": "N",
+            "first": "Nicole",
+            "formatted": "Washington N",
+            "_id": "d16a2280-ff06-09bf-a7f2-63734ba5b1f9",
+            "last": "Washington"
+        },
+        {
+            "initials": "AR",
+            "first": "Alan R",
+            "formatted": "Williams AR",
+            "_id": "bfbf03ab-f390-0337-ba41-0b577a1e0215",
+            "last": "Williams"
+        },
+        {
+            "initials": "SM",
+            "first": "Sarala M",
+            "formatted": "Wimalaratne SM",
+            "_id": "7bd2e2a8-ed6c-05b3-ba59-b5a1d0b6a9c0",
+            "last": "Wimalaratne"
+        },
+        {
+            "initials": "LM",
+            "first": "Lilly M",
+            "formatted": "Winfree LM",
+            "_id": "f60fe8c2-bef8-09fe-87d7-9079fe333985",
+            "last": "Winfree"
+        },
+        {
+            "initials": "K",
+            "first": "Katherine",
+            "formatted": "Wolstencroft K",
+            "_id": "3184de5d-50b7-0b11-85d7-2ce32d983aa5",
+            "last": "Wolstencroft"
+        },
+        {
+            "initials": "C",
+            "first": "Carole",
+            "formatted": "Goble C",
+            "_id": "970cff38-8c6b-086c-a9ba-6ee2ddbae441",
+            "last": "Goble"
+        },
+        {
+            "initials": "CJ",
+            "first": "Christopher J",
+            "formatted": "Mungall CJ",
+            "_id": "c3262c32-cd87-0313-9906-cfb3555840f8",
+            "last": "Mungall"
+        },
+        {
+            "initials": "MA",
+            "first": "Melissa A",
+            "formatted": "Haendel MA",
+            "_id": "f5590c96-c1a9-0857-ad20-4430821ebbff",
+            "last": "Haendel"
+        },
+        {
+            "initials": "H",
+            "first": "Helen",
+            "formatted": "Parkinson H",
+            "_id": "12d8104b-71c5-01a2-a643-2691fd9817d8",
+            "last": "Parkinson"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1371/journal.pbio.2001414",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC5490878",
+    "crawl_urls": [
+        "http://dx.doi.org/10.1371/journal.pbio.2001414",
+        "http://dx.plos.org/10.1371/journal.pbio.2001414",
+        "http://journals.plos.org/plosone/doi?id=10.1371/journal.pbio.2001414"
+    ],
+    "labels": [],
+    "citekey": "McMurry2017-vr",
+    "journal": "PLoS Biol.",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "953be73a-01d2-0626-a5ea-e4086538e3ec",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "b7d6152b-d1f0-004a-ba7a-309afd64fe1a",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1500744978.17462,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxVEJKOTJONlhOVk0",
+            "filesize": 1406506,
+            "created": 1500744978.17462,
+            "filename": "McMurry et al. 2017 - Identifiers for the 21st century - How to design,  ... stent identifiers to maximize utility and impact of life science data.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/M"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "65eb7ab7cfcc6ef8f1db551425ce8388"
+        }
+    ],
+    "volume": "15",
+    "language": "en",
+    "pii": "pbio.2001414",
+    "journal_checked": 1,
+    "created": 1500744975.59653,
+    "subfolders": [
+        "All Papers/M"
+    ],
+    "pmid": "28662064",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "f8d1ac0f2105ffd3fd0befd057bc752f7aa499f9",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1038/sdata.2016.18",
+        "https://www.ncbi.nlm.nih.gov/pubmed/26978244",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175",
+        "https://www.nature.com/articles/sdata201618."
+    ],
+    "updated": 1500688794.0457,
+    "doi": "10.1038/sdata.2016.18",
+    "xref": [
+        {
+            "type": "CommentIn",
+            "pmid": "27023771"
+        }
+    ],
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:03cb0100caf6f921938a83438c198de57e2d771e",
+        "dup_sha1:f8d1ac0f2105ffd3fd0befd057bc752f7aa499f9",
+        "doi:10.1038/sdata.2016.18",
+        "pmc:PMC4792175",
+        "pmid:26978244",
+        "url:http://dx.doi.org/10.1038/sdata.2016.18",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/26978244",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4792175",
+        "url:https://www.nature.com/articles/sdata201618.",
+        "url:http://www.nature.com/articles/sdata201618"
+    ],
+    "published": {
+        "month": "3",
+        "day": "15",
+        "year": "2016"
+    },
+    "title": "The FAIR Guiding Principles for scientific data management and stewardship",
+    "abstract": "There is an urgent need to improve the infrastructure supporting the reuse of scholarly data. A diverse set of stakeholders-representing academia, industry, funding agencies, and scholarly publishers-have come together to design and jointly endorse a concise and measureable set of principles that we refer to as the FAIR Data Principles. The intent is that these may act as a guideline for those wishing to enhance the reusability of their data holdings. Distinct from peer initiatives that focus on the human scholar, the FAIR Principles put specific emphasis on enhancing the ability of machines to automatically find and use the data, in addition to supporting its reuse by individuals. This Comment is the first formal publication of the FAIR Principles, and includes the rationale behind them, and some exemplar implementations in the community.",
+    "affiliation": "Center for Plant Biotechnology and Genomics, Universidad Politécnica de Madrid, Madrid 28223, Spain. Stanford University, Stanford 94305-5411, USA. Nature Genetics, New York 10004-1562, USA. Euretos and Phortos Consultants, Rotterdam 2741 CA, The Netherlands. ELIXIR, Wellcome Genome Campus, Hinxton CB10 1SA, UK. Lygature, Eindhoven 5656 AG, The Netherlands. Vrije Universiteit Amsterdam, Dutch Techcenter for Life Sciences, Amsterdam 1081 HV, The Netherlands. Office of the Director, National Institutes of Health, Rockville 20892, USA. TNO, Zeist 3700 AJ, The Netherlands. Department of Genetics, University of Leicester, Leicester LE1 7RH, UK. Harvard Medical School, Boston, Massachusetts MA 02115, USA. Harvard University, Cambridge, Massachusetts MA 02138, USA. Data Archiving and Networked Services (DANS), The Hague 2593 HW, The Netherlands. GigaScience, Beijing Genomics Institute, Shenzhen 518083, China. Department of Bioinformatics, Maastricht University, Maastricht 6200 MD, The Netherlands. Wageningen UR Plant Breeding, Wageningen 6708 PB, The Netherlands. Oxford e-Research Center, University of Oxford, Oxford OX1 3QG, UK. Heriot-Watt University, Edinburgh EH14 4AS, UK. School of Computer Science, University of Manchester, Manchester M13 9PL, UK. Center for Research in Biological Systems, School of Medicine, University of California San Diego, La Jolla, California 92093-0446, USA. Dutch Techcenter for the Life Sciences, Utrecht 3501 DE, The Netherlands. Department of Human Genetics, Leiden University Medical Center, Dutch Techcenter for the Life Sciences, Leiden 2300 RC, The Netherlands. Dutch TechCenter for Life Sciences and ELIXIR-NL, Utrecht 3501 DE, The Netherlands. VU University Amsterdam, Amsterdam 1081 HV, The Netherlands. Leiden Center of Data Science, Leiden University, Leiden 2300 RA, The Netherlands. Netherlands eScience Center, Amsterdam 1098 XG, The Netherlands. National Center for Microscopy and Imaging Research, UCSD, San Diego 92103, USA. Phortos Consultants, San Diego 92011, USA. SciELO/FAPESP Program, UNIFESP Foundation, São Paulo 05468-901, Brazil. Bioinformatics Infrastructure for Life Sciences (BILS), Science for Life Laboratory, Dept of Cell and Molecular Biology, Uppsala University, S-751 24, Uppsala, Sweden. Leiden University Medical Center, Leiden 2333 ZA, The Netherlands. Bayer CropScience, Gent Area 1831, Belgium. Leiden Institute for Advanced Computer Science, Leiden University Medical Center, Leiden 2300 RA, The Netherlands. Swiss Institute of Bioinformatics and University of Basel, Basel 4056, Switzerland. Cray, Inc., Seattle 98164, USA. University Medical Center Groningen (UMCG), University of Groningen, Groningen 9713 GZ, The Netherlands. Erasmus MC, Rotterdam 3015 CE, The Netherlands. Independent Open Access and Open Science Advocate, Guildford GU1 3PW, UK. Micelio, Antwerp 2180, Belgium. Max Planck Compute and Data Facility, MPS, Garching 85748, Germany. Leiden Institute of Advanced Computer Science, Leiden University, Leiden 2333 CA, The Netherlands. Department of Computer Science, Oxford University, Oxford OX1 3QD, UK. Leiden University Medical Center, Leiden and Dutch TechCenter for Life Sciences, Utrecht 2333 ZA, The Netherlands.",
+    "pages": "160018",
+    "folders": [],
+    "journalfull": "Scientific data",
+    "sha1": "03cb0100caf6f921938a83438c198de57e2d771e",
+    "issn": "2052-4463",
+    "author": [
+        {
+            "initials": "MD",
+            "first": "Mark D",
+            "formatted": "Wilkinson MD",
+            "orcid": "0000-0001-6960-357X",
+            "_id": "006ce399-572e-0e3f-b11d-aef07fd4130b",
+            "last": "Wilkinson"
+        },
+        {
+            "initials": "M",
+            "first": "Michel",
+            "formatted": "Dumontier M",
+            "orcid": "0000-0003-4727-9435",
+            "_id": "3ace60c6-0d30-01a4-baab-a0c4c15b4951",
+            "last": "Dumontier"
+        },
+        {
+            "initials": "IJ",
+            "first": "I Jsbrand Jan",
+            "formatted": "Aalbersberg IJ",
+            "orcid": "0000-0002-0209-4480",
+            "_id": "f42fefd6-9759-0a25-a6cb-9491829d7df1",
+            "last": "Aalbersberg"
+        },
+        {
+            "initials": "G",
+            "first": "Gabrielle",
+            "formatted": "Appleton G",
+            "orcid": "0000-0003-0179-7384",
+            "_id": "d96ec2ab-78d1-054f-91af-0f64e0cdaa7c",
+            "last": "Appleton"
+        },
+        {
+            "initials": "M",
+            "first": "Myles",
+            "formatted": "Axton M",
+            "orcid": "0000-0002-8042-4131",
+            "_id": "b980d21f-efd9-0f15-bc2c-75dbc697e832",
+            "last": "Axton"
+        },
+        {
+            "initials": "A",
+            "first": "Arie",
+            "formatted": "Baak A",
+            "orcid": "0000-0003-2829-6715",
+            "_id": "cd4add4b-b242-086f-bfb2-9e782efb8db4",
+            "last": "Baak"
+        },
+        {
+            "initials": "N",
+            "first": "Niklas",
+            "formatted": "Blomberg N",
+            "orcid": "0000-0003-4155-5910",
+            "_id": "b5b167b7-3fdc-04d7-8ef7-0de173c41bb2",
+            "last": "Blomberg"
+        },
+        {
+            "initials": "JW",
+            "first": "Jan-Willem",
+            "formatted": "Boiten JW",
+            "orcid": "0000-0003-0327-638X",
+            "_id": "09b954e6-05e1-0322-8cef-e3112b8bda81",
+            "last": "Boiten"
+        },
+        {
+            "initials": "LB",
+            "first": "Luiz Bonino",
+            "formatted": "da Silva Santos LB",
+            "orcid": "0000-0002-1164-1351",
+            "_id": "aa47a3a4-335d-01a8-b23e-85d507f6c51b",
+            "last": "da Silva Santos"
+        },
+        {
+            "initials": "PE",
+            "first": "Philip E",
+            "formatted": "Bourne PE",
+            "orcid": "0000-0002-7618-7292",
+            "_id": "1d24714c-4452-0754-a097-01953be1b634",
+            "last": "Bourne"
+        },
+        {
+            "initials": "J",
+            "first": "Jildau",
+            "formatted": "Bouwman J",
+            "_id": "e8a30562-68d2-024b-9c85-3c8d489d9673",
+            "last": "Bouwman"
+        },
+        {
+            "initials": "AJ",
+            "first": "Anthony J",
+            "formatted": "Brookes AJ",
+            "orcid": "0000-0001-8686-0017",
+            "_id": "8433d57e-b4b9-04f3-9b58-68eb1f8e2a8e",
+            "last": "Brookes"
+        },
+        {
+            "initials": "T",
+            "first": "Tim",
+            "formatted": "Clark T",
+            "orcid": "0000-0003-4060-7360",
+            "_id": "33f67b35-0d7e-0dda-bcd6-6b9dd53ca648",
+            "last": "Clark"
+        },
+        {
+            "initials": "M",
+            "first": "Mercè",
+            "formatted": "Crosas M",
+            "orcid": "0000-0003-1304-1939",
+            "_id": "8590de54-e666-060e-8088-0e7c5eb38d0b",
+            "last": "Crosas"
+        },
+        {
+            "initials": "I",
+            "first": "Ingrid",
+            "formatted": "Dillo I",
+            "orcid": "0000-0001-5654-2392",
+            "_id": "28b917f4-d76f-0644-9f9d-3c1b2107b7eb",
+            "last": "Dillo"
+        },
+        {
+            "initials": "O",
+            "first": "Olivier",
+            "formatted": "Dumon O",
+            "orcid": "0000-0001-8599-7345",
+            "_id": "b9e9da6b-1708-0533-9be6-a23b2d0601b7",
+            "last": "Dumon"
+        },
+        {
+            "initials": "S",
+            "first": "Scott",
+            "formatted": "Edmunds S",
+            "orcid": "0000-0001-6444-1436",
+            "_id": "99da1708-3df9-00a8-b42d-d1f1b1b004c2",
+            "last": "Edmunds"
+        },
+        {
+            "initials": "CT",
+            "first": "Chris T",
+            "formatted": "Evelo CT",
+            "orcid": "0000-0002-5301-3142",
+            "_id": "761a3075-ccd7-0ec2-8812-de0cb0b5b738",
+            "last": "Evelo"
+        },
+        {
+            "initials": "R",
+            "first": "Richard",
+            "formatted": "Finkers R",
+            "orcid": "0000-0002-4368-8058",
+            "_id": "3519fc15-659e-08b2-8995-b3ba57c72436",
+            "last": "Finkers"
+        },
+        {
+            "initials": "A",
+            "first": "Alejandra",
+            "formatted": "Gonzalez-Beltran A",
+            "orcid": "0000-0003-3499-8262",
+            "_id": "0f215c71-d88c-0bee-b7c4-c451ec5a7755",
+            "last": "Gonzalez-Beltran"
+        },
+        {
+            "initials": "AJ",
+            "first": "Alasdair J G",
+            "formatted": "Gray AJ",
+            "orcid": "0000-0002-5711-4872",
+            "_id": "851d7a74-3411-08ab-80e8-646fa13e6f38",
+            "last": "Gray"
+        },
+        {
+            "initials": "P",
+            "first": "Paul",
+            "formatted": "Groth P",
+            "orcid": "0000-0003-0183-6910",
+            "_id": "bfc1d527-6307-00c3-bb4c-fc18ae9aab1f",
+            "last": "Groth"
+        },
+        {
+            "initials": "C",
+            "first": "Carole",
+            "formatted": "Goble C",
+            "orcid": "0000-0003-1219-2137",
+            "_id": "bc12bb7f-a5a0-04f2-b0ef-6db9f72a7e8a",
+            "last": "Goble"
+        },
+        {
+            "initials": "JS",
+            "first": "Jeffrey S",
+            "formatted": "Grethe JS",
+            "orcid": "0000-0001-5212-7052",
+            "_id": "f9391fe3-9984-07ee-b686-98d8cb5f687c",
+            "last": "Grethe"
+        },
+        {
+            "initials": "J",
+            "first": "Jaap",
+            "formatted": "Heringa J",
+            "orcid": "0000-0001-8641-4930",
+            "_id": "5de6c7d9-54c4-09b4-9877-dfc6977c8506",
+            "last": "Heringa"
+        },
+        {
+            "initials": "PA",
+            "first": "Peter A C",
+            "formatted": "'t Hoen PA",
+            "orcid": "0000-0003-4450-3112",
+            "_id": "d681a57b-199b-0183-a2ef-ee45ac0c787e",
+            "last": "'t Hoen"
+        },
+        {
+            "initials": "R",
+            "first": "Rob",
+            "formatted": "Hooft R",
+            "orcid": "0000-0001-6825-9439",
+            "_id": "30db4a07-b5d0-0b23-9167-53382c980401",
+            "last": "Hooft"
+        },
+        {
+            "initials": "T",
+            "first": "Tobias",
+            "formatted": "Kuhn T",
+            "orcid": "0000-0002-1267-0234",
+            "_id": "ce740780-072a-0b14-8842-e63e56cc2c2c",
+            "last": "Kuhn"
+        },
+        {
+            "initials": "R",
+            "first": "Ruben",
+            "formatted": "Kok R",
+            "_id": "82cc44c5-0bef-0417-8826-b619cc8e88c7",
+            "last": "Kok"
+        },
+        {
+            "initials": "J",
+            "first": "Joost",
+            "formatted": "Kok J",
+            "orcid": "0000-0002-7352-1400",
+            "_id": "8d5e899c-77a6-04a4-9ce1-f16f99a4991b",
+            "last": "Kok"
+        },
+        {
+            "initials": "SJ",
+            "first": "Scott J",
+            "formatted": "Lusher SJ",
+            "orcid": "0000-0003-2401-4223",
+            "_id": "c6ba18f9-a47a-0f6b-9014-a648597b9d33",
+            "last": "Lusher"
+        },
+        {
+            "initials": "ME",
+            "first": "Maryann E",
+            "formatted": "Martone ME",
+            "orcid": "0000-0002-8406-3871",
+            "_id": "7597b396-3944-040e-9b14-4b3ca9fd0b6e",
+            "last": "Martone"
+        },
+        {
+            "initials": "A",
+            "first": "Albert",
+            "formatted": "Mons A",
+            "_id": "ffa8a0b5-d2f7-099d-928b-adfb06d774f5",
+            "last": "Mons"
+        },
+        {
+            "initials": "AL",
+            "first": "Abel L",
+            "formatted": "Packer AL",
+            "orcid": "0000-0001-9610-5728",
+            "_id": "5f2e9806-2e86-0505-aff5-bce46455a27f",
+            "last": "Packer"
+        },
+        {
+            "initials": "B",
+            "first": "Bengt",
+            "formatted": "Persson B",
+            "orcid": "0000-0003-3165-5344",
+            "_id": "b590b2a9-6880-0d44-8e61-da989ccf85a3",
+            "last": "Persson"
+        },
+        {
+            "initials": "P",
+            "first": "Philippe",
+            "formatted": "Rocca-Serra P",
+            "orcid": "0000-0001-9853-5668",
+            "_id": "cf83c53f-5c7f-0cb2-a628-1e5d724e5b56",
+            "last": "Rocca-Serra"
+        },
+        {
+            "initials": "M",
+            "first": "Marco",
+            "formatted": "Roos M",
+            "orcid": "0000-0002-8691-772X",
+            "_id": "187dbe50-2dbe-00f0-b361-1f8e21347818",
+            "last": "Roos"
+        },
+        {
+            "initials": "R",
+            "first": "Rene",
+            "formatted": "van Schaik R",
+            "_id": "482591c5-37a7-010b-9db2-77a71ad39761",
+            "last": "van Schaik"
+        },
+        {
+            "initials": "SA",
+            "first": "Susanna-Assunta",
+            "formatted": "Sansone SA",
+            "orcid": "0000-0001-5306-5690",
+            "_id": "1de612a9-0795-0eee-a751-3f1ac9419474",
+            "last": "Sansone"
+        },
+        {
+            "initials": "E",
+            "first": "Erik",
+            "formatted": "Schultes E",
+            "orcid": "0000-0001-8888-635X",
+            "_id": "f6054e04-b6e9-0392-9561-721e745cca16",
+            "last": "Schultes"
+        },
+        {
+            "initials": "T",
+            "first": "Thierry",
+            "formatted": "Sengstag T",
+            "orcid": "0000-0002-7516-6246",
+            "_id": "f1082b79-f49a-0b55-948f-4edc203657ae",
+            "last": "Sengstag"
+        },
+        {
+            "initials": "T",
+            "first": "Ted",
+            "formatted": "Slater T",
+            "orcid": "0000-0003-1386-0731",
+            "_id": "f57fd365-3c82-0c31-a55b-0616492bc2ec",
+            "last": "Slater"
+        },
+        {
+            "initials": "G",
+            "first": "George",
+            "formatted": "Strawn G",
+            "_id": "79c83bf8-b0ec-003d-b7d0-0efd9c75010b",
+            "last": "Strawn"
+        },
+        {
+            "initials": "MA",
+            "first": "Morris A",
+            "formatted": "Swertz MA",
+            "orcid": "0000-0002-0979-3401",
+            "_id": "be00f22c-85a9-0bbd-9ac6-3a85e8a72d14",
+            "last": "Swertz"
+        },
+        {
+            "initials": "M",
+            "first": "Mark",
+            "formatted": "Thompson M",
+            "orcid": "0000-0002-7633-1442",
+            "_id": "a2109b43-7e97-0365-b726-af1244817240",
+            "last": "Thompson"
+        },
+        {
+            "initials": "J",
+            "first": "Johan",
+            "formatted": "van der Lei J",
+            "_id": "03c2cbab-4571-0397-9e75-39635e14f5c5",
+            "last": "van der Lei"
+        },
+        {
+            "initials": "E",
+            "first": "Erik",
+            "formatted": "van Mulligen E",
+            "orcid": "0000-0003-1377-9386",
+            "_id": "d24bad19-1c79-0e8a-835f-2a40af50123a",
+            "last": "van Mulligen"
+        },
+        {
+            "initials": "J",
+            "first": "Jan",
+            "formatted": "Velterop J",
+            "orcid": "0000-0002-4836-6568",
+            "_id": "2d580327-2076-020b-811f-536fff65f1d8",
+            "last": "Velterop"
+        },
+        {
+            "initials": "A",
+            "first": "Andra",
+            "formatted": "Waagmeester A",
+            "orcid": "0000-0001-9773-4008",
+            "_id": "ecf634d0-0d43-03f5-aeb3-8acd18fee703",
+            "last": "Waagmeester"
+        },
+        {
+            "initials": "P",
+            "first": "Peter",
+            "formatted": "Wittenburg P",
+            "_id": "8c264754-0116-0c00-b4e1-fe5ac523219a",
+            "last": "Wittenburg"
+        },
+        {
+            "initials": "K",
+            "first": "Katherine",
+            "formatted": "Wolstencroft K",
+            "orcid": "0000-0002-1279-5133",
+            "_id": "53bb0a30-67a2-08cc-a209-bfea9b775a3b",
+            "last": "Wolstencroft"
+        },
+        {
+            "initials": "J",
+            "first": "Jun",
+            "formatted": "Zhao J",
+            "orcid": "0000-0001-6935-9028",
+            "_id": "9816dd74-f968-07b9-9ee0-e6ab0f5c19ca",
+            "last": "Zhao"
+        },
+        {
+            "initials": "B",
+            "first": "Barend",
+            "formatted": "Mons B",
+            "orcid": "0000-0003-3934-0072",
+            "_id": "78507fe1-032d-0304-bf09-f05d6edba259",
+            "last": "Mons"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1038/sdata.2016.18",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC4792175",
+    "labels": [],
+    "crawl_urls": [
+        "http://dx.doi.org/10.1038/sdata.2016.18",
+        "http://www.nature.com/articles/sdata201618"
+    ],
+    "imported": 1,
+    "journal": "Sci Data",
+    "citekey": "Wilkinson2016-ru",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "gs_cluster_id": "5577767787428752324",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "9e59b3cd-b30f-00c6-98e2-54bb9b23b54d",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "e651a680-40a1-096b-9f8f-8290581e4a0c",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1500688794.20105,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxSmNuQWZvd2VSVFE",
+            "filesize": 193613,
+            "created": 1500688794.20105,
+            "filename": "Wilkinson et al. 2016 - The FAIR Guiding Principles for scientific data management and stewardship.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/W"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "0a4a4608708c836b910eecf8133d557d"
+        }
+    ],
+    "language": "en",
+    "volume": "3",
+    "pii": "sdata201618",
+    "journal_checked": 1,
+    "created": 1500688791.21165,
+    "subfolders": [
+        "All Papers/W"
+    ],
+    "pmid": "26978244",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "c5697e25a9075f020111a22670db88e15c2bb8be",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://figshare.com/articles/Request_for_Community_partnership_in_data_resource_licensing_planning/4972709/1",
+        "http://dx.doi.org/10.6084/m9.figshare.4972709.v1"
+    ],
+    "updated": 1500688609.17889,
+    "doi": "10.6084/m9.figshare.4972709.v1",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:edc09bf354562aa82ec4f95f2100cef8b9a7f5ee",
+        "dup_sha1:c5697e25a9075f020111a22670db88e15c2bb8be",
+        "doi:10.6084/m9.figshare.4972709.v1",
+        "url:http://dx.doi.org/10.6084/m9.figshare.4972709.v1",
+        "url:https://figshare.com/articles/Request_for_Community_partnership_in_data_resource_licensing_planning/4972709/1",
+        "url:http://dx.doi.org/10.6084/m9.figshare.4972709.v1?locatt=mode:legacy"
+    ],
+    "published": {
+        "year": "2017"
+    },
+    "title": "Request for Community partnership in data resource licensing planning",
+    "abstract": "We write an open letter to the NIH Data Research Council to initiate a dialog regarding NIH decisions on data use agreements and licenses. We are members of NIH-funded research groups that collect and/or integrate biomedical data from diverse sources for the purpose of advancing diagnosis, prognosis, treatment selection, and mechanistic discovery. We welcome additional signatories here:https://docs.google.com/document/d/1fbwKxnPu5f1YXlMM6UMyfBqHx_Inz86tKzwRFO4W8jQSummary:The current diversity of data use agreements and licenses significantly hampers the ability to reuse and redistribute data in various informatics contexts.We believe that any mandatory data licensing policy must also include a plan for ensuring access, sustainability, and data quality. We request community partnership with NIH to develop common licensing and data reuse plans.",
+    "folders": [],
+    "sha1": "edc09bf354562aa82ec4f95f2100cef8b9a7f5ee",
+    "author": [
+        {
+            "initials": "H",
+            "level": "0.0",
+            "first": "Melissa",
+            "formatted": "Melissa H",
+            "bak": "Melissa, Haendel",
+            "_id": "8ecaab7d-0390-02f2-8927-d6a38b1e4d58",
+            "last": "Haendel"
+        },
+        {
+            "initials": "M",
+            "level": "0.0",
+            "first": "Chris",
+            "formatted": "Chris M",
+            "bak": "Chris, Mungall",
+            "_id": "813be84c-bd15-0f3d-9e24-de45b8173ce7",
+            "last": "Mungall"
+        },
+        {
+            "initials": "S",
+            "level": "0.0",
+            "first": "Andrew",
+            "formatted": "Andrew S",
+            "bak": "Andrew, Su",
+            "_id": "6face4e8-0a1a-0ca8-8356-d05ce7a5482b",
+            "last": "Su"
+        },
+        {
+            "initials": "R",
+            "level": "0.0",
+            "first": "Peter",
+            "formatted": "Peter R",
+            "bak": "Peter, Robinson",
+            "_id": "4315fe5c-a95c-04f9-b76a-9c2ba7decda7",
+            "last": "Robinson"
+        },
+        {
+            "initials": "C",
+            "level": "0.0",
+            "first": "Chris",
+            "formatted": "Chris C",
+            "bak": "Chris, Chute",
+            "_id": "12fe63a9-cb65-0cd3-9b90-56acf53dfab2",
+            "last": "Chute"
+        },
+        {
+            "initials": "BA",
+            "level": "0.0",
+            "first": "Russ",
+            "formatted": "Russ BA",
+            "bak": "Russ, B Altman",
+            "_id": "538452ac-8e92-0dc8-91f0-bf10a47b5488",
+            "last": "B Altman"
+        },
+        {
+            "initials": "P",
+            "level": "0.0",
+            "first": "Philip R O",
+            "formatted": "Philip R.O. P",
+            "bak": "Philip R.O., Payne",
+            "_id": "eaccec36-cd38-00fb-bb1f-a373dba42e74",
+            "last": "Payne"
+        },
+        {
+            "initials": "L",
+            "level": "0.0",
+            "first": "Mark",
+            "formatted": "Mark L",
+            "bak": "Mark, Lawler",
+            "_id": "52fd5127-cee9-0ee8-9a7c-98677360e252",
+            "last": "Lawler"
+        },
+        {
+            "initials": "O",
+            "level": "0.0",
+            "first": "Tudor I",
+            "formatted": "Tudor I. O",
+            "bak": "Tudor I., Oprea",
+            "_id": "60891305-1e81-0c4d-a75b-9275af0420a2",
+            "last": "Oprea"
+        },
+        {
+            "initials": "W",
+            "level": "0.0",
+            "first": "John",
+            "formatted": "John W",
+            "bak": "John, Willbanks",
+            "_id": "aa04b15c-bfb8-0d49-84d3-998a5dc46e25",
+            "last": "Willbanks"
+        },
+        {
+            "initials": "S",
+            "level": "0.0",
+            "first": "Subha",
+            "formatted": "Subha S",
+            "bak": "Subha, Srinivasan",
+            "_id": "4d670232-2514-0be1-ba07-2dff2a8559b2",
+            "last": "Srinivasan"
+        },
+        {
+            "initials": "H",
+            "level": "0.0",
+            "first": "Lawrence",
+            "formatted": "Lawrence H",
+            "bak": "Lawrence, Hunter",
+            "_id": "17f297d0-9081-05d8-9b9e-c3725323073f",
+            "last": "Hunter"
+        },
+        {
+            "initials": "S",
+            "level": "0.0",
+            "first": "Ida",
+            "formatted": "Ida S",
+            "bak": "Ida, Sim",
+            "_id": "66bc9e5e-058c-0590-b851-f5097ca2d60f",
+            "last": "Sim"
+        },
+        {
+            "initials": "M",
+            "level": "0.0",
+            "first": "Sean",
+            "formatted": "Sean M",
+            "bak": "Sean, McDonald",
+            "_id": "c298a03c-9430-0b72-a843-9064d11d8ae8",
+            "last": "Mcdonald"
+        },
+        {
+            "initials": "M",
+            "level": "0.0",
+            "first": "Sean",
+            "formatted": "Sean M",
+            "bak": "Sean, Mooney",
+            "_id": "a1a696be-19ff-06f6-8272-30f46ac641c1",
+            "last": "Mooney"
+        },
+        {
+            "initials": "S",
+            "level": "0.0",
+            "first": "Damian",
+            "formatted": "Damian S",
+            "bak": "Damian, Smedley",
+            "_id": "db954a26-32e8-0404-8ce1-9f46efee0e5b",
+            "last": "Smedley"
+        },
+        {
+            "initials": "G",
+            "level": "0.0",
+            "first": "Emma",
+            "formatted": "Emma G",
+            "bak": "Emma, Ganley",
+            "_id": "825b2444-1d69-0d09-b2f4-672208f0e9ce",
+            "last": "Ganley"
+        },
+        {
+            "initials": "K",
+            "level": "0.0",
+            "first": "Amye",
+            "formatted": "Amye K",
+            "bak": "Amye, Kenall",
+            "_id": "2bd2ba44-d8aa-05ba-91ed-fffbb1c9147f",
+            "last": "Kenall"
+        },
+        {
+            "initials": "C",
+            "level": "0.0",
+            "first": "Timothy",
+            "formatted": "Timothy C",
+            "bak": "Timothy, Clark",
+            "_id": "0496145a-b9ec-0a97-9969-0477eb9593c2",
+            "last": "Clark"
+        },
+        {
+            "initials": "G",
+            "level": "0.0",
+            "first": "Carole",
+            "formatted": "Carole G",
+            "bak": "Carole, Goble",
+            "_id": "5313487e-1220-03e0-8b23-11e083c56208",
+            "last": "Goble"
+        },
+        {
+            "initials": "D",
+            "level": "0.0",
+            "first": "Michel",
+            "formatted": "Michel D",
+            "bak": "Michel, Dumontier",
+            "_id": "f2354c6e-6ed8-0944-92a2-3feb9ed144a1",
+            "last": "Dumontier"
+        },
+        {
+            "initials": "H",
+            "level": "0.0",
+            "first": "Kristi",
+            "formatted": "Kristi H",
+            "bak": "Kristi, Holmes",
+            "_id": "2ed896bb-5b6a-02fa-9146-ebcf1b293248",
+            "last": "Holmes"
+        },
+        {
+            "initials": "D",
+            "level": "0.0",
+            "first": "Mark",
+            "formatted": "Mark D",
+            "bak": "Mark, Diekans",
+            "_id": "cb2fdd74-3973-042d-9dd8-5c5a5a4e2a32",
+            "last": "Diekans"
+        },
+        {
+            "initials": "Z",
+            "level": "0.0",
+            "first": "Adrienne",
+            "formatted": "Adrienne Z",
+            "bak": "Adrienne, Zell",
+            "_id": "d6baf5db-69e5-0aed-bf2c-539a673ed0b3",
+            "last": "Zell"
+        },
+        {
+            "initials": "O",
+            "level": "0.0",
+            "first": "Casey",
+            "formatted": "Casey O",
+            "bak": "Casey, Overby",
+            "_id": "18f1c8f9-c966-01fd-8b86-b099135b18d6",
+            "last": "Overby"
+        },
+        {
+            "initials": "G",
+            "level": "0.0",
+            "first": "Gustavo",
+            "formatted": "Gustavo G",
+            "bak": "Gustavo, Glusman",
+            "_id": "41b72dd0-2be9-08af-81d2-ed7572050f0d",
+            "last": "Glusman"
+        },
+        {
+            "initials": "C",
+            "level": "0.0",
+            "first": "Leigh",
+            "formatted": "Leigh C",
+            "bak": "Leigh, Carmody",
+            "_id": "bf0a5ce1-7bd9-0274-84f5-41f4955ad823",
+            "last": "Carmody"
+        },
+        {
+            "initials": "J",
+            "level": "0.0",
+            "first": "Guoqian",
+            "formatted": "Guoqian J",
+            "bak": "Guoqian, Jiang",
+            "_id": "3ec8e6be-a671-0783-a633-30919793e58b",
+            "last": "Jiang"
+        },
+        {
+            "initials": "MT",
+            "level": "0.0",
+            "first": "Monica",
+            "formatted": "Monica MT",
+            "bak": "Monica, Munos-Torres",
+            "_id": "0331624b-391d-02a0-92b6-efcecbd1d1d1",
+            "last": "Munos-Torres"
+        },
+        {
+            "initials": "H",
+            "level": "0.0",
+            "first": "Maureen",
+            "formatted": "Maureen H",
+            "bak": "Maureen, Hoatlin",
+            "_id": "ed75f668-87ba-013b-a852-34d87268f38f",
+            "last": "Hoatlin"
+        },
+        {
+            "initials": "G",
+            "level": "0.0",
+            "first": "Jeremy",
+            "formatted": "Jeremy G",
+            "bak": "Jeremy, Goecks",
+            "_id": "50b0a872-c4e9-0aa1-a65f-01ef7823f260",
+            "last": "Goecks"
+        },
+        {
+            "initials": "J",
+            "level": "0.0",
+            "first": "Victor",
+            "formatted": "Victor J",
+            "bak": "Victor, Jongeneel",
+            "_id": "f45e220f-bbcb-0acd-a029-e82fdb012def",
+            "last": "Jongeneel"
+        },
+        {
+            "initials": "B",
+            "level": "0.0",
+            "first": "Joshua",
+            "formatted": "Joshua B",
+            "bak": "Joshua, Bittker",
+            "_id": "07db4385-6d1b-00bc-9b9f-365df51a815c",
+            "last": "Bittker"
+        },
+        {
+            "initials": "G",
+            "level": "0.0",
+            "first": "Jean-Philippe",
+            "formatted": "Jean-Philippe G",
+            "bak": "Jean-Philippe, Gourdine",
+            "_id": "decef04f-3940-0ffb-a2e6-d4aca252c08a",
+            "last": "Gourdine"
+        },
+        {
+            "initials": "B",
+            "level": "0.0",
+            "first": "Matthew H",
+            "formatted": "Matthew H. B",
+            "bak": "Matthew H., Brush",
+            "_id": "d209300b-e878-0ca1-97b8-45bf764f4fc5",
+            "last": "Brush"
+        },
+        {
+            "initials": "Z",
+            "level": "0.0",
+            "first": "Richard L",
+            "formatted": "Richard L. Z",
+            "bak": "Richard L., Zhu",
+            "_id": "dd3fe6d0-8567-0b90-9c70-62d4e33dfb88",
+            "last": "Zhu"
+        },
+        {
+            "initials": "M",
+            "level": "0.0",
+            "first": "Lara",
+            "formatted": "Lara M",
+            "bak": "Lara, Mangravite",
+            "_id": "092e4021-2466-0f90-93c9-e4d1cf9b815a",
+            "last": "Mangravite"
+        },
+        {
+            "initials": "T",
+            "level": "0.0",
+            "first": "Brett",
+            "formatted": "Brett T",
+            "bak": "Brett, Tyler",
+            "_id": "d80e5ed6-30c5-0802-91b1-65c83c7ae42b",
+            "last": "Tyler"
+        },
+        {
+            "initials": "DW",
+            "level": "0.0",
+            "first": "Mark",
+            "formatted": "Mark DW",
+            "bak": "Mark, D Wilkinson",
+            "_id": "02da994c-e868-0c08-a51d-fc975880eaad",
+            "last": "D Wilkinson"
+        },
+        {
+            "initials": "C",
+            "level": "0.0",
+            "first": "Michael R",
+            "formatted": "Michael R. C",
+            "bak": "Michael R., Crusoe",
+            "_id": "2545a5e5-a93c-060f-bf8d-1a2408083e56",
+            "last": "Crusoe"
+        },
+        {
+            "initials": "M",
+            "level": "0.0",
+            "first": "Raja",
+            "formatted": "Raja M",
+            "bak": "Raja, Mazumder",
+            "_id": "52d2ca5b-99af-034e-a209-935646298631",
+            "last": "Mazumder"
+        },
+        {
+            "initials": "PT",
+            "level": "0.0",
+            "first": "Nicholas",
+            "formatted": "Nicholas PT",
+            "bak": "Nicholas, P. Tatonetti",
+            "_id": "7e080bb3-6b99-0c4b-902a-e65fc1decd8e",
+            "last": "P Tatonetti"
+        },
+        {
+            "initials": "D",
+            "level": "0.0",
+            "first": "Peter",
+            "formatted": "Peter D",
+            "bak": "Peter, D'Eustachio",
+            "_id": "af7b181d-bbbb-0bb1-9a76-d7bf2ec948f6",
+            "last": "D'eustachio"
+        },
+        {
+            "initials": "V",
+            "level": "0.0",
+            "first": "Nicole",
+            "formatted": "Nicole V",
+            "bak": "Nicole, Vasilevsky",
+            "_id": "a8f462b2-ae9f-03f6-bc98-6b2a77643f76",
+            "last": "Vasilevsky"
+        },
+        {
+            "initials": "M",
+            "level": "0.0",
+            "first": "Julie",
+            "formatted": "Julie M",
+            "bak": "Julie, McMurry",
+            "_id": "ede7143b-3596-0459-8b37-eff6e0fb51e9",
+            "last": "Mcmurry"
+        },
+        {
+            "initials": "C",
+            "level": "0.0",
+            "first": "Robin",
+            "formatted": "Robin C",
+            "bak": "Robin, Champieux",
+            "_id": "1135bde1-e67c-000f-80eb-24591d764134",
+            "last": "Champieux"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.6084/m9.figshare.4972709.v1",
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "accessed": {
+        "month": "7",
+        "day": "21",
+        "year": "2017"
+    },
+    "crawl_urls": [
+        "http://dx.doi.org/10.6084/m9.figshare.4972709.v1",
+        "http://dx.doi.org/10.6084/m9.figshare.4972709.v1?locatt=mode:legacy",
+        "https://figshare.com/articles/Request_for_Community_partnership_in_data_resource_licensing_planning/4972709/1"
+    ],
+    "citekey": "Haendel2017-kp",
+    "journal": "figshare",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "854d14be-575e-0c82-8e1b-c2b860b614c8",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "24e87ce7-1d67-0273-baf2-edcb190907ea",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1500688609.31374,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxUFRjUnhHMVJCclU",
+            "filesize": 567344,
+            "created": 1500688609.31374,
+            "filename": "Haendel et al. 2017 - Request for Community partnership in data resource licensing planning.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/H"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "6d2a9059ff3087ed398e865129df202f"
+        }
+    ],
+    "journal_checked": 1,
+    "created": 1500688603.3925,
+    "subfolders": [
+        "All Papers/H"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "folders": [],
+    "pdf_restricted": 0,
+    "incomplete": 1,
+    "pubtype": "PP_ARTICLE",
+    "duplicates": [],
+    "url": [
+        "https://zenodo.org/record/203295"
+    ],
+    "updated": 1500688276.47141,
+    "labels": [],
+    "imported": 1,
+    "citekey": "noauthor_undated-es",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "39955261-9e4c-0112-8243-91d90dd1aed9",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "dec61709-ce03-0747-b079-89cd156b3f32",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1500688276.59597,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxUW1FM1IwQWNuZ1U",
+            "filesize": 103088,
+            "created": 1500688276.59597,
+            "filename": "[untitled item] - [No title].pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/Other"
+            ],
+            "mimeType": "application/octet-stream",
+            "md5": "4a4ada5631c937e9584072e7023041c5"
+        }
+    ],
+    "journal_checked": 1,
+    "id_list": [
+        "url:https://zenodo.org/record/203295"
+    ],
+    "created": 1500688273.12537,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "title": "",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "689187a22ec1529b53cdd1919a699e1fb31c5836",
+    "keywords": "Data profiling; Dataset descriptions; FAIR data; Metadata; Provenance",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.7717/peerj.2331",
+        "https://www.ncbi.nlm.nih.gov/pubmed/27602295",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991880",
+        "https://dx.doi.org/10.7717/peerj.2331",
+        "https://peerj.com/articles/2331/"
+    ],
+    "updated": 1500683898.18906,
+    "doi": "10.7717/peerj.2331",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:59d2c316da3086a4d08d9984ca7fe86a6f743239",
+        "dup_sha1:689187a22ec1529b53cdd1919a699e1fb31c5836",
+        "doi:10.7717/peerj.2331",
+        "pmc:PMC4991880",
+        "pmid:27602295",
+        "url:http://dx.doi.org/10.7717/peerj.2331",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/27602295",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4991880",
+        "url:https://dx.doi.org/10.7717/peerj.2331",
+        "url:https://peerj.com/articles/2331/",
+        "url:https://peerj.com/articles/2331"
+    ],
+    "published": {
+        "month": "8",
+        "day": "16",
+        "year": "2016"
+    },
+    "affiliation": "Stanford Center for Biomedical Informatics Research, Stanford University, Stanford, CA, United States of America. Department of Computer Science, Heriot-Watt University, Edinburgh, United Kingdom. Department of Radiation Oncology (MAASTRO), GROW- School for Oncology and Developmental Biology, MAASTRO Clinic, Maastricht, Netherlands. Ontotext Corporation, Sofia, Bulgaria. CSIRO, Australia. The Donnelly Centre, University of Toronto, Toronto, Canada. Swiss-Prot group, SIB Swiss Institute of Bioinformatics, Geneve, Switzerland. Carleton University, Canada. CALIPHO group, SIB Swiss Institute of Bioinformatics, Geneve, Switzerland. IO Informatics, Berkeley, CA, United States of America. Oxford e-Research Centre, University of Oxford, Oxford, Oxfordshire, United Kingdom. Elsevier Labs, Netherlands. Department of Medical Informatics and Epidemiology, Oregon Health Sciences University, Portland, OR, United States of America. Office of Medical Informatics and Epidemiology, Pharmaceuticals and Medical Devices Agency, Chiyoda-ku, Japan. EMBL, European Bioinformatics Institute, Saffron Walden, United Kingdom. Database Center for Life Science, Kashiwa, Japan. Advanced Center for Computing and Communication, RIKEN, Wako-shi, Saitama, Japan. Cerenode Inc., United States of America. The Babraham Institute, Cambridge, United Kingdom. Nationwide Children's Hospital, Columbus, OH, United States of America. Institute for Systems Biology, Seattle, WA, United States of America. Environmental Genomics and Systems Biology, Lawrence Berkeley National Laboratory, Berkeley, CA, United States of America. Department of Exact Sciences, VU University Amsterdam, Amsterdam, Netherlands.",
+    "abstract": "Access to consistent, high-quality metadata is critical to finding, understanding, and reusing scientific data. However, while there are many relevant vocabularies for the annotation of a dataset, none sufficiently captures all the necessary metadata. This prevents uniform indexing and querying of dataset repositories. Towards providing a practical guide for producing a high quality description of biomedical datasets, the W3C Semantic Web for Health Care and the Life Sciences Interest Group (HCLSIG) identified Resource Description Framework (RDF) vocabularies that could be used to specify common metadata elements and their value sets. The resulting guideline covers elements of description, identification, attribution, versioning, provenance, and content summarization. This guideline reuses existing vocabularies, and is intended to meet key functional requirements including indexing, discovery, exchange, query, and retrieval of datasets, thereby enabling the publication of FAIR data. The resulting metadata profile is generic and could be used by other domains with an interest in providing machine readable descriptions of versioned datasets.",
+    "title": "The health care and life sciences community profile for dataset descriptions",
+    "pages": "e2331",
+    "folders": [],
+    "journalfull": "PeerJ",
+    "sha1": "59d2c316da3086a4d08d9984ca7fe86a6f743239",
+    "issn": "2167-8359",
+    "author": [
+        {
+            "initials": "M",
+            "first": "Michel",
+            "formatted": "Dumontier M",
+            "_id": "a0213769-3729-043c-afb7-0bb5b2670cd6",
+            "last": "Dumontier"
+        },
+        {
+            "initials": "AJG",
+            "first": "Alasdair J G",
+            "formatted": "Gray AJG",
+            "_id": "c2e133b6-9bef-06ea-b093-e0e40acd1950",
+            "last": "Gray"
+        },
+        {
+            "initials": "MS",
+            "first": "M Scott",
+            "formatted": "Marshall MS",
+            "_id": "91e9d3e8-86a6-087d-8a82-b85916bfe4e7",
+            "last": "Marshall"
+        },
+        {
+            "initials": "V",
+            "first": "Vladimir",
+            "formatted": "Alexiev V",
+            "_id": "2d86aebc-4696-0502-832d-8db1bc2c37e4",
+            "last": "Alexiev"
+        },
+        {
+            "initials": "P",
+            "first": "Peter",
+            "formatted": "Ansell P",
+            "_id": "afec4e33-cbe2-0398-8d1f-00653428e716",
+            "last": "Ansell"
+        },
+        {
+            "initials": "G",
+            "first": "Gary",
+            "formatted": "Bader G",
+            "_id": "0ffcd5db-a725-0749-9212-b75e3a64a24c",
+            "last": "Bader"
+        },
+        {
+            "initials": "J",
+            "first": "Joachim",
+            "formatted": "Baran J",
+            "_id": "4c0c8213-a3b6-0f6a-9864-0967cf082bbc",
+            "last": "Baran"
+        },
+        {
+            "initials": "JT",
+            "first": "Jerven T",
+            "formatted": "Bolleman JT",
+            "_id": "72617d1b-6f9b-0d59-a70c-7cbf7dc09fc7",
+            "last": "Bolleman"
+        },
+        {
+            "initials": "A",
+            "first": "Alison",
+            "formatted": "Callahan A",
+            "_id": "d1b9b2d8-051e-0b59-97ba-0990a2d73e4d",
+            "last": "Callahan"
+        },
+        {
+            "initials": "J",
+            "first": "José",
+            "formatted": "Cruz-Toledo J",
+            "_id": "e24b857d-093b-0300-a866-9729f1dca7ea",
+            "last": "Cruz-Toledo"
+        },
+        {
+            "initials": "P",
+            "first": "Pascale",
+            "formatted": "Gaudet P",
+            "_id": "e3cc3333-1e2a-0dc0-8738-6cb6abf1e176",
+            "last": "Gaudet"
+        },
+        {
+            "initials": "EA",
+            "first": "Erich A",
+            "formatted": "Gombocz EA",
+            "_id": "e8e8c052-79fc-038e-aaab-94c9e4503861",
+            "last": "Gombocz"
+        },
+        {
+            "initials": "AN",
+            "first": "Alejandra N",
+            "formatted": "Gonzalez-Beltran AN",
+            "_id": "d3124ac0-b33d-0e6e-a60a-b80b809767be",
+            "last": "Gonzalez-Beltran"
+        },
+        {
+            "initials": "P",
+            "first": "Paul",
+            "formatted": "Groth P",
+            "_id": "d6cc5c05-7500-01f0-8a37-bb68dc3478ba",
+            "last": "Groth"
+        },
+        {
+            "initials": "M",
+            "first": "Melissa",
+            "formatted": "Haendel M",
+            "_id": "545bd021-536c-0893-bc06-358631542b4b",
+            "last": "Haendel"
+        },
+        {
+            "initials": "M",
+            "first": "Maori",
+            "formatted": "Ito M",
+            "_id": "689bf254-598e-065c-adc1-6c69e5882569",
+            "last": "Ito"
+        },
+        {
+            "initials": "S",
+            "first": "Simon",
+            "formatted": "Jupp S",
+            "_id": "69485006-e780-0abc-a2fa-e011790f28b1",
+            "last": "Jupp"
+        },
+        {
+            "initials": "N",
+            "first": "Nick",
+            "formatted": "Juty N",
+            "_id": "bf46ebea-be12-0f2d-8d12-360c6d33ab4c",
+            "last": "Juty"
+        },
+        {
+            "initials": "T",
+            "first": "Toshiaki",
+            "formatted": "Katayama T",
+            "_id": "fd41e118-075b-033d-99fc-e35878e0a805",
+            "last": "Katayama"
+        },
+        {
+            "initials": "N",
+            "first": "Norio",
+            "formatted": "Kobayashi N",
+            "_id": "1258521a-2720-0d01-9a4c-3f6c223391dd",
+            "last": "Kobayashi"
+        },
+        {
+            "initials": "K",
+            "first": "Kalpana",
+            "formatted": "Krishnaswami K",
+            "_id": "fc790e71-e8d3-08cf-8e6a-d86d341fe88f",
+            "last": "Krishnaswami"
+        },
+        {
+            "initials": "C",
+            "first": "Camille",
+            "formatted": "Laibe C",
+            "_id": "660ea712-6d89-074b-be99-b1f2b839c157",
+            "last": "Laibe"
+        },
+        {
+            "initials": "N",
+            "first": "Nicolas",
+            "formatted": "Le Novère N",
+            "_id": "35223f47-b183-0b05-84cf-9fa908f30b19",
+            "last": "Le Novère"
+        },
+        {
+            "initials": "S",
+            "first": "Simon",
+            "formatted": "Lin S",
+            "_id": "a18efa29-fecc-05c2-9829-aba223591895",
+            "last": "Lin"
+        },
+        {
+            "initials": "J",
+            "first": "James",
+            "formatted": "Malone J",
+            "_id": "06e496d7-527e-0d71-baf0-32205f999bdf",
+            "last": "Malone"
+        },
+        {
+            "initials": "M",
+            "first": "Michael",
+            "formatted": "Miller M",
+            "_id": "d5a166dc-c758-0647-80ea-31c3c967ad29",
+            "last": "Miller"
+        },
+        {
+            "initials": "CJ",
+            "first": "Christopher J",
+            "formatted": "Mungall CJ",
+            "_id": "7884873c-1938-0640-a874-57a67bdc5584",
+            "last": "Mungall"
+        },
+        {
+            "initials": "L",
+            "first": "Laurens",
+            "formatted": "Rietveld L",
+            "_id": "413f6647-d1c6-05f2-942a-1d00f883483d",
+            "last": "Rietveld"
+        },
+        {
+            "initials": "SM",
+            "first": "Sarala M",
+            "formatted": "Wimalaratne SM",
+            "_id": "63b1436f-2fa1-0b62-9288-9c07cfcbd13e",
+            "last": "Wimalaratne"
+        },
+        {
+            "initials": "A",
+            "first": "Atsuko",
+            "formatted": "Yamaguchi A",
+            "_id": "14187b09-af64-014c-bdfa-e8795c6821ab",
+            "last": "Yamaguchi"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.7717/peerj.2331",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC4991880",
+    "crawl_urls": [
+        "https://peerj.com/articles/2331/",
+        "http://dx.doi.org/10.7717/peerj.2331",
+        "https://peerj.com/articles/2331"
+    ],
+    "labels": [],
+    "citekey": "Dumontier2016-hy",
+    "journal": "PeerJ",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "82798903-f7d8-0f7e-bb50-c018c023c6b1",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "d64f4f23-34e6-09c5-a6a9-8a5a043a09b5",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1500683898.35674,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxbUppSENsUEpkdms",
+            "filesize": 657007,
+            "created": 1500683898.35673,
+            "filename": "Dumontier et al. 2016 - The health care and life sciences community profile for dataset descriptions.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/D"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "ae25420e955a6782ac38fd8b20723d91"
+        }
+    ],
+    "volume": "4",
+    "language": "en",
+    "pii": "2331",
+    "journal_checked": 1,
+    "created": 1500683879.51499,
+    "subfolders": [
+        "All Papers/D"
+    ],
+    "pmid": "27602295",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "3e59f8b3839f7af23b65cda7ded67c4bffdf72d2",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://groups.google.com/forum/#!members/phenopackets"
+    ],
+    "updated": 1481053826.35623,
+    "published": {
+        "month": "12",
+        "day": "1",
+        "year": "2016"
+    },
+    "id_list": [
+        "sha1:e3eef796dd0fe524be1cbfa7fdff819e0a34851a",
+        "dup_sha1:3e59f8b3839f7af23b65cda7ded67c4bffdf72d2",
+        "original_id:d8053197-335f-0265-9296-b40ef2d4dcfa"
+    ],
+    "booktitle": "Phenopackets Google Group",
+    "title": "Phenopackets Members",
+    "abstract": "Google Groups allows you to create and participate in online forums and email-based groups with a rich experience for community conversations.",
+    "sha1": "e3eef796dd0fe524be1cbfa7fdff819e0a34851a",
+    "folders": [],
+    "collection_timestamps": {},
+    "trashed": 0,
+    "author": [
+        {
+            "initials": "MH",
+            "level": "4.1",
+            "first": "Melissa Haendel, Chris Mungall,",
+            "formatted": "MH",
+            "bak": "Melissa Haendel, Chris Mungall, Julie McMurry",
+            "_id": "243e6366-0f19-0169-8064-d7ccff5290e3",
+            "last": ""
+        }
+    ],
+    "pubtype": "PP_WEBSITE",
+    "original_id": "d8053197-335f-0265-9296-b40ef2d4dcfa",
+    "labels": [],
+    "accessed": {
+        "month": "12",
+        "day": "6",
+        "year": "2016"
+    },
+    "crawl_urls": [
+        "http://bit.ly/phenopack-members",
+        "https://groups.google.com/forum/#!members/phenopackets"
+    ],
+    "citekey": "2016-uf",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "created": 1481053826.35623,
+    "subfolders": [
+        "All Papers/Other"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "71cf031f01a8bc278d04cbba15edb986626c928e",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://www.force11.org/group/attributionwg"
+    ],
+    "updated": 1481053819.44671,
+    "published": {
+        "month": "1",
+        "day": "11",
+        "year": "2015"
+    },
+    "id_list": [
+        "sha1:a65bcccfec5eb48e8ded101a9180edd7624e7bea",
+        "dup_sha1:71cf031f01a8bc278d04cbba15edb986626c928e",
+        "url:https://www.force11.org/group/attributionwg",
+        "original_id:008be3e4-d75b-01c2-b3ac-04f8fe937515"
+    ],
+    "booktitle": "FORCE11",
+    "abstract": "This group focuses on provisioning attribution methods for people and organizations for any scholarly products, including publications, datasets, data standards, software, research resources, etc. The goal is to coordinate community efforts and pilot test implementations.",
+    "title": "Force11 Attribution Working Group",
+    "sha1": "a65bcccfec5eb48e8ded101a9180edd7624e7bea",
+    "folders": [],
+    "collection_timestamps": {},
+    "trashed": 0,
+    "author": [
+        {
+            "initials": "",
+            "first": "",
+            "bak": "Karen Gutzman, Melissa Haendel, Kristi Holmes, Stacy Konkiel",
+            "formatted": "Karen Gutzman, Melissa Haendel, Kristi Holmes, Stacy Konkiel",
+            "_id": "e21b4faf-bf5c-0395-b008-8996c3541680",
+            "collective": "Karen Gutzman, Melissa Haendel, Kristi Holmes, Stacy Konkiel"
+        }
+    ],
+    "kind": "Forum post",
+    "pubtype": "PP_WEBSITE",
+    "original_id": "008be3e4-d75b-01c2-b3ac-04f8fe937515",
+    "labels": [],
+    "crawl_urls": [
+        "https://www.force11.org/group/attributionwg"
+    ],
+    "accessed": {
+        "month": "12",
+        "day": "6",
+        "year": "2016"
+    },
+    "citekey": "Karen_Gutzman_Melissa_Haendel_Kristi_Holmes_Stacy_Konkiel2015-af",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [],
+    "created": 1481053819.44671,
+    "subfolders": [
+        "All Papers/K"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "8e339ce7cd68874095babbc7003ea9e3d8d21afb",
+    "issue": "2",
+    "keywords": "Data Sharing; Data Standards; Information dissemination; Terminology",
+    "incomplete": 0,
+    "pdf_restricted": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1136/amiajnl-2013-002066",
+        "https://www.ncbi.nlm.nih.gov/pubmed/24076747",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932466",
+        "http://jamia.oxfordjournals.org/cgi/pmidlookup?view=long&pmid=24076747"
+    ],
+    "updated": 1481037430.16824,
+    "doi": "10.1136/amiajnl-2013-002066",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:0cb750b841c28cc7363d1bca134274568f9cf237",
+        "dup_sha1:8e339ce7cd68874095babbc7003ea9e3d8d21afb",
+        "doi:10.1136/amiajnl-2013-002066",
+        "pmc:PMC3932466",
+        "pmid:24076747",
+        "url:http://dx.doi.org/10.1136/amiajnl-2013-002066",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/24076747",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3932466",
+        "url:http://jamia.oxfordjournals.org/cgi/pmidlookup?view=long&pmid=24076747",
+        "url:http://jamia.oxfordjournals.org/lookup/doi/10.1136/amiajnl-2013-002066",
+        "url:http://jamia.oxfordjournals.org/content/21/2/200"
+    ],
+    "published": {
+        "month": "3",
+        "year": "2014"
+    },
+    "issn_alt": "1527-974X",
+    "title": "A sea of standards for omics data: sink or swim?",
+    "abstract": "In the era of Big Data, omic-scale technologies, and increasing calls for data sharing, it is generally agreed that the use of community-developed, open data standards is critical. Far less agreed upon is exactly which data standards should be used, the criteria by which one should choose a standard, or even what constitutes a data standard. It is impossible simply to choose a domain and have it naturally follow which data standards should be used in all cases. The 'right' standards to use is often dependent on the use case scenarios for a given project. Potential downstream applications for the data, however, may not always be apparent at the time the data are generated. Similarly, technology evolves, adding further complexity. Would-be standards adopters must strike a balance between planning for the future and minimizing the burden of compliance. Better tools and resources are required to help guide this balancing act.",
+    "affiliation": "Duke Translational Medicine Institute, Duke University, Durham, North Carolina, USA.",
+    "pages": "200-203",
+    "folders": [],
+    "journalfull": "Journal of the American Medical Informatics Association: JAMIA",
+    "sha1": "0cb750b841c28cc7363d1bca134274568f9cf237",
+    "collection_timestamps": {
+        "176206e8-8c93-0c86-977c-f6a16925cf2d": 1481037429.55775
+    },
+    "issn": "1067-5027",
+    "author": [
+        {
+            "initials": "JD",
+            "first": "Jessica D",
+            "formatted": "Tenenbaum JD",
+            "_id": "87194f93-3841-09a1-bbe0-f5daba4df068",
+            "last": "Tenenbaum"
+        },
+        {
+            "initials": "SA",
+            "first": "Susanna-Assunta",
+            "formatted": "Sansone SA",
+            "_id": "8f5b5bf9-f67c-06e8-85eb-1bdb87a2e801",
+            "last": "Sansone"
+        },
+        {
+            "initials": "M",
+            "first": "Melissa",
+            "formatted": "Haendel M",
+            "_id": "d3425e28-0a3f-04e2-84ee-842ec6cfae6a",
+            "last": "Haendel"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1136/amiajnl-2013-002066",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC3932466",
+    "labels": [],
+    "crawl_urls": [
+        "http://dx.doi.org/10.1136/amiajnl-2013-002066",
+        "http://jamia.oxfordjournals.org/lookup/doi/10.1136/amiajnl-2013-002066",
+        "http://jamia.oxfordjournals.org/content/21/2/200"
+    ],
+    "imported": 1,
+    "journal": "J. Am. Med. Inform. Assoc.",
+    "citekey": "Tenenbaum2014-xc",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "48df2529-1499-083c-8eac-0b72562e6a6c",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "96dd6b3f-6ee9-0b71-98f3-a7f6b3fe9fe4",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1481037430.30712,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxOHVCeDI4UWNsaFk",
+            "filesize": 169184,
+            "created": 1481037430.30712,
+            "filename": "Tenenbaum et al. 2014 - A sea of standards for omics data - sink or swim.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/T"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "5fdb8f4d5d595a9aad9195c90f8cafd0"
+        }
+    ],
+    "language": "en",
+    "volume": "21",
+    "journal_checked": 1,
+    "created": 1481037420.05346,
+    "subfolders": [
+        "All Papers/T"
+    ],
+    "pmid": "24076747",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "a981b371e261fb0e333342f81c70368c3ce96b11",
+    "keywords": "Antibodies; Cell lines; Constructs; Knockdown reagents; Materials and Methods; Model organisms; Scientific reproducibility",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.7717/peerj.148",
+        "https://www.ncbi.nlm.nih.gov/pubmed/24032093",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3771067",
+        "https://dx.doi.org/10.7717/peerj.148"
+    ],
+    "updated": 1481037429.56305,
+    "doi": "10.7717/peerj.148",
+    "autocompleted": 1,
+    "id_list": [
+        "sha1:69d1231747cb7b54e9b0890f4c08d05d8058a9f3",
+        "dup_sha1:a981b371e261fb0e333342f81c70368c3ce96b11",
+        "doi:10.7717/peerj.148",
+        "pmc:PMC3771067",
+        "pmid:24032093",
+        "url:http://dx.doi.org/10.7717/peerj.148",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/24032093",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3771067",
+        "url:https://dx.doi.org/10.7717/peerj.148",
+        "url:https://peerj.com/articles/148"
+    ],
+    "published": {
+        "month": "9",
+        "day": "5",
+        "year": "2013"
+    },
+    "affiliation": "Ontology Development Group, Library, Oregon Health & Science University , Portland, OR , USA.",
+    "abstract": "Scientific reproducibility has been at the forefront of many news stories and there exist numerous initiatives to help address this problem. We posit that a contributor is simply a lack of specificity that is required to enable adequate research reproducibility. In particular, the inability to uniquely identify research resources, such as antibodies and model organisms, makes it difficult or impossible to reproduce experiments even where the science is otherwise sound. In order to better understand the magnitude of this problem, we designed an experiment to ascertain the \"identifiability\" of research resources in the biomedical literature. We evaluated recent journal articles in the fields of Neuroscience, Developmental Biology, Immunology, Cell and Molecular Biology and General Biology, selected randomly based on a diversity of impact factors for the journals, publishers, and experimental method reporting guidelines. We attempted to uniquely identify model organisms (mouse, rat, zebrafish, worm, fly and yeast), antibodies, knockdown reagents (morpholinos or RNAi), constructs, and cell lines. Specific criteria were developed to determine if a resource was uniquely identifiable, and included examining relevant repositories (such as model organism databases, and the Antibody Registry), as well as vendor sites. The results of this experiment show that 54% of resources are not uniquely identifiable in publications, regardless of domain, journal impact factor, or reporting requirements. For example, in many cases the organism strain in which the experiment was performed or antibody that was used could not be identified. Our results show that identifiability is a serious problem for reproducibility. Based on these results, we provide recommendations to authors, reviewers, journal editors, vendors, and publishers. Scientific efficiency and reproducibility depend upon a research-wide improvement of this substantial problem in science today.",
+    "title": "On the reproducibility of science: unique identification of research resources in the biomedical literature",
+    "pages": "e148",
+    "folders": [],
+    "journalfull": "PeerJ",
+    "sha1": "69d1231747cb7b54e9b0890f4c08d05d8058a9f3",
+    "collection_timestamps": {
+        "176206e8-8c93-0c86-977c-f6a16925cf2d": 1481037336.95635
+    },
+    "author": [
+        {
+            "initials": "NA",
+            "first": "Nicole A",
+            "formatted": "Vasilevsky NA",
+            "_id": "d882fc88-ed02-0711-b871-5a712b68299e",
+            "last": "Vasilevsky"
+        },
+        {
+            "initials": "MH",
+            "first": "Matthew H",
+            "formatted": "Brush MH",
+            "_id": "f8b02a86-731e-083c-b5c9-0c8ed76fde48",
+            "last": "Brush"
+        },
+        {
+            "initials": "H",
+            "first": "Holly",
+            "formatted": "Paddock H",
+            "_id": "d1d3a869-630c-0360-a19f-504ac4010e85",
+            "last": "Paddock"
+        },
+        {
+            "initials": "L",
+            "first": "Laura",
+            "formatted": "Ponting L",
+            "_id": "c65f19b3-7416-024c-9a47-5c0266e37056",
+            "last": "Ponting"
+        },
+        {
+            "initials": "SJ",
+            "first": "Shreejoy J",
+            "formatted": "Tripathy SJ",
+            "_id": "c064c73a-d0da-00c9-98fe-59e832ed81f4",
+            "last": "Tripathy"
+        },
+        {
+            "initials": "GM",
+            "first": "Gregory M",
+            "formatted": "Larocca GM",
+            "_id": "6403520a-0370-0348-82e5-b6124eea4b92",
+            "last": "Larocca"
+        },
+        {
+            "initials": "MA",
+            "first": "Melissa A",
+            "formatted": "Haendel MA",
+            "_id": "4c8e2e69-b3b1-06fd-9d58-6986d7bab0c4",
+            "last": "Haendel"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.7717/peerj.148",
+    "kind": "Research Article",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC3771067",
+    "labels": [],
+    "crawl_urls": [
+        "http://dx.doi.org/10.7717/peerj.148",
+        "https://peerj.com/articles/148"
+    ],
+    "citekey": "Vasilevsky2013-hp",
+    "journal": "PeerJ",
+    "imported": 1,
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "eeeabe96-2d1d-0a36-b810-3a354ddfb2f3",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "9d16a2df-3573-0c0c-a8b3-f51ae2054075",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1481037283.51479,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxVXB5VS1leHF0LXc",
+            "filesize": 2528468,
+            "created": 1481037283.51479,
+            "filename": "Vasilevsky et al. 2013 - On the reproducibility of science - unique identification of research resources in the biomedical literature.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/V"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "16b35aaf30bfd6480ab0072737afaee0"
+        }
+    ],
+    "volume": "1",
+    "language": "en",
+    "journal_checked": 1,
+    "created": 1481037269.52451,
+    "subfolders": [
+        "All Papers/V"
+    ],
+    "pmid": "24032093",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "961bc21dd0476a17a532d222c8d025c55845a037",
+    "issue": "9-10",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "http://dx.doi.org/10.1007/s00335-015-9577-8",
+        "https://www.ncbi.nlm.nih.gov/pubmed/26092691",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4602072",
+        "https://dx.doi.org/10.1007/s00335-015-9577-8",
+        "http://link.springer.com/article/10.1007/s00335-015-9577-8"
+    ],
+    "updated": 1489781840.26589,
+    "doi": "10.1007/s00335-015-9577-8",
+    "autocompleted": 1,
+    "published": {
+        "month": "10",
+        "year": "2015"
+    },
+    "issn_alt": "1432-1777",
+    "id_list": [
+        "sha1:12df79dbde374baadd27824fc3c92e60c706b752",
+        "dup_sha1:961bc21dd0476a17a532d222c8d025c55845a037",
+        "doi:10.1007/s00335-015-9577-8",
+        "pmc:PMC4602072",
+        "pmid:26092691",
+        "url:http://dx.doi.org/10.1007/s00335-015-9577-8",
+        "url:https://www.ncbi.nlm.nih.gov/pubmed/26092691",
+        "url:https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4602072",
+        "url:https://dx.doi.org/10.1007/s00335-015-9577-8",
+        "url:http://link.springer.com/article/10.1007/s00335-015-9577-8",
+        "url:http://link.springer.com/10.1007/s00335-015-9577-8"
+    ],
+    "title": "Disease insights through cross-species phenotype comparisons",
+    "abstract": "New sequencing technologies have ushered in a new era for diagnosis and discovery of new causative mutations for rare diseases. However, the sheer numbers of candidate variants that require interpretation in an exome or genomic analysis are still a challenging prospect. A powerful approach is the comparison of the patient's set of phenotypes (phenotypic profile) to known phenotypic profiles caused by mutations in orthologous genes associated with these variants. The most abundant source of relevant data for this task is available through the efforts of the Mouse Genome Informatics group and the International Mouse Phenotyping Consortium. In this review, we highlight the challenges in comparing human clinical phenotypes with mouse phenotypes and some of the solutions that have been developed by members of the Monarch Initiative. These tools allow the identification of mouse models for known disease-gene associations that may otherwise have been overlooked as well as candidate genes may be prioritized for novel associations. The culmination of these efforts is the Exomiser software package that allows clinical researchers to analyse patient exomes in the context of variant frequency and predicted pathogenicity as well the phenotypic similarity of the patient to any given candidate orthologous gene.",
+    "affiliation": "University Library and Department of Medical Informatics and Epidemiology, Oregon Health & Science University, Portland, OR, USA. University Library and Department of Medical Informatics and Epidemiology, Oregon Health & Science University, Portland, OR, USA. University Library and Department of Medical Informatics and Epidemiology, Oregon Health & Science University, Portland, OR, USA. Department of Biomedical Informatics and Intelligent Systems Program, University of Pittsburgh, Pittsburgh, PA, 15206, USA. Skarnes Faculty Group, Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK. Skarnes Faculty Group, Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK. Genomics Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA, 94720, USA. Genomics Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA, 94720, USA. Computational Biology Group, Institute for Medical Genetics and Human Genetics, Universitatsklinikum Charité, Augustenburger Platz 1, 13353, Berlin, Germany. Genomics Division, Lawrence Berkeley National Laboratory, 1 Cyclotron Road, Berkeley, CA, 94720, USA. Computational Biology Group, Institute for Medical Genetics and Human Genetics, Universitatsklinikum Charité, Augustenburger Platz 1, 13353, Berlin, Germany. Skarnes Faculty Group, Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK. ds5@sanger.ac.uk.",
+    "pages": "548-555",
+    "folders": [],
+    "journalfull": "Mammalian genome: official journal of the International Mammalian Genome Society",
+    "sha1": "12df79dbde374baadd27824fc3c92e60c706b752",
+    "collection_timestamps": {},
+    "issn": "0938-8990",
+    "author": [
+        {
+            "initials": "MA",
+            "first": "Melissa A",
+            "formatted": "Haendel MA",
+            "_id": "ebac5331-5bab-09a1-8e3c-b2de50ac5aab",
+            "last": "Haendel"
+        },
+        {
+            "initials": "N",
+            "first": "Nicole",
+            "formatted": "Vasilevsky N",
+            "_id": "f7e27d95-4927-0678-af1c-4a1ed4d18e2f",
+            "last": "Vasilevsky"
+        },
+        {
+            "initials": "M",
+            "first": "Matthew",
+            "formatted": "Brush M",
+            "_id": "7f6d4c07-93b3-0ea6-9621-f9f67de40f61",
+            "last": "Brush"
+        },
+        {
+            "initials": "HS",
+            "first": "Harry S",
+            "formatted": "Hochheiser HS",
+            "_id": "46f6b827-47c7-02f7-b15d-4c38173d487a",
+            "last": "Hochheiser"
+        },
+        {
+            "initials": "J",
+            "first": "Julius",
+            "formatted": "Jacobsen J",
+            "_id": "3154f09c-bf4b-0c1c-95d6-0de92fcd7c0b",
+            "last": "Jacobsen"
+        },
+        {
+            "initials": "A",
+            "first": "Anika",
+            "formatted": "Oellrich A",
+            "_id": "4623f095-8953-0b3e-ae2e-2c0bf7245cf8",
+            "last": "Oellrich"
+        },
+        {
+            "initials": "CJ",
+            "first": "Christopher J",
+            "formatted": "Mungall CJ",
+            "_id": "7404200b-dc83-0ee2-a107-647af4240d51",
+            "last": "Mungall"
+        },
+        {
+            "initials": "N",
+            "first": "Nicole",
+            "formatted": "Washington N",
+            "_id": "e01cc903-a277-0b69-aeb7-6d93107d9391",
+            "last": "Washington"
+        },
+        {
+            "initials": "S",
+            "first": "Sebastian",
+            "formatted": "Köhler S",
+            "_id": "0fd5a227-13ea-0645-be20-77155888ffb7",
+            "last": "Köhler"
+        },
+        {
+            "initials": "SE",
+            "first": "Suzanna E",
+            "formatted": "Lewis SE",
+            "_id": "09193c90-9d8d-05cc-9d39-5b6499afc70e",
+            "last": "Lewis"
+        },
+        {
+            "initials": "PN",
+            "first": "Peter N",
+            "formatted": "Robinson PN",
+            "_id": "5018219c-949d-0a6d-a180-986b3d7853d8",
+            "last": "Robinson"
+        },
+        {
+            "initials": "D",
+            "first": "Damian",
+            "formatted": "Smedley D",
+            "_id": "22892c98-2bea-00b2-a626-3dd3521f11b4",
+            "last": "Smedley"
+        }
+    ],
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=http://dx.doi.org/10.1007/s00335-015-9577-8",
+    "kind": "Review",
+    "pubtype": "PP_ARTICLE",
+    "pmc": "PMC4602072",
+    "labels": [],
+    "crawl_urls": [
+        "http://dx.doi.org/10.1007/s00335-015-9577-8",
+        "http://link.springer.com/10.1007/s00335-015-9577-8"
+    ],
+    "imported": 1,
+    "journal": "Mamm. Genome",
+    "citekey": "Haendel2015-yb",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "gs_cluster_id": "17186985051201923789",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "061f413f-ce68-0638-bdca-4ec92bf96add",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "02986639-1226-0b8f-89b6-42e51f35b9a7",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1481037258.78168,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxYXJwNUtLdF9HaXc",
+            "filesize": 995322,
+            "created": 1481037258.78168,
+            "filename": "Haendel et al. 2015 - Disease insights through cross-species phenotype comparisons.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/H"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "e45ab288f937f8a8510d02e618c1c443"
+        }
+    ],
+    "language": "en",
+    "volume": "26",
+    "journal_checked": 1,
+    "created": 1481037253.85004,
+    "subfolders": [
+        "All Papers/H"
+    ],
+    "pmid": "26092691",
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+},
+{
+    "dup_sha1": "5be9aaf80be2983403d584c15dff2b7df4815c16",
+    "pdf_restricted": 0,
+    "incomplete": 0,
+    "duplicates": [],
+    "url": [
+        "https://peerj.com/articles/cs-1/"
+    ],
+    "updated": 1481037429.55698,
+    "publisher": "peerj.com",
+    "autocompleted": 1,
+    "gs_bibtex": "https://scholar.googleusercontent.com/scholar.bib?q=info:KPoLLLW68PAJ:scholar.google.com/&output=citation&scisig=AAGBfm0AAAAAWEbYFxj2bHe39Uo7zWQan9eTDl85rz2F&scisf=4&ct=citation&cd=0&hl=en",
+    "id_list": [
+        "sha1:94884fc3f4e5f639de14109e94f8f9d3615d915b",
+        "dup_sha1:5be9aaf80be2983403d584c15dff2b7df4815c16",
+        "url:https://peerj.com/articles/cs-1/"
+    ],
+    "published": {
+        "year": "2015"
+    },
+    "title": "Achieving human and machine accessibility of cited data in scholarly publications",
+    "abstract": "Abstract Reproducibility and reusability of research results is an important concern in scientific communication and science policy. A foundational element of reproducibility and reusability is the open and persistently available presentation of research data. However,",
+    "folders": [],
+    "sha1": "94884fc3f4e5f639de14109e94f8f9d3615d915b",
+    "collection_timestamps": {
+        "176206e8-8c93-0c86-977c-f6a16925cf2d": 1481037336.95344
+    },
+    "author": [
+        {
+            "initials": "M",
+            "first": "M",
+            "formatted": "Crosas M",
+            "_id": "04d0a9fa-86f5-0c7f-b60d-91d38fc2e507",
+            "last": "Crosas"
+        },
+        {
+            "initials": "M",
+            "first": "M",
+            "formatted": "Dumontier M",
+            "_id": "5196470c-c7d9-0db5-9173-45837e369a08",
+            "last": "Dumontier"
+        },
+        {
+            "initials": "RR",
+            "first": "R R",
+            "formatted": "Downs RR",
+            "_id": "9632e7a9-4e78-0803-8818-53d992d639de",
+            "last": "Downs"
+        },
+        {
+            "initials": "R",
+            "first": "R",
+            "formatted": "Duerr R",
+            "_id": "9f31d384-5a2e-0a1d-96d2-915a33f8a031",
+            "last": "Duerr"
+        },
+        {
+            "initials": "",
+            "first": "",
+            "formatted": "et al.",
+            "_id": "4b3ce632-8a3c-0a3e-ae73-48def97357b7",
+            "collective": "others"
+        }
+    ],
+    "gs_cited_by_link": "https://scholar.google.com/scholar?cites=17361581850804091432&as_sdt=2005&sciodt=0,5&hl=en",
+    "citedByLink": "http://scholar.google.com/scholar?hl=en&lr=&num=30&cites=17361581850804091432",
+    "pubtype": "PP_ARTICLE",
+    "labels": [],
+    "imported": 1,
+    "journal": "PeerJ Computer",
+    "citekey": "Crosas2015-zx",
+    "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+    "gs_cluster_id": "17361581850804091432",
+    "attachments": [
+        {
+            "article_pdf": 1,
+            "_id": "1a44459b-b0f8-0595-bafa-06dd336d0439",
+            "hasUpdates": "1",
+            "pub_trashed": 0,
+            "pub_id": "742a7d3d-766a-01cb-b9bd-28aad56f9b1f",
+            "source_filename": "[article_pdf].pdf",
+            "updated": 1481037258.1148,
+            "owner": "162FE68E72A911E6A4572B3E0A9D90F4",
+            "gdrive_id": "0B1ggMLKFepMxODZ1N3RJa0NDRkk",
+            "filesize": 1165581,
+            "created": 1481037258.1148,
+            "filename": "Crosas et al. 2015 - Achieving human and machine accessibility of cited data in scholarly publications.pdf",
+            "gdrive_needs_sync": 0,
+            "subfolders": [
+                "All Papers/C"
+            ],
+            "mimeType": "application/pdf",
+            "md5": "77c40903873e2614767672fac0cbf902"
+        }
+    ],
+    "journal_checked": 1,
+    "created": 1481037250.7525,
+    "gs_cited_by_count": 27,
+    "gs_all_versions": "https://scholar.google.com/scholar?cluster=17361581850804091432&hl=en&as_sdt=0,5",
+    "subfolders": [
+        "All Papers/C"
+    ],
+    "autoCleaned": "1",
+    "labelsNamed": [],
+    "foldersNamed": []
+}]
