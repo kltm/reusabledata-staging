@@ -2,7 +2,7 @@ id: mygene-info
 source: MyGene.info
 source-link: 'http://mygene.info'
 status: complete
-description: 'MyGene.info provides a simple-to-use REST web services to query/retrieve gene annotation data.'
+description: 'MyGene.info provides simple-to-use REST web services to query/retrieve gene annotation data.'
 data-field: biology
 data-type: 'genomic resource'
 data-categories:
