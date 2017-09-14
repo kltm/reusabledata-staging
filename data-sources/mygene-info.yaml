@@ -21,8 +21,6 @@ license-commentary:
 license-issues:
     - criteria: A.2
       comment: Custom license, but consistent.
-    - criteria: B.1
-      comment: No mention of terms of reuse
     - criteria: B.2.1
       comment: Scope is incomplete - they claim no responsibility for data from other sources on their site.
     - criteria: D.1.2
