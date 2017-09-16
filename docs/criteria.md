@@ -56,7 +56,7 @@ In the case that a resource holds multiple kinds of content (software, ontologie
 
 **Rationale:** License without access is almost meaningless. The data provided by a resource needs to be available to research groups in a transparent and reasonable manner. Any particular content grouping at a resource should be available in its entirety with a single action once reasonable accommodations have been made with the data provider.
 
-- <span id="criteria-C.1">**C.1**</span>) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single "action" (see below for examples of what may constitute azn "action"), at an API endpoint or URL?
+- <span id="criteria-C.1">**C.1**</span>) Does the resource provide a “reasonable good-faith location” to access all data groupings with a single "action" (see below for examples of what may constitute an "action"), at an API endpoint or URL?
     - Yes: → <span class="half-star">**HALF STAR**</span> → <a href="#criteria-C.2">**C.2**</a>
     - No: → <span class="no-star">**NO STARS**</span> → <a href="#criteria-C.2">**C.2**</a>
 - <span id="criteria-C.2">**C.2**</span>) Does the resource provide a “reasonable and transparent” method of obtaining access to all APIs or URLs outlined above?
