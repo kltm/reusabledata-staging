@@ -693,8 +693,8 @@
         "id": "mygene-info",
         "source": "MyGene.info",
         "source-link": "http://mygene.info",
-        "status": "incomplete",
-        "description": "MyGene.info provides a simple-to-use REST web services to query/retrieve gene annotation data.",
+        "status": "complete",
+        "description": "MyGene.info provides simple-to-use REST web services to query/retrieve gene annotation data.",
         "data-field": "biology",
         "data-type": "genomic resource",
         "data-categories": [
@@ -706,9 +706,15 @@
                 "location": "http://mygene.info/v3/api"
             }
         ],
-        "license": "custom",
-        "license-type": "restrictive",
-        "license-link": "TODO",
+        "license": "copyright",
+        "license-type": "copyright",
+        "license-link": "http://mygene.info/terms/",
+        "license-commentary": [
+            "MyGene.info may contain information from third party websites, which may or may not be marked with the name of the source. Such information does not necessarily represent the views or opinions of TSRI, and TSRI shall have no responsibility whatsoever for such information.",
+            "You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.",
+            "TSRI shall have no responsibility whatsoever for such information [from 3rd party websites].",
+            "Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights."
+        ],
         "license-issues": [
             {
                 "criteria": "A.2",
@@ -726,12 +732,6 @@
                 "criteria": "E.1.2",
                 "comment": "No re-use allowed, just use."
             }
-        ],
-        "license-commentary": [
-            "TODO: http://docs.mygene.info/en/v3/terms.html vs. http://mygene.info/terms/",
-            "-You also agree that you will ensure that any copies of documents you generate by using MyGene.info shall retain and display all copyright and other proprietary notices contained therein.",
-            "-TSRI shall have no responsibility whatsoever for such information [from 3rd party websites].",
-            "-Nothing contained herein shall be construed as conferring by implication, estoppel or otherwise any license or right under any patent, trademark or other intellectual property of TSRI or any third party. Except as expressly provided above, nothing contained herein shall be construed as conferring any right or license under any TSRI copyrights."
         ],
         "contacts": [
             "help@mygene.info"
@@ -948,7 +948,7 @@
         "id": "orphanet-open",
         "source": "Orphanet portal for rare diseases and orphan drugs (open access subset)",
         "source-link": "http://www.orpha.net",
-        "status": "incomplete",
+        "status": "complete",
         "description": "Orphanet provides reference information on rare diseases and orphan drugs to help improve the diagnosis, care and treatment of patients with rare diseases.",
         "data-field": "biomedical",
         "data-type": "human",
@@ -971,23 +971,21 @@
         "license": "https://creativecommons.org/licenses/by-nd/3.0/",
         "license-type": "restrictive",
         "license-link": "http://www.orphadata.org/cgi-bin/inc/legal.inc.php",
+        "license-commentary": [
+            "...you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.",
+            "However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first.",
+            "Users from Academia can obtain access for free via signature of a data transfer agreement",
+            "Freely-accesssible dataset"
+        ],
         "license-issues": [
-            {
-                "criteria": "A.1.1",
-                "comment": "Some datasets are freely available on signature of a Data Transfer Agreement for Academia or with a fee for Industry. This is odd given the CC-BY-ND license applied to the whole site"
-            },
-            {
-                "criteria": "B.1",
-                "comment": "The license itself does not require legal intervention, but some data is not available without permission for access."
-            },
             {
                 "criteria": "D.1.2",
                 "comment": "The CC-BY-ND license prevents derivation."
+            },
+            {
+                "criteria": "E.1.2",
+                "comment": "The CC-BY-ND license prevents derivation."
             }
-        ],
-        "license-commentary": [
-            "...you are free to copy, distribute, display and make commercial use of these databases in all legislations, provided you give us credit.",
-            "However, if you intend to distribute a modified version of one of our databases, you must ask us for permission first."
         ],
         "contacts": [
             "http://www.orphadata.org/cgi-bin/contact.php"
