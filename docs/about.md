@@ -17,9 +17,9 @@ their integration.
 <hr />
 ### Contributors
 
-TODO
+More to come soon...
 
 <hr />
 ### Citation policy
 
-TODO
+More to come soon...
